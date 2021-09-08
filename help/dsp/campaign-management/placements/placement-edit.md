@@ -1,0 +1,39 @@
+---
+title: 배치 편집
+description: 배치를 편집하는 방법을 알아봅니다.
+feature: Placements
+exl-id: 135adad3-0bc0-4402-ac4a-a4fc71f78edf
+source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 1%
+
+---
+
+# 배치 편집
+
+<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
+>[!TIP]
+>
+> 배치 이름, 상태, 최대 입찰 및 예산만 편집하려면 &quot;[주요 배치 설정 빨리 편집](/help/dsp/campaign-management/placements/placement-quick-edit.md)&quot;을 참조하십시오.
+
+1. 주 메뉴에서 **[!UICONTROL Campaigns]** 을 클릭합니다.
+1. 캠페인 이름을 클릭합니다.
+1. 하위 메뉴에서 **[!UICONTROL Placements]** 을 클릭합니다.
+1. 배치 이름 옆에 있는 **[!UICONTROL ...]>[!UICONTROL Edit]** 를 클릭합니다.
+1. [배치 설정](placement-settings.md)을 편집합니다.
+1. 클릭 **[!UICONTROL Update placement]**.
+
+>[!MORELIKETHIS]
+>
+>* [배치 관리 정보](placement-about.md)
+>* [키 배치 설정을 빠르게 편집](placement-quick-edit.md)
+>* [배치 만들기](placement-create.md)
+>* [배치 복제](placement-duplicate.md)
+>* [배치에 대한 광고 일정 편집](placement-edit-ad-schedule.md)
+>* [배치 일시 중지 또는 활성화](placement-pause-activate.md)
+>* [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
+>* [배치 설정](placement-settings.md)
+>* [스프레드시트를 사용하여 캠페인에 대한 배치 설정 수정 정보](/help/dsp/campaign-management/qa/qa-about.md)
+

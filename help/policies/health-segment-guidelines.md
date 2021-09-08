@@ -1,0 +1,54 @@
+---
+title: Adobe Advertising Cloud 허용 가능한 상태 세그먼트
+description: 상태 관련 대상 세그먼트를 타깃팅하기 위해 대체 요소로 사용할 수 있는 허용 가능한 상태 관련 대상 세그먼트 및 전술에 대한 지침을 참조하십시오.
+feature: Policies
+exl-id: c3f68457-92c6-472a-93f4-cce9aeaecc53
+source-git-commit: f4e87cc6ad39338f5df0b14d2aa9e43e6016cf8e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
+
+---
+
+# Adobe Advertising Cloud 허용 상태 세그먼트 지침
+
+*Adobe Advertising Cloud DSP 및 Adobe Advertising Cloud Search용*
+
+다음 지침은 허용되지 않는 및 허용가능한 건강 관련 대상 세그먼트에 대해 설명합니다. 또한 건강 관련 대상 세그먼트를 타깃팅하기 위해 대체 방법으로 사용할 전술을 추천합니다.
+
+이러한 지침은 [!DNL Network Advertising Alliance (NAI)]에서 요약됩니다.
+
+또한 [Advertising Cloud 광고 요구 사항 정책](/help/policies/ad-requirements-policy.md)을 참조하여 상태 관련 대상 세그먼트를 Adobe Advertising Cloud의 타깃팅 정책에 따라 사용할 수 있는지 확인하십시오.
+
+## 사용하지 않아야 하는 상태 세그먼트
+
+* 보호된 건강 정보(PHI)\*, 사용자 수준 의료 기록, 약학 처방전 또는 유사한 건강 또는 의료 소스를 사용하는 세그먼트는 해당 사용자의 상태 또는 치료에 대한 실제 지식을 제공합니다.
+
+   \* Adobe Advertising Cloud은 [!DNL HIPAA] 준비가 된 솔루션이 아닙니다.
+
+* 암, 정신 건강, 약물 중독, 성병, 주로 영향을 받는 질환 또는 처방전 필요 이상의 약물 치료(예: 당뇨병, 건선, 류마티스 관절염 또는 섬유알지아)로 치료할 수 없는 다른 민감한 건강 조건과 같은 건강 상태(또는 관련 치료)를 타깃팅하는 세그먼트입니다.
+
+* 사용자 또는 장치의 이전 웹 활동, 앱 사용 또는 보기 컨텐츠 활동에 의존하는 세그먼트(위의 블록에 설명된 대로), 민감한 건강이나 의료 조건 또는 치료에 대한 흥미를 나타내는 컨텐츠 활동입니다.
+
+## 사용할 수 있는 상태 세그먼트
+
+다음 모두 true여야 합니다.
+
+* 대상 세그먼트는 대상 가능한 모집단의 최소 10%를 포함해야 합니다.
+
+* 대상 세그먼트는 연령, 성별, 교육 수준 및/또는 주거 설정과 같은 인구 통계 정보에만 의존합니다.
+
+* 대상 세그먼트 이름은 대상의 인구 통계학적 보충을 기반으로 하며 건강 조건(예: &quot;50세 이상 여성&quot;, &quot;유방암&quot; 또는 &quot;피부 관리&quot;가 아니라 &quot;여드름 환자&quot;가 아님)으로 레이블이 지정됩니다.
+
+## 추가 권장 전술
+
+* 타겟 대상의 높은 성향 및/또는 높은 점수를 나타내는 직업/프로필이 있는 Target 지역.
+
+* 으로 높지만 명시적으로 약물 중독과 관련되거나 어떤 대상자와 연결되어 있지 않은 키워드에 대해 상황별 타깃팅을 사용하십시오.
+
+* 타겟 대상에 대해 높은 색인을 갖는 인구 통계 Target 세그먼트
+
+>[!MORELIKETHIS]
+>
+>* [광고 요구 사항 정책](/help/policies/ad-requirements-policy.md)
+
