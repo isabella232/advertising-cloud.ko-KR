@@ -3,9 +3,9 @@ title: Advertising Cloud DSP 매크로
 description: 일반 추적에 사용할 수 있는 매크로를 참조하고 타사 디스플레이 광고의 클릭 수를 추적하십시오.
 feature: Ads
 exl-id: e31cc2e5-ad1f-4555-a87b-0e4c3731fe5f
-source-git-commit: 185fc7d79798a0a3a9ad5829b701aeb53a4a47c1
+source-git-commit: e0166dbad4fec41fdc64a65cb3a8ac97496c681f
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ DSP에서는 다음과 같은 경우 디스플레이 태그에 표시 클릭 매
 >[!MORELIKETHIS]
 >
 >* [오디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [오디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [오디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-display.md)
->* [오디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
->* [오디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [오디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [연결된 TV 광고 설정](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [광고 설정 표시](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [모바일 광고 설정](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+>* [기본 광고 설정](/help/dsp/campaign-management/ads/ad-settings-native.md)
+>* [프리롤 광고 설정](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
 
