@@ -1,9 +1,9 @@
 ---
 title: 프로그램 보장 거래 기본 정보
 description: 프로그래밍 방식의 보장(PG) 거래 및 이러한 거래를 제공하도록 인증된 SSP에 대해 알아봅니다.
-feature: Private Inventory, Deal IDs, Programmatic Guaranteed Deals
+feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8cf85ae3-027d-4d9d-95a0-ac39d651627a
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%

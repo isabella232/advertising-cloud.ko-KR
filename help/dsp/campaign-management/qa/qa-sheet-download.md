@@ -1,9 +1,9 @@
 ---
 title: 캠페인에 대한 배치 설정 다운로드
 description: Excel QA 스프레드시트를 사용하여 캠페인에 대한 배치 설정을 다운로드하는 방법을 알아봅니다.
-feature: Placements
+feature: DSP Placements
 exl-id: c3b0cbf2-7095-4608-977a-9a5dd0bbd585
-source-git-commit: fcd55f882f56c9eacd82d554d30364400b99555c
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%

@@ -1,9 +1,9 @@
 ---
 title: 수동으로 거래 ID 상세내역 생성
 description: 거래 ID에 대한 세부 사항을 수동으로 입력하는 방법을 알아봅니다.
-feature: Private Inventory, Deal IDs
+feature: DSP Private Inventory, DSP Deal IDs
 exl-id: cd9763a7-99d4-4881-9df9-b4e24c55be0f
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%

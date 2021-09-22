@@ -1,11 +1,11 @@
 ---
 title: 대상 설정
 description: 사용 가능한 대상 설정에 대한 설명을 참조하십시오.
-feature: Audiences
+feature: DSP Audiences
 exl-id: 959c1e04-cb09-42f0-a261-580ff98b86be
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---

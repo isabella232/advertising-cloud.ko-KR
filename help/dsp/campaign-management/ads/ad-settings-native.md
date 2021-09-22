@@ -1,9 +1,9 @@
 ---
 title: 기본 광고 설정
 description: 기본 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
-feature: Ads
+feature: DSP Ads
 exl-id: 3ae59e63-ae64-41b2-8734-3df2da020c7c
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%

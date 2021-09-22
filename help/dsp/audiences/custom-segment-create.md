@@ -1,9 +1,9 @@
 ---
 title: 사용자 지정 세그먼트 만들기 및 구현
 description: 웹 페이지를 방문하는 광고나 사용자에게 노출된 사용자를 추적하기 위해 사용자 지정 세그먼트를 만들고 구현하는 방법을 알아봅니다.
-feature: Segments
+feature: DSP Segments
 exl-id: 691903e2-773e-4205-837e-822f435f57a7
-source-git-commit: e2ee41c7e3e195f062ad1cc67080ed913d6d3d06
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%

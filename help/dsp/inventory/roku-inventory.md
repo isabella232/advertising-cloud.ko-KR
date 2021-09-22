@@ -1,9 +1,9 @@
 ---
 title: ' [!DNL Roku] 인벤토리 사용'
 description: ' [!DNL Roku], including inventory options, approved third-party tracking vendors, and best practices for [!DNL Roku] 특정 배치와 DSP 파트너 관계에 대해 알아봅니다. '
-feature: On Demand Inventory, Private Inventory
+feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: 0cd42782-f006-4aa8-b879-322f86cfac4b
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%

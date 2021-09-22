@@ -1,11 +1,11 @@
 ---
 title: 배치에 대한 광고 일정 편집
 description: 배치에 첨부된 광고의 광고 일정을 변경하는 방법을 알아봅니다.
-feature: Placements
+feature: DSP Placements
 exl-id: 880522d3-efcd-4ff9-8cef-bf6be626869c
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---

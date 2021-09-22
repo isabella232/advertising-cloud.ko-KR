@@ -1,9 +1,9 @@
 ---
 title: PG 거래에 대한 광고를 [!DNL FreeWheel]에 제출합니다.
 description: FreeWheel의 게시자와 프로그래밍 방식으로 보장되는 거래를 위한 광고 승인을 요청하는 방법을 알아봅니다.
-feature: Private Inventory, Deal IDs
+feature: DSP Private Inventory, DSP Deal IDs
 exl-id: null
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%

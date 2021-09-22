@@ -1,11 +1,11 @@
 ---
 title: 캠페인에 대한 세부 보고서 보기
 description: 지역, 장치, 뷰기능 및 대상 성능 데이터에 대한 섹션을 사용하여 캠페인 수준 보고서를 여는 방법을 알아봅니다.
-feature: Campaigns, Campaign Data Views
+feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: 88fd3cdc-18af-4d3c-a93e-88058d56aabc
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---

@@ -1,11 +1,11 @@
 ---
 title: 패키지 보관 또는 보관 해제
 description: 패키지를 보관 또는 보관 해제하는 방법을 알아봅니다.
-feature: Packages
+feature: DSP Packages
 exl-id: a8840f9e-e0ee-481d-80c2-66b56fc1882f
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---

@@ -1,8 +1,9 @@
 ---
 title: 계정 자금조달
 description: DSP에 대한 계정 자금 지원에 대해 알아봅니다.
+feature: DSP Introduction
 exl-id: c90e88a7-78dd-402c-baba-9bac360093a4
-source-git-commit: fcd55f882f56c9eacd82d554d30364400b99555c
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%

@@ -1,11 +1,11 @@
 ---
 title: 사용자 지정 보고서 실행
 description: 사용자 지정 보고서를 즉시 실행하는 방법을 알아봅니다.
-feature: Custom Reports
+feature: DSP Custom Reports
 exl-id: null
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---

@@ -1,11 +1,11 @@
 ---
 title: 광고 설정 표시
 description: 디스플레이 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
-feature: Ads
+feature: DSP Ads
 exl-id: ae88dfab-0b0c-42ab-9135-422b20a4b6cd
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---

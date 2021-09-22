@@ -1,9 +1,9 @@
 ---
 title: Campaign 데이터 보기 정보
 description: 캠페인, 패키지, 배치 및 광고에 대한 데이터 보기를 사용자 지정하는 방법을 알아봅니다.
-feature: Campaign Data Views
+feature: DSP Campaign Data Views
 exl-id: acc312b9-2de4-4e2f-9b59-b91f23d82357
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%

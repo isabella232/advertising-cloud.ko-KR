@@ -1,9 +1,9 @@
 ---
 title: ' [!DNL On Demand] Premium 인벤토리 거래에 가입 및 액세스 요청'
 description: '[!DNL On Demand] 거래에 가입하고 액세스 권한을 요청하는 방법을 알아봅니다.'
-feature: On Demand Inventory
+feature: DSP On Demand Inventory
 exl-id: e66e5bad-526e-4b71-8072-332dd173f105
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%

@@ -1,11 +1,11 @@
 ---
 title: 키보드 단축키
 description: 배치 설정에서 사용할 수 있는 키보드 단축키를 참조합니다.
-feature: Placements
+feature: DSP Placements
 exl-id: bef0406c-9c10-48ec-b069-b887ef8f66ae
-source-git-commit: 185fc7d79798a0a3a9ad5829b701aeb53a4a47c1
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---

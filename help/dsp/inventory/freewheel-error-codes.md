@@ -1,12 +1,12 @@
 ---
 title: '광고 제출 오류 코드 [!DNL FreeWheel] '
 description: 광고 제출 시 반환되는 오류 코드를 [!DNL FreeWheel]에 참조합니다.
-feature: Private Inventory, Deal IDs
+feature: DSP Private Inventory, DSP Deal IDs
 exl-id: null
-source-git-commit: 185fc7d79798a0a3a9ad5829b701aeb53a4a47c1
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '695'
+ht-degree: 2%
 
 ---
 

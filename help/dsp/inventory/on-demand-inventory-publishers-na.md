@@ -1,9 +1,9 @@
 ---
 title: '[!DNL On Demand] Premium 북미 인벤토리 게시자'
 description: 북미에서 사용 가능한 [!DNL On Demand] 프리미엄 인벤토리 게시자를 참조하십시오.
-feature: On Demand Inventory
+feature: DSP On Demand Inventory
 exl-id: 47136e55-aab9-4112-8317-1aafca0b1c49
-source-git-commit: 3dbba61766411eadbad9a8257e2930b683d0d55b
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%

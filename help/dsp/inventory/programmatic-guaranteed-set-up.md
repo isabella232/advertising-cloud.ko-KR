@@ -1,9 +1,9 @@
 ---
 title: 프로그래밍 방식 보장 거래 설정
 description: 게시자와 협상한 PG(프로그래밍 방식 보증) 거래를 설정하는 방법을 알아봅니다.
-feature: Private Inventory, Deal IDs, Programmatic Guaranteed Deals
+feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 9e371606-5428-4635-9653-7dc43449e489
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%

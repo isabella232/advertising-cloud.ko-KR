@@ -1,9 +1,9 @@
 ---
 title: CCPA 판매 중지 세그먼트 만들기 및 구현
 description: 소비자 옵트아웃 요청에서 사용자 ID를 추적하는 세그먼트를 만들고 구현하는 방법을 알아봅니다.
-feature: CCPA, Segments
+feature: CCPA, DSP Segments
 exl-id: aebe0c5b-382f-4e4a-b145-c32f32d216ca
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%

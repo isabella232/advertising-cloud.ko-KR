@@ -1,9 +1,9 @@
 ---
 title: 사용자 지정 목표
 description: 최저 CPA 또는 가장 높은 ROAS에 맞게 최적화된 패키지에서 성공 이벤트를 정의하는 사용자 지정 목표에 대해 알아봅니다.
-feature: Optimization
+feature: DSP Optimization
 exl-id: 623cb1ef-85ab-4535-aa3a-8e6ec8ae15ee
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%

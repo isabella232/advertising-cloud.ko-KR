@@ -1,11 +1,11 @@
 ---
 title: 배치 진단 보고서 보기
 description: 배치 설정 및 간격 관련 문제를 진단하는 방법을 알아봅니다.
-feature: Placements
+feature: DSP Placements
 exl-id: d64406b6-83b5-4ae7-984c-98610fc1ee40
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---

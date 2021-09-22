@@ -1,9 +1,9 @@
 ---
 title: Advertising Cloud DSP의 캠페인 관리 개요
 description: Campaign 관리 계층 및 구성 요소에 대해 알아봅니다.
-feature: Packages, Placements, Ads, Creatives
+feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: c94e08d0-0dd5-4cf9-8df2-9eb4c591375c
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -20,6 +20,7 @@ Advertising Cloud DSP 캠페인에는 다음 계층이 있습니다.
          * 광고
             * 크리에이티브
 
+<!-- Add "Feature: DSP Creatives" once we have other topics on creatives; get Bob to update the feature list. -->
 <!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
 In Advertising Cloud DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package will include placements, which can use different strategies and tactics to deliver the line item requirements.
 -->

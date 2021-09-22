@@ -1,11 +1,11 @@
 ---
 title: 배치 일시 중지 또는 활성화
 description: 배치를 일시 중지하거나 활성화하는 방법을 알아봅니다.
-feature: Placements
+feature: DSP Placements
 exl-id: 9b7f1a2b-0ced-4e09-870b-172897e49b27
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---

@@ -1,9 +1,9 @@
 ---
 title: '[!UICONTROL CCPA Opt-out-of-Sale] 세그먼트 및 보고서 정보'
 description: CCPA 판매 중지 요청에서 ID를 추적하기 위해 세그먼트를 만들고 ID의 보고서를 검색하는 방법에 대해 알아봅니다.
-feature: CCPA, Segments
+feature: CCPA, DSP Segments
 exl-id: 9256d34e-d0dd-4abf-bc96-2b599caf2a8e
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%

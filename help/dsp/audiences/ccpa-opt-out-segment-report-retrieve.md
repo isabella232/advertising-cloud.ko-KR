@@ -1,11 +1,11 @@
 ---
 title: 소비자 판매 중지 보고서 검색
 description: 판매 중지 요청에 대해 제출된 ID의 보고서를 검색하는 방법을 알아봅니다.
-feature: CCPA, Segments
+feature: CCPA, DSP Segments
 exl-id: 8ada787a-6dcf-455b-88f4-701743e68292
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
