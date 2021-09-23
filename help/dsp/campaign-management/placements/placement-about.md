@@ -3,9 +3,9 @@ title: Advertising Cloud DSP의 배치 관리 정보
 description: 배치 관리에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: 1d1382d9-b6c8-44bf-a708-8458769a39c6
-source-git-commit: 9d35b366122cab460e8d563b36597926ed71b6b0
+source-git-commit: 4a30463e9cb5783beab0ea3fa6989089e7f90457
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 또한 대시보드는 기본적으로 배치별 게재 및 게재 지표도 표시합니다. 배치에 대한 성능 지표를 선택적으로 보고 사용자 지정 열 세트를 만들 수 있습니다. 전체 데이터 표를 브라우저의 기본 다운로드 폴더에 XLSM(매크로가 활성화된 Excel 스프레드시트) 형식으로 보고서로 다운로드할 수 있습니다.
 
-각 배치에 대해 성능 지표, 간격 및 게재 지표 및 사이트별 사용자 지정 열 세트를 포함하는 세부 보기([[!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md))를 열 수 있습니다; 및 빈도 지표입니다. 사이트 제외, 광고 일시 정지 또는 거래 편집과 같이 포함된 사이트, 광고 및 인벤토리에서 빠른 작업을 수행할 수도 있습니다. 검사기를 열려면 배치 행 위에 커서를 놓고 **[!UICONTROL More]** 를 클릭한 다음 **[!UICONTROL Sites]**, **[!UICONTROL Ads]**, **[!UICONTROL Frequency]** 또는 **[!UICONTROL Inventory]**&#x200B;를 클릭합니다. [!UICONTROL Sites], [!UICONTROL Ads], [!UICONTROL Frequency] 또는 [!UICONTROL Inventory] 탭의 데이터를 XLSM 형식의 보고서로 브라우저의 기본 다운로드 폴더로 내보낼 수 있습니다.
+각 배치에 대해 성능 지표, 간격 및 게재 지표, 사이트 및 광고별 사용자 지정 열 세트를 포함하는 세부 사항 보기([[!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md))를 열 수 있습니다. 및 빈도 지표입니다. 사이트 제외 또는 광고 일시 중단과 같이 포함된 사이트 및 광고에 대한 빠른 작업을 수행할 수도 있습니다. 검사기를 열려면 배치 행 위에 커서를 놓고 **[!UICONTROL More]** 를 클릭한 다음 **[!UICONTROL Sites]**, **[!UICONTROL Ads]** 또는 **[!UICONTROL Frequency]** 를 클릭합니다. [!UICONTROL Sites], [!UICONTROL Ads] 또는 [!UICONTROL Frequency] 탭의 데이터를 XLSM 형식의 보고서로 브라우저의 기본 다운로드 폴더로 내보낼 수 있습니다.
 
 >[!NOTE]
 >
