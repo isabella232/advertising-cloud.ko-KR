@@ -3,16 +3,16 @@ title: 배치에 대한 사이트, 광고 및 빈도 세부 사항 보기
 description: 배치에 대해 타깃팅된 사이트, 광고 및 빈도 데이터를 보는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 99bb4a4e-dc52-4130-87c4-5458e25bbc1e
-source-git-commit: b91255255d2718b56f41aabd8c1babe52aa32abc
+source-git-commit: 14c484de177a6c5e3d4976076ecdbc4fa9086606
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# 배치에 대한 사이트, 광고, 빈도 및 인벤토리 세부 사항 보기
+# 배치에 대한 사이트, 광고 및 빈도 세부 사항 보기
 
-배치 [!UICONTROL Inspector]은 배치의 모든 타깃팅된 사이트, 광고 및 거래를 나열합니다. 배치용 빈도 데이터도 포함됩니다.
+배치 [!UICONTROL Inspector]에는 모든 타깃팅된 사이트와 배치의 모든 광고가 나열됩니다. 배치용 빈도 데이터도 포함됩니다.
 
 1. 상위 캠페인 또는 패키지에 대한 배치 보기를 엽니다.
 
@@ -31,7 +31,6 @@ ht-degree: 0%
    * 배치가 대상으로 하는 모든 사이트를 보려면 **[!UICONTROL Sites]** 을 클릭합니다.
    * 배치에서 모든 광고를 보려면 **[!UICONTROL Ads]** 을 클릭합니다.
    * 배치에 대한 빈도 데이터를 보려면 **[!UICONTROL Frequency]** 을 클릭합니다.
-   * 배치 대상이 되는 모든 거래를 보려면 **[!UICONTROL Inventory]** 을 클릭합니다.
 
 1. (선택 사항) [필요한 지표를 보려면 열 보기](column-view-change.md)를 변경하십시오.
 
