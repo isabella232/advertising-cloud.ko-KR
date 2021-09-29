@@ -3,9 +3,9 @@ title: 브랜드 안전 및 미디어 품질
 description: 브랜드 안전 및 미디어 품질 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 3cc617092f38d20bd01e487c985bb1d05c167506
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Adobe의 사기 감시 팀은 [!DNL Interactive Advertising Bureau], [!DNL Trust
 
 ### [!DNL Ads.txt] 지원을 통해 인벤토리 확인
 
-[[!DNL Ads.txt], which stands for [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt) 이 계획은  [!DNL Interactive Advertising Bureau] ([!DNL IAB])가 2017년 6월에 공개 시장에서의 적절한 재고 표현을 용이하게 함으로써 불법 트래픽 및 도메인 스푸핑과 싸울 수 있도록 하기 위해 개시된다. 참여하는 게시자 및 배포자는 도메인 최상위 수준(예: `example.com/ads.txt`)에서 `ads.txt` 페이지를 유지 관리하여 디지털 인벤토리를 판매할 수 있는 회사 및 이러한 관계의 특성을 공개적으로 선언합니다.
+[!DNL Authorized Digital Sellers](https://iabtechlab.com/ads-txt)]을 의미하는 [[!DNL Ads.txt]]은 [!DNL Interactive Advertising Bureau]([!DNL IAB])가 2017년 6월에 개시한 이니셔티브로서, 공개시장에서 적절한 재고 표현을 용이하게 함으로써 불법 트래픽 소스 및 도메인 스푸핑과 싸울 수 있다. 참여하는 게시자 및 배포자는 도메인 최상위 수준(예: `example.com/ads.txt`)에서 `ads.txt` 페이지를 유지 관리하여 디지털 인벤토리를 판매할 수 있는 회사 및 이러한 관계의 특성을 공개적으로 선언합니다.
 
 DSP은 각 게시자의 `ads.txt` 파일을 읽고 확인된 [!DNL ads.txt] 판매자에서만 구매할 수 있는 옵션을 제공하여 [!DNL ads.txt] 을 지원합니다. 예를 들어, `nytimes.com` 액세스를 New York Times의 `ads.txt` 파일에 액세스하는 판매자와 일치시킴으로써 우리는 어느 것이 합법적인지, 그리고 어떤 것이 아닌지를 식별할 수 있고, 배치가 검증된 판매자만을 구매하도록 구성된 경우 위반자를 차단합니다. <!-- can we actually mention NY Times? -->
 
