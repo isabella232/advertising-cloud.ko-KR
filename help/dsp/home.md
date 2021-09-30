@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 61a5739a4f208cd0e9106015347570d66225c9bd
+source-git-commit: 4a70d7f8514531618dec257a1c0d32beabc03b51
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2021년 9월 30일 | 브랜드 안전 | (22 9월 릴리스) [!DNL DoubleVerify] 브랜드 안전 사전 입찰 제품이 [!DNL Brand Suitability Tiers]로 업데이트되어, 광고주가 특정 항목의 모든 인스턴스를 피하지 않고 특정 세그먼트에 대해 세 가지 위험 수준(낮음, 중간, 높음) 중에서 선택할 수 있습니다. 이전에는 세그먼트에 허용치 레벨이 포함되지 않았습니다. | — |
+|  | 최적화 | 다음 최적화 목표 및 사전 입찰 필터는 더 이상 사용되지 않습니다.<ul><li>최적화 목표:<ul><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – GroupM)]</li><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – MRC)]</li></ul><li>사전 입찰 필터 목표:<ul><li>[!UICONTROL Viewability IAS]</li><li>[!UICONTROL Viewability Moat]</li></ul></ul> | &quot;[최적화 목표 및 최적화 목표 사용 방법](/help/dsp/optimization/optimization-goals.md)&quot; 및 &quot;[배치 수준 사전 입찰 필터 및 사용 방법](/help/dsp/optimization/optimization-pre-bid-filters.md)&quot;을 참조하십시오. |
 | 2021년 9월 28일 | 캠페인 관리 보기 | 이제 [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] 및 [!UICONTROL Ads] 보기에 대한 사용자 지정 열 세트에서 &quot;[!UICONTROL Creation date]&quot; 열을 사용할 수 있습니다. [!UICONTROL Placements] 및 [!UICONTROL Ads] 보기를 [!UICONTROL Creation date]로 필터링할 수도 있습니다. | &quot;[사용자 지정 열 보기 만들기](/help/dsp/campaign-management/reports/column-view-create.md)&quot; 및 &quot;[캠페인 데이터 필터링](/help/dsp/campaign-management/reports/campaign-data-filter.md)&quot;을 참조하십시오. |
-|  | 프로그램 방식의 보장 거래 | 이제 프로그래밍 방식의 보장(PG) 거래를 위한 기본 배치에 대한 [!UICONTROL Max Bid]을 편집할 수 있습니다. 그러나 PG 계약에는 항상 고정된 CPM이 있으므로 국제 클라이언트만 [!UICONTROL Max Bid]을 편집하여 통화 환율을 고려해야 합니다. | — |
-|  |  | 이제 &quot;[!DNL FreeWheel Programmatic Guaranteed]&quot; 권한이 있는 사용자는 [!UICONTROL Ads] 보기 또는 [!UICONTROL Placements] 보기에서 [!DNL FreeWheel Programmatic Creative API]에 광고를 제출할 수 있습니다. 여전히 [!UICONTROL Deals] 보기에서 광고를 제출할 수 있습니다. | —<!-- Add link to page on submitting ads to Freewheel once it's edited. --> |
+|  | 프로그램 방식의 보장 거래 | (8월 릴리스) 이제 프로그램 방식으로 보장되는(PG) 거래를 위한 기본 배치에 대한 [!UICONTROL Max Bid]을 편집할 수 있습니다. 그러나 PG 계약에는 항상 고정된 CPM이 있으므로 국제 클라이언트만 [!UICONTROL Max Bid]을 편집하여 통화 환율을 고려해야 합니다. | — |
+|  |  | (8 9월 릴리스) 이제 &quot;[!DNL FreeWheel Programmatic Guaranteed]&quot; 권한을 가진 사용자는 [!UICONTROL Ads] 보기 또는 [!UICONTROL Placements] 보기에서 [!DNL FreeWheel Programmatic Creative API]에 광고를 제출할 수 있습니다. 여전히 [!UICONTROL Deals] 보기에서 광고를 제출할 수 있습니다. | —<!-- Add link to page on submitting ads to Freewheel once it's edited. --> |
 | 2021년 8월 11일 | 사전 입찰 뷰가능 | 이제 [!DNL Oracle Advertising (Moat)]의 사전 입찰 뷰가능 필터를 배치에 사용할 수 있습니다. | 사전 입찰 뷰가능(](/help/dsp/introduction/features/brand-safety-media-quality.md#pre-bid-viewability) 및 &quot;[배치 수준 사전 입찰 필터 및 사용 방법](/help/dsp/optimization/optimization-pre-bid-filters.md)&quot;을 위한 타사 통합에 대해 자세히 알아보십시오.[ |
 | 7월 15일 | 도움말 | Advertising Cloud DSP에서 미디어 및 서비스 구매를 위해 고객이 계정을 처리하는 방법에 대한 세부 사항이 추가되었습니다. | &quot;[계정 자금조달](/help/dsp/introduction/billing/account-funding.md)&quot;을 참조하십시오. |
 | 2021년 6월 12일 | 도움말 | 광고 정책이 업데이트되었습니다. | &quot;[Adobe Advertising Cloud 광고 요구 사항 정책](/help/policies/ad-requirements-policy.md)&quot;을 참조하십시오. |
