@@ -8,7 +8,7 @@ user-guide-title: Advertising Cloud DSP 안내서
 user-guide-description: Advertising Cloud DSP을 사용하여 디스플레이 광고 전략을 관리, 최적화 및 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: acc5b7bb719b655d8b019eee3b5783fec49af0b9
+source-git-commit: e41938befafe54da1466e8faab08f1d7a263f4e0
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 3%
@@ -35,7 +35,7 @@ ht-degree: 3%
       + [광고 요구 사항 정책](https://experienceleague.adobe.com/docs/advertising-cloud/policies/ad-requirements-policy.html)
       + [허용 가능한 상태 세그먼트 지침](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)
       + [[!DNL DSP] 데이터 사용 지침](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
-   + [사용 가능 [!DNL Advanced Measurement Services]](/help/dsp/introduction/advanced-measurement-services.md)
+   + [사용 가능 [!DNL Advanced Measurement Solutions]](/help/dsp/introduction/advanced-measurement-services.md)
 + 캠페인 관리 {#campaign-management}
    + [Campaign 관리 구조 개요](/help/dsp/campaign-management/campaign-management-overview.md)
    + 캠페인 {#campaigns}

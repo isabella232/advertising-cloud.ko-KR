@@ -3,7 +3,7 @@ title: 배치 만들기
 description: 배치를 만드는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 4e37b571-9af4-4897-bff2-035a5f2600a5
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 608774723f865c22bfdd5c911ac818600a495114
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 1%
@@ -29,7 +29,8 @@ ht-degree: 1%
    1. [!UICONTROL Basics] 설정을 지정합니다.
 
    1. [!UICONTROL Goals] 섹션에서 [!UICONTROL Gross Budget] 을 지정하고 선택적으로 추가 배치 목표를 지정합니다.
-일부 필드에는 재정의할 수 있는 기본값이 있습니다.
+
+      일부 필드에는 재정의할 수 있는 기본값이 있습니다.
 
       배치가 할당된 패키지에 패키지 수준 게시가 있는 경우 목표 및 게재 설정에 패키지 설정이 반영됩니다.
 
