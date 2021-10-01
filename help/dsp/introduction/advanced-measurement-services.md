@@ -2,9 +2,9 @@
 title: 사용 가능 [!DNL Advanced Measurement Solutions]
 description: 고급 측정에 사용할 수 있는 솔루션 목록을 참조하십시오.
 exl-id: 1a8b76ee-d38d-4ee4-981b-e29497fa4095
-source-git-commit: 209dfce05228be879d9ba744590ff52ce572a807
+source-git-commit: d25e768fe5d277ef8d1c9ae7531b7a7d3c563622
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -77,4 +77,4 @@ Linear TV 투자에 대해 다양한 디지털 전술에서 도달 / 증가분 �
 
 ## 추가 정보
 
-고급 측정 서비스를 활용하여 지역 제한 및 가격을 포함하여 캠페인에 대한 사용자 지정 학습 의제를 만드는 방법에 대한 자세한 내용은 [!DNL Adobe Strategic Advertising Consultants] 팀에 문의하십시오([!DNL asg@adobe.com]).
+고급 측정 솔루션을 활용하여 측정 가능한 형식, 지역 제한 사항 및 각 패키지에 대한 가격 책정 등 캠페인에 대한 사용자 지정 학습 의제를 생성하는 방법에 대한 자세한 내용은 [!DNL Adobe Strategic Advertising Consultants] 팀에 문의하십시오. [!DNL asg@adobe.com]
