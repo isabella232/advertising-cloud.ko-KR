@@ -3,9 +3,9 @@ title: 계정 자금조달
 description: DSP에 대한 계정 자금 지원에 대해 알아봅니다.
 feature: DSP Introduction
 exl-id: c90e88a7-78dd-402c-baba-9bac360093a4
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 4d3020701caae4218aff2ecb7e7c063afebac4d5
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -26,3 +26,8 @@ Adobe Advertising Cloud DSP은 다음 두 가지 방법 중 하나로 미디어 
 ![계정에 사용 가능한 자금](/help/dsp/assets/account-usable-funds.png)
 
 Adobe은 DSP [광고 요구 사항 정책](/help/policies/ad-requirements-policy.md) 또는 개인 정보 보호 조건을 위반하는 등의 이유로 DSP에서 계정이 사용되는 것을 차단할 권리를 갖습니다. Adobe이 계정을 차단하는 경우 계정 설정에 차단 알림이 포함됩니다. Advertising Cloud [!DNL Client Services] 담당자에게 문의하여 블록의 이유와 오류를 수정하는 방법을 확인하십시오.
+
+>[!MORELIKETHIS]
+>
+>* [지원되는 통화](/help/dsp/currency.md)
+
