@@ -3,9 +3,9 @@ title: 수동 거래 ID 설정
 description: 수동으로 입력한 거래 ID에 대한 설정 설명을 참조하십시오.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 0cd5e9e8-2b13-4b1e-a2e0-b8b492f75acf
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: c3d0783078adc8afafb55d6b6e7e48cdc875ce7c
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 |  | [!UICONTROL External deal ID] | 게시자와 SSP가 이 거래를 식별하는 데 사용하는 ID입니다. | 예 | 아니요 |
 |  | [!UICONTROL Publisher] | 이 인벤토리를 판매하는 게시자의 이름입니다. | 예 | 아니요 |
 |  | [!UICONTROL SSP] | 이 거래를 실행할 SSP(공급측 플랫폼)입니다. | 예 | 아니요 |
-|  | [!UICONTROL Media type] | 이 거래를 통해 구입할 미디어 유형입니다. [!UICONTROL Desktop video], [!UICONTROL Mobile video], [!UICONTROL Connected TV], [!UICONTROL Display] 또는 [!UICONTROL Audio]. 옵션은 SSP마다 다릅니다. | 예 | 아니요 |
+|  | [!UICONTROL Media type] | 이 거래를 통해 구입할 미디어 유형입니다. [!UICONTROL Desktop video], [!UICONTROL Mobile video], [!UICONTROL Connected TV], [!UICONTROL Display] 또는 [!UICONTROL Audio]. 옵션은 SSP마다 다릅니다.<br><br> 딜에서 여러 미디어 유형을 허용하는 경우 거래를 생성할 때 기본 배치에 대한 미디어 유형을 선택합니다. 나중에 다른 미디어 유형을 선택하여 추가 미디어 유형을 사용하여 새 배치를 만들 수 있습니다.<!-- It would be ideal if this field was multi-select rather than a radio button, so you don't have to "change" the value later. --> | 예 | 아니요 |
 |  | [!UICONTROL Deal type] | 거래 약정 및 가격 구조:<br><ul><li>*[!UICONTROL Non guaranteed (floor)]*: 사용자와 게시자가 고정된 수의 노출 배달을 커밋하지 않았습니다. 거래는 CPM이 시장 상황에 따라 변동하고 증가할 수 있지만 인벤토리의 최소 가격을 지정합니다.</li><li>*[!UICONTROL Non guaranteed (fixed)]*: 사용자와 게시자가 고정된 수의 노출 배달을 커밋하지 않았습니다. 가격은 협상된 고정 요금입니다.</li><li>*[!UICONTROL Guaranteed (fixed)]*: 귀하와 출판사는 사전 정의된 노출 횟수, 타깃팅, 비행 날짜 및 고정 가격에 동의했습니다.<br><br><b>참고:</b> 보증 계약에는 플라이트 날짜 및 섹션에 지정된 노출 수가  [!UICONTROL Tracking] 필요합니다. 또한 거래에 대해 기본 프로그래밍 방식 보장(PG) 배치를 만들어야 하며, 대신 선택적으로 다른 배치에 거래를 사용할 수 있습니다.</li></ul> | 예 | 아니요 |
 |  | [!UICONTROL CPM] | 천 단위 노출 횟수(CPM)당 협상된 비용. | 예 | 예 |
 |  | [통화] | 거래의 통화입니다.<br><br>모든 SSP는 USD로 거래를 수락합니다. SSP가 DSP 계정의 통화를 수락하면 해당 통화도 사용할 수 있습니다. | 예 | 아니요 |
