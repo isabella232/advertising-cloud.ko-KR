@@ -3,9 +3,9 @@ title: 수동으로 거래 ID 상세내역 생성
 description: 거래 ID에 대한 세부 사항을 수동으로 입력하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: cd9763a7-99d4-4881-9df9-b4e24c55be0f
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 7e2a52e7b0d91f9206cd6e9a6ffb41a8399abf00
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    1. [!UICONTROL Ad & Campaign Selection] 설정에서 거래에 사용할 광고를 선택합니다.
 
-      1. 광고주, 캠페인 및 광고 유형을 선택합니다.
+      1. 광고주, 캠페인 및 광고 유형을 선택합니다. 선택적으로 광고를 필터링할 광고 상태를 선택합니다.
 
       1. 사용 가능한 광고 목록에서 거래에 사용할 각 광고 옆에 있는 확인란을 선택합니다.
 
@@ -69,3 +69,4 @@ ht-degree: 0%
 >* [프로그램 방식으로 보장되는 거래를 위한 광고 제출 [!DNL FreeWheel]](freewheel-submit.md)
 >* [프로그램 보장 거래 기본 정보](programmatic-guaranteed-about.md)
 
+<!-- >* [Specify Placements and Ads for a Private Deal](private-deal-attach-placements.md)-->
