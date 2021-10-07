@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: afdfaed21410fdd1808964d637b5210255af7d81
+source-git-commit: 30521ed6daf38235125acc1f99115bf9f94d6975
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2021년 10월 7일 | 도움말 | [!DNL Experience League]의 모든 [DSP 및 기타 Advertising Cloud 설명서](https://experienceleague.adobe.com/docs/advertising-cloud.html)는 이제 모든 사용 가능한 언어로 번역됩니다. 표시된 언어를 변경하려면 페이지의 왼쪽 하단에 있는 &quot;언어 변경&quot; 메뉴를 사용합니다.<br>![언어 변경](/help/dsp/assets/change-language.png) |
 | 2021년 9월 30일 | 브랜드 안전 | (22 9월 릴리스) [!DNL DoubleVerify] 브랜드 안전 사전 입찰 제품이 [!DNL Brand Suitability Tiers]로 업데이트되어, 광고주가 특정 항목의 모든 인스턴스를 피하지 않고 특정 세그먼트에 대해 세 가지 위험 수준(낮음, 중간, 높음) 중에서 선택할 수 있습니다. 이전에는 세그먼트에 허용치 레벨이 포함되지 않았습니다.<br><br>새  [!DNL DoubleVerify] 세그먼트 구조에 맞추기 위해 DSP은 기존 브랜드 안전 세그먼트를 권장되는 새로운  *미디어* 수준 세그먼트로 마이그레이션했습니다. 선택적으로 세그먼트 계층을 *low* 또는 *high*&#x200B;로 조정할 수 있습니다.<br><br>**참고:**  작은 세그먼트 목록에는 계층이 없지만 &quot;Incentized/Spyware/Malware,Warz&quot; > Incentized/Malware/Clutter&quot;와 같은 새로운 이름이 있습니다. | — |
 |  | 최적화 | 다음 최적화 목표 및 사전 입찰 필터는 더 이상 사용되지 않습니다.<ul><li>최적화 목표:<ul><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – GroupM)]</li><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – MRC)]</li></ul><li>사전 입찰 필터 목표:<ul><li>[!UICONTROL Viewability IAS]</li><li>[!UICONTROL Viewability Moat]</li></ul></ul> | &quot;[최적화 목표 및 최적화 목표 사용 방법](/help/dsp/optimization/optimization-goals.md)&quot; 및 &quot;[배치 수준 사전 입찰 필터 및 사용 방법](/help/dsp/optimization/optimization-pre-bid-filters.md)&quot;을 참조하십시오. |
 | 2021년 9월 28일 | 캠페인 관리 보기 | 이제 [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] 및 [!UICONTROL Ads] 보기에 대한 사용자 지정 열 세트에서 &quot;[!UICONTROL Creation date]&quot; 열을 사용할 수 있습니다. [!UICONTROL Placements] 및 [!UICONTROL Ads] 보기를 [!UICONTROL Creation date]로 필터링할 수도 있습니다. | &quot;[사용자 지정 열 보기 만들기](/help/dsp/campaign-management/reports/column-view-create.md)&quot; 및 &quot;[캠페인 데이터 필터링](/help/dsp/campaign-management/reports/campaign-data-filter.md)&quot;을 참조하십시오. |
