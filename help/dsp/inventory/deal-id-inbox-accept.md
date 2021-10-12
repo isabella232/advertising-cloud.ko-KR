@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Deal ID Inbox]에서 거래 수락'
-description: ' [!DNL Google Authorized Buyers], [!DNL FreeWheel], or [!DNL Rubicon] Deal ID Inbox를 사용하여 게시자와 이미 협상한 비공개 거래를 수락하는 방법을 알아봅니다.'
+description: Deal ID Inbox를 사용하여 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (formerly known as [!DNL AdX]), and [!DNL Magnite DV+] (이전의 [!DNL Rubicon])에서 게시자와 이미 협상한 비공개 거래를 수락하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 55e8ca50-05f5-4f38-9fd5-afaed71315dc
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 8046ec79ec24f47fe33e49c6097e44dbba450f1f
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *SSP 계정에만 매핑된 DSP 계정 사용자*
 
-[!UICONTROL Deal ID inbox] 을 사용하여 [!DNL Google Authorized Buyers], [!DNL FreeWheel] 또는 [!DNL Rubicon]에서 게시자와 이미 협상한 비공개 거래를 신속하게 수락하십시오.
+[!UICONTROL Deal ID inbox] 을 사용하여 [!DNL FreeWheel], [!DNL Google Authorized Buyers](이전의 [!DNL AdX]) 및 [!DNL Magnite DV+](이전의 [!DNL Rubicon])에서 게시자와 이미 협상한 비공개 거래를 신속하게 수락합니다.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. (선택 사항) 거래 세부 사항을 새로 고치려면 **[!UICONTROL Refresh]** 을 클릭합니다.
 
-   DSP은 매일 오전 4시 30분에 모든 거래 세부 사항을 자동으로 새로 고칩니다. 또한 모든 [!DNL FreeWheel] 거래를 새로 고치고 [!DNL Google] 및 [!DNL Rubicon] 시간별로 기존 거래를 업데이트합니다.
+   DSP은 매일 오전 4시 30분에 모든 거래 세부 사항을 자동으로 새로 고칩니다. 또한 모든 [!DNL FreeWheel] 거래를 새로 고치고 [!DNL Google] 및 [!DNL Magnite DV+] 시간별로 기존 거래를 업데이트합니다.
 
 1. (이전에 거래를 무시한 경우) **[!UICONTROL Ignored Deals]** 탭을 클릭합니다.
 

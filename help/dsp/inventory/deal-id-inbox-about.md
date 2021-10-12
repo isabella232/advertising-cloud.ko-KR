@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Deal ID Inbox] 정보'
-description: '[!UICONTROL Deal ID inbox] 기능에 대해 알아봅니다. 이 기능을 사용하면 이미 게시자 [!DNL Google Authorized Buyers], [!DNL FreeWheel], and [!DNL Rubicon]에서 협상한 비공개 거래를 허용할 수 있습니다.'
+description: '[!UICONTROL Deal ID inbox] 기능에 대해 알아봅니다. 이 기능을 사용하면 이미 게시자 on [!DNL FreeWheel], [!DNL Google Authorized Buyers] (formerly known as [!DNL AdX]), and [!DNL Magnite DV+] (이전의 [!DNL Rubicon])와 협상한 비공개 거래를 허용할 수 있습니다.'
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 959ad1d4-4671-4967-9f73-ec5b0464d0cd
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 8046ec79ec24f47fe33e49c6097e44dbba450f1f
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Deal ID Inbox] 정보
 
-DSP [!UICONTROL Deal ID inbox]을(를) 사용하면 SSP(공급측 플랫폼)를 통해 게시자에서 가져온 거래를 빠르게 설정할 수 있으므로 각 거래를 수동으로 설정할 필요가 없습니다. [!UICONTROL Deal ID inbox]에서 이미 게시자와 협상한 보증 및 비보증 비공개 개인 인벤토리 거래를 [!DNL Google Authorized Buyers](이전의 [!DNL AdX]), [!DNL FreeWheel] 및 [!DNL Rubicon]에서 수락할 수 있습니다.
+DSP [!UICONTROL Deal ID inbox]을(를) 사용하면 SSP(공급측 플랫폼)를 통해 게시자에서 가져온 거래를 빠르게 설정할 수 있으므로 각 거래를 수동으로 설정할 필요가 없습니다. 이미 [!DNL FreeWheel], [!DNL Google Authorized Buyers](이전의 [!DNL AdX]) 및 [!DNL Magnite DV+](이전의 [!DNL Rubicon])에서 게시자와 협상한 보증 및 보장되지 않는 비공개 인벤토리 거래를 [!UICONTROL Deal ID inbox]에서 수락할 수 있습니다.
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ DSP [!UICONTROL Deal ID inbox]을(를) 사용하면 SSP(공급측 플랫폼)를 
 
 [!UICONTROL Deal ID inbox]에서는 게시자가 볼 때 거래의 세부 정보를 볼 수 있으며, 거래 설정을 가속화하고, 수동 입력 오류를 방지할 수 있습니다.
 
-DSP은 매일 오전 4시 30분에 모든 거래 세부 사항을 자동으로 새로 고칩니다. 또한 모든 [!DNL FreeWheel] 거래를 새로 고치고 [!DNL Google] 및 [!DNL Rubicon] 시간별로 기존 거래를 업데이트합니다. 언제든지 거래 세부 사항을 수동으로 새로 고쳐 새 거래를 채울 수도 있습니다.
+DSP은 매일 오전 4시 30분에 모든 거래 세부 사항을 자동으로 새로 고칩니다. 또한 모든 [!DNL FreeWheel] 거래를 새로 고치고 [!DNL Google] 및 [!DNL Magnite DV+] 시간별로 기존 거래를 업데이트합니다. 언제든지 거래 세부 사항을 수동으로 새로 고쳐 새 거래를 채울 수도 있습니다.
 
 <!-- MC: I'm not sure where I got the following. Is this currently true? -->
 >[!NOTE]
@@ -51,13 +51,13 @@ DSP은 매일 오전 4시 30분에 모든 거래 세부 사항을 자동으로 �
 
 * [!DNL Google] USD가 아닌 거래.
 
-* [!DNL Rubicon] USD가 아닌 거래
+* [!DNL Magnite DV+] USD가 아닌 거래
 
 * [!DNL FreeWheel] 계정 통화가 아닌 거래.
 
 * 오늘 전에 종료 날짜가 있는 거래.
 
-* &quot;여러 미디어 유형&quot;으로 레이블이 지정된 이전 [!DNL Rubicon] 거래.
+* &quot;여러 미디어 유형&quot;으로 레이블이 지정된 이전 [!DNL Magnite DV+] 거래.
 
 거래 세부 사항에는 거래가 수락되지 않는 이유가 포함되어 있습니다.
 
