@@ -3,9 +3,9 @@ title: Advertising Cloud DSP의 대상 관리 정보
 description: 고객 관리 기능에 대해 알아봅니다.
 feature: DSP Audiences, DSP Segments
 exl-id: 624d2211-59a2-4791-b8f1-a9a5cecd0b8e
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 578651a458ffd505573df0e9a61e26bd2176ad17
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Advertising Cloud DSP은 타사 세그먼트의 복잡한 조합을 포함하여
 
    >[!NOTE]
    >
-   >해당 솔루션의 세그먼트에 대한 데이터를 설정하고 수집하는 방법에 대한 자세한 내용은 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics/landing/home.html) 및 [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)에 대한 설명서를 참조하십시오.
+   >해당 솔루션의 세그먼트에 대한 데이터를 설정하고 수집하는 방법에 대한 자세한 내용은 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) 및 [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)에 대한 설명서를 참조하십시오.
 
 ## 대상 크기 데이터
 
