@@ -3,9 +3,9 @@ title: 수동 거래 ID 설정
 description: 수동으로 입력한 거래 ID에 대한 설정 설명을 참조하십시오.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 0cd5e9e8-2b13-4b1e-a2e0-b8b492f75acf
-source-git-commit: c3d0783078adc8afafb55d6b6e7e48cdc875ce7c
+source-git-commit: 5f39608155f9237fb6d69a7b31c007d1b8d0306f
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
