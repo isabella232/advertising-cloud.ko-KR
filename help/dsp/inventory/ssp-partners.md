@@ -3,9 +3,9 @@ title: SSP 파트너
 description: 사용 가능한 SSP(공급측 플랫폼) 및 오픈 교환 파트너 목록을 참조하십시오.
 feature: DSP Private Inventory
 exl-id: 8487f4ce-0232-4145-ad8b-b0631fd0ab7f,None
-source-git-commit: 8046ec79ec24f47fe33e49c6097e44dbba450f1f
+source-git-commit: 13b060a15d7661e8e65893fff0df01bf01f75a0a
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ SSP(공급측 플랫폼)는 디지털 미디어 소유자 및 게시자가 디�
 | [!DNL Stroer] |  | Adobe Advertising Cloud | 아니요 | EMEA | USD | x | x |  | x | x |  |  |
 | [!DNL Taboola] |  | Adobe Advertising Cloud | 아니요 | 미국/CA | USD | x | x |  |  |  |  |  |
 | [!DNL Teads] |  | [!DNL TubeMogul] 또는 Adobe Advertising Cloud | 아니요 | 아웃바운드 스트림 비디오 = 글로벌<br>표시 = NA + EMEA | USD | x | x |  | x | x |  |  |
-| [!DNL Tremor] | [!DNL Magnite CTV] (이전  [!DNL Telaria]) | [!DNL TubeMogul] 또는 Adobe Advertising Cloud | 예 | 글로벌 | AUD, USD | x | x | x |  |  |  |  |
+| [!DNL Magnite CTV] | [!DNL Magnite CTV] (이전  [!DNL Telaria] 및  [!DNL Tremor]) | [!DNL TubeMogul] 또는 Adobe Advertising Cloud | 예 | 글로벌 | AUD, USD | x | x | x |  |  |  |  |
 | [!DNL TripleLift] |  | [!DNL TubeMogul] 또는 Adobe Advertising Cloud | 아니요 | 글로벌 | USD |  |  |  |  |  | x |  |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] 또는 Adobe Advertising Cloud | 아니요 | 글로벌 | USD | x | x |  | x | x |  |  |
 | [!DNL Triton] |  | Adobe Advertising Cloud | 아니요 | 글로벌 | USD |  |  |  |  |  |  | x |
