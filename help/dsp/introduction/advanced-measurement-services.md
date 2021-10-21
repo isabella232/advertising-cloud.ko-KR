@@ -2,7 +2,7 @@
 title: 고급 측정 솔루션
 description: 고급 측정에 사용할 수 있는 솔루션 목록을 참조하십시오.
 exl-id: 1a8b76ee-d38d-4ee4-981b-e29497fa4095
-source-git-commit: 1f1dc0b4b38652beb9bc7392ee17fa4eefad987b
+source-git-commit: b4976cdce6b4d5870c5cc3a1a09c1b5545cd3200
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ## 완벽한 측정 맞추기 찾기: 세로별 솔루션
 
-* 모든 세로
+* **세로:**
 
    * 실험 디자이너(Placebo 및 A/B 테스트)
 
@@ -79,13 +79,13 @@ ht-degree: 0%
 
       여러 화면에서 브랜드 인지도 및 인식을 측정하려는 모든 클라이언트 틈새 대상에 가장 적합한
 
-* QSR, 소매(브릭 및 모르타르)
+* **QSR, 소매(브릭 및 모르타르):**
 
    * 거래 측정
 
    * 발 트래픽 측정
 
-* QSR, 소매, 여행
+* **QSR, 소매, 여행:**
 
    * 거래 통찰력
 
