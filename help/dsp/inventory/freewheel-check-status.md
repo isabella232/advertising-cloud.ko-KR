@@ -1,36 +1,36 @@
 ---
-title: 광고 상태( [!DNL [!DNL FreeWheel]] PG 거래 확인)
-description: ' [!DNL Freewheel] 프로그램 방식으로 보장되는 거래에 대한 광고 상태를 찾는 방법을 알아봅니다.'
+title: 광고 상태 확인 [!DNL [!DNL FreeWheel]] PG 거래
+description: 광고 상태를 찾는 방법을 알아봅니다. [!DNL Freewheel] 프로그램 방식으로 보장되는 거래.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: null
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
 
-# 광고 상태([!DNL Freewheel] 프로그래밍 방식 보장 거래) 확인
+# 광고 상태 확인 [!DNL Freewheel] 프로그램 방식의 보장 거래
 
-[!DNL Freewheel]에 제출된 광고가 성공했는지 확인합니다. 필요에 따라 모든 광고를 다시 제출할 수 있습니다.
+에 광고가 제출되는지 확인합니다. [!DNL Freewheel] 성공했습니다. 필요에 따라 모든 광고를 다시 제출할 수 있습니다.
 
 1. 주 메뉴에서 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
 
 1. 다음 중 하나를 수행합니다.
 
-   * [!UICONTROL Deal ID inbox] 아래에서 **[!UICONTROL View Freewheel creative status]** 를 클릭합니다.
+   * 아래에 [!UICONTROL Deal ID inbox]를 클릭합니다. **[!UICONTROL View Freewheel creative status]**.
 
-   * 거래 행에서 ![옵션 메뉴](/help/dsp/assets/options-menu.png) **[!UICONTROL see Freewheel status]**&#x200B;를 클릭합니다.
+   * 거래 행에서 ![옵션 메뉴](/help/dsp/assets/options-menu.png) **>[!UICONTROL see Freewheel status]**.
 
 1. (선택 사항) 특정 거래 및 광고를 찾는 데 도움이 되도록 데이터를 필터링합니다.
 
-   [!UICONTROL Submission Status] 열은 광고가 제출 및 승인되었는지 여부를 나타냅니다.
+   다음 [!UICONTROL Submission Status] 열은 광고가 제출 및 승인되었는지 여부를 나타냅니다.
 
-   실패한 제출의 경우 [!UICONTROL API] 응답 열이 오류를 나타냅니다. 실패한 제출물에 대한 전체 오류 코드 목록 및 이를 수정하는 다음 단계는 &quot;[광고 제출](freewheel-error-codes.md)에 대한 오류 코드&quot;를 참조하십시오. [!DNL FreeWheel] 
+   실패한 제출의 경우 [!UICONTROL API] 응답 열은 오류를 나타냅니다. 실패한 제출물에 대한 전체 오류 코드 목록 및 이를 수정하는 다음 단계는 &quot;[에 대한 오류 코드 [!DNL FreeWheel] 광고 제출](freewheel-error-codes.md).&quot;
 
-1. (선택 사항) 승인을 위해 광고를 다시 제출하려면 광고 행 위에 커서를 놓고 **[!UICONTROL More]>[!UICONTROL Resubmit]** 를 클릭합니다.
+1. (선택 사항) 승인을 위해 광고를 다시 제출하려면 광고 행 위에 커서를 놓고 를 클릭합니다 **[!UICONTROL More]>[!UICONTROL Resubmit]**.
 
-재제출과 관련된 추가 질문 또는 문제에 대해서는 Adobe 계정 관리자에게 문의하십시오.
+재제출과 관련된 추가 질문이나 문제는 [!DNL Adobe] 계정 관리자.
 
 >[!MORELIKETHIS]
 >

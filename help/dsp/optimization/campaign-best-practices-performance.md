@@ -3,9 +3,9 @@ title: 성능 캠페인 설정에 대한 우수 사례
 description: 최저 CPA 또는 가장 높은 ROAS에 맞게 최적화된 배치를 포함하는 성능 중심 캠페인을 설정하는 우수 사례를 알아봅니다.
 feature: DSP Optimization, DSP Best Practices
 exl-id: fc64680d-9d1c-4f74-a8b9-2e9b670c00eb
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1232'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Advertising Cloud은 CPA(Inquisition Per Acquisition) 또는 ROAS(High Return On
 
 ## 1단계 - 목표 정의
 
-이 캠페인의 목표가 가능한 가장 높은 ROAS를 달성하는 것인지 아니면 가능한 가장 낮은 CPA를 달성하는 것인지 이해하는 것이 중요합니다. 캠페인의 각 패키지에 대해 *[!UICONTROL Highest ROAS - Custom Goal]* 또는 *[!UICONTROL Lowest CPA - Custom Goal]* 중 하나로 목표 목표를 지정합니다.
+이 캠페인의 목표가 가능한 가장 높은 ROAS를 달성하는 것인지 아니면 가능한 가장 낮은 CPA를 달성하는 것인지 이해하는 것이 중요합니다. 캠페인의 각 패키지에 대해 그에 따라 목표 목표를 다음 중 하나로 지정합니다 *[!UICONTROL Highest ROAS - Custom Goal]* 또는 *[!UICONTROL Lowest CPA - Custom Goal]*.
 
 ![최적화 목표](/help/dsp/assets/optimization-goals.png)
 
-또한 전체 목표를 달성하는 성공 이벤트를 확인하고 그에 따라 사용자 지정 목표를 만들어야 합니다. 각 패키지에 대해 [!DNL Adobe Sensei] 을 사용하여 보고 및 알고리즘 최적화를 위한 전체 최적화 목표와 함께 사용할 사용자 지정 목표를 지정합니다. 사용자 지정 목표 만들기에 대한 자세한 내용은 [사용자 지정 목표 작성 우수 사례](custom-goal-best-practices.md)를 참조하십시오.
+또한 전체 목표를 달성하는 성공 이벤트를 확인하고 그에 따라 사용자 지정 목표를 만들어야 합니다. 각 패키지에 대해 다음을 사용하여 보고 및 알고리즘 최적화를 위한 전체 최적화 목표와 함께 사용할 사용자 지정 목표를 지정합니다 [!DNL Adobe Sensei]. 사용자 지정 목표 만들기에 대한 자세한 내용은 [사용자 지정 목표 구축에 대한 우수 사례](custom-goal-best-practices.md).
 
 ![사용자 지정 목표](/help/dsp/assets/objective-goals.png)
 
@@ -47,7 +47,7 @@ Advertising Cloud은 CPA(Inquisition Per Acquisition) 또는 ROAS(High Return On
    * 상황별 타겟팅.
    * 사이트/카테고리 타깃팅.
 
-* RON(네트워크 실행) 타겟팅 사용: 대상 타깃팅 없이 광범위한 인벤토리 타겟팅과 함께 네트워크 배치 실행을 포함하는 것이 중요합니다. 이를 통해 [!DNL Adobe Sensei] 알고리즘에서 아직 대상으로 분류되지 않은 새로운 쿠키를 가질 수 있는 중요한 사용자를 찾을 수 있습니다.
+* RON(네트워크 실행) 타겟팅 사용: 대상 타깃팅 없이 광범위한 인벤토리 타겟팅과 함께 네트워크 배치 실행을 포함하는 것이 중요합니다. 이를 통해 [!DNL Adobe Sensei] 대상으로 아직 분류되지 않은 최신 쿠키를 보유하고 있을 수 있는 중요한 사용자를 찾는 알고리즘.
 
 ### 리타겟팅 전략
 
@@ -69,29 +69,29 @@ Advertising Cloud은 CPA(Inquisition Per Acquisition) 또는 ROAS(High Return On
 
 ### 목표 및 예산
 
-* **간격 및 최대 가용량:**  CPA 또는 ROAS 최적화 목표를 선택하려면 패키지는 패키지 수준 게재를 사용해야 합니다. 따라서 패키지 내의 모든 배치는 선택한 목표에 따라 성능과 규모에 따라 비용을 분배하도록 최적화됩니다.
+* **간격 및 최대 가용량:** CPA 또는 ROAS 최적화 목표를 선택하려면 패키지는 패키지 수준 게재를 사용해야 합니다. 따라서 패키지 내의 모든 배치는 선택한 목표에 따라 성능과 규모에 따라 비용을 분배하도록 최적화됩니다.
 
-* **플라이트 날짜:**  (예상 패키지) 캠페인이 25일 이상 실행되는 경우 기능을  [!UICONTROL Activate Custom Flighting] 사용하십시오. 먼저 *학습 단계* 동안 지출을 줄이기 위해 필요한 일일 예산의 약 75%에서 처음 10일 동안 맞춤형 비행을 설정하십시오. 그런 다음 나머지 예산 동안 두 번째 사용자 지정 비행을 설정하십시오.
+* **플라이트 날짜:** (전망 패키지) 캠페인이 25일 이상 실행되는 경우 [!UICONTROL Activate Custom Flighting] 기능. 먼저, 첫 10일 동안 맞춤형 항공편을 필요한 일일 예산의 약 75%로 설정하여, *학습 단계*. 그런 다음 나머지 예산 동안 두 번째 사용자 지정 비행을 설정하십시오.
 
    예를 들어, 30일 동안 사용할 $100,000가 있는 경우, 1편(1-10일)에 대한 예산을 $25,000(75% x $100,000/30일 = $2,500)로 설정합니다. 2편(11-30일)에 75,000달러의 나머지 예산을 사용하십시오.
 
 * **예산:** DSP은 항상 패키지의 모든 배치 간에 100%의 패키지 예산을 균등하게 할당하려고 합니다. 배치에 비용이 낮거나 지출이 없는 경우, 예산을 더 많이 할당하여 배율이 높은 배치에 할당할 수 있도록 배치를 최대 조정하는 것이 좋습니다. 예산 변경을 보정하려면 24-48시간을 허용합니다.
 
-* **최적화 목표:** 패키지 목표에 따라 두 가지 성능 최적화 목표  *[!UICONTROL Highest ROAS]* 중 하나 또는  *[!UICONTROL Lowest CPA]*&#x200B;를 사용합니다. 이 목표는 각각 가장 높은 ROAS 또는 가장 낮은 CPA 배치를 향해 패키지를 자동으로 최적화합니다.
+* **최적화 목표:** 두 가지 성능 최적화 목표 중 하나를 사용하십시오. *[!UICONTROL Highest ROAS]* 또는 *[!UICONTROL Lowest CPA]*&#x200B;패키지 목표에 따라 다릅니다. 이 목표는 각각 가장 높은 ROAS 또는 가장 낮은 CPA 배치를 향해 패키지를 자동으로 최적화합니다.
 
 * **사용자 지정 목표:**
    * 새 패키지에 기존 패키지와 동일한 목표가 있는 경우, 알고리즘에서 기존 기계 학습 데이터를 사용할 수 있도록 기존 패키지를 선택적으로 연결할 수 있습니다.
-   * 적절한 [!UICONTROL Target CPA] 또는 [!UICONTROL Target ROAS]을 입력합니다.
+   * 적절한 [!UICONTROL Target CPA] 또는 [!UICONTROL Target ROAS].
 
-* **게재 전략 간격:** 전체  *[!UICONTROL Even]* 비행 날짜 동안 균일하게 게재를 함으로써 성능 목표를 극대화하려면 선택합니다.
+* **채우기 전략 간격:** 선택 *[!UICONTROL Even]* 을 추가하여 전체 비행 날짜 동안 균일하게 게재를 함으로써 성능 목표를 극대화할 수 있습니다.
 
-   게재 우선 순위 지정과 성능 최적화에 대한 비용을 완전히 우선 책정하는 경우에만 *[!UICONTROL FrontLoad]* 및 *[!UICONTROL Aggressive Front Load]* 간격 조정을 사용하십시오. 이러한 전략은 원하는 성능 KPI에 부정적인 영향을 줄 수 있습니다.
+   사용 *[!UICONTROL FrontLoad]* 및 *[!UICONTROL Aggressive Front Load]* 게재 우선 순위 지정과 성능 최적화에 대한 비용을 전적으로 우선시하는 경우에만 간격. 이러한 전략은 원하는 성능 KPI에 부정적인 영향을 줄 수 있습니다.
 
 ## 4단계 - 배치 구조 만들기
 
 적은 것이 더 많은 것입니다. 패키지당 6개 미만의 배치를 설정할 수 있는 경우 사용 가능한 예산이 가장 쉽게 가장 성과가 좋은 배치로 동적으로 이동할 수 있습니다.
 
-또한 패키지 목표 유형이 *[!UICONTROL Prospecting]* 또는 *[!UICONTROL Retargeting]*&#x200B;인 패키지에 각 배치를 적절하게 추가해야 합니다.
+또한 패키지 목표 유형이 인 패키지에 각 배치를 추가해야 합니다. *[!UICONTROL Prospecting]* 또는 *[!UICONTROL Retargeting]*&#x200B;를 입력합니다.
 
 다음은 성능 캠페인에 대한 권장 배치 설정입니다.
 
@@ -103,22 +103,22 @@ Advertising Cloud은 CPA(Inquisition Per Acquisition) 또는 ROAS(High Return On
    * 예상 배치의 경우 낮은 최대 입찰($5)을 사용합니다.
    * 배치를 재타겟팅하려면 최대 입찰(12달러)을 사용합니다.
 
-* **사전 입찰 필터:** 배치의 크기를 저해하는 사전 입찰 필터를 최소화하고 또는 이상적으로는 사용하지 않습니다. 우수 사례에는 다음이 포함됩니다.
+* **사전 입찰 필터:** 배치를 확장하지 못하게 하는 적극적인 사전 입찰 필터를 설정하거나 이상적으로 사용하지 않습니다. 우수 사례에는 다음이 포함됩니다.
 
    * 배치당 하나의 (1) 사전 입찰 필터를 사용합니다. 여러 입찰 전 필터를 사용하려면 둘 다 충족해야 하므로 크기가 줄어듭니다.
 
    * 추가 타겟팅(예: 대상, 지역 및 사이트 타깃팅)이 적용되는 경우 보다 엄격한 사전 입찰 필터를 설정하는 것이 좋습니다.
 
-[배치 수준 사전 입찰 필터에서 각 사전 입찰 필터를 사용할 시점과 이 필터를 사용하는 방법](/help/dsp/optimization/optimization-pre-bid-filters.md)에 대한 설명을 참조하십시오.
+에서 각 입찰 전 필터를 사용할 시기에 대한 설명을 참조하십시오. [배치 수준 사전 입찰 필터 및 사용 방법](/help/dsp/optimization/optimization-pre-bid-filters.md).
 
 ### 인벤토리
 
-비율을 최대화하려면 [!UICONTROL Public](Open Exchange) 및 [!UICONTROL On Demand] 인벤토리를 사용합니다.
+비율을 최대화하려면 [!UICONTROL Public] (Open Exchange) 및 [!UICONTROL On Demand] 인벤토리
 
 ### 사이트 타깃팅
 
-* **[!UICONTROL Traffic Type]**:  [!UICONTROL Websites] 전용
-* **[!UICONTROL Site Tier]**:  [!UICONTROL All sites]
+* **[!UICONTROL Traffic Type]**: [!UICONTROL Websites] 전용
+* **[!UICONTROL Site Tier]**: [!UICONTROL All sites]
 
 ### 대상 타깃팅
 
@@ -139,18 +139,18 @@ Advertising Cloud은 CPA(Inquisition Per Acquisition) 또는 ROAS(High Return On
    * 재타겟팅 배치의 경우, 기본 배치 캡을 일당 6~10개의 노출로 설정하고, 보조 캡을 시간당 1개의 노출로 설정합니다.
 
 * **[!UICONTROL Device Targeting]**:
-   * [!UICONTROL Computer], [!UICONTROL Mobile] 및 [!UICONTROL Tablet]를 포함합니다.
-   * 타깃팅 및 측정 제한 사항으로 인해 [!UICONTROL Firefox] 및 [!UICONTROL Safari]을 타깃팅하지 마십시오. [!DNL Safari ITP]에 대한 [!DNL Adobe] 지원에 대한 자세한 내용은 Adobe 계정 관리자에게 문의하십시오.
-   * 모바일 웹 트래픽을 타깃팅하는 경우 [!UICONTROL Chrome] 및 [!UICONTROL Edge]을 제외한 모든 모바일 브라우저를 비활성화합니다.
+   * 포함 [!UICONTROL Computer], [!UICONTROL Mobile], 및 [!UICONTROL Tablet].
+   * 타깃팅하지 않음 [!UICONTROL Firefox] 및 [!UICONTROL Safari] 타깃팅 및 측정 제한 사항으로 인한 예외입니다. 다음 사항에 문의하십시오. [!DNL Adobe] 계정 관리자에 대한 자세한 내용은 [!DNL Adobe] 지원 [!DNL Safari ITP].
+   * 모바일 웹 트래픽을 타깃팅하는 경우 다음을 제외하고 모든 모바일 브라우저를 비활성화합니다 [!UICONTROL Chrome] 및 [!UICONTROL Edge].
 
 ### 브랜드 안전 및 미디어 품질
 
-컨텍스트 필터링, 입찰 전 부정 방지 차단 및/또는 [!UICONTROL Ads.txt] 필터링을 사용하면 배치의 크기가 제한되지만 필요한 경우 사용합니다.
+컨텍스트 필터링, 입찰 전 부정 방지 및/또는 사용 [!UICONTROL Ads.txt] 필터링은 배치 크기를 제한하지만 필요한 경우 사용합니다.
 
 ## 5단계 - 적합한 크리에이티브 자산 사용
 
 * 가장 좋은 방법은 도달 범위를 최대화하기 위해 가능한 한 많은 고유한 광고 크기를 포함하는 것입니다. 범용 디스플레이 템플릿을 사용하면 표준 디스플레이 광고 크기를 업로드할 수 있습니다.
-* 모든 배치에 최소 *의 모든 기본 디스플레이 광고 크기(300x250, 728x90, 160x600, 300x600, 320x50 및 300x50)가 포함되어 있는지 확인합니다.*
+* 모든 배치에 가 포함되었는지 확인합니다 *적어도* 모든 기본 디스플레이 광고 크기(300x250, 728x90, 160x600, 300x600, 320x50 및 300x50).
 * 크리에이티브를 자주 업데이트하여 크리에이티브 피로도 방지
 
 >[!MORELIKETHIS]

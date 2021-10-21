@@ -3,16 +3,16 @@ title: DSP이 캠페인을 최적화하는 방법
 description: DSP이 캠페인에서 패키지를 최적화하는 방법을 알아봅니다.
 feature: DSP Optimization
 exl-id: 054582ef-b677-4725-b25c-b82bf3e5b43e
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
 
 # DSP이 캠페인을 최적화하는 방법
 
-이 페이지에서는 [!DNL Adobe Sensei] 제공 Advertising Cloud DSP 최적화 엔진이 캠페인에서 패키지를 최적화하는 방식을 간략하게 설명합니다. 캠페인을 수동으로 최적화하는 방법에 대한 팁과 트릭은 Adobe 계정 관리자에게 문의하십시오. <!-- add link to trading playbook if we add it to help -->
+이 페이지에서는 다음에 의해 구동되는 Advertising Cloud DSP 최적화 엔진을 간략하게 설명합니다 [!DNL Adobe Sensei]은 캠페인에서 패키지를 최적화합니다. 캠페인을 수동으로 최적화하는 방법에 대한 팁과 트릭은 [!DNL Adobe] 계정 관리자. <!-- add link to trading playbook if we add it to help -->
 
 패키지 최적화 목표는 두 가지 수준에서 작동합니다.
 
@@ -32,17 +32,17 @@ DSP은 특정 성능 목표에 맞게 20개의 변형을 사용하여 두 가지
 
 * 성능 비율로 비용 효율성을 우선 순위 지정
 
-KPI를 달성하는 데 도움이 되는 최적화 목표를 결정하려면 [최적화 목표 및 최적화 목표 사용 방법](optimization-goals.md) 을 참조하십시오.
+자세한 내용은 [최적화 목표 및 사용 방법](optimization-goals.md) kpi를 달성하는 데 도움이 되는 최적화 목표를 결정하려면
 
 ### 성능 비율을 우선시하는 패키지
 
-성과 비율을 우선시하는 최적화 목표의 경우 DSP은 각 경매의 성과를 예측하고 항상 최대 입찰에서 입찰합니다. 적용 가능한 최적화 목표의 예로는 [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate] 등이 있습니다.
+성과 비율을 우선시하는 최적화 목표의 경우 DSP은 각 경매의 성과를 예측하고 항상 최대 입찰에서 입찰합니다. 적용 가능한 최적화 목표의 예는 다음과 같습니다 [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate]등
 
 다음 경우 이 최적화 모드가 잘 작동합니다.
 
 * 이미 유효/허용 가능한 CPM 수준(예: 이전 벤치마크)을 알고 있습니다.
 
-* 크기 조절에 문제가 발생하는 경우 각 배치에 대해 [!UICONTROL Max Bid]을 수동으로 조정할 수 있습니다.
+* 수동으로 [!UICONTROL Max Bid] 에 대해 크기 조절을 사용하여 문제가 발생하는 경우 각 배치에 대해 설명합니다.
 
 * 효율성보다 스케일을 우선시해야 합니다.
 
@@ -58,15 +58,15 @@ KPI를 달성하는 데 도움이 되는 최적화 목표를 결정하려면 [�
 
 ### 성능 비율로 비용 효율성을 우선시하는 패키지
 
-일부 최적화 목표의 경우, DSP은 각 경매의 성과를 예측하여 게재의 [!UICONTROL Max Bid]을 초과하지 않고 입찰가를 자동으로 조정합니다. 적용 가능한 최적화 목표의 예로는 [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click] 등이 있습니다.
+일부 최적화 목표의 경우 DSP은 각 경매의 성과를 예측하여 배치를 초과하지 않고 입찰 가격을 자동으로 조정합니다 [!UICONTROL Max Bid]. 적용 가능한 최적화 목표의 예는 다음과 같습니다 [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click]등
 
 #### 간격 논리 {#pacing-logic-balanced}
 
 * 지출이 속도에따라 DSP은 가격이 더 민감해져 가격 인상으로 시장가격 인하에 따른 경쟁률이 낮아진다.
 
-* 성능 지표도 균형 잡힌 경우([!UICONTROL Lowest CPM]을 제외한 모든 목표) 예측된 KPI가 입찰 금액에 혼합됩니다. 따라서 &quot;Cost per&quot;를 기반으로 더 높은 성능을 기대할 수 있는 경매에 대해 높은 입찰을 수행합니다.
+* 성능 지표도 균형 잡힌 경우(목표를 제외한 모든 목표) [!UICONTROL Lowest CPM])를 클릭한 다음 예측된 KPI를 입찰 금액에 혼합합니다. 따라서 &quot;Cost per&quot;를 기반으로 더 높은 성능을 기대할 수 있는 경매에 대해 높은 입찰을 수행합니다.
 
-* 지출이 속도보다 뒤처지면, DSP은 가격 민감성이 적고 입찰액이 [!UICONTROL Max Bid]까지 높아서 간격 계획과 일치된 수익률을 상쇄합니다.
+* 지출이 속도보다 뒤처지면, DSP은 더 적은 가격 민감성과 입찰이 더 많이 되어, [!UICONTROL Max Bid]이는 게재 간격 계획과 일치된 환율로 교환하기 위한 것이다.
 
 #### 가격/입찰 음영 지우기 {#clearing-price-balanced}
 
@@ -80,7 +80,7 @@ KPI를 달성하는 데 도움이 되는 최적화 목표를 결정하려면 [�
 >
 >사용 가능한 사전 입찰 필터는 광고 유형에 따라 다릅니다. 예를 들어 표준 디스플레이 배치의 경우 클릭스루 비율과 뷰가능 여부에 따라 필터링할 수 있지만 완료율은 필터링할 수 없습니다.
 
-KPI를 달성하는 데 도움이 되는 사전 입찰 필터를 결정하려면 [배치 수준 사전 입찰 필터 및 이 필터를 사용하는 방법](optimization-pre-bid-filters.md)을 참조하십시오.
+자세한 내용은 [배치 수준 사전 입찰 필터 및 사용 방법](optimization-pre-bid-filters.md) 를 입력하여 KPI를 달성하는 데 도움이 되는 사전 입찰 필터를 결정합니다.
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: Campaign Launch 검사 목록
 description: 캠페인을 시작하기 전에 필요한 작업을 알아봅니다.
 feature: DSP Placements, DSP Ads
 exl-id: bf0147d0-0b58-435d-a2de-5b98e0d3488c
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## 계정 자금조달
 
-계정에 전체 캠페인을 실행할 수 있는 충분한 크레딧이 있는지 확인합니다. 계정 자금은 [!UICONTROL Settings] > [!UICONTROL Account]에서 확인하거나 Adobe 계정 관리자에게 문의하여 다시 채울 수 있습니다.
+계정에 전체 캠페인을 실행할 수 있는 충분한 크레딧이 있는지 확인합니다. 계정 자금을 확인하고 다시 충전할 수 있습니다 [!UICONTROL Settings] > [!UICONTROL Account] 또는 [!DNL Adobe] 계정 관리자.
 
 ## 캠페인 상태
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 배치 상태
 
-배치 상태가 &quot;[!UICONTROL Active]&quot; 또는 &quot;[!UICONTROL Scheduled]&quot;인지 확인합니다. 또한 다른 배치 매개변수(예: 사이트 목록, 예산, 목표, 플라이트 날짜 및 빈도)가 올바른지 확인합니다.
+배치 상태가 &quot; 인지 확인합니다.[!UICONTROL Active]&quot; 또는 &quot;[!UICONTROL Scheduled].&quot; 또한 다른 배치 매개변수(예: 사이트 목록, 예산, 목표, 플라이트 날짜 및 빈도)가 올바른지 확인합니다.
 
 ## 광고 상태
 

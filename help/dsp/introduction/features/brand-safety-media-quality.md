@@ -3,9 +3,9 @@ title: 브랜드 안전 및 미디어 품질
 description: 브랜드 안전 및 미디어 품질 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: cebe80fa8ed4f6410a7ea3ee7be6e0bf03631a49
+source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 Advertising Cloud DSP은 각 캠페인이 브랜드에 안전한 환경에서 실제 사용자에게 도달하도록 하는 브랜드 보호 기능 세트를 제공합니다.
 
-Adobe의 사기 감시 팀은 [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)] 및 [!DNL WhiteOps]와 같은 업계 선도적인 파트너와 긴밀히 협력하여 플랫폼에서 인벤토리를 신중하게 조정하고 있습니다. DSP은 Adobe의 서비스 사전 관리를 통해 플랫폼의 모든 광고주가 인간이 아닌 트래픽(보트, 크롤러, 데이터 센터 트래픽 및 사기)으로부터 보호되고 안전한 컨텍스트에서만 게재되도록 합니다.
+Adobe의 사기 감시 팀은 [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)], 및 [!DNL WhiteOps]을 입력하여 플랫폼에서 인벤토리를 신중하게 조정할 수 있습니다. DSP은 Adobe의 서비스 사전 관리를 통해 플랫폼의 모든 광고주가 인간이 아닌 트래픽(보트, 크롤러, 데이터 센터 트래픽 및 사기)으로부터 보호되고 안전한 컨텍스트에서만 게재되도록 합니다.
 
-중앙 품질 관리를 제공하는 것 외에도 광고주가 자신의 브랜드에 맞는 컨트롤을 디자인할 수 있도록 권한을 부여하는 것이 좋습니다. Adobe Advertising Cloud은 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], [!DNL Oracle Data Cloud] 및 [!DNL Peer39]와의 통합을 제공하여 각 광고주가 원하는 수준의 사기 방지, 상황별 필터링 및 키워드 타깃팅을 선택할 수 있도록 합니다.
+중앙 품질 관리를 제공하는 것 외에도 광고주가 자신의 브랜드에 맞는 컨트롤을 디자인할 수 있도록 권한을 부여하는 것이 좋습니다. Adobe Advertising Cloud은 과의 통합을 제공합니다 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], [!DNL Oracle Data Cloud], 및 [!DNL Peer39]를 사용하여 각 광고주가 원하는 수준의 사기 방지, 상황별 필터링 및 키워드 타깃팅을 선택할 수 있도록 합니다.
 
 ## Advertising Cloud DSP 품질 이니셔티브
 
-### [!DNL Ads.txt] 지원을 통해 인벤토리 확인
+### 재고 확인 [!DNL Ads.txt] 지원
 
-[[!DNL Ads.txt], which stands for [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt) 이 계획은  [!DNL Interactive Advertising Bureau] ([!DNL IAB])가 2017년 6월에 공개 시장에서의 적절한 재고 표현을 용이하게 함으로써 불법 트래픽 및 도메인 스푸핑과 싸울 수 있도록 하기 위해 개시된다. 참여하는 게시자 및 배포자는 도메인 최상위 수준(예: `example.com/ads.txt`)에서 `ads.txt` 페이지를 유지 관리하여 디지털 인벤토리를 판매할 수 있는 회사 및 이러한 관계의 특성을 공개적으로 선언합니다.
+[[!DNL Ads.txt], which stands for [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt) 는 [!DNL Interactive Advertising Bureau] ([!DNL IAB])를 만들 수 있습니다. 참여하는 출판사 및 유통업체는 디지털 인벤토리를 판매할 수 있는 회사 및 이러한 관계의 특성을 `ads.txt` 페이지의 도메인 상단 수준(예: `example.com/ads.txt`).
 
-DSP은 각 게시자의 `ads.txt` 파일을 읽고 확인된 [!DNL ads.txt] 판매자에서만 구매할 수 있는 옵션을 제공하여 [!DNL ads.txt] 을 지원합니다. 예를 들어, `nytimes.com` 액세스를 New York Times의 `ads.txt` 파일에 액세스하는 판매자와 일치시킴으로써 우리는 어느 것이 합법적인지, 그리고 어떤 것이 아닌지를 식별할 수 있고, 배치가 검증된 판매자만을 구매하도록 구성된 경우 위반자를 차단합니다. <!-- can we actually mention NY Times? -->
+DSP 지원 [!DNL ads.txt] 각 게시자의 `ads.txt` 파일 및 확인된 파일에서만 구매할 수 있는 옵션 제공 [!DNL ads.txt] 판매자. 예를 들어, 표시되는 판매자와 연결하여 `nytimes.com` 뉴욕 타임즈에 `ads.txt` 파일에서는 어떤 것이 합법적이며 그렇지 않은지 식별할 수 있으며, 이 배치가 검증된 판매자만을 구매하도록 구성된 경우 위반자를 차단합니다. <!-- can we actually mention NY Times? -->
 
-각 광고주에 대해 기본 [!DNL ads.txt] 컨트롤을 설정한 다음 선택적으로 [각 배치](/help/dsp/campaign-management/placements/placement-settings.md)에 대한 설정을 다음 위치로 사용자 지정할 수 있습니다.<!-- [default ads.txt controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->
+기본값을 설정할 수 있습니다 [!DNL ads.txt] 각 광고주에 대한 컨트롤<!-- [default ads.txt controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, 및 원할 경우 [각 배치에 대한 설정 사용자 정의](/help/dsp/campaign-management/placements/placement-settings.md) 변환:
 
 * 도메인의 승인된 직접 판매자에서만 인벤토리 구매
 
@@ -40,9 +40,9 @@ DSP은 각 게시자의 `ads.txt` 파일을 읽고 확인된 [!DNL ads.txt] 판�
 
 ### 플랫폼 사기 감시
 
-DSP은 Adobe 플랫폼 전반에서 사기를 관리하기 위한 강력한 내부 도구 및 시스템을 구축했으며, [!DNL Whiteops] 및 [!DNL Integral Ad Science] 과 같은 주요 업계 공급업체와 파트너 관계를 맺고 있습니다.
+DSP은 플랫폼 전반에서 사기를 관리하기 위한 강력한 내부 도구 및 시스템을 구축했으며, 다음과 같은 주요 업계 공급업체와 파트너 관계를 맺고 있습니다 [!DNL Whiteops] 및 [!DNL Integral Ad Science].
 
-또한 Adobe은 [!DNL IAB] 및 [!DNL TAG]과 밀접하게 연동하여 Adobe의 광고주를 보호하기 위해 [!DNL ads.txt](이전 섹션 참조), [!DNL IAB] 보트 및 스파이더 목록, [!DNL TAG] 데이터 센터 IP 목록과 같은 도구를 활용합니다.
+또한 Adobe은 [!DNL IAB] 및 [!DNL TAG] 다음과 같은 도구를 활용하여 Adobe의 광고주를 보호하기 위한 강력한 업계 표준 사기 방지 [!DNL ads.txt] (이전 섹션 참조), [!DNL IAB] 보트 및 스파이더 목록, 및 [!DNL TAG] 데이터 센터 IP 목록입니다.
 
 품질에 대한 다차원 접근 방식을 통해 우리 팀은 예외 항목과 잘못된 트래픽 패턴을 모니터링하여 보호된 인벤토리에서 잘못된 트래픽을 3% 미만으로 보장합니다. 특정 도메인 또는 특정 게시자나 판매자의 인벤토리를 포함하여 의심스러운 모든 인벤토리는 플랫폼 전체에서 즉시 차단됩니다.
 
@@ -50,7 +50,7 @@ DSP은 Adobe 플랫폼 전반에서 사기를 관리하기 위한 강력한 내�
 
 인벤토리 매핑은 플랫폼에 추가되기 전에 모든 새로운 인벤토리에 필요한 세부 검토 및 온보딩 프로세스입니다. 이 프로세스는 DSP에 있는 모든 인벤토리의 안전과 품질을 보장하기 위해 설계되었습니다.
 
-* **매핑:** 재고 팀은 다음과 같은 측면을 평가하면서 각 도메인을 신중하게 검토합니다.
+* **매핑:** Adobe의 인벤토리 팀은 다음과 같은 측면을 평가하면서 각 도메인을 신중하게 검토합니다.
 
    * 브랜드 안전
 
@@ -58,7 +58,7 @@ DSP은 Adobe 플랫폼 전반에서 사기를 관리하기 위한 강력한 내�
 
    * 일반 컨텐츠, 중복 도메인 및 가짜 광고 서비스 제공
 
-* **계층화:** 전체 에코시스템의 브랜드 존재를 전체적으로 검사하여 여러 계층 간에 인벤토리를 분류합니다. [배치를 이러한 계층에 타겟팅하여 원하는 도달 범위를 지정할 수 있습니다.](/help/dsp/campaign-management/placements/placement-settings.md)
+* **계층화:** 전체 에코시스템의 브랜드 존재를 전체적으로 검사하여 여러 계층 간에 인벤토리를 분류합니다. 다음을 수행할 수 있습니다 [배치 타겟팅](/help/dsp/campaign-management/placements/placement-settings.md) 원하는 도달 범위 동안 다음 계층을 참조하십시오.
 
    * **[!UICONTROL T1]** - 브랜드 이름, 국제적으로 인식 가능한 사이트
 
@@ -66,7 +66,7 @@ DSP은 Adobe 플랫폼 전반에서 사기를 관리하기 위한 강력한 내�
 
    * **[!UICONTROL T3]** - 사용자가 생성한 콘텐츠와 니치 컨텐츠
 
-* **사이트 분류:** 쉬운 컨텐츠 타깃팅 및 차단을 위해 Adobe에서는 각 속성에 대한 컨텐츠를 기반으로 Advertising Cloud 정의 사이트 카테고리로 태그를 지정합니다. 배치 목표를 기준으로 각 배치에 대해 [이러한 사이트 카테고리를 타깃팅하거나 제외할 수 있습니다](/help/dsp/campaign-management/placements/placement-settings.md).
+* **사이트 분류:** 쉽게 컨텐츠를 타깃팅하고 차단할 수 있도록 Adobe에서는 각 속성에 속성 컨텐츠를 기반으로 Advertising Cloud 정의 사이트 카테고리에 태그를 지정합니다. 다음을 수행할 수 있습니다 [각 배치에 대해 이러한 사이트 카테고리를 타깃팅하거나 제외합니다](/help/dsp/campaign-management/placements/placement-settings.md) 배치 목표를 기반으로 합니다.
 
 ### 사이트 차단에 대한 종합적인 지원
 
@@ -82,57 +82,57 @@ Advertising Cloud DSP은 광고를 실행하기에 안전하지 않다고 간주
 
 #### 계정 수준 및 광고주 수준의 차단된 사이트 목록
 
-또한 사용자는 모든 배치에 자동으로 사용되는 계정 수준 및 광고주 수준의 차단된 사이트 목록<!-- [account-level and advertiser-level blocked sites lists](/help/dsp/admin/blocked-sites-list-edit.md) -->을 유지할 수 있습니다. 전역 차단 사이트 목록 외에 하위 차단 사이트 목록이 적용됩니다.
+사용자는 계정 수준 및 광고주 수준의 차단된 사이트 목록을 유지 관리할 수도 있습니다<!-- [account-level and advertiser-level blocked sites lists](/help/dsp/admin/blocked-sites-list-edit.md) -->: 모든 배치에 자동으로 사용됩니다. 전역 차단 사이트 목록 외에 하위 차단 사이트 목록이 적용됩니다.
 
 ## 타사 통합
 
 ### 컨텍스트 기반 필터링
 
-컨텍스트 기반 필터링을 사용하면 광고가 제공하는 페이지의 컨텍스트에 따라 광고 기회를 타깃팅하거나 차단할 수 있습니다. Adobe은 업계 선도적인 공급업체와의 통합을 통해 컨텍스트 기반의 필터링을 제공합니다. [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] 및 [!DNL Peer39]. 현재 필터의 예로는 [!UICONTROL Adult Content], [!UICONTROL Natural Disasters], [!UICONTROL Legal Drinking Age], [!UICONTROL MANGA], [!UICONTROL Epidemics] 및 [!UICONTROL G-rated Sites]가 있습니다.
+컨텍스트 기반 필터링을 사용하면 광고가 제공하는 페이지의 컨텍스트에 따라 광고 기회를 타깃팅하거나 차단할 수 있습니다. Adobe은 업계 선도적인 공급업체와의 통합을 통해 컨텍스트 기반의 필터링을 제공합니다. [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], 및 [!DNL Peer39]. 현재 필터의 예는 다음과 같습니다 [!UICONTROL Adult Content], [!UICONTROL Natural Disasters], [!UICONTROL Legal Drinking Age], [!UICONTROL MANGA], [!UICONTROL Epidemics], 및 [!UICONTROL G-rated Sites].
 
-각 광고주에 대한 기본 컨텍스트 필터 컨트롤을 설정한 다음 선택적으로 [각 배치](/help/dsp/campaign-management/placements/placement-settings.md)에 대한 설정을 사용자 지정할 수 있습니다. <!-- [default contextual filter controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> 이 기능을 사용하는 경우 추가 비용이 발생할 수 있습니다.
+각 광고주에 대한 기본 컨텍스트 필터 컨트롤을 설정할 수 있습니다<!-- [default contextual filter controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, 및 원할 경우 [각 배치에 대한 설정 사용자 정의](/help/dsp/campaign-management/placements/placement-settings.md). 이 기능을 사용하는 경우 추가 비용이 발생할 수 있습니다.
 
-![Comscore ](/help/dsp/assets/comscore-logo.png) ![로고DoubleVerify ](/help/dsp/assets/doubleverify-logo.png) ![로고Integral Ad Science ](/help/dsp/assets/ias-logo.png) ![로고Peer39 로고](/help/dsp/assets/peer39-logo.png)
+![Comscore 로고](/help/dsp/assets/comscore-logo.png) ![DoubleVerify 로고](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science 로고](/help/dsp/assets/ias-logo.png) ![Peer39 로고](/help/dsp/assets/peer39-logo.png)
 
 ### 입찰 전 사기 차단
 
-[!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] 및 [!DNL Peer39]와의 타사 통합을 활용하여 캠페인에서 비인적 트래픽을 차단하십시오. 이러한 통합은 캠페인에서 업계 선도적인 입찰 전 차단 기능을 제공하여 캠페인에서 일반적이고 복잡한 잘못된 트래픽(GVT 및 SIVT)을 모두 최소화합니다.
+과의 타사 통합 활용 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], 및 [!DNL Peer39] 캠페인에서 사람이 아닌 트래픽을 차단하려면 다음을 수행하십시오. 이러한 통합은 캠페인에서 업계 선도적인 입찰 전 차단 기능을 제공하여 캠페인에서 일반적이고 복잡한 잘못된 트래픽(GVT 및 SIVT)을 모두 최소화합니다.
 
-각 광고주에 대한 기본 입찰 전 차단 컨트롤을 설정한 다음 선택적으로 [각 배치](/help/dsp/campaign-management/placements/placement-settings.md)에 대한 설정을 사용자 지정할 수 있습니다. <!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> 이 기능을 사용하는 경우 추가 비용이 발생할 수 있습니다.
+각 광고주에 대한 기본 입찰 전 차단 컨트롤을 설정할 수 있습니다<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, 및 원할 경우 [각 배치에 대한 설정 사용자 정의](/help/dsp/campaign-management/placements/placement-settings.md). 이 기능을 사용하는 경우 추가 비용이 발생할 수 있습니다.
 
-기능에 대한 자세한 내용은 원하는 공급업체에 직접 문의하거나 Adobe 계정 관리자에게 문의하십시오.
+기능에 대한 자세한 내용은 원하는 공급업체에 직접 문의하거나 [!DNL Adobe] 계정 관리자.
 
-![Comscore ](/help/dsp/assets/comscore-logo.png) ![로고DoubleVerify ](/help/dsp/assets/doubleverify-logo.png) ![로고Integral Ad Science ](/help/dsp/assets/ias-logo.png) ![로고Peer39 로고](/help/dsp/assets/peer39-logo.png)
+![Comscore 로고](/help/dsp/assets/comscore-logo.png) ![DoubleVerify 로고](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science 로고](/help/dsp/assets/ias-logo.png) ![Peer39 로고](/help/dsp/assets/peer39-logo.png)
 
 ### 사전 입찰 뷰가능 {#pre-bid-viewability}
 
-업계 선도적인 파트너 [!DNL DoubleVerify], [!DNL Oracle Advertising]([!DNL Moat]) 및 [!DNL Integral Ad Science]에서 제공하는 사전 입찰 뷰가능 필터를 통해 광고주가 비디오 및 디스플레이 인벤토리에서 원하는 뷰가능 성능 목표를 달성하도록 할 수 있습니다.
+업계 선도적인 파트너가 제공하는 사전 입찰 뷰가능 필터 [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]) 및 [!DNL Integral Ad Science] 광고주가 비디오 및 디스플레이 인벤토리에서 원하는 뷰가능 성과 목표를 캠페인이 충족하도록 할 수 있습니다.
 
-각 광고주에 대한 기본 보기 가능 필터를 설정한 다음 선택적으로 [각 배치](/help/dsp/campaign-management/placements/placement-settings.md)에 대한 설정을 사용자 지정할 수 있습니다. <!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) --> 이 기능을 사용하는 경우 추가 비용이 발생할 수 있습니다.
+각 광고주에 대한 기본 뷰기능 필터를 설정할 수 있습니다<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, 및 원할 경우 [각 배치에 대한 설정 사용자 정의](/help/dsp/campaign-management/placements/placement-settings.md). 이 기능을 사용하는 경우 추가 비용이 발생할 수 있습니다.
 
-![DoubleVerify ](/help/dsp/assets/doubleverify-logo.png) ![로고Oracle Advertising ](/help/dsp/assets/oracle-advertising-logo.png) ![로고Integral Ad Science 로고](/help/dsp/assets/ias-logo.png)
+![DoubleVerify 로고](/help/dsp/assets/doubleverify-logo.png) ![Oracle 광고 로고](/help/dsp/assets/oracle-advertising-logo.png) ![Integral Ad Science 로고](/help/dsp/assets/ias-logo.png)
 
 ### 항목 타깃팅
 
-DSP 주제 타깃팅을 사용하면 업계를 선도하는 컨텍스트 파트너 [!DNL Comscore] 및 [!DNL Oracle Data Cloud]([!DNL Grapeshot])를 활용하여 키워드 목록을 타깃팅하거나 차단할 수 있습니다.
+DSP 주제 타깃팅을 사용하면 업계 선도적인 컨텍스트 파트너를 활용하여 키워드 목록을 타깃팅하거나 차단할 수 있습니다 [!DNL Comscore] 및 [!DNL Oracle Data Cloud] ([!DNL Grapeshot]).
 
 주제 타깃팅은 유해 컨텐츠를 차단하거나 더 큰 성과를 보장하는 컨텍스트에서 비용을 보장하는 등 브랜드에 맞는 환경에서 광고가 항상 제공되도록 하는 데 도움이 됩니다.
 
-주제 타깃팅을 사용하려면 [!DNL Comscore] 또는 [!DNL Grapeshot]([!DNL Oracle Data Cloud] 사용)로 직접 주제 세그먼트를 만들어야 합니다. 파트너 플랫폼에서 만들어진 후에는 각 배치](/help/dsp/campaign-management/placements/placement-settings.md)에 대해 [섹션에서 세그먼트 ID를 타깃팅하거나 제외할 수 있습니다. [!UICONTROL  Audience Targeting] 이 기능에 대한 추가 비용이 발생할 수 있습니다.
+주제 타깃팅을 사용하려면 [!DNL Comscore] 또는 [!DNL Grapeshot] (사용 [!DNL Oracle Data Cloud]). 파트너 플랫폼에서 만들고 나면 다음 작업을 수행할 수 있습니다 [에서 세그먼트 ID 타깃팅 또는 제외[!UICONTROL  Audience Targeting] 각 배치의 섹션](/help/dsp/campaign-management/placements/placement-settings.md). 이 기능에 대한 추가 비용이 발생할 수 있습니다.
 
-시작하려면 선호하는 공급업체 또는 Adobe 계정 관리자에게 문의하십시오.
+시작하려면 선호하는 공급업체 또는 고객에게 문의하십시오 [!DNL Adobe] 계정 관리자.
 
-![Comscore ](/help/dsp/assets/comscore-logo.png) ![로고그래픽 핫 로고](/help/dsp/assets/oracle-grapeshot-logo.png)
+![Comscore 로고](/help/dsp/assets/comscore-logo.png) ![그래픽 핫 로고](/help/dsp/assets/oracle-grapeshot-logo.png)
 
 ### [!DNL DoubleVerify Authentic Brand Safety]
 
-DSP은 [!DNL DoubleVerify]과 파트너 관계를 맺고 [!DNL Authentic Brand Safety] 타겟팅 솔루션을 제공합니다. 이를 통해 모든 구매 플랫폼에서 일관성을 위해 중앙 집중식 브랜드 안전 요구 사항 세트를 만들 수 있습니다.
+DSP은 [!DNL DoubleVerify] 그것을 제공하다 [!DNL Authentic Brand Safety] 타깃팅 솔루션: 일관성을 위해 모든 구매 플랫폼에서 타겟팅할 중앙 집중식 브랜드 안전 요구 사항 세트를 만들 수 있습니다.
 
-필요한 타깃팅으로 [!DNL DoubleVerify] 브랜드 안전 세그먼트를 구축한 후에는 DSP 내에서 사용하여 웹 환경에서 사전 입찰로 입찰 후 블록 규칙을 복제할 수 있습니다.
+다음을 빌드했으면 [!DNL DoubleVerify] 필요한 타깃팅이 있는 브랜드 안전 세그먼트를 DSP 내에서 사용하여 웹 환경에서 미리 입찰한 상태로 입찰 후 블록 규칙을 복제할 수 있습니다.
 
-각 광고주<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) -->에 대해 [!DNL DoubleVerify] 세그먼트 ID를 지정한 다음, 원할 경우 [각 배치에 대해 [!UICONTROL Authentic Brand Safety]을 활성화하거나 비활성화할 수 있습니다](/help/dsp/campaign-management/placements/placement-settings.md). DSP에서는 세그먼트 ID에 대한 사용을 위해 계정에 청구합니다.
+을(를) 지정할 수 있습니다 [!DNL DoubleVerify] 각 광고주의 세그먼트 ID<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, 및 원할 경우 [활성화 또는 비활성화 [!UICONTROL Authentic Brand Safety] 각 배치에 대해](/help/dsp/campaign-management/placements/placement-settings.md). DSP에서는 세그먼트 ID에 대한 사용을 위해 계정에 청구합니다.
 
-기능에 대한 자세한 내용은 [!DNL DoubleVerify] 직접 문의하거나 Adobe 계정 관리자에게 문의하십시오.
+기능에 대한 자세한 내용은 [!DNL DoubleVerify] 직접 또는 [!DNL Adobe] 계정 관리자.
 
 ![DoubleVerify 로고](/help/dsp/assets/doubleverify-logo.png)
 

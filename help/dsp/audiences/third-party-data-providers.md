@@ -3,9 +3,9 @@ title: Advertising Cloud DSP에서 사용 가능한 타사 데이터 공급자
 description: 사용 가능한 모든 타사 데이터 공급자 목록을 참조하십시오.
 feature: DSP Audiences
 exl-id: f67d81a0-bd31-48d8-9bcf-1888afd43894
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Advertising Cloud DSP에서 사용 가능한 타사 데이터 공급자
 
-다음 타사 데이터 공급자에 대한 데이터 카테고리 및 세그먼트는 [!DNL DSP]에서 배치 대상으로 사용할 수 있습니다. 이러한 세그먼트는 주로 미국 대상에 사용할 수 있습니다.
+다음 타사 데이터 공급자에 대한 데이터 카테고리 및 세그먼트를 의 배치 대상으로 사용할 수 있습니다. [!DNL DSP]. 이러한 세그먼트는 주로 미국 대상에 사용할 수 있습니다.
 
 배치 설정 및 저장된 대상 설정의 세그먼트 이름 옆에 각 세그먼트 사용 요금이 표시됩니다.
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 * [!DNL TruSignal]
 * [!DNL Weborama]
 
-계정의 사용자 지정 타사 세그먼트를 가져오는 방법에 대한 자세한 내용은 Adobe 계정 관리자에게 문의하십시오.
+계정의 사용자 지정 타사 세그먼트를 가져오는 방법에 대한 자세한 내용은 [!DNL Adobe] 계정 관리자.
 
 >[!MORELIKETHIS]
 >

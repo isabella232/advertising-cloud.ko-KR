@@ -3,16 +3,16 @@ title: 교차 장치 솔루션
 description: 교차 장치 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: 29f8ec41-35a6-4a29-a638-82a2929a8fe6
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
 
 # 교차 장치 솔루션
 
-Advertising Cloud DSP과 [!DNL LiveRamp] 및 [!DNL Adobe Device Co-op]의 통합을 사용하면 브랜드가 추적한 장치뿐만 아니라 사용자의 알려진 모든 장치로 대상을 확장할 수 있습니다. 또한 통합은 모든 장치에서 빈도 제한 및 속성 측정을 제공합니다.
+Advertising Cloud DSP과 통합 [!DNL LiveRamp] 및 [!DNL Adobe Device Co-op] 을(를) 사용하면 브랜드가 추적한 장치뿐만 아니라 사용자의 알려진 모든 장치로 대상을 확장할 수 있습니다. 또한 통합은 모든 장치에서 빈도 제한 및 속성 측정을 제공합니다.
 
 지원되는 사람 기반 장치 그래프를 사용하는 경우 다음을 수행할 수 있습니다.
 
@@ -33,7 +33,7 @@ Advertising Cloud DSP과 [!DNL LiveRamp] 및 [!DNL Adobe Device Co-op]의 통합
    * 쿠키 ID와 모바일 장치 ID 간에 범위를 제공합니다
    * 주로 미국에서 온 데이터를 포함합니다
    * 빈도 제한 및 속성 측정에 대해 무료입니다
-   * 확장된 노출 횟수(타깃팅된 대상 세그먼트 내에 있는 장치가 아닌 [!DNL LiveRamp] 장치 그래프를 사용해서만 전달되는 노출)에 대해 $0.35 CPM으로 가격이 책정되었습니다
+   * 확장 노출(를 사용해서만 전달되는 노출)에 대해 0.35CPM으로 가격이 책정되었습니다 [!DNL LiveRamp] 타깃팅된 대상 세그먼트 내에 있는 장치가 아닌 장치 그래프)
 
       요금은 당신의 계좌요율에 반영됩니다
 
@@ -43,15 +43,15 @@ Advertising Cloud DSP과 [!DNL LiveRamp] 및 [!DNL Adobe Device Co-op]의 통합
 
 ### 사용자 기반 빈도 관리 활성화
 
-* **캠페인:** 새 캠페인을 만들 때 설정을 지정할 수  [!UICONTROL Cross-Device Level] 있습니다. &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]&quot;을 활성화하고 장치 그래프를 선택합니다. 지정된 장치 그래프는 배치 수준에서 교차 장치 타깃팅과 캠페인, 패키지 및 배치 수준에서 사용자 기반 빈도 관리에 모두 사용됩니다. 주파수 캡은 사람의 알려진 모든 장치에 적용됩니다.
+* **캠페인:** 새 캠페인을 만들 때 [!UICONTROL Cross-Device Level] 설정 활성화 &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People],&quot;을 선택하고 장치 그래프를 선택합니다. 지정된 장치 그래프는 배치 수준에서 교차 장치 타깃팅과 캠페인, 패키지 및 배치 수준에서 사용자 기반 빈도 관리에 모두 사용됩니다. 주파수 캡은 사람의 알려진 모든 장치에 적용됩니다.
 
-자세한 내용은 [캠페인 설정](/help/dsp/campaign-management/campaigns/campaign-settings.md)을 참조하십시오.
+자세한 내용은 [캠페인 설정](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
-캠페인을 저장한 후에는 [!UICONTROL Cross Device Level] 설정을 변경할 수 없습니다.
+캠페인을 저장한 후에는 캠페인을 변경할 수 없습니다 [!UICONTROL Cross Device Level] 설정
 
-* **패키지:**  패키지 수준에서 추가 빈도 제한을 설정할 수도 있습니다(선택적). DSP은 캠페인 계층에서 가장 엄격한 빈도 제한을 준수합니다.
+* **패키지:**  패키지 수준에서 추가 빈도 캡을 선택적으로 설정할 수 있습니다. DSP은 캠페인 계층에서 가장 엄격한 빈도 제한을 준수합니다.
 
-* **배치:** 배치 수준에서 추가 빈도 캡을 선택적으로 설정할 수 있습니다. DSP은 캠페인 계층에서 가장 엄격한 빈도 제한을 준수합니다.
+* **배치:** 배치 레벨에서 추가 빈도 캡을 선택적으로 설정할 수 있습니다. DSP은 캠페인 계층에서 가장 엄격한 빈도 제한을 준수합니다.
 
 ## 사용자 기반 타겟팅
 
@@ -59,23 +59,23 @@ Advertising Cloud DSP과 [!DNL LiveRamp] 및 [!DNL Adobe Device Co-op]의 통합
 
 ### 사용자 기반 타겟팅 활성화
 
-* **캠페인:** 새 캠페인을 만들 때 설정을 지정할 수  [!UICONTROL Cross-Device Level] 있습니다. &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]&quot;을 활성화하고 장치 그래프를 선택합니다. 지정된 장치 그래프는 배치 수준에서 교차 장치 타깃팅과 사용자 기반 빈도 관리에 모두 사용됩니다.
+* **캠페인:** 새 캠페인을 만들 때 [!UICONTROL Cross-Device Level] 설정 활성화 &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People],&quot;을 선택하고 장치 그래프를 선택합니다. 지정된 장치 그래프는 배치 수준에서 교차 장치 타깃팅과 사용자 기반 빈도 관리에 모두 사용됩니다.
 
-자세한 내용은 [캠페인 설정](/help/dsp/campaign-management/campaigns/campaign-settings.md)을 참조하십시오.
+자세한 내용은 [캠페인 설정](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
-* **배치:** 지정된 장치 그래프를 사용하여 캠페인에서 배치에 대한 대상 대상을 선택할 때  [!UICONTROL Cross-Device Targeting] 옵션을 사용하면 지정된 세그먼트에 없는 장치라도 사용자의 알려진 모든 장치(캠페인 설정에 지정된 장치 그래프에 따라)에 대해 타깃팅을 확장할 수 있습니다.
+* **배치:** 지정된 장치 그래프를 사용하는 캠페인에서 배치에 대한 대상 대상을 선택하면 [!UICONTROL Cross-Device Targeting] 옵션을 사용하면 지정된 세그먼트에 없는 장치라도 개인의 알려진 모든 장치(캠페인 설정에 지정된 장치 그래프에 따라)에 걸쳐 타깃팅을 확장할 수 있습니다.
 
 ### 사용자 기반 타깃팅에 대한 보고 설정
 
 사용자 지정 보고서에 다음 지표를 포함할 수 있습니다.
 
-* **확장 노출 횟수:**  ( [!UICONTROL Build Your Report] >  [!UICONTROL Metrics] 의 섹션 [!UICONTROL Std. Metrics]에서) 장치 그래프(원래 대상 세그먼트 내에서 찾을 수 없음)를 활용하여 게재된 증분 노출 횟수. 이 지표는 타사 장치 그래프 사용과 관련된 적용 가능한 비용을 계산하는 데에도 사용됩니다.
+* **노출 횟수:** (에서 [!UICONTROL Build Your Report] 섹션 [!UICONTROL Metrics] > [!UICONTROL Std. Metrics]) 장치 그래프(원래 대상 세그먼트 내에서 찾을 수 없음)를 활용하여 전달되는 증분 노출 횟수입니다. 이 지표는 타사 장치 그래프 사용과 관련된 적용 가능한 비용을 계산하는 데에도 사용됩니다.
 
-   기간 동안 확장 노출 횟수를 판별하려면 [!UICONTROL Extended Impressions] 열을 포함하는 사용자 지정 보고서를 실행한 다음 총 확장 노출 횟수에 $0.00035($0.35/1000 노출 횟수)를 곱합니다.
+   기간 동안 확장된 노출 횟수의 비용을 결정하려면 를 포함하는 사용자 지정 보고서를 실행하십시오 [!UICONTROL Extended Impressions] 열을 선택한 다음 총 확장 노출 수에 $0.00035($0.35/1000 노출 횟수)를 곱합니다.
 
-   집계된 비용은 [!UICONTROL Billable Other Net Spend] 열([!UICONTROL Metrics] > [!UICONTROL Spend] 아래)에도 포함되어 있지만, 이 지표에는 사용자가 추가한 다른 캠페인 요금도 포함되어 있습니다.
+   총 비용은 또한 [!UICONTROL Billable Other Net Spend] 열(아래) [!UICONTROL Metrics] > [!UICONTROL Spend]) 포함되어 있을 수 있습니다.
 
-* **Device Graph:**  ( [!UICONTROL Build Your Report]  [!UICONTROL Dimensions] > 아래의 섹션 [!UICONTROL Campaign]) 특정 캠페인, 패키지 또는 배치에 대해 선택한 장치 그래프입니다.
+* **장치 그래프:** (에서 [!UICONTROL Build Your Report] 섹션 [!UICONTROL Dimensions] > [!UICONTROL Campaign]) 특정 캠페인, 패키지 또는 배치에 대해 선택한 장치 그래프입니다.
 
 ## 사용자 기반 속성 측정
 
@@ -85,13 +85,13 @@ Advertising Cloud DSP과 [!DNL LiveRamp] 및 [!DNL Adobe Device Co-op]의 통합
 
 ### 사용자 기반 속성 측정 활성화
 
-교차 장치 속성 측정을 활성화하려면 Adobe 계정 관리자에게 문의하십시오. [!DNL Adobe Device Co-op] 계정의 경우 서명된 [!DNL Adobe Device Co-op] 계약 및 Experience Cloud [!DNL Organization ID](이전의 [!DNL IMS org ID])를 제공해야 합니다.
+교차 장치 속성 측정을 활성화하려면 [!DNL Adobe] 계정 관리자. 대상 [!DNL Adobe Device Co-op] 계정, 서명된 [!DNL Adobe Device Co-op] 계약 및 Experience Cloud [!DNL Organization ID] (이전에는 [!DNL IMS org ID]).
 
 광고주 계정이 속성 측정에 장치 그래프를 사용하도록 구성되어 있는지 확인하려면:
 
-1. 주 메뉴에서 **[!UICONTROL Settings]>[!UICONTROL Advertiser]** 를 클릭합니다.
-1. 광고주 행 위에 커서를 놓고 **[!UICONTROL Edit]** 을 클릭합니다.
-1. 광고주 설정의 [!UICONTROL Integrations] 섹션에서 [!UICONTROL Cross-Device Attribution] 설정이 활성 상태인지 확인합니다.
+1. 주 메뉴에서 **[!UICONTROL Settings]>[!UICONTROL Advertiser]**.
+1. 광고주 행 위에 커서를 놓고 **[!UICONTROL Edit]**.
+1. 에서 [!UICONTROL Integrations] 광고주 설정의 섹션을 보려면 [!UICONTROL Cross-Device Attribution] 설정이 활성 상태입니다.
 
    활성 통합의 경우 장치 그래프가 표시됩니다.
 
@@ -99,17 +99,17 @@ Advertising Cloud DSP과 [!DNL LiveRamp] 및 [!DNL Adobe Device Co-op]의 통합
 
 #### 전환 보고서 설정
 
-장치 그래프가 속성 측정에 대해 활성화되면 [!UICONTROL Conversion] 보고서에는 [!UICONTROL Cross-Device Breakout] 설정이 포함되어 있으며, 이 설정을 사용하면 다음을 포함하여 각 전환 지표에 대해 최대 3개의 개별 열을 포함할 수 있습니다.
+속성 측정에 대해 장치 그래프가 활성화되면 [!UICONTROL Conversion] 보고서에는 [!UICONTROL Cross-Device Breakout] 설정 을 사용하면 다음을 포함하여 각 전환 지표에 대해 최대 3개의 개별 열을 포함할 수 있습니다.
 
-* &lt;>전환&#x200B;*> [!UICONTROL (tp)]: 동일한 장치 전환과 장치 간 전환(해당하는 경우)을 모두 포함하는 총 전환(총 사람)을 포함합니다.* 보고서에서 &quot;[!UICONTROL (tp)]&quot;은 전환 경로의 전환 지표 이름, 규칙 유형 및 변환 유형에 추가됩니다(예: &quot;Responses(le)(tl)(tp))).
+* &lt;*전환*>[!UICONTROL (tp)]: 동일한 장치 전환과 장치 간 전환(해당하는 경우)을 모두 포함하는 총 전환(총 사람)을 포함합니다. 보고서에서 &quot;[!UICONTROL (tp)]전환 경로의 전환 지표 이름, 규칙 유형 및 전환 유형에 추가됩니다(예: &quot;Responses(le)(tl)(tp))).
 
-* &lt;>전환&#x200B;*> [!UICONTROL (sd)]: (선택 사항) 전환 경로에서 단일 장치만 추적된 전환만 포함합니다.* 보고서에서 &quot;[!UICONTROL (sd)]&quot;은 전환 경로의 전환 지표 이름, 규칙 유형 및 변환 유형에 추가됩니다(예: &quot;Responses(le)(tl)(sd))).
+* &lt;*전환*>[!UICONTROL (sd)]: (선택 사항) 전환 경로에서 단일 장치만 추적된 전환만 포함합니다. 보고서에서 &quot;[!UICONTROL (sd)]전환 경로의 전환 지표 이름, 규칙 유형 및 전환 유형에 추가됩니다(예: &quot;Response(le)(tl)(sd))).
 
-* &lt;>전환&#x200B;*> [!UICONTROL (xd)]: (선택 사항) 전환 경로에서 두 개 이상의 장치가 추적된 전환만 포함합니다.* 보고서에서 &quot;[!UICONTROL (xd)]&quot;은 전환 경로의 전환 지표 이름, 규칙 유형 및 변환 유형에 추가됩니다(예: &quot;Responses(le)(tl)(xd))).
+* &lt;*전환*>[!UICONTROL (xd)]: (선택 사항) 전환 경로에서 두 개 이상의 장치가 추적된 전환만 포함합니다. 보고서에서 &quot;[!UICONTROL (xd)]전환 경로의 전환 지표 이름, 규칙 유형 및 전환 유형에 추가됩니다(예: &quot;응답(le)(tl)(xd))).
 
 #### 전환 보고서를 해석하는 방법
 
-장치 간([!UICONTROL (xd)]/[!UICONTROL (tl)])인 총 전환의 백분율을 높에서 낮이로 정렬하면 평균 이상의 장치 간 변환을 유도하는 것이 무엇인지 이해할 수 있습니다. 이를 통해 메시지 및 채널 투자를 사용자 행동에 맞추기 위해 광고 또는 타깃팅 전략을 알릴 수 있습니다.
+교차 장치([!UICONTROL (xd)]/[!UICONTROL (tl)])에서 높낮이로, 평균보다 높은 교차 장치 전환을 유도하는 작업을 이해할 수 있습니다. 이를 통해 메시지 및 채널 투자를 사용자 행동에 맞추기 위해 광고 또는 타깃팅 전략을 알릴 수 있습니다.
 
 * 패키지 - 가장 많은 총 전환을 유도하는 패키지와 높은 비율의 교차 장치 전환이 있는 패키지를 확인합니다. 따라서 초점을 맞춰야 하는 비용을 어디에 투입할 것인지 이해하는 데 도움이 됩니다.
 
