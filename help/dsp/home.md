@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 202b537dba5af3e8926584ae2d5df04df0763a70
+source-git-commit: 4e09e4afe0befb40518c847b99d35689ed2f87a8
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -50,3 +50,5 @@ ht-degree: 0%
 | 2020년 10월 15일 | 비공개 인벤토리 | 이제 모든 사용자는 기존 버전의 간소화된 새로운 거래 ID 양식을 사용하여 거래 ID 세부 사항을 설정하고 편집할 수 있습니다 [!UICONTROL Smart Ad Serving] 양식. 새 거래 ID 세부 사항을 설정하려면 다음 위치로 이동하십시오. [!UICONTROL Inventory] > [!UICONTROL Deals]를 클릭합니다. [!UICONTROL Create]를 클릭한 다음 [!UICONTROL Deal ID Beta]. | 참조:[수동으로 거래 ID 상세내역 생성](/help/dsp/inventory/deal-id-create.md)&quot; 및 &quot;[수동 거래 ID 설정](/help/dsp/inventory/deal-id-settings.md).&quot; |
 |  | 배치 예측 | 배치 수준 게재 간격이 있는 배치의 경우, [!UICONTROL Forecast] 배치 설정의 섹션에는 새 항목이 포함됩니다 [!UICONTROL Estimated Maximums] 섹션을 참조하십시오. | — |
 | 2020년 9월 2일 | 보고서 | 여러 DSP 계정이 있는 모든 조직은 조직의 요구 사항에 따라 사용자 지정 보고서에서 교차 계정 데이터를 선택적으로 활성화할 수 있습니다. | &quot;의 &quot;계정 간 보고&quot; 섹션을 참조하십시오.[사용자 지정 보고서 정보](/help/dsp/reports/report-about.md#cross-account-reporting).&quot; |
+
+{style=&quot;table-layout:auto&quot;}
