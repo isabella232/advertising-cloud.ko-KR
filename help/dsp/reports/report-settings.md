@@ -2,9 +2,9 @@
 title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: ff14691fd2b6fa56c303dca3ac0e4c897c322f72
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -107,11 +107,35 @@ ht-degree: 0%
 
 * *[!UICONTROL Event Timestamp]:* 전환은 지정된 규칙에 따라 결정된 대로 노출 또는 전환을 일으킨 클릭에 따라 보고됩니다 [!UICONTROL Attribution Rule Settings].
 
-## [!UICONTROL Add Email Recipients] 섹션
+## [!UICONTROL Add Report Destinations] 섹션
 
-**[!UICONTROL Email]:** 오류로 인해 보고서가 취소된 경우 완료된 보고서 또는 알림을 전송할 이메일 주소입니다. 여러 주소를 지정하려면 쉼표나 공백으로 구분합니다.
+**[!UICONTROL Destination Type]:** 다음 대상 유형 중 하나를 선택합니다.
 
-**[!UICONTROL Frequency]:** 보고서를 보내는 빈도: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, 또는 *[!UICONTROL Monthly]*.
+* *[!UICONTROL S3]:* 완료된 보고서를 하나 이상 보내려면 [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) 위치. **[!UICONTROL Destination Name]** 필드.
+* *[!UICONTROL sFTP]:* 완료된 보고서를 하나 이상의 SFTP 위치로 보내는 방법은 **[!UICONTROL Destination Name]** 필드.
+* *[!UICONTROL FTP]:* 완료된 보고서를 하나 이상의 FTP 위치로 보내는 방법은 **[!UICONTROL Destination Name]** 필드.
+* *[!UICONTROL FTP SSL](현재 베타 버전):* 완료된 보고서를 하나 이상의 FTP SSL 위치에 보내려면 **[!UICONTROL Destination Name]** 필드.
+* *[!UICONTROL Email]:* 오류로 인해 보고서가 취소된 경우 완료된 보고서나 알림을 전송할 이메일 주소를 지정하려면 여러 주소를 지정하려면 쉼표나 공백으로 구분합니다.
+
+>[!NOTE]
+>
+> 보고서를 저장한 후에는 대상 유형을 변경할 수 없습니다.
+
+**[!UICONTROL Destination Name]:** (S3, FTP, sFTP 및 FTP SSL 대상 유형만) 사용자 지정 보고서를 전송할 보고서 대상의 이름입니다.
+
+* 기존 대상을 지정하려면 목록에서 대상 이름을 선택합니다. 여러 대상 이름을 별도로 선택할 수 있습니다.
+
+* 새 대상을 만들려면 다음을 수행하십시오.
+
+   1. 클릭 **새 대상 추가**.
+
+   1. 을(를) 입력합니다. [보고서 대상 설정](/help/dsp/reports/report-destinations/report-destination-settings.md)를 클릭하고 **저장**.
+
+   1. 보고서 설정으로 돌아가서 **대상 이름을 새로 고칩니다.**
+
+      이제 기존 대상 목록에서 새 대상을 사용할 수 있으며, 선택적으로 보고서에 추가할 수 있습니다.
+
+**[!UICONTROL Frequency]:** (각 [!UICONTROL Destination Name] 보고서를 대상으로 보내는 빈도: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, 또는 *[!UICONTROL Monthly]*.
 
 ## [!UICONTROL Save Report] 섹션
 
@@ -129,5 +153,6 @@ ht-degree: 0%
 >* [사용자 지정 보고서 편집](/help/dsp/reports/report-edit.md)
 >* [사용자 지정 보고서 실행](/help/dsp/reports/report-run-now.md)
 >* [사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md)
+>* [보고서 대상 정보](/help/dsp/reports/report-destinations/report-destination-about.md)
 
 * [사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)

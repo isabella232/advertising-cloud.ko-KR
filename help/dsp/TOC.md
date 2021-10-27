@@ -8,9 +8,9 @@ user-guide-title: Advertising Cloud DSP 안내서
 user-guide-description: Advertising Cloud DSP을 사용하여 디스플레이 광고 전략을 관리, 최적화 및 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 851b3e5ebb6f6e8dcd6ea672c7220ed28f52dba4
+source-git-commit: b113d8337e5108ccc1a2ba99d23900bb1cb72cee
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '752'
 ht-degree: 3%
 
 ---
@@ -176,6 +176,12 @@ ht-degree: 3%
    + [사용자 지정 보고서 실행](/help/dsp/reports/report-run-now.md)
    + [사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md)
    + [사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)
+   + 보고서 대상 {#report-destinations}
+      + [정보 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
+      + [만들기 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+      + [편집 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
+      + [삭제 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+      + [[!UICONTROL Report Destination] 설정](/help/dsp/reports/report-destinations/report-destination-settings.md)
 + [Adobe Experience Cloud과 통합](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/home.html)<!-- Dupe link to this file, so need to use an absolute link in one of the listings -->
 + [고객 지원](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)
 + [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
