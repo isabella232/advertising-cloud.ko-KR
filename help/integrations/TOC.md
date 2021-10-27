@@ -3,9 +3,9 @@ user-guide-title: Adobe Experience Cloud과 통합
 user-guide-description: 다른 Adobe Experience Cloud 제품 및 서비스와의 Advertising Cloud DSP 및 Advertising Cloud Search 통합에 대해 알아봅니다.
 breadcrumb-title: Experience Cloud과 통합
 index: true
-source-git-commit: a4c8c2e0d50442e872b48577bde9c3fae7da18d5
+source-git-commit: 1d960a0bf052d347b3f55d522c7276806492fa03
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
       + [Analysis Workspace의 Advertising Cloud 지표](/help/integrations/analytics/advertising-cloud-metrics-in-analytics.md)
       + [[!DNL Analytics] Advertising Cloud의 데이터](/help/integrations/analytics/analytics-data-in-advertising-cloud.md)
       + [다음 사이 예상되는 데이터 분산 [!DNL Analytics] 및 Advertising Cloud](/help/integrations/analytics/data-variances.md)
-   + 작업 [!DNL Analytics Marketing Channels]] {#mc}
+   + 작업 [!DNL Analytics Marketing Channels] {#mc}
       + [기본 사항 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-overview.md)
       + [Advertising Cloud ID를 사용하여 만들기 [!DNL Marketing Channels] 처리 규칙](/help/integrations/analytics/marketing-channels/mc-ids.md)
       + [사용 [!DNL Marketing Channels] Advertising Cloud 데이터 사용](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
