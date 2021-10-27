@@ -3,9 +3,9 @@ title: 용 JavaScript 코드 [!DNL Analytics for Advertising Cloud]
 description: 용 JavaScript 코드 [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 184508ce-df8d-4fa0-b22b-ca0546a61d58
-source-git-commit: 26709071be0fffb43bb3fa4666c6fa52229ad5be
+source-git-commit: 594854f27d6a451167c90116b640781bbea11b63
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Advertising Cloud DSP의 경우 [!DNL Analytics for Advertising Cloud] 통합은 뷰스루 및 클릭스루 사이트 상호 작용을 추적합니다. 클릭스루 방문은 웹 페이지의 표준 Adobe Analytics 코드로 추적됩니다. a [!DNL Analytics] 코드는 랜딩 페이지 URL에서 AMO ID 및 EF ID 매개 변수를 캡처하고 각각 예약된 eVar에서 추적합니다. 웹 페이지에서 두 줄의 JavaScript 코드를 배포하여 뷰스루 방문을 추적할 수 있습니다.
 
-사이트 방문의 첫 번째 페이지 보기에서 Advertising Cloud JavaScript 코드는 방문자가 이전에 광고를 보거나 클릭했는지 확인합니다. 사용자가 이전에 클릭스루를 통해 사이트에 들어갔거나 광고를 보지 않은 경우 방문자는 무시됩니다. 방문자가 광고를 보고 [전환 확인 기간 을 클릭합니다.](/help/integrations/analytics/prerequisites.md#lookback-a4adc) Advertising Cloud 내에서 설정한 다음 Advertising Cloud JavaScript 코드는 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 추가 ID를 생성하려면`SDID`). Advertising Cloud의 데이터를 방문자의 Adobe Analytics 히트에 연결하는 데 사용됩니다. 그런 다음 Adobe Analytics은 Advertising Cloud에서 광고 노출과 관련된 AMO ID 및 EF ID를 쿼리합니다. 그러면 AMO ID 및 EF ID가 해당 eVar에서 채워집니다. 이 값은 지정된 기간(기본적으로 60일) 동안 지속됩니다.
+사이트 방문의 첫 번째 페이지 보기에서 Advertising Cloud JavaScript 코드는 방문자가 이전에 광고를 보거나 클릭했는지 확인합니다. 사용자가 이전에 클릭스루를 통해 사이트에 들어갔거나 광고를 보지 않은 경우 방문자는 무시됩니다. 방문자가 광고를 보고 [전환 확인 기간 을 클릭합니다.](/help/integrations/analytics/prerequisites.md#lookback-a4adc) Advertising Cloud 내에서 설정한 다음 Advertising Cloud JavaScript 코드 또는 a)는 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 추가 ID를 생성하려면`SDID`) 또는 b) Adobe Experience Platform 사용 [!DNL Web SDK] 생성하다 `[!DNL StitchID]`. 두 ID는 Advertising Cloud의 데이터를 방문자의 Adobe Analytics 히트에 연결하는 데 사용됩니다. 그런 다음 Adobe Analytics은 Advertising Cloud에서 광고 노출과 관련된 AMO ID 및 EF ID를 쿼리합니다. 그러면 AMO ID 및 EF ID가 해당 eVar에서 채워집니다. 이 값은 지정된 기간(기본적으로 60일) 동안 지속됩니다.
 
 [!DNL Analytics] 사이트 트래픽 지표(페이지 보기 수, 방문 및 체류 시간 등)와 [!DNL Analytics] 사용자 지정 또는 표준 이벤트를 Advertising Cloud 시간별로 사용하고 EF ID를 키로 사용합니다. 다음 [!DNL Analytics] 그런 다음 지표를 Advertising Cloud 속성 시스템을 통해 실행하여 전환을 클릭 및 노출 내역에 연결합니다.
 
@@ -36,7 +36,7 @@ JavaScript 라이브러리는 [!DNL Analytics] 및 Advertising Cloud이 서로 �
 
 ### 코드를 배치할 위치
 
-다음 [!DNL Analytics for Advertising Cloud] JavaScript 함수는 Experience Cloud ID 서비스 뒤에 와야 하며, 보조 ID(`SDID`)은 Analytics 호출에 포함할 수 있습니다.
+다음 [!DNL Analytics for Advertising Cloud] JavaScript 함수는 Experience Cloud ID 서비스 뒤에 와야 하며, 보조 ID(`SDID`) 또는 `[!DNL StitchID]` Analytics 호출에 포함할 수 있습니다.
 
 ![코드 배치](/help/integrations/assets/a4adc-code-placement.png)
 
@@ -80,7 +80,7 @@ JavaScript 라이브러리는 [!DNL Analytics] 및 Advertising Cloud이 서로 �
 1. 로 이동합니다. [!UICONTROL Network] 탭.
 1. 에서 [!UICONTROL Solutions Filter] 도구 모음 [!UICONTROL Advertising Cloud] 및 [!UICONTROL Analytics].
 1. 에서 [!UICONTROL Request URL – Hostname] 매개 변수 행, 찾기 `lasteventf-tm.everesttech.net`.
-1. 에서 [!UICONTROL Request – Parameters*] 행의 3단계와 유사하게 생성된 신호를 감사하십시오.[로 코드를 확인하는 방법 [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
+1. 에서 [!UICONTROL Request – Parameters] 행의 3단계와 유사하게 생성된 신호를 감사하십시오.[로 코드를 확인하는 방법 [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
    * 다음을 확인합니다. `SDID` 매개 변수와 일치함 `Supplemental Data ID` ( Adobe Analytics 필터) 아래에 그룹화됩니다.
    * 코드가 생성되지 않으면 Advertising Cloud 쿠키가 [!UICONTROL Application] 탭. 페이지가 제거되면 페이지를 새로 고침하고 프로세스를 반복합니다.
 

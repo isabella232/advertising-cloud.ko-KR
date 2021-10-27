@@ -3,9 +3,9 @@ title: 구현을 위한 사전 요구 사항 및 주요 정보 [!DNL Analytics f
 description: 구현을 위한 사전 요구 사항 및 주요 정보 [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: bfbfc293ad04b294c813ce7c8a11200e70fc812f
+source-git-commit: 688aece01640647a61df730cbe464597b476b033
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,15 @@ Advertising Cloud을 Adobe Analytics과 통합하기 전에 다음 정보를 검
 
 ## 의 Advertising Cloud 데이터 보고를 위한 요구 사항 [!DNL Analytics]
 
-* Experience Cloud ID 서비스: `visitorAPI.js` 버전 2.0 이상
+* 다음 중 하나를 수행합니다.
+   * Adobe Experience Platform 웹 SDK: `alloy.js`
+   * Experience Cloud ID 서비스: `visitorAPI.js` 버전 2.0 이상
 * 모든 버전의 Adobe Analytics(포함) [!DNL Prime], [!DNL Premium], 또는 [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` 버전 2.1 이상
 
 >[!TIP]
 >
->데이터 품질을 개선하려면 CNAME을 지원하는 최신 버전의 Experience Cloud ID 서비스와 JavaScript용 Analytics AppMeasurement 최신 버전을 사용하십시오.
+>데이터 품질을 개선하려면 각 라이브러리의 최신 버전을 사용하십시오.
 
 ## Advertising Cloud과 Analytics 세그먼트 공유를 위한 요구 사항
 
