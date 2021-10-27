@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: aa451d4bb9005cf5fd790bc3bac2a8da5b031aff
+source-git-commit: 202b537dba5af3e8926584ae2d5df04df0763a70
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 0%
@@ -23,8 +23,8 @@ ht-degree: 0%
 | 2021년 10월 27일 | 사용자 지정 보고서 | 이제 만들고 관리할 수 있습니다 [!DNL Amazon S3] 및 라는 다양한 유형의 FTP 배달 위치 *[!DNL report destinations]*: 사용자 지정 보고서에 사용할 수 있습니다. 보고서 대상을 구성하면, 단일 대상 유형의 하나 이상의 위치 또는 이메일 수신자에게 전달되도록 각 새로운 사용자 지정 보고서를 설정할 수 있습니다. 업데이트 [!DNL Amazon S3] 및 FTP 자격 증명은 보고서 전달을 방해하지 않습니다.<br><br>기존 보고서는 여전히 지정된 전자 메일 수신자에게 전송됩니다. 다른 보고서 대상에 전달을 구성하려면 새 대상을 사용하여 새 보고서를 만듭니다. | 참조:[정보 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md),&quot; &quot;[만들기 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md),&quot; &quot;[[!UICONTROL Report Destination] 설정](/help/dsp/reports/report-destinations/report-destination-settings.md),&quot; 및 &quot;[사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md).&quot; |
 |  | [!UICONTROL Packages], [!UICONTROL Placements], 및 [!UICONTROL Ads] 보기 | 이제 하루에 대한 데이터를 볼 때 트렌드 차트에 시간별 데이터가 포함됩니다. 커서를 아무 지점이나 눌러 해당 시간의 데이터를 확인합니다. | 참조:[단일 캠페인 보고](/help/dsp/campaign-management/reports/campaign-reports-about.md#single-campaign-reporting).&quot; |
 |  | 배치 | 배치 [!UICONTROL Inspector] 이제 에 가 포함됩니다 [!UICONTROL Inventory] 탭에 배치에 대한 모든 거래 및 관련 지표가 표시됩니다. 사용자 지정 보고서를 생성하지 않고 정보를 사용하여 문제를 빠르게 조정하거나 해결할 수 있습니다. | 참조:[배치 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md#placement-inspector).&quot; |
-|  | [!UICONTROL Ads] | (광고에 Clearcastclock 번호를 포함할 권한이 있는 사용자) 다른 광고에 첨부된 시계 번호를 사용하는 경우 DSP에 오류가 더 이상 표시되지 않습니다. **참고**  가장 좋은 방법은 각 비디오 광고에 고유한 시계 번호를 사용하는 것입니다. 그렇지 않으면 게시자가 모든 광고를 승인하지 않습니다. | — |
-|  | [!UICONTROL Deal IDs] | 다음 [!UICONTROL Deal ID] 사용자 인터페이스의 설정 및 기타 위치는 다음에 대한 새 브랜딩을 반영합니다. [!DNL Magnite] SSP:<ul><li>SSP &quot;[!DNL Tremor]&quot; ([!DNL Telaria])가 이제 &quot;&quot;가 됩니다.[!DNL Magnite CTV].&quot;</li><li>몇 주 후에 [!DNL Rubicon]&quot; 은(는) &quot;[!DNL Magnite DV+],&quot; 위치 [!DNL DV+] 디스플레이, 비디오 및 오디오와 같은 기타 형식을 나타냅니다.</li></ul> | 참조:[SSP 파트너](/help/dsp/inventory/ssp-partners.md).&quot; |
+|  | [!UICONTROL Ads] | (광고에 Clearcastclock 번호를 포함할 권한이 있는 사용자) 다른 광고에 첨부된 시계 번호를 사용하는 경우 DSP에 오류가 더 이상 표시되지 않습니다. **참고:**  가장 좋은 방법은 각 비디오 광고에 고유한 시계 번호를 사용하는 것입니다. 그렇지 않으면 게시자가 모든 광고를 승인하지 않습니다. | — |
+|  | [!UICONTROL Deal IDs] | 다음 [!UICONTROL Deal ID] 사용자 인터페이스의 설정 및 기타 위치는 다음에 대한 새 브랜딩을 반영합니다. [!DNL Magnite] SSP:<br><ul><li>SSP &quot;[!DNL Tremor]&quot; ([!DNL Telaria])가 이제 &quot;&quot;가 됩니다.[!DNL Magnite CTV].&quot;</li><li>몇 주 후에 [!DNL Rubicon]&quot; 은(는) &quot;[!DNL Magnite DV+],&quot; 위치 [!DNL DV+] 디스플레이, 비디오 및 오디오와 같은 기타 형식을 나타냅니다.</li></ul> | 참조:[SSP 파트너](/help/dsp/inventory/ssp-partners.md).&quot; |
 |  | [!DNL Freewheel] 프로그램 보장 거래 | 이제 광고 상태를 찾을 수 있습니다 [!DNL Freewheel] 프로그램 방식으로 보장되는 거래 [!UICONTROL Ads] 보기. 이전에는 [!UICONTROL Deals] 보기. | 참조:[광고 상태 확인 [!DNL Freewheel] 프로그램 방식의 보장 거래](/help/dsp/inventory/freewheel-check-status.md).&quot; |
 | 2021년 10월 7일 | 도움말 | 모두 [DSP 및 기타 Advertising Cloud 설명서](https://experienceleague.adobe.com/docs/advertising-cloud.html) on [!DNL Experience League] 이제 모든 언어로 번역된 기계입니다. 표시된 언어를 변경하려면 페이지의 왼쪽 하단에 있는 &quot;언어 변경&quot; 메뉴를 사용합니다.<br>![언어 변경](/help/dsp/assets/change-language.png) |
 | 2021년 9월 30일 | 브랜드 안전 | (22 9월 릴리스) [!DNL DoubleVerify] 브랜드 안전 사전 입찰 제품이 [!DNL Brand Suitability Tiers]: 광고주가 특정 항목의 모든 인스턴스를 피하지 않고 특정 세그먼트에 대해 세 가지 위험 수준(낮음, 중간, 높음) 중에서 선택할 수 있도록 합니다. 이전에는 세그먼트에 허용치 레벨이 포함되지 않았습니다.<br><br>새 [!DNL DoubleVerify] 세그먼트 구조, DSP에서 기존 브랜드 안전 세그먼트를 새롭고 권장되는 세그먼트로 마이그레이션했습니다. *중간*-level 세그먼트. 선택적으로 세그먼트 계층을 *낮음* 또는 *높음*.<br><br>**참고:** 작은 세그먼트 목록에는 계층이 없지만 &quot;Incentized/Spyware/Malware,Warz&quot; > Incentized/Malware/Clutter&quot;와 같은 새로운 이름이 있습니다. | — |
