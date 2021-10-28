@@ -2,7 +2,7 @@
 title: 고급 측정 솔루션
 description: 고급 측정에 사용할 수 있는 솔루션 목록을 참조하십시오.
 exl-id: 1a8b76ee-d38d-4ee4-981b-e29497fa4095
-source-git-commit: b4976cdce6b4d5870c5cc3a1a09c1b5545cd3200
+source-git-commit: 927fd18c39ff93fae6222c0376cbe41810c06ca2
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -93,4 +93,4 @@ ht-degree: 0%
 
 ## 추가 정보
 
-의 모든 측정 오퍼에 대한 정보 [!DNL Strategic Advertising Consulting], 가격 정보 및 각 솔루션에 대한 사용 가능한 형식 및 지역에 대한 개요를 알려면 고객 성공 관리자에게 문의하십시오. 요청 시 솔루션별 사례 연구 도 이용할 수 있습니다.
+각 솔루션에 대한 사용 가능한 형식 및 지역뿐 아니라 가격 정보에 대한 개요를 제공하는 모든 고급 측정 솔루션에 대한 자세한 내용은 [!DNL Adobe] 고객 성공 관리자 를 참조하십시오. 요청 시 솔루션별 사례 연구 도 이용할 수 있습니다.
