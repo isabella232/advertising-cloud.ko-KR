@@ -3,9 +3,9 @@ title: PG 거래에 대한 광고 제출 대상 [!DNL FreeWheel]
 description: FreeWheel의 게시자와 프로그래밍 방식으로 보장되는 거래를 위한 광고 승인을 요청하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: null
-source-git-commit: c2caed80f0afc0cbe3572d01dc2c89f13ed13712
+source-git-commit: 1f485caddf4d28fd19667a8f2a54538ec7fa8275
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -18,43 +18,30 @@ ht-degree: 0%
 
 >[!PREREQUISITES]
 >
->작업 [!DNL Adobe] 계정 팀: [!DNL DSP] 계정에 사용할 수 있는 권한이 있습니다. [!DNL FreeWheel] 프로그래밍 방식으로 보장되는 워크플로우입니다.
+>Adobe 계정 팀과 협력하여 [!DNL DSP] 계정에 사용할 수 있는 권한이 있습니다. [!DNL FreeWheel] 프로그래밍 방식으로 보장되는 워크플로우입니다.
 
-## 와 함께 사용할 광고 키 복사 [!DNL FreeWheel] 거래 {#copy-ad-key}
+1. FreeWheel 거래와 함께 사용되는 광고의 광고 키를 복사합니다.
 
-1. 캠페인 이름을 클릭합니다.
+   1. 캠페인 이름을 클릭합니다.
 
-1. 하위 메뉴에서 **[!UICONTROL Ads]**.
+   1. 하위 메뉴에서 **[!UICONTROL Ads]**.
 
-1. 클릭  **[!UICONTROL ...]>[!UICONTROL Edit]** 광고 이름 옆에 표시됩니다.
+   1. 클릭  **[!UICONTROL ...]>[!UICONTROL Edit]** 광고 이름 옆에 표시됩니다.
 
-1. 광고 설정이 열리면 브라우저의 주소 표시줄에 표시되는 URL에 영숫자 광고 키를 복사합니다.
+   1. 광고 설정이 열리면 브라우저의 주소 표시줄에 표시되는 URL에 영숫자 광고 키를 복사합니다.
 
-예를 들어 다음 URL에서 광고 키는 다음과 같습니다 `3NtNC5ZbaGZtqbei8jD3`
+      예를 들어 다음 URL에서 광고 키는 다음과 같습니다 `3NtNC5ZbaGZtqbei8jD3`
 
-`https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads`
+      `https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads`
 
-## 에서 광고 제출 [!UICONTROL Ads] 보기
+1. FreeWheel에 광고를 제출합니다.
 
-1. [광고 키 복사](#copy-ad-key).
+   1. 다음 중 하나를 수행합니다.
 
-1. 광고 이름 옆에 있는 를 클릭합니다.  **[!UICONTROL ...]>[!UICONTROL submit to FreeWheel]**.
+      * 광고 이름 옆에 있는 를 클릭합니다.  **[!UICONTROL ...]>[!UICONTROL submit to FreeWheel]**.
 
-1. 거래 ID를 확인하고 를 입력합니다. [a **[!UICONTROL Ad Key]**](#copy-ad-key)를 클릭한 다음&#x200B;**[!UICONTROL Submit]**.
-
-   광고가 실행되기 전에 광고를 제출하고 승인해야 합니다.
-
-1. [광고 제출 상태를 확인합니다](freewheel-check-status.md).
-
-## 에서 광고 제출 [!UICONTROL Deals] 보기
-
-1. [광고 키 복사](#copy-ad-key).
-
-1. 주 메뉴에서 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
-
-1. 거래 행에서 ![옵션 메뉴](/help/dsp/assets/options-menu.png) **>[!UICONTROL submit to FreeWheel]**.
-
-1. 거래 ID를 확인하고 를 입력합니다. [a **[!UICONTROL Ad Key]**](#copy-ad-key)를 클릭한 다음&#x200B;**[!UICONTROL Submit]**.
+      * 주 메뉴에서 **[!UICONTROL Inventory]> [!UICONTROL Deals].** 1. 거래 행에서 ![옵션 메뉴](/help/dsp/assets/options-menu.png) **>[!UICONTROL submit to FreeWheel]**.
+   1. 거래 ID를 확인하고 를 입력합니다. **[!UICONTROL Ad Key]** 1단계에서 복사한 다음 **[!UICONTROL Submit]**.
 
    광고가 실행되기 전에 광고를 제출하고 승인해야 합니다.
 
