@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: e758e4e7cbe4c4fa0fd7e7e82e6e4e167a8ef37a
+source-git-commit: a0619f77aac5e6c527fc344570bbcedf17dcfe36
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 |  | [!UICONTROL Placements] | 배치 [!UICONTROL Inspector] 이제 에 가 포함됩니다 [!UICONTROL Inventory] 탭에 배치에 대한 모든 거래 및 관련 지표가 표시됩니다. 사용자 지정 보고서를 생성하지 않고 정보를 사용하여 문제를 빠르게 조정하거나 해결할 수 있습니다. | 참조:[배치 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md#placement-inspector).&quot; |
 |  | [!UICONTROL Ads] | (광고에 Clearcastclock 번호를 포함할 권한이 있는 사용자) 다른 광고에 첨부된 시계 번호를 사용하는 경우 DSP에 오류가 더 이상 표시되지 않습니다. **참고:**  가장 좋은 방법은 각 비디오 광고에 고유한 시계 번호를 사용하는 것입니다. 그렇지 않으면 게시자가 모든 광고를 승인하지 않습니다. | — |
 |  | [!UICONTROL Deal IDs] | 다음 [!UICONTROL Deal ID] 사용자 인터페이스의 설정 및 기타 위치는 다음에 대한 새 브랜딩을 반영합니다. [!DNL Magnite] SSP:<br><ul><li>SSP &quot;[!DNL Tremor]&quot; ([!DNL Telaria])가 이제 &quot;&quot;가 됩니다.[!DNL Magnite CTV].&quot;</li><li>몇 주 후에 [!DNL Rubicon]&quot; 은(는) &quot;[!DNL Magnite DV+],&quot; 위치 [!DNL DV+] 디스플레이, 비디오 및 오디오와 같은 기타 형식을 나타냅니다.</li></ul> | 참조:[SSP 파트너](/help/dsp/inventory/ssp-partners.md).&quot; |
-|  | [!DNL Freewheel] 프로그램 보장 거래 | 이제 광고 상태를 찾을 수 있습니다 [!DNL Freewheel] 프로그램 방식으로 보장되는 거래 [!UICONTROL Ads] 보기. 이전에는 [!UICONTROL Deals] 보기. | 참조:[광고 상태 확인 [!DNL Freewheel] 프로그램 방식의 보장 거래](/help/dsp/inventory/freewheel-check-status.md).&quot; |
+|  | [!DNL Freewheel] 프로그램 보장 거래 | 이제 광고를 제출하고 광고 상태를 확인할 수 있습니다 [!DNL Freewheel] 프로그램 방식으로 보장되는 거래 [!UICONTROL Ads] 보기. 이전에는 [!UICONTROL Deals] 보기. | 참조:[광고 상태 확인 [!DNL Freewheel] 프로그램 방식의 보장 거래](/help/dsp/inventory/freewheel-check-status.md).&quot; |
 | 2021년 10월 7일 | 도움말 | 모두 [DSP 및 기타 Advertising Cloud 설명서](https://experienceleague.adobe.com/docs/advertising-cloud.html) on [!DNL Experience League] 이제 모든 언어로 번역된 기계입니다. 표시된 언어를 변경하려면 페이지의 왼쪽 하단에 있는 &quot;언어 변경&quot; 메뉴를 사용합니다.<br>![언어 변경](/help/dsp/assets/change-language.png) |
 | 2021년 9월 30일 | 브랜드 안전 | (22 9월 릴리스) [!DNL DoubleVerify] 브랜드 안전 사전 입찰 제품이 [!DNL Brand Suitability Tiers]: 광고주가 특정 항목의 모든 인스턴스를 피하지 않고 특정 세그먼트에 대해 세 가지 위험 수준(낮음, 중간, 높음) 중에서 선택할 수 있도록 합니다. 이전에는 세그먼트에 허용치 레벨이 포함되지 않았습니다.<br><br>새 [!DNL DoubleVerify] 세그먼트 구조, DSP에서 기존 브랜드 안전 세그먼트를 새롭고 권장되는 세그먼트로 마이그레이션했습니다. *중간*-level 세그먼트. 선택적으로 세그먼트 계층을 *낮음* 또는 *높음*.<br><br>**참고:** 작은 세그먼트 목록에는 계층이 없지만 &quot;Incentized/Spyware/Malware,Warz&quot; > Incentized/Malware/Clutter&quot;와 같은 새로운 이름이 있습니다. | — |
 |  | 최적화 | 다음 최적화 목표 및 사전 입찰 필터는 더 이상 사용되지 않습니다.<ul><li>최적화 목표:<ul><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – GroupM)]</li><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – MRC)]</li></ul><li>사전 입찰 필터 목표:<ul><li>[!UICONTROL Viewability IAS]</li><li>[!UICONTROL Viewability Moat]</li></ul></ul> | 참조:[최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md)&quot; 및 &quot;[배치 수준 사전 입찰 필터 및 사용 방법](/help/dsp/optimization/optimization-pre-bid-filters.md).&quot; |

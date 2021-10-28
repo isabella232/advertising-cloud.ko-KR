@@ -3,9 +3,9 @@ title: 광고 상태 확인 [!DNL [!DNL FreeWheel]] PG 거래
 description: 광고 상태를 찾는 방법을 알아봅니다. [!DNL Freewheel] 프로그램 방식으로 보장되는 거래.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: null
-source-git-commit: 07b964aca7f634a29342e4d09a5e5352570f4d79
+source-git-commit: a0619f77aac5e6c527fc344570bbcedf17dcfe36
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -48,8 +48,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [FreeWheel에서 프로그래밍 방식 보장 거래 설정 개요](freewheel-overview.md)
->* [FreeWheel에 프로그램 방식으로 보장되는 거래를 위한 광고 제출](freewheel-submit.md)
->* [FreeWheel 광고 제출 오류 코드](freewheel-error-codes.md)
+>* [프로그램 보장 거래 설정 개요 [!DNL Freewheel]](freewheel-overview.md)
+>* [프로그래밍 방식의 보장 거래에 대한 광고를 제출합니다. [!DNL Freewheel]](freewheel-submit.md)
+>* [에 대한 오류 코드 [!DNL Freewheel] 광고 제출](freewheel-error-codes.md)
 >* [거래 ID 받은 편지함에서 거래 수락](deal-id-inbox-accept.md)
 

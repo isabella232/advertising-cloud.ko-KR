@@ -3,9 +3,9 @@ title: 에 대한 오류 코드 [!DNL FreeWheel] 광고 제출
 description: 광고 제출을 위해 반환되는 오류 코드를 참조합니다. [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: null
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: a0619f77aac5e6c527fc344570bbcedf17dcfe36
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '684'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 {style=&quot;table-layout:auto&quot;}
 
-## FreeWheel API 오류
+## [!DNL Freewheel] API 오류
 
 | 코드 | 의미 | 설명 | 다음 단계 |
 |--- |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 2%
 
 {style=&quot;table-layout:auto&quot;}
 
-## FreeWheel API 422 오류 {#freewheel-422-errors}
+## [!DNL Freewheel] API 422 오류 {#freewheel-422-errors}
 
 | 코드 | HTTP 코드 | 설명 |
 |--- |--- |--- |
@@ -64,8 +64,8 @@ ht-degree: 2%
 
 >[!MORELIKETHIS]
 >
->* [FreeWheel에서 프로그래밍 방식 보장 거래 설정 개요](/help/dsp/inventory/freewheel-overview.md)
+>* [프로그램 보장 거래 설정 개요 [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
 >* [거래 ID 받은 편지함에서 거래 수락](deal-id-inbox-accept.md)
->* [FreeWheel에 프로그램 방식으로 보장되는 거래를 위한 광고 제출](/help/dsp/inventory/freewheel-submit.md)
+>* [프로그래밍 방식의 보장 거래에 대한 광고를 제출합니다. [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
 >* [광고 상태 확인 [!DNL FreeWheel] 프로그램 방식의 보장 거래](/help/dsp/inventory/freewheel-check-status.md)
 
