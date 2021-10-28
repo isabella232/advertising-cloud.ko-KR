@@ -3,9 +3,9 @@ title: PG 거래에 대한 광고 제출 대상 [!DNL FreeWheel]
 description: FreeWheel의 게시자와 프로그래밍 방식으로 보장되는 거래를 위한 광고 승인을 요청하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: null
-source-git-commit: 05c7b685d3643fdecd117114d730d2d7c3cd263c
+source-git-commit: c2caed80f0afc0cbe3572d01dc2c89f13ed13712
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. [광고 키 복사](#copy-ad-key).
 
-1. 광고 이름 옆에 있는 를 클릭합니다.  **[!UICONTROL ...]> [!UICONTROL 전송 대상[!DNL FreeWheel]**.
+1. 광고 이름 옆에 있는 를 클릭합니다.  **[!UICONTROL ...]>[!UICONTROL submit to FreeWheel]**.
 
 1. 거래 ID를 확인하고 를 입력합니다. [a **[!UICONTROL Ad Key]**](#copy-ad-key)를 클릭한 다음&#x200B;**[!UICONTROL Submit]**.
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 1. 주 메뉴에서 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
 
-1. 거래 행에서 ![옵션 메뉴](/help/dsp/assets/options-menu.png) **>[!UICONTROL submit to [!DNL FreeWheel]]**.
+1. 거래 행에서 ![옵션 메뉴](/help/dsp/assets/options-menu.png) **>[!UICONTROL submit to FreeWheel]**.
 
 1. 거래 ID를 확인하고 를 입력합니다. [a **[!UICONTROL Ad Key]**](#copy-ad-key)를 클릭한 다음&#x200B;**[!UICONTROL Submit]**.
 
