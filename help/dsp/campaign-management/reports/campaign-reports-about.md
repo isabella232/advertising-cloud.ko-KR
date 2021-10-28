@@ -3,9 +3,9 @@ title: 플랫폼 내 보고서 정보
 description: 캠페인 관리 보기에 포함된 보고서 데이터에 대해 알아봅니다.
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 0b0f5df3ae9180dcbc2aeb5d7833956934767915
+source-git-commit: 1ca7639fac40eb8d3fbc3b4f7e0f45b29368f49b
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 각 엔티티 탭에서 각 행에는 기본적으로 게재 및 게재 지표가 포함되어 있지만, 다음을 수행할 수 있습니다 [열 보기 변경](column-view-change.md) 또는 [사용자 지정 열 보기 만들기](column-view-create.md) 을 눌러 캠페인에 대한 모든 하위 탭에서 을 적용합니다. 추가 작업을 수행할 수 있습니다 [데이터 테이블 사용자 지정](campaign-data-views-about.md) 추가 방법. 각 데이터 테이블에는 [!UICONTROL Subtotals] 행 - 표시되는 모든 행에 있는 각 지표의 합계 또는 평균 값을 표시합니다.
 
-각 캠페인에 대해 각 엔티티 보기에서 사용할 수 있는 3개의 지표로 시계열 트렌드 차트를 사용자 지정할 수도 있습니다. 기본적으로 데이터 [!UICONTROL Net Spend], [!UICONTROL Impressions], 및 [!UICONTROL Net CPM] 별개의 차트(trellis 차트)에 포함됩니다. 지표를 선택적으로 변경할 수 있습니다.
+각 캠페인에 대해 각 엔티티 보기에서 사용할 수 있는 3개의 지표로 시계열 트렌드 차트를 사용자 지정할 수도 있습니다. 기본적으로 데이터 [!UICONTROL Net Spend], [!UICONTROL Impressions], 및 [!UICONTROL Net CPM] 별개의 차트(trellis 차트)에 포함됩니다. 지표를 선택적으로 변경할 수 있습니다. 시계열 트렌드 차트에서 시간별 데이터를 활성화하려면 날짜 선택을 하루([!UICONTROL Today], [!UICONTROL Yesterday], 또는 특정 날짜 ).
 
 ![세 개의 지표에 대한 개별 트렌드 차트](/help/dsp/assets/trend-chart-separate.png)
 
