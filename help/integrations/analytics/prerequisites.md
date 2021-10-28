@@ -3,9 +3,9 @@ title: 구현을 위한 사전 요구 사항 및 주요 정보 [!DNL Analytics f
 description: 구현을 위한 사전 요구 사항 및 주요 정보 [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: 688aece01640647a61df730cbe464597b476b033
+source-git-commit: d4d743ade0e2dad2b967b8316ff2261d0a82d5b0
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,8 @@ Advertising Cloud 구현 팀에 다음을 제공합니다.
 다음 사항에 문의하십시오. [!DNL Adobe] 각 채널에서 지원되는 최신 광고 환경을 위한 계정 관리자.
 
 ## 구현하기 전에 알아야 할 사항
+
+* Advertising Cloud 구현 팀이 통합을 설정합니다.
 
 * 이 통합에 대해 추가 비용이 청구되지 않으며, 서버 호출로 인해 추가 비용이 발생하지 않습니다 [!DNL Analytics] 또는 Advertising Cloud 비용을 절감할 수 있습니다.
 
