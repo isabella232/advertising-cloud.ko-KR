@@ -3,9 +3,9 @@ title: 프로그램 보장 거래 기본 정보
 description: 프로그래밍 방식의 보장(PG) 거래 및 이러한 거래를 제공하도록 인증된 SSP에 대해 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8cf85ae3-027d-4d9d-95a0-ac39d651627a
-source-git-commit: 2ebcaa488499485b1da549e0324d15ca8160512a
+source-git-commit: 96f756b0f5239e2378d0a4da18335d909f96ab94
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ PG(프로그래밍 방식 보증) 거래는 광고 서버 태그가 아닌 거�
 * 그 거래는 항상 DSP을 통해 청구된다.
 * 그 거래는 정가와 수량이 있다.
 * 게시자 또는 SSP(공급측 플랫폼)는 모든 예산 간격, 예산 제한 및 타겟팅을 처리합니다.
-* 일반적으로 딜은 게시자의 광고 서버에서 우선 순위가 더 높습니다
+* 일반적으로 딜은 게시자의 광고 서버에서 우선 순위가 더 높습니다.
 * 입찰 요청은 단일 거래나 구매자에 국한되지 않습니다.
 * 단일 거래 ID에서 여러 유형의 비디오가 지원됩니다.
 * SSP 및 게시자에게 배달 SLA가 있습니다.
@@ -31,8 +31,8 @@ PG 거래는 DSP이 각 입찰 요청에 요청을 반환하고 SSP를 사용하
 * [!DNL Ambient Digital]
 * [!DNL FreeWheel]
 * [!DNL Google Authorized Buyers]
-* [!DNL Magnite CTV] (이전  [!DNL Telaria])
-* [!DNL Magnite DV+] (이전  [!DNL Rubicon])
+* [!DNL Magnite CTV] (이전 [!DNL Telaria])
+* [!DNL Magnite DV+] (이전 [!DNL Rubicon])
 * [!DNL OpenX]
 * [!DNL SpotX]
 
