@@ -3,7 +3,7 @@ title: 에서 사용하는 Advertising Cloud ID [!DNL Analytics]
 description: 에서 사용하는 Advertising Cloud ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: bfbfc293ad04b294c813ce7c8a11200e70fc812f
+source-git-commit: 1ba45d789c4ad365166df829ac74e0200cdc8851
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Advertising Cloud DSP 및 Advertising Cloud Search에 적용 가능*
 
-Advertising Cloud에서는 온사이트 성능 추적에 두 개의 ID를 사용합니다. EF ID 및 AMO ID입니다.
+Advertising Cloud에서는 온사이트 성능 추적에 두 개의 ID를 사용합니다. a *EF ID* 그리고 *AMO ID*.
 
 광고 노출이 발생하면 Advertising Cloud에서 AMO ID 및 EF ID 값을 만들어 저장합니다. 광고를 본 방문자가 광고를 클릭하지 않고 사이트에 들어오면, [!DNL Analytics] 는 Advertising Cloud에서 을 통해 이러한 값을 호출합니다 [!DNL Analytics for Advertising Cloud] JavaScript 코드. 뷰스루 트래픽의 경우, [!DNL Analytics] 는 보충 ID(`SDID`)을 클릭하여 EF ID와 AMO ID를 [!DNL Analytics]. 클릭스루 트래픽의 경우 이러한 ID는 `s_kwcid` 및 `ef_id` 쿼리 문자열 매개 변수.
 
@@ -39,7 +39,7 @@ Advertising Cloud은 다음 기준을 사용하여 웹 사이트에 대한 클�
 
 ## Advertising Cloud EF ID
 
-EF ID는 Advertising Cloud에서 활동을 온라인 클릭 또는 광고 노출과 연결하는 데 사용하는 고유한 토큰입니다. EF ID는 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 또는 Var(예약된 eVar) 차원(Advertising Cloud EF ID)을 추적하고 개별 브라우저 또는 장치 수준에서 각 광고 클릭이나 노출을 추적합니다. EF ID는 주로 전송 키 역할을 합니다 [!DNL Analytics] Advertising Cloud 내에서 보고 및 입찰 최적화를 위해 Advertising Cloud에 데이터를 보냅니다.
+EF ID는 Advertising Cloud에서 활동을 온라인 클릭 또는 광고 노출과 연결하는 데 사용하는 고유한 토큰입니다. EF ID는 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 또는 Var(예약된 eVar) 차원(Advertising Cloud EF ID)을 추적하고 개별 브라우저 또는 장치 수준에서 각 광고 클릭이나 노출을 추적합니다. EF ID는 주로 전송 키로 작동합니다 [!DNL Analytics] Advertising Cloud 내에서 보고 및 입찰 최적화를 위해 Advertising Cloud에 데이터를 보냅니다.
 
 ### EF ID 형식
 
