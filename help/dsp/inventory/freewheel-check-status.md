@@ -2,8 +2,7 @@
 title: 광고 상태 확인 [!DNL [!DNL FreeWheel]] PG 거래
 description: 광고 상태를 찾는 방법을 알아봅니다. [!DNL Freewheel] 프로그램 방식으로 보장되는 거래.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: null
-source-git-commit: a0619f77aac5e6c527fc344570bbcedf17dcfe36
+source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -20,7 +19,7 @@ ht-degree: 0%
 
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
 
-1. 캠페인 이름을 클릭합니다.
+1. 캠페인의 이름을 클릭합니다.
 
 1. 하위 메뉴에서 **[!UICONTROL Ads]**.
 

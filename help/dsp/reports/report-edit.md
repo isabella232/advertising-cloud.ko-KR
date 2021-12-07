@@ -2,8 +2,7 @@
 title: 사용자 지정 보고서 편집
 description: 사용자 지정 보고서 설정을 편집하는 방법을 알아봅니다.
 feature: DSP Custom Reports
-exl-id: null
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 1%
@@ -13,11 +12,11 @@ ht-degree: 1%
 
 # 사용자 지정 보고서 편집
 
-1. 주 메뉴에서 **[!UICONTROL Reports]** 을 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Reports]**.
 1. 다음 중 하나를 수행합니다.
    * 보고서 이름을 클릭합니다.
-   * 보고서 행의 [!UICONTROL Options] 열에서 **[!UICONTROL options]>[!UICONTROL Edit]** 를 클릭합니다.
-1. [보고서 설정](/help/dsp/reports/report-settings.md)을 편집합니다.
+   * 에서 [!UICONTROL Options] 보고서 행의 열에서 **[!UICONTROL options]>[!UICONTROL Edit]**.
+1. 편집 [보고서 설정](/help/dsp/reports/report-settings.md).
 1. 클릭 **[!UICONTROL Edit Custom Report]**.
 
 >[!MORELIKETHIS]

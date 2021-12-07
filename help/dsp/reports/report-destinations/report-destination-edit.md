@@ -2,8 +2,7 @@
 title: 보고서 대상 편집
 description: 보고서 대상을 편집하는 방법을 알아봅니다.
 feature: DSP Custom Reports
-exl-id: null
-source-git-commit: 634b5cdb5ae44239449eceac00521742549a6c25
+source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 1%
