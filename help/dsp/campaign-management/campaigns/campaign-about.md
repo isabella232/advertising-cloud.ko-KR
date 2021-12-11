@@ -3,9 +3,9 @@ title: Advertising Cloud DSP의 캠페인 관리 기본 정보
 description: 캠페인 관리에 대해 알아봅니다.
 feature: DSP Campaigns
 exl-id: f9f3aba2-995c-45df-8e65-52999f9cc539
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,10 @@ ht-degree: 0%
 
 수동으로 또는 기존 캠페인을 복제하여 캠페인을 만들 수 있습니다. 기존 캠페인을 편집할 수도 있습니다.
 
-## [!UICONTROL Campaigns] 대시보드
+## 다음 [!UICONTROL Campaigns] 대시보드
 
 <!-- standardize on "dashboard" or "view" -->
-[!UICONTROL Campaigns] 대시보드는 모든 캠페인에서 성능과 경제적 보고를 중앙 집중화하여 지정된 날짜 범위 동안 캠페인이 어떻게 수행되었는지에 대한 빠른 스냅숏을 제공합니다.
+다음 [!UICONTROL Campaigns] 대시보드는 모든 캠페인의 성능 및 경제적 보고를 중앙 집중화하여 지정된 날짜 범위 동안 캠페인이 어떻게 수행되었는지에 대한 빠른 스냅숏을 제공합니다.
 
 ![캠페인 대시보드](/help/dsp/assets/campaign-dashboard.png)
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[사용자 지정 보고서](/help/dsp/reports/report-about.md)를 통해 캠페인 보고 콘텐츠와 게재를 추가로 사용자 지정할 수 있습니다.
+>를 통해 캠페인 보고 콘텐츠와 게재를 추가로 사용자 지정할 수 있습니다 [사용자 지정 보고서](/help/dsp/reports/report-about.md).
 
 캠페인 내에서 모든 패키지, 배치 및 광고를 보려면 캠페인 이름을 클릭합니다.
 
@@ -35,4 +35,5 @@ ht-degree: 0%
 >
 >* [캠페인 만들기](campaign-create.md)
 >* [캠페인 설정](campaign-settings.md)
+>* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/ui.html)
 
