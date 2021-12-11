@@ -3,10 +3,10 @@ title: 키 배치 설정을 빠르게 편집
 description: 키 배치 설정을 빠르게 변경하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 107ec263-a0f2-491b-8380-2cceaf51cae9
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 1%
+source-wordcount: '116'
+ht-degree: 0%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 1%
 
 >[!TIP]
 >
-> 배치 설정을 편집하려면 &quot;[배치 편집](/help/dsp/campaign-management/placements/placement-edit.md)&quot;을 참조하십시오.
+> 배치 설정을 편집하려면 &quot;[배치 편집](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
-1. 주 메뉴에서 **[!UICONTROL Campaigns]** 을 클릭합니다.
-1. 캠페인 이름을 클릭합니다.
-1. 하위 메뉴에서 **[!UICONTROL Placements]** 을 클릭합니다.
-1. 배치 이름 옆에 있는 **[!UICONTROL ...]>[!UICONTROL Quick Edit]** 를 클릭합니다.
-1. 사용 가능한 [배치 설정](placement-settings.md) 중 하나를 편집합니다.  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** 및 **[!UICONTROL Budget]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 캠페인의 이름을 클릭합니다.
+1. 하위 메뉴에서 **[!UICONTROL Placements]**.
+1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]>[!UICONTROL Quick Edit]**.
+1. 사용 가능한 항목 편집 [배치 설정](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**, 및 **[!UICONTROL Budget]**.
 1. 클릭 **[!UICONTROL Apply]**.
 
 >[!MORELIKETHIS]
@@ -36,4 +36,5 @@ ht-degree: 1%
 >* [배치에 대한 광고 일정 편집](placement-edit-ad-schedule.md)
 >* [배치 일시 중지 또는 활성화](placement-pause-activate.md)
 >* [배치 설정](placement-settings.md)
+>* [비디오: 벌크 편집 도구를 사용하여 배치를 편집하는 방법](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 
