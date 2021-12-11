@@ -3,10 +3,10 @@ title: 배치 편집
 description: 배치를 편집하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 135adad3-0bc0-4402-ac4a-a4fc71f78edf
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 1%
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 1%
 
 >[!TIP]
 >
-> 배치 이름, 상태, 최대 입찰 및 예산만 편집하려면 &quot;[주요 배치 설정 빨리 편집](/help/dsp/campaign-management/placements/placement-quick-edit.md)&quot;을 참조하십시오.
+> 배치 이름, 상태, 최대 입찰 및 예산만 편집하려면 &quot;[키 배치 설정을 빠르게 편집](/help/dsp/campaign-management/placements/placement-quick-edit.md).&quot;
 
-1. 주 메뉴에서 **[!UICONTROL Campaigns]** 을 클릭합니다.
-1. 캠페인 이름을 클릭합니다.
-1. 하위 메뉴에서 **[!UICONTROL Placements]** 을 클릭합니다.
-1. 배치 이름 옆에 있는 **[!UICONTROL ...]>[!UICONTROL Edit]** 를 클릭합니다.
-1. [배치 설정](placement-settings.md)을 편집합니다.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 캠페인의 이름을 클릭합니다.
+1. 하위 메뉴에서 **[!UICONTROL Placements]**.
+1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+1. 편집 [배치 설정](placement-settings.md).
 1. 클릭 **[!UICONTROL Update placement]**.
 
 >[!MORELIKETHIS]
@@ -36,4 +36,5 @@ ht-degree: 1%
 >* [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [배치 설정](placement-settings.md)
 >* [스프레드시트를 사용하여 캠페인에 대한 배치 설정 수정 정보](/help/dsp/campaign-management/qa/qa-about.md)
+>* [비디오: 벌크 편집 도구를 사용하여 배치를 편집하는 방법](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 
