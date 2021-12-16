@@ -3,9 +3,9 @@ title: 브랜드 안전 및 미디어 품질
 description: 브랜드 안전 및 미디어 품질 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: 7d158d5882bf23582c274ad49d632e0d937a1bd3
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Adobe의 사기 감시 팀은 [!DNL Interactive Advertising Bureau], [!DNL Trust
 
 ### 재고 확인 [!DNL Ads.txt] 지원
 
-[[!DNL Ads.txt], which stands for [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt) 는 [!DNL Interactive Advertising Bureau] ([!DNL IAB])를 만들 수 있습니다. 참여하는 출판사 및 유통업체는 디지털 인벤토리를 판매할 수 있는 회사 및 이러한 관계의 특성을 `ads.txt` 페이지의 도메인 상단 수준(예: `example.com/ads.txt`).
+[[!DNL Ads.txt]에 대한 [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt) 는 [!DNL Interactive Advertising Bureau] ([!DNL IAB])를 만들 수 있습니다. 참여하는 출판사 및 유통업체는 디지털 인벤토리를 판매할 수 있는 회사 및 이러한 관계의 특성을 `ads.txt` 페이지의 도메인 상단 수준(예: `example.com/ads.txt`).
 
 DSP 지원 [!DNL ads.txt] 각 게시자의 `ads.txt` 파일 및 확인된 파일에서만 구매할 수 있는 옵션 제공 [!DNL ads.txt] 판매자. 예를 들어, 표시되는 판매자와 연결하여 `nytimes.com` 뉴욕 타임즈에 `ads.txt` 파일에서는 어떤 것이 합법적이며 그렇지 않은지 식별할 수 있으며, 이 배치가 검증된 판매자만을 구매하도록 구성된 경우 위반자를 차단합니다. <!-- can we actually mention NY Times? -->
 
@@ -118,9 +118,11 @@ DSP 주제 타깃팅을 사용하면 업계 선도적인 컨텍스트 파트너�
 
 주제 타깃팅은 유해 컨텐츠를 차단하거나 더 큰 성과를 보장하는 컨텍스트에서 비용을 보장하는 등 브랜드에 맞는 환경에서 광고가 항상 제공되도록 하는 데 도움이 됩니다.
 
-주제 타깃팅을 사용하려면 [!DNL Comscore] 또는 [!DNL Grapeshot] (사용 [!DNL Oracle Data Cloud]). 파트너 플랫폼에서 만들고 나면 다음 작업을 수행할 수 있습니다 [에서 세그먼트 ID 타깃팅 또는 제외[!UICONTROL  Audience Targeting] 각 배치의 섹션](/help/dsp/campaign-management/placements/placement-settings.md). 이 기능에 대한 추가 비용이 발생할 수 있습니다.
+주제 타깃팅을 사용하려면 [!DNL Comscore] 또는 [!DNL Grapeshot] (사용 [!DNL Oracle Data Cloud]). 파트너 플랫폼에서 만들고 나면 다음 작업을 수행할 수 있습니다 [에서 세그먼트 ID 타깃팅 또는 제외 [!UICONTROL Audience Targeting] 각 배치의 섹션](/help/dsp/campaign-management/placements/placement-settings.md). 이 기능에 대한 추가 비용이 발생할 수 있습니다.
 
-시작하려면 선호하는 공급업체 또는 고객에게 문의하십시오 [!DNL Adobe] 계정 관리자.
+* 을(를) 만들려면 [!DNL Comscore] 계정을 설정하고 사용자 지정 세그먼트를 만듭니다. [!DNL Activation Segment Manager] http://agents.comscore.com/에서 확인하십시오. 자세한 내용은 [[!DNL Comscore] 도움말 센터](https://comscoreactivation.zendesk.com/hc/) 을 참조하십시오. 사용자 지정 세그먼트에 대한 요금은 [!DNL Segment Manager] 만들 때
+
+* 시작하려면 [!DNL Oracle Data Cloud], 연락처 [!DNL Oracle Data Cloud] 또는 [!DNL Adobe] 계정 관리자.
 
 ![Comscore 로고](/help/dsp/assets/comscore-logo.png) ![그래픽 핫 로고](/help/dsp/assets/oracle-grapeshot-logo.png)
 
