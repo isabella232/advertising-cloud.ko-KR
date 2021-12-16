@@ -3,9 +3,9 @@ title: 브랜드 안전 및 미디어 품질
 description: 브랜드 안전 및 미디어 품질 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: 7d158d5882bf23582c274ad49d632e0d937a1bd3
+source-git-commit: 6a0b863d1cdf31eb8a659196a83e9636a3a49ff5
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -114,13 +114,13 @@ Advertising Cloud DSP은 광고를 실행하기에 안전하지 않다고 간주
 
 ### 항목 타깃팅
 
-DSP 주제 타깃팅을 사용하면 업계 선도적인 컨텍스트 파트너를 활용하여 키워드 목록을 타깃팅하거나 차단할 수 있습니다 [!DNL Comscore] 및 [!DNL Oracle Data Cloud] ([!DNL Grapeshot]).
-
-주제 타깃팅은 유해 컨텐츠를 차단하거나 더 큰 성과를 보장하는 컨텍스트에서 비용을 보장하는 등 브랜드에 맞는 환경에서 광고가 항상 제공되도록 하는 데 도움이 됩니다.
+DSP 주제 타깃팅을 사용하면 업계 선도적인 컨텍스트 파트너를 활용하여 키워드 목록을 타깃팅하거나 차단할 수 있습니다 [!DNL Comscore] 및 [!DNL Oracle Data Cloud] ([!DNL Grapeshot]). 주제 타깃팅은 유해 컨텐츠를 차단하거나 더 큰 성과를 보장하는 컨텍스트에서 비용을 보장하는 등 브랜드에 맞는 환경에서 광고가 항상 제공되도록 하는 데 도움이 됩니다.
 
 주제 타깃팅을 사용하려면 [!DNL Comscore] 또는 [!DNL Grapeshot] (사용 [!DNL Oracle Data Cloud]). 파트너 플랫폼에서 만들고 나면 다음 작업을 수행할 수 있습니다 [에서 세그먼트 ID 타깃팅 또는 제외 [!UICONTROL Audience Targeting] 각 배치의 섹션](/help/dsp/campaign-management/placements/placement-settings.md). 이 기능에 대한 추가 비용이 발생할 수 있습니다.
 
-* 을(를) 만들려면 [!DNL Comscore] 계정을 설정하고 사용자 지정 세그먼트를 만듭니다. [!DNL Activation Segment Manager] http://agents.comscore.com/에서 확인하십시오. 자세한 내용은 [[!DNL Comscore] 도움말 센터](https://comscoreactivation.zendesk.com/hc/) 을 참조하십시오. 사용자 지정 세그먼트에 대한 요금은 [!DNL Segment Manager] 만들 때
+사용자 지정 주제 세그먼트를 만들려면 다음을 수행하십시오.
+
+* 을(를) 만들려면 [!DNL Comscore] 계정을 설정하고 사용자 지정 세그먼트를 만듭니다. [!DNL Activation Segment Manager] at [http://agents.comscore.com](http://agents.comscore.com). 자세한 내용은 [[!DNL Comscore] 도움말 센터](https://comscoreactivation.zendesk.com/hc/) 을 참조하십시오. 사용자 지정 세그먼트에 대한 요금은 [!DNL Segment Manager] 만들 때
 
 * 시작하려면 [!DNL Oracle Data Cloud], 연락처 [!DNL Oracle Data Cloud] 또는 [!DNL Adobe] 계정 관리자.
 
