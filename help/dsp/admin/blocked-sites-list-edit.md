@@ -1,0 +1,48 @@
+---
+type: Documentation
+cloud: Experience Cloud
+solution: Advertising Cloud
+product: advertising cloud
+title: 계정 수준 또는 광고주 수준의 차단된 사이트 목록 편집
+description: 계정 수준 또는 광고주 수준의 차단된 사이트 목록 편집
+source-git-commit: 27367fdee872cea9016cccd12aa082aa7455dbce
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 0%
+
+---
+
+
+# 계정 수준 또는 광고주 수준의 차단된 사이트 목록 편집
+
+1. 주 메뉴에서 **설정 > 사이트 .**
+
+1. 목록 수준을 선택합니다. *계정* 또는 *광고주*.
+
+1. 다음 중 하나를 수행합니다.
+
+   * (선택 사항) 붙여 넣거나 최대 10,000개의 값을 입력하려면 다음을 수행합니다.
+
+      1. 클릭 **사이트/앱에 붙여넣기**.
+
+      1. 입력 필드에서 행당 하나의 값을 입력하거나 붙여넣은 다음 **계속**.
+
+      1. (유효하지 않은 값으로 식별되는 경우) **사이트 및 앱에 붙여넣기** 탭에서 값을 수정한 다음 를 클릭합니다 **계속**.
+
+      1. 클릭 **완료**.
+   * (선택 사항) 하나 이상의 값을 삭제하려면 다음 중 하나를 수행합니다.
+
+      * 모든 값을 제거하려면 **모두 지우기**. 확인 메시지에서 **확인**.
+
+      * 하나 이상의 값을 제거하려면 각 값 옆의 확인란을 선택한 다음 **선택 항목 삭제**.
+
+      * 단일 값을 제거하려면 **X** 값 옆에 있는 를 참조하십시오.
+   * (선택 사항) 목록을 쉼표로 구분된 값(CV) 형식으로 Microsoft Excel 스프레드시트로 내보내려면 를 클릭합니다 **내보내기**.
+
+
+
+>[!MORELIKETHIS]
+>
+> [브랜드 안전 및 미디어 품질](/help/dsp/introduction/features/brand-safety-media-quality.md)
+>* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
+
