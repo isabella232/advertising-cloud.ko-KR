@@ -1,7 +1,7 @@
 ---
 title: 계정 수준 및 광고주 수준의 차단된 사이트 목록 정보
 description: 계정 또는 광고주의 차단된 사이트 목록에 대해 자세히 알아보십시오.
-source-git-commit: fd111b2d11b409b40aacde3cfd94a8865b7bc289
+source-git-commit: 32988f3bd4e4b63304f6b2a53949eda7842a60f0
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%

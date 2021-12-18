@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 99179eab681332ef1e8dc835aab10e113c4b3e0b
+source-git-commit: 5c7eab5f3bc1d8fc4a437e8f5b498caafed9a30f
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2021년 12월 17일 | 도움말 | 이제 차단된 사이트에 대한 정보를 사용할 수 있습니다. | 참조: &#39;[계정 수준 및 광고주 수준의 차단된 사이트 목록 정보](/help/dsp/admin/blocked-sites-list-about.md)&quot; 및 &quot;[계정 수준 또는 광고주 수준의 차단된 사이트 목록 편집](/help/dsp/admin/blocked-sites-list-edit.md).&quot; |
 | 2021년 12월 10일 | 비디오 자습서 | 새로운 비디오 자습서를 사용할 수 있습니다. &quot;Advertising Cloud DSP 소개,&quot; &quot;계정 구조 및 사용자 인터페이스&quot;, &quot;패키지를 만드는 방법&quot;, &quot;타사 광고 태그를 벌크 업로드하는 방법&quot; 및 &quot;벌크 편집 도구를 사용하여 배치를 편집하는 방법&quot;. | 참조:[Advertising Cloud Tutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html).&quot; |
 | 2021년 11월 12일 | [!UICONTROL Deal IDs] | 에서 [!UICONTROL Deal ID] 설정, &quot;[!DNL Rubicon]&quot;&quot;이(가) &quot;(으)로 변경되었습니다.[!DNL Magnite DV+],&quot; 위치 [!DNL DV+] 디스플레이, 비디오 및 오디오와 같은 기타 형식을 나타냅니다. 이것은 다음에 대한 새로운 브랜딩을 반영합니다 [!DNL Magnite] SSP. **참고:** [!DNL Magnite DV+] 는 여전히 &quot;[!DNL Rubicon]&quot; [!UICONTROL Deal ID Inbox]. | 참조:[SSP 파트너](/help/dsp/inventory/ssp-partners.md).&quot; |
 | 2021년 10월 27일 | 사용자 지정 보고서 | 이제 만들고 관리할 수 있습니다 [!DNL Amazon S3] 및 라는 다양한 유형의 FTP 배달 위치 *[!DNL report destinations]*: 사용자 지정 보고서에 사용할 수 있습니다. 보고서 대상을 구성하면, 단일 대상 유형의 하나 이상의 위치 또는 이메일 수신자에게 전달되도록 각 새로운 사용자 지정 보고서를 설정할 수 있습니다. 업데이트 [!DNL Amazon S3] 및 FTP 자격 증명은 보고서 전달을 방해하지 않습니다.<br><br>기존 보고서는 여전히 지정된 전자 메일 수신자에게 전송됩니다. 다른 보고서 대상에 전달을 구성하려면 새 대상을 사용하여 새 보고서를 만듭니다. | 참조:[정보 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md),&quot; &quot;[만들기 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md),&quot; &quot;[[!UICONTROL Report Destination] 설정](/help/dsp/reports/report-destinations/report-destination-settings.md),&quot; 및 &quot;[사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md).&quot; |

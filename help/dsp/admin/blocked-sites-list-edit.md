@@ -1,7 +1,7 @@
 ---
 title: 계정 수준 또는 광고주 수준의 차단된 사이트 목록 편집
 description: 계정 또는 광고주의 차단된 사이트 목록을 관리하는 방법을 알아봅니다.
-source-git-commit: bfed4856e9b67537a84bd3169b284e6e027ca957
+source-git-commit: 4a5c4a2f180eba26818137bf9c31f212b342543a
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
