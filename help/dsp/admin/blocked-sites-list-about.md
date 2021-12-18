@@ -1,7 +1,7 @@
 ---
 title: 계정 수준 및 광고주 수준의 차단된 사이트 목록 정보
 description: 계정 또는 광고주의 차단된 사이트 목록에 대해 자세히 알아보십시오.
-source-git-commit: 32988f3bd4e4b63304f6b2a53949eda7842a60f0
+source-git-commit: 490147fb8479474ce95c17d59b512254596746c2
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 계정 수준 및 광고주 수준의 차단된 사이트 목록은 Advertising Cloud DSP 외에도 적용됩니다 [전역 차단 사이트 목록](/help/dsp/introduction/features/brand-safety-media-quality.md): 광고에는 안전하지 않다고 간주되는 사이트가 포함됩니다.
+>* 계정 수준 및 광고주 수준의 차단된 사이트 목록은 Advertising Cloud DSP 외에도 적용됩니다 [전역 차단 사이트 목록](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites): 광고에는 안전하지 않다고 간주되는 사이트가 포함됩니다.
 >* 사용자는 모든 배치에 타깃팅된 사이트를 추가할 수도 있습니다.
 >* 차단된 사이트 목록은 항상 타깃팅된 사이트 목록을 무시합니다. 배치가 둘 다 제외되고 광고에 대해 동일한 타겟을 포함하는 경우 대상이 제외됩니다.
 

@@ -3,7 +3,7 @@ title: 브랜드 안전 및 미디어 품질
 description: 브랜드 안전 및 미디어 품질 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: 6a0b863d1cdf31eb8a659196a83e9636a3a49ff5
+source-git-commit: fac152a5e3d040bcfacda97f05f3990fd17f677d
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -72,7 +72,7 @@ DSP은 플랫폼 전반에서 사기를 관리하기 위한 강력한 내부 도
 
 Advertising Cloud DSP은 전역적으로 차단된 사이트 목록과 광고주 및 계정에 대해 사용자 지정 차단 사이트 목록을 만드는 옵션을 제공합니다.
 
-#### Advertising Cloud DSP 전역 차단 사이트 목록
+#### Advertising Cloud DSP 전역 차단 사이트 목록 {#global-blocked-sites}
 
 Advertising Cloud DSP은 광고를 실행하기에 안전하지 않다고 간주되는 사이트의 전역적으로 차단된 사이트 목록을 유지 관리합니다. 이 목록에는 불쾌한 콘텐츠(예: 증오 또는 테러)와 보트, 유사 프리롤, 일치하지 않는 도메인 및 기타 부정 행위가 감염된 사이트가 있는 사이트가 포함되어 있습니다.
 
