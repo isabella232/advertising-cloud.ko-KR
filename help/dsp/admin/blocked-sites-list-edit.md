@@ -1,17 +1,12 @@
 ---
-type: Documentation
-cloud: Experience Cloud
-solution: Advertising Cloud
-product: advertising cloud
 title: 계정 수준 또는 광고주 수준의 차단된 사이트 목록 편집
-description: 계정 수준 또는 광고주 수준의 차단된 사이트 목록 편집
-source-git-commit: 27367fdee872cea9016cccd12aa082aa7455dbce
+description: 계정 또는 광고주의 차단된 사이트 목록을 관리하는 방법을 알아봅니다.
+source-git-commit: bfed4856e9b67537a84bd3169b284e6e027ca957
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
-
 
 # 계정 수준 또는 광고주 수준의 차단된 사이트 목록 편집
 
@@ -43,6 +38,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
-> [브랜드 안전 및 미디어 품질](/help/dsp/introduction/features/brand-safety-media-quality.md)
+>* [계정 수준 및 광고주 수준의 차단된 사이트 목록 정보](/help/dsp/admin/blocked-sites-list-about.md)
+   > [브랜드 안전 및 미디어 품질](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
 

@@ -5,13 +5,13 @@ cloud: Experience Cloud
 solution: Advertising Cloud
 product: advertising cloud
 user-guide-title: Advertising Cloud DSP 안내서
-user-guide-description: Advertising Cloud DSP을 사용하여 디스플레이 광고 전략을 관리, 최적화 및 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
+user-guide-description: Advertising Cloud DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: b113d8337e5108ccc1a2ba99d23900bb1cb72cee
+source-git-commit: aba948d8840aa986bc7fe3e8a167da2316bdbdd0
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 3%
+source-wordcount: '768'
+ht-degree: 7%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 3%
       + [교차 장치 솔루션](/help/dsp/introduction/features/cross-device-solutions.md)
    + [계정 자금조달](/help/dsp/introduction/billing/account-funding.md)
    + [지원되는 통화](/help/dsp/currency.md)
-   + 고객 개인정보 보호 지원 {#privacy}
+   + 소비자 개인정보 보호 지원 {#privacy}
       + [개인 정보 보호 규정 지원](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-gdpr.html)
       + CCPA 지원 {#ccpa}
          + [캘리포니아 소비자 개인 정보 보호법 지원: 소비자 데이터 액세스 및 삭제](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ad-cloud-ccpa-access-delete.html)
@@ -182,6 +182,9 @@ ht-degree: 3%
       + [편집 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
       + [삭제 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] 설정](/help/dsp/reports/report-destinations/report-destination-settings.md)
-+ [Adobe Experience Cloud과 통합](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/home.html)<!-- Dupe link to this file, so need to use an absolute link in one of the listings -->
++ 관리 {#admin}
+   + [계정 수준 및 광고주 수준의 차단된 사이트 목록 정보](/help/dsp/admin/blocked-sites-list-about.md)
+   + [계정 수준 또는 광고주 수준의 차단된 사이트 목록 편집](/help/dsp/admin/blocked-sites-list-edit.md)
++ [Adobe Experience Cloud와 통합](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/home.html)<!-- Dupe link to this file, so need to use an absolute link in one of the listings -->
 + [고객 지원](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)
 + [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
