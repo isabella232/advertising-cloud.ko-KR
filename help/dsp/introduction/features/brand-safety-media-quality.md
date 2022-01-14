@@ -3,9 +3,9 @@ title: 브랜드 안전 및 미디어 품질
 description: 브랜드 안전 및 미디어 품질 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: fac152a5e3d040bcfacda97f05f3990fd17f677d
+source-git-commit: 3bca3d5b4a1ec0bf9bb23946248de350b8bbf2a6
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ DSP 주제 타깃팅을 사용하면 업계 선도적인 컨텍스트 파트너�
 
 사용자 지정 주제 세그먼트를 만들려면 다음을 수행하십시오.
 
-* 을(를) 만들려면 [!DNL Comscore] 계정을 설정하고 사용자 지정 세그먼트를 만듭니다. [!DNL Activation Segment Manager] at [http://agents.comscore.com](http://agents.comscore.com). 자세한 내용은 [[!DNL Comscore] 도움말 센터](https://comscoreactivation.zendesk.com/hc/) 을 참조하십시오. 사용자 지정 세그먼트에 대한 요금은 [!DNL Segment Manager] 만들 때
+* 을(를) 만들려면 [!DNL Comscore] 계정을 설정하고 사용자 지정 세그먼트를 만듭니다. [!DNL Activation Segment Manager] at [https://agents.comscore.com](https://agents.comscore.com). 자세한 내용은 [[!DNL Comscore] 도움말 센터](https://comscoreactivation.zendesk.com/hc/) 을 참조하십시오. 사용자 지정 세그먼트에 대한 요금은 [!DNL Segment Manager] 만들 때
 
 * 시작하려면 [!DNL Oracle Data Cloud], 연락처 [!DNL Oracle Data Cloud] 또는 [!DNL Adobe] 계정 관리자.
 
