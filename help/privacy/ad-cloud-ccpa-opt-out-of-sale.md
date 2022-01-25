@@ -3,9 +3,9 @@ title: '캘리포니아 소비자 개인 정보 보호법을 위한 Adobe Advert
 description: 소비자 판매 중지 요청 캡처에 대한 지원에 대해 알아봅니다.
 feature: CCPA
 exl-id: 2c0cd4f5-798f-479a-99cd-f555cd676766
-source-git-commit: e00f87009fb36a057069caa53f30c7414a2ee444
+source-git-commit: adb3118d291d110e653a62cc1a323410b1a596b2
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ CCPA를 위한 Adobe 개인 정보 서비스에 대한 자세한 내용은 [Adob
 
 ### 방법 2: Adobe Experience Platform Privacy Service API를 사용하여 CCPA 판매 중지 요청 전달
 
-*광고주가 Experience Cloud 조직 ID(IMS 조직 ID)만 할당했습니다*
+*광고주가 Adobe Experience Cloud을 할당했습니다 [!DNL Organization ID] ([!DNL IMS Org ID]) 만 해당*
 
 1. JavaScript 라이브러리를 배포하여 고객의 쿠키를 검색합니다. 같은 라이브러리 `AdobePrivacy.js`는 모든 Adobe Experience Cloud 솔루션에 사용됩니다.
 
@@ -77,7 +77,7 @@ CCPA를 위한 Adobe 개인 정보 서비스에 대한 자세한 내용은 [Adob
 
 ## 판매 중지 요청을 제출한 소비자의 보고서 검색
 
-Advertising Cloud은 고객이 계정에 대해 판매 중지 요청을 제출한 월별 ID에 대한 보고서를 생성합니다. 각 보고서는 GZIP 형식으로 압축된 탭으로 구분된 텍스트 파일로 사용할 수 있습니다. 이 데이터는 CCPA 판매 중지 세그먼트를 사용하여 캡처된 요청과 Advertising Cloud DSP에서 만든 요청 및 Privacy Service API를 통해 작성된 모든 제출을 통합합니다. CCPA 판매 중지 세그먼트에 캡처된 사용자 ID는 세그먼트 및 광고주별로 식별됩니다. 보고서는 이전 월에 대한 각 달의 1일에 생성됩니다. 예를 들어 6월의 월별 사용자 목록은 7월 1일에 제공됩니다.
+Advertising Cloud은 고객이 계정에 대해 판매 중지 요청을 제출한 월별 ID에 대한 보고서를 생성합니다. 각 보고서는 GZIP 형식으로 압축된 탭으로 구분된 텍스트 파일로 사용할 수 있습니다. 이 데이터는 CCPA 판매 중지 세그먼트를 사용하여 캡처된 요청과 Advertising Cloud DSP에서 만들어진 요청과 Privacy Service API를 통해 작성된 모든 제출을 통합합니다. CCPA 판매 중지 세그먼트에 캡처된 사용자 ID는 세그먼트 및 광고주별로 식별됩니다. 보고서는 이전 월에 대한 각 달의 1일에 생성됩니다. 예를 들어 6월의 월별 사용자 목록은 7월 1일에 제공됩니다.
 
 Advertising Cloud DSP 내에서 또는 Advertising Cloud을 사용하여 이전 3개월 내에 만든 월별 보고서에 대한 링크를 검색할 수 있습니다 [!DNL Trafficking API]. 각 링크는 7일 동안 유효하지만 고객이 하나를 검색하려고 할 때마다 새로 고침됩니다.
 
