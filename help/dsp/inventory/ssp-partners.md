@@ -3,9 +3,9 @@ title: SSP 파트너
 description: 사용 가능한 SSP(공급측 플랫폼) 및 오픈 교환 파트너 목록을 참조하십시오.
 feature: DSP Private Inventory
 exl-id: 8487f4ce-0232-4145-ad8b-b0631fd0ab7f
-source-git-commit: fa8c8c1637dfc7a3e9409f6637f77d751d96ae6c
+source-git-commit: c34487bef4504f5187bfe28e87f6114ec01ff489
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,8 @@ SSP(공급측 플랫폼)는 디지털 미디어 소유자 및 게시자가 디�
 | 나열된 SSP | 회사 | 시트 ID | 프로그래밍 방식 보장 지원 | 지역 | 지원되는 통화 | Video Desktop | Video Mobile | 비디오 CTV | 데스크톱 표시 | 모바일 표시 | 기본 표시 | 오디오 데스크탑 및 모바일 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | [!DNL Adap.tv] | [!DNL Verizon Media Group] | [!DNL TubeMogul] 또는 Adobe Advertising Cloud | 아니요 | 글로벌 | USD | X | X | X |  |  |  |  |
-| [!DNL AdColony] (이전 [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | 아니요 | 글로벌 | USD |  | x |  |  |  |  |  |
-| [!DNL AdsWizz] | [!DNL Sirius XM Pandora] | Adobe Advertising Cloud | 아니요 | 글로벌 | USD, EUR, GBP |  |  |  |  |  |  | x |
+| [!DNL AdColony] (이전 [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | 아니요 | 글로벌 | USD |  | x |  | x | x |  |  |
+| [!DNL AdsWizz] | [!DNL Sirius XM Pandora] | Adobe Advertising Cloud | 예 | 글로벌 | USD, EUR, GBP |  |  |  |  |  |  | x |
 | [!DNL Ambient Digital] | n/a | [!DNL TubeMogul] | 예 | SEA | USD |  | x |  | x |  |  | x |
 | [!DNL AppNexus] | [!DNL Xandr] | 비디오 시트 ID: 9094년<br>시트 ID 표시: 3939년 | 아니요 | 글로벌 | USD | x | x | x | x | x |  |  |
 | [!DNL DailyMotion] | n/a | [!DNL TubeMogul] 또는 Adobe Advertising Cloud | 아니요 | 미국 + EMEA | USD, EUR | x | x | x |  |  |  |  |
