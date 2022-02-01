@@ -2,7 +2,8 @@
 title: 거래 ID에 액세스할 수 있는 계정 편집
 description: 다른 계정과 거래 ID 공유를 하고 중단하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
-source-git-commit: 22f5d8279fadfcf79e2cd41566321f423d63eb16
+exl-id: 5ddd406d-1ee5-4d13-8e12-be575cbb7551
+source-git-commit: 3e47fec28a17cb64de42309c0368293e1ef1cdea
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%

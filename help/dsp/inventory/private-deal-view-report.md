@@ -2,7 +2,8 @@
 title: 비공개 거래에 대한 상세 보고서 보기
 description: 거래 수준 보고서를 여는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-source-git-commit: 22f5d8279fadfcf79e2cd41566321f423d63eb16
+exl-id: 80ed239f-16c9-4aba-b1d2-2471133c676b
+source-git-commit: 3e47fec28a17cb64de42309c0368293e1ef1cdea
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%

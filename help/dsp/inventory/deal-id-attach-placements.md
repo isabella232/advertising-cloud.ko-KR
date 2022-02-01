@@ -2,7 +2,8 @@
 title: 거래 ID에 대한 배치 및 광고 지정
 description: 추가 배치 및 광고를 통해 비공개 거래를 사용하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-source-git-commit: 22f5d8279fadfcf79e2cd41566321f423d63eb16
+exl-id: 669cadcf-021b-4129-95d5-3d24af4a4b88
+source-git-commit: 3e47fec28a17cb64de42309c0368293e1ef1cdea
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 1%
@@ -31,7 +32,7 @@ PG(프로그래밍 방식 보장) 거래의 경우 [!UICONTROL Deals] 보기.
 
        1. 광고주, 캠페인 및 광고 유형을 선택합니다. 선택적으로 광고를 필터링할 광고 상태를 선택합니다.
        
-       1. 사용 가능한 광고 목록에서 거래에 사용할 각 광고 옆에 있는 확인란을 선택합니다.
+       1. From the list of available ads, select the check box next to each ad that will be used for the deal.
        
        1. 클릭 **[!UICONTROL Apply]**.
    
@@ -55,7 +56,7 @@ PG(프로그래밍 방식 보장) 거래의 경우 [!UICONTROL Deals] 보기.
 >[!MORELIKETHIS]
 >
 >* [비공개 인벤토리 정보](private-inventory-about.md)
->* [비공개 거래의 배치 및 광고 나열](/help/dsp/inventory/private-deal-view-placements.md)
+>* [List the Placements and Ads for a Private Deal](/help/dsp/inventory/private-deal-view-placements.md)
 >* [수동으로 거래 ID 상세내역 생성](deal-id-create.md)
 >* [수동 거래 ID 설정](deal-id-settings.md)
 >* [프로그래밍 방식 보장 거래 설정](programmatic-guaranteed-set-up.md)

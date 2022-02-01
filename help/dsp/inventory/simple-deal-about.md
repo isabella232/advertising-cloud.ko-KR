@@ -2,7 +2,8 @@
 title: 만들기 [!UICONTROL Simple Ad Serving] 거래
 description: 알아보기 [!UICONTROL Simple Ad Serving] 은 이벤트 추적 픽셀을 사용합니다.
 feature: DSP Simple Ad Serving
-source-git-commit: 7d236b7eabe061c813ad83d34e333dbd169c867a
+exl-id: d65d1d8e-4d10-4d1d-86d3-f4457c29ae8d
+source-git-commit: 3e47fec28a17cb64de42309c0368293e1ef1cdea
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%

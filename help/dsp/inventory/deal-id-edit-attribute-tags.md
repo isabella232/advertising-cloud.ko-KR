@@ -2,7 +2,8 @@
 title: 거래 ID에 대한 속성 태그 편집
 description: 거래 ID에 대한 속성 태그를 만들고 편집하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-source-git-commit: 22f5d8279fadfcf79e2cd41566321f423d63eb16
+exl-id: 9a0190e7-26d0-4236-abbb-f1264b5d61e9
+source-git-commit: 3e47fec28a17cb64de42309c0368293e1ef1cdea
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
