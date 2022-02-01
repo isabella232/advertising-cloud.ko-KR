@@ -2,9 +2,10 @@
 title: 에 대한 오류 코드 [!DNL FreeWheel] 광고 제출
 description: 광고 제출을 위해 반환되는 오류 코드를 참조합니다. [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 2eb93971-ba82-4de8-96c5-48524d628b70
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '679'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 | 오류 메시지 | 설명 | 다음 단계 |
 |--- |--- |--- |
-| [!DNL 상태 응답 대기 중 [!DNL FreeWheel]] | [!DNL FreeWheel] 제출이 성공했거나 실패했다는 답변을 아직 받지 못했습니다. | 10분 후에 상태를 다시 확인합니다. |
+| [!DNL Awaiting status response from [!DNL FreeWheel]] | [!DNL FreeWheel] 제출이 성공했거나 실패했다는 답변을 아직 받지 못했습니다. | 10분 후에 상태를 다시 확인합니다. |
 | [!DNL The submitted ad does not have a clock number assigned.] | [!DNL FreeWheel] 지정된 시계 번호가 없으면 UK 광고를 허용하지 않습니다. | 광고에 클럭 번호를 지정한 다음 광고를 다시 제출합니다. |
 | [!DNL The ad you are attempting to submit has not yet finished transcoding. Please wait ten minutes then try again.] | 광고를 제출하려고 할 때 트랜스코더가 광고 코드 변환을 완료하지 않았습니다. | 10분을 기다린 다음 광고를 다시 제출합니다. |
 | [!DNL The deal id you input is not setup as a guaranteed feed. Please submit guaranteed deals only.] | 제출된 거래는 프로그램 방식의 보장 거래로 설정되지 않았다. [!DNL FreeWheel] 보증 계약만 수락합니다. | 프로그램 방식으로 보장되는 거래로 거래 ID를 설정합니다. 광고가 자동으로 [!DNL FreeWheel] 거래 ID 워크플로우가 끝날 때 프로그래밍 방식으로 보장된 기본 배치를 저장하는 경우입니다. |
@@ -32,13 +33,13 @@ ht-degree: 2%
 
 | 코드 | 의미 | 설명 | 다음 단계 |
 |--- |--- |--- |--- |
-| 401년 | 권한 없음 | 액세스 자격 증명이 잘못되었거나, 없거나, 잘못되었습니다. | 다음 사항에 문의하십시오. [!DNL Adobe] 계정 관리자. |
-| 403년 | 금지됨 | 서버가 요청을 이해했지만 승인하지 않습니다. | 다음 사항에 문의하십시오. [!DNL Adobe] 계정 관리자. |
-| 404년 | 없음 | 요청한 리소스를 사용할 수 없습니다. PUT 작업에서 크리에이티브 ID를 찾을 수 없으면 404가 반환됩니다. | 다음 사항에 문의하십시오. [!DNL Adobe] 계정 관리자. |
-| 405년 | 메서드가 허용되지 않음 | 해당 리소스에서 지원하지 않는 요청 메서드를 사용하여 리소스를 요청했습니다(예: POST에서 데이터를 전송해야 하는 메서드에 GET 사용 또는 읽기 전용 리소스에 대한 PUT 사용). | 다음 사항에 문의하십시오. [!DNL Adobe] 계정 관리자. |
-| 408년 | 요청 시간 초과 | 이 요청을 처리하는 동안 시간 제한이 발생했습니다. 시간 초과는 일반적으로 특정 리소스에 대한 단독 액세스 동시 요청에 의해 발생합니다. | 이 상태를 받으면 요청을 다시 제출합니다. 문제가 지속되면 [!DNL Adobe] 계정 관리자. |
-| 422년 | 처리할 수 없는 엔터티 | 리소스가 잘못되었습니다. 이 오류는 요청 본문이 잘못되었거나 생성/업데이트된 리소스가 잘못된 경우(예: 거래 ID가 없는 경우) 발생합니다. 자세한 내용은 [FreeWheel API 422 오류](#freewheel-422-errors) 추가 정보. | 다음 사항에 문의하십시오. [!DNL Adobe] 계정 관리자. |
-| 500년 | 내부 서버 오류 | API 시스템 오류입니다. | 다음 사항에 문의하십시오. [!DNL Adobe] 계정 관리자. |
+| 401년 | 권한 없음 | 액세스 자격 증명이 잘못되었거나, 없거나, 잘못되었습니다. | 다음 사항에 문의하십시오. [!DNL Adobe] 계정 팀입니다. |
+| 403년 | 금지됨 | 서버가 요청을 이해했지만 승인하지 않습니다. | 다음 사항에 문의하십시오. [!DNL Adobe] 계정 팀입니다. |
+| 404년 | 없음 | 요청한 리소스를 사용할 수 없습니다. PUT 작업에서 크리에이티브 ID를 찾을 수 없으면 404가 반환됩니다. | 다음 사항에 문의하십시오. [!DNL Adobe] 계정 팀입니다. |
+| 405년 | 메서드가 허용되지 않음 | 해당 리소스에서 지원하지 않는 요청 메서드를 사용하여 리소스를 요청했습니다(예: POST에서 데이터를 전송해야 하는 메서드에 GET 사용 또는 읽기 전용 리소스에 대한 PUT 사용). | 다음 사항에 문의하십시오. [!DNL Adobe] 계정 팀입니다. |
+| 408년 | 요청 시간 초과 | 이 요청을 처리하는 동안 시간 제한이 발생했습니다. 시간 초과는 일반적으로 특정 리소스에 대한 단독 액세스 동시 요청에 의해 발생합니다. | 이 상태를 받으면 요청을 다시 제출합니다. 문제가 지속되면 [!DNL Adobe] 계정 팀입니다. |
+| 422년 | 처리할 수 없는 엔터티 | 리소스가 잘못되었습니다. 이 오류는 요청 본문이 잘못되었거나 생성/업데이트된 리소스가 잘못된 경우(예: 거래 ID가 없는 경우) 발생합니다. 자세한 내용은 [FreeWheel API 422 오류](#freewheel-422-errors) 추가 정보. | 다음 사항에 문의하십시오. [!DNL Adobe] 계정 팀입니다. |
+| 500년 | 내부 서버 오류 | API 시스템 오류입니다. | 다음 사항에 문의하십시오. [!DNL Adobe] 계정 팀입니다. |
 
 {style=&quot;table-layout:auto&quot;}
 

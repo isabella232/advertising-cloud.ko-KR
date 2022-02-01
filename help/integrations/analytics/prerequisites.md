@@ -3,7 +3,7 @@ title: 구현을 위한 사전 요구 사항 및 주요 정보 [!DNL Analytics f
 description: 구현을 위한 사전 요구 사항 및 주요 정보 [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: d4d743ade0e2dad2b967b8316ff2261d0a82d5b0
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Advertising Cloud 구현 팀에 다음을 제공합니다.
 
 ## 의 Advertising Cloud 데이터 [!DNL Analytics]
 
-[!DNL Analytics] 는 Analytics 히트 내에서 클릭스루와 뷰스루 모두에 적용되는 광고주의 eVar 지속성 설정에 따라 Advertising Cloud ID(AMO ID)를 설정합니다. 지속성 설정은 Advertising Cloud 백엔드 및 [!DNL Adobe] 계정 관리자가 변경할 수 있습니다.
+[!DNL Analytics] 는 Analytics 히트 내에서 클릭스루와 뷰스루 모두에 적용되는 광고주의 eVar 지속성 설정에 따라 Advertising Cloud ID(AMO ID)를 설정합니다. 지속성 설정은 Advertising Cloud 백엔드 및 [!DNL Adobe] 계정 팀이 변경할 수 있습니다.
 
 * [!DNL Analytics for Advertising Cloud] eVar 만료: AMO ID의 경우 기본적으로 60일
 
@@ -77,7 +77,7 @@ Advertising Cloud 구현 팀에 다음을 제공합니다.
 * 온라인 비디오
 * 기본
 
-다음 사항에 문의하십시오. [!DNL Adobe] 각 채널에서 지원되는 최신 광고 환경을 위한 계정 관리자.
+다음 사항에 문의하십시오. [!DNL Adobe] 각 채널에서 지원되는 최신 광고 환경을 위한 계정 팀입니다.
 
 ## 구현하기 전에 알아야 할 사항
 

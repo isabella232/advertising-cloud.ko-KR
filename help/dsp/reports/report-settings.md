@@ -2,13 +2,13 @@
 title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
-source-git-commit: ff14691fd2b6fa56c303dca3ac0e4c897c322f72
+exl-id: 1d37fc96-0f9b-4eb2-ba8d-9534f627adaf
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 0%
 
 ---
-
 
 # 사용자 지정 보고서 설정
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 **[!UICONTROL Add Filters]:** (선택 사항) 차원이 보고서에 열로 포함되어 있는지 여부에 관계없이 데이터를 필터링할 수 있는 추가 차원입니다. *[!UICONTROL Account]*,\* *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Placement]*, *[!UICONTROL Ad]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Video]*, *[!UICONTROL Video Duration]*, *[!UICONTROL Country]*, 및 *[!UICONTROL Package]*.
 
-\* *[!UICONTROL Account]* 조직가에 대해 구성된 경우에만 다음 보고서 유형에 사용할 수 있습니다 [교차 계정 보고](report-about.md#cross-account-reporting):  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)], 및 [!UICONTROL Conversion]. 다음 사항에 문의하십시오. [!DNL Adobe] 계정 관리자 를 참조하십시오.
+\* *[!UICONTROL Account]* 조직가에 대해 구성된 경우에만 다음 보고서 유형에 사용할 수 있습니다 [교차 계정 보고](report-about.md#cross-account-reporting):  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)], 및 [!UICONTROL Conversion]. 다음 사항에 문의하십시오. [!DNL Adobe] 계정 팀에서 교차 계정 보고에 대한 자세한 내용을 확인하십시오.
 
 필터를 하나 이상 적용하려면 다음을 수행하십시오.
 

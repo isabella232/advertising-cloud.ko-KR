@@ -3,7 +3,7 @@ title: 재요청 [!DNL On Demand] Premium 인벤토리 거래
 description: 다시 요청하는 방법 알아보기 [!DNL On Demand] 이전에 거부되었던 거래.
 feature: DSP On Demand Inventory
 exl-id: db5a5708-16e3-4304-8bd0-f1aa8ecd0e3c
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 다시 요청할 수 있습니다 [!DNL On Demand] 구독한 게시자의 거래를 포함하여 거부된 인벤토리 거래. 새 요청을 제출하기 전에 적용 가능한 모든 계정 설정이 올바른지 확인하려면 다음 단계를 따르십시오.
 
-재요청한 후 계약이 승인되지 않은 경우 [!DNL Adobe] 계정 관리자가 계정에 거래에 액세스할 수 없는 추가 제한 사항이 있는지 확인합니다.
+재요청한 후 계약이 승인되지 않은 경우 [!DNL Adobe] 계정 팀에서는 게시자가 귀하의 계정에 거래에 액세스할 수 없는 추가 제한 사항이 있는지 확인할 수 있습니다.
 
 일단 거래가 성사되면 [승인됨](/help/dsp/inventory/on-demand-inventory-view-status.md), 기본적으로 모든 배치를 대상으로 하는 새 배치의 대상으로 포함됩니다 [!DNL On Demand] 인벤토리 새 거래는 기존 배치의 타겟으로도 사용할 수 있지만, 거래를 타겟으로 추가하려면 배치 설정을 수동으로 편집해야 합니다.
 
-1. 으로 확인합니다. [!DNL Adobe] 계정 관리자 [!UICONTROL Account Type] 조직의 DSP 계정이 올바른 경우
+1. 으로 확인합니다. [!DNL Adobe] 계정 팀 [!UICONTROL Account Type] 조직의 DSP 계정이 올바른 경우
 
 1. 적용 가능한 광고주 계정에 대한 광고주 카테고리가 올바른지 확인합니다.
 

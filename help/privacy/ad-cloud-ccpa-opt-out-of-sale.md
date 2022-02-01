@@ -3,7 +3,7 @@ title: '캘리포니아 소비자 개인 정보 보호법을 위한 Adobe Advert
 description: 소비자 판매 중지 요청 캡처에 대한 지원에 대해 알아봅니다.
 feature: CCPA
 exl-id: 2c0cd4f5-798f-479a-99cd-f555cd676766
-source-git-commit: adb3118d291d110e653a62cc1a323410b1a596b2
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Advertising Cloud DSP 내에서 또는 Advertising Cloud을 사용하여 이전 
 
 이 기능은 [!DNL Trafficking API]. 에 대한 설명서를 참조하십시오. [!DNL Trafficking API] 추가 정보.
 
-조직에서 [!DNL Trafficking API] 하지만 더 많은 정보에 관심이 있다면 [!DNL Adobe] 계정 관리자.
+조직에서 [!DNL Trafficking API] 하지만 더 많은 정보에 관심이 있다면 [!DNL Adobe] 계정 팀입니다.
 
 ## 부록: 예 [!UICONTROL CCPA Opt-Out-of-Sale] Privacy Service API 사용자 요청
 

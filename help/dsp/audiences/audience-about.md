@@ -3,7 +3,7 @@ title: Advertising Cloud DSP의 대상 관리 정보
 description: 고객 관리 기능에 대해 알아봅니다.
 feature: DSP Audiences, DSP Segments
 exl-id: 624d2211-59a2-4791-b8f1-a9a5cecd0b8e
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Advertising Cloud DSP은 DMP(데이터 관리 플랫폼)에서 자사 데이터 
 
 Advertising Cloud DSP은 타사 세그먼트의 복잡한 조합을 포함하여 사용자 지정 타사 세그먼트를 가져올 수도 있습니다. 필요에 따라 모든 광고주 세트에 세그먼트를 제공할 수 있습니다.
 
-다음 사항에 문의하십시오. [!DNL Adobe] 계정 관리자 를 참조하십시오.
+다음 사항에 문의하십시오. [!DNL Adobe] 계정 팀에 문의하십시오.
 
 ## 배치 Target으로 사용할 수 있는 대상
 
@@ -102,11 +102,11 @@ Advertising Cloud DSP은 타사 세그먼트의 복잡한 조합을 포함하여
 
 * 사용자가 사용할 수 있는 가져온 모든 자사 세그먼트.
 
-   사용자와 공유된 자사 세그먼트는 편집하거나 공유할 수 없습니다. 다음 사항에 문의하십시오. [!DNL Adobe] 추가 사용자와 자사 세그먼트를 공유해야 하는 경우 계정 관리자.
+   사용자와 공유된 자사 세그먼트는 편집하거나 공유할 수 없습니다. 다음 사항에 문의하십시오. [!DNL Adobe] 추가 사용자와 자사 세그먼트를 공유해야 하는 경우 계정 팀입니다.
 
 * 사용자가 사용할 수 있는 모든 사용자 지정 타사 세그먼트.
 
-   사용자와 공유된 타사 세그먼트는 편집하거나 공유할 수 없습니다. 다음 사항에 문의하십시오. [!DNL Adobe] 추가 사용자와 타사 세그먼트를 공유해야 하는 경우 계정 관리자.
+   사용자와 공유된 타사 세그먼트는 편집하거나 공유할 수 없습니다. 다음 사항에 문의하십시오. [!DNL Adobe] 추가 사용자와 타사 세그먼트를 공유해야 하는 경우 계정 팀입니다.
 
 >[!MORELIKETHIS]
 >

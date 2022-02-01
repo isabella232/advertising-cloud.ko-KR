@@ -2,13 +2,13 @@
 title: 보고서 대상 만들기
 description: 사용자 지정 보고서 배달을 위한 대상을 만드는 방법을 알아봅니다.
 feature: DSP Custom Reports
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 33c58a98-a7d3-4d05-99e7-5e55ba3e625a
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 2%
 
 ---
-
 
 # 보고서 대상 만들기
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 보고서가 어떤 유형의 FTP나 [!DNL Amazon S3] 위치, 오류로 인해 보고서가 취소되면 알림을 받지 않습니다. 예상한 보고서를 받지 못한 경우 [!DNL Adobe] 계정 관리자가 이유를 확인합니다.
+> 보고서가 어떤 유형의 FTP나 [!DNL Amazon S3] 위치, 오류로 인해 보고서가 취소되면 알림을 받지 않습니다. 예상한 보고서를 받지 못한 경우 [!DNL Adobe] 계정 팀이 이유를 확인합니다.
 
 >[!MORELIKETHIS]
 >

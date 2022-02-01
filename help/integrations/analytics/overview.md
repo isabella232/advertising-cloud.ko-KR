@@ -3,7 +3,7 @@ title: 개요 [!DNL Analytics for Advertising Cloud]
 description: 개요 [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 31367c8b-3410-4110-9ae6-11defe625355
-source-git-commit: bfbfc293ad04b294c813ce7c8a11200e70fc812f
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 를 사용하려면 [!DNL Analytics] 유료 미디어 보고 도구로서, 조직은 Analysis Workspace에 대한 액세스 권한을 사용하여 Experience Cloud 로그인이 필요합니다. Advertising Cloud 팀이 Advertising Cloud 데이터를 Analysis Workspace의 개별 보고서 세트에 매핑하도록 돕습니다. Advertising Cloud 데이터를 모든 보고서 세트에 보낼 수 있지만, Advertising Cloud에 매핑된 보고서 세트와 매핑하지 않은 보고서 세트가 무엇인지 알고 있어야 합니다. 보고서 세트에 따라 보고된 데이터가 변경될 수 있습니다.
 
-[내의 Advertising Cloud ID [!DNL Analytics]](ids.md) 는 다른 eVar와 마찬가지로 사용자 지정 및 영구 만료와 함께 작동합니다. 기본적으로 Advertising Cloud 구현 중 속성 전환 확인 기간은 60일로 설정됩니다. 이 설정을 변경하려면 [!DNL Adobe] 계정 관리자.
+[내의 Advertising Cloud ID [!DNL Analytics]](ids.md) 는 다른 eVar와 마찬가지로 사용자 지정 및 영구 만료와 함께 작동합니다. 기본적으로 Advertising Cloud 구현 중 속성 전환 확인 기간은 60일로 설정됩니다. 이 설정을 변경하려면 [!DNL Adobe] 계정 팀입니다.
 
 Advertising Cloud 차원은 &quot;(AMO ID)&quot; 접미사(예: &quot;광고 유형(AMO ID)&quot;)에 추가됩니다. 참조:[Analysis Workspace의 Advertising Cloud 지표](advertising-cloud-metrics-in-analytics.md)사용 가능한 차원 목록에 대해 &quot;을 참조하십시오.
 
@@ -68,7 +68,7 @@ Advertising Cloud 차원은 &quot;(AMO ID)&quot; 접미사(예: &quot;광고 유
 
    (Advertising Cloud Search만 해당) [!DNL Analytics] 그러나 Audience Manager은 다음 방법으로 Google 웹 사이트 태그 기반 대상(리마케팅 목록)과 고객 일치 대상(고객 목록)을 만들 수도 없습니다 [!DNL Analytics] Experience Cloud과 공유되는 세그먼트.
 
-### 입찰 신호로서의 사이트 전환 지표
+### 사이트 전환 지표를 입찰 신호로 사용
 
 에서 표준 이벤트와 사용자 지정 이벤트를 사용할 수 있습니다. [!DNL Analytics] Advertising Cloud에서 가중 목표를 빌드하려면 다음을 수행하십시오. 목표에 대한 입찰 결정 정보를 제공합니다. [!DNL DSP] 패키지 및 검색 포트폴리오.
 

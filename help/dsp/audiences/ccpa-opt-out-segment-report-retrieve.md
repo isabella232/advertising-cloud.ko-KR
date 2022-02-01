@@ -3,7 +3,7 @@ title: 소비자 판매 중지 보고서 검색
 description: 판매 중지 요청에 대해 제출된 ID의 보고서를 검색하는 방법을 알아봅니다.
 feature: CCPA, DSP Segments
 exl-id: 8ada787a-6dcf-455b-88f4-701743e68292
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Advertising Cloud을 사용하여 소비자 옵트아웃 보고서를 선택적으로 검색할 수 있습니다 [!DNL Trafficking API]. 지침은 [!DNL Trafficking API]. 조직에서 [!DNL Trafficking API] 하지만 더 많은 정보에 관심이 있다면 [!DNL Adobe] 계정 관리자.
+>Advertising Cloud을 사용하여 소비자 옵트아웃 보고서를 선택적으로 검색할 수 있습니다 [!DNL Trafficking API]. 지침은 [!DNL Trafficking API]. 조직에서 [!DNL Trafficking API] 하지만 더 많은 정보에 관심이 있다면 [!DNL Adobe] 계정 팀입니다.
 
 1. 주 메뉴에서 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
 1. 세그먼트 목록 위에서 을 클릭합니다. **[!UICONTROL Access CCPA Reports]**.

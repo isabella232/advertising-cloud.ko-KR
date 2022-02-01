@@ -3,9 +3,9 @@ title: 사용자 지정 보고서 정보
 description: 사용자 지정 보고서를 수동으로 만들거나 사전 구성된 보고서 템플릿을 사용하는 옵션에 대해 알아봅니다.
 feature: DSP Custom Reports
 exl-id: 59fc1894-1c9d-451d-b644-5640dd311547
-source-git-commit: ff14691fd2b6fa56c303dca3ac0e4c897c322f72
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 ## 교차 계정 보고 {#cross-account-reporting}
 
-여러 DSP 계정이 있는 모든 조직은 조직의 요구 사항에 따라 사용자 지정 보고서에서 교차 계정 데이터를 선택적으로 활성화할 수 있습니다. 예를 들어, 계정 A에게 계정 B의 데이터에 대한 액세스 권한을 제공하고 계정 B에게 계정 C(계정 A는 아님) 데이터에 대한 액세스 권한을 제공할 수 있습니다. 이 기능을 활성화하고 구성하려면 계정 관리자에게 문의하십시오.
+여러 DSP 계정이 있는 모든 조직은 조직의 요구 사항에 따라 사용자 지정 보고서에서 교차 계정 데이터를 선택적으로 활성화할 수 있습니다. 예를 들어, 계정 A에게 계정 B의 데이터에 대한 액세스 권한을 제공하고 계정 B에게 계정 C(계정 A는 아님) 데이터에 대한 액세스 권한을 제공할 수 있습니다. 이 기능을 활성화하고 구성하려면 [!DNL Adobe] 계정 팀입니다.
 
 조직에 대해 기능이 활성화되면 다음을 수행할 수 있습니다 [필터](report-settings.md) 계정별 다음 보고서 유형 중 하나:  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)], 및 [!UICONTROL Conversion].
 

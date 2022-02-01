@@ -3,7 +3,7 @@ title: 사용자의 상태 보기 [!DNL On Demand] 거래 요청 및 구독
 description: 사용자의 상태를 확인하는 방법을 알아봅니다 [!DNL On Demand] 거래 요청 및 구독.
 feature: DSP On Demand Inventory
 exl-id: 8dd6d922-c4a3-4ddb-bca9-f6f782da1320
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    각 광고주에 대해 요청이 거부된 이유를 보려면 ![거부](/help/dsp/assets/denied.png). 거부의 이유가 해결될 수 있는 것인 경우 다음을 수행할 수 있습니다 [거래 요청](/help/dsp/inventory/on-demand-inventory-rerequest.md).
 
-승인 프로세스에 대한 질문이 있는 경우 [!DNL Adobe] 계정 관리자.
+승인 프로세스에 대한 질문이 있는 경우 [!DNL Adobe] 계정 팀입니다.
 
 >[!MORELIKETHIS]
 >

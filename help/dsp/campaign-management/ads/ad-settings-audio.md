@@ -3,7 +3,7 @@ title: 오디오 광고 설정
 description: 오디오 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: 746b6f40-ff59-4bbe-bfc0-3579d4461e4a
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final VAST Tag]:** (VAST 태그만 사용하는 광고) 필요한 타사 광고 소스의 URL입니다 [Advertising Cloud DSP 추적 매크로](/help/dsp/campaign-management/macros.md) 삽입됨, 해당하는 경우
 
-**[!UICONTROL Select Rate]:** (권한이 있는 사용자만 해당) Adobe을 통해 청구되는 사전 협상된 비율 또는 협상한 비율 중 하나이며 공급업체를 통해 청구됩니다. 비율을 추가하려면 [!DNL Adobe] 계정 관리자.
+**[!UICONTROL Select Rate]:** (권한이 있는 사용자만 해당) Adobe을 통해 청구되는 사전 협상된 비율 또는 협상한 비율 중 하나이며 공급업체를 통해 청구됩니다. 비율을 추가하려면 [!DNL Adobe] 계정 팀입니다.
 
 ### [!UICONTROL Companion]
 

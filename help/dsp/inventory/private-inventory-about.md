@@ -2,7 +2,7 @@
 title: 비공개 인벤토리 정보
 description: 비공개 인벤토리 정보
 feature: DSP Private Inventory
-source-git-commit: 22f5d8279fadfcf79e2cd41566321f423d63eb16
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -19,7 +19,7 @@ RTB를 벗어난 광고주는 비공개 인벤토리를 사용하여 독점 미�
 
 ### 거래 ID
 
-게시자와 직접적인 관계가 있는 경우 Advertising Cloud DSP 배치에서 협상한 인벤토리 및 가격 책정 등을 사용하여 고유한 비공개 거래를 사용하여 미디어 구매 프로세스 및 워크플로우를 간소화할 수 있습니다. 계정을 설정하면 DSP이 모든 게시자와 통합됩니다. 나중에 추가 게시자에 액세스하려면 [!DNL Adobe] 계정 관리자 를 사용하여 액세스 권한을 설정합니다. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
+게시자와 직접적인 관계가 있는 경우 Advertising Cloud DSP 배치에서 협상한 인벤토리 및 가격 책정 등을 사용하여 고유한 비공개 거래를 사용하여 미디어 구매 프로세스 및 워크플로우를 간소화할 수 있습니다. 계정을 설정하면 DSP이 모든 게시자와 통합됩니다. 나중에 추가 게시자에 액세스하려면 [!DNL Adobe] 계정 팀이 액세스 권한을 설정합니다. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
 
 거래 ID에 대한 모든 개인 거래는 [!DNL Adobe].
 

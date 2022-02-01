@@ -3,7 +3,7 @@ title: 교차 장치 솔루션
 description: 교차 장치 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: 29f8ec41-35a6-4a29-a638-82a2929a8fe6
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Advertising Cloud DSP과 통합 [!DNL LiveRamp] 및 [!DNL Adobe Device Co-op] �
 
 ### 사용자 기반 속성 측정 활성화
 
-교차 장치 속성 측정을 활성화하려면 [!DNL Adobe] 계정 관리자. 대상 [!DNL Adobe Device Co-op] 계정, 서명된 [!DNL Adobe Device Co-op] 계약 및 Experience Cloud [!DNL Organization ID] (이전에는 [!DNL IMS org ID]).
+교차 장치 속성 측정을 활성화하려면 [!DNL Adobe] 계정 팀입니다. 대상 [!DNL Adobe Device Co-op] 계정, 서명된 [!DNL Adobe Device Co-op] 계약 및 Experience Cloud [!DNL Organization ID] (이전에는 [!DNL IMS org ID]).
 
 광고주 계정이 속성 측정에 장치 그래프를 사용하도록 구성되어 있는지 확인하려면:
 

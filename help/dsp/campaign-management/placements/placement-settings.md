@@ -3,7 +3,7 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '3280'
 ht-degree: 0%
@@ -304,7 +304,7 @@ ht-degree: 0%
    * 간격을 수동으로 선택하려면 셀 내부를 클릭하고 선택적으로 드래그하여 간격을 선택합니다.
 1. 클릭 **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (선택 사항) 으로 구성된 광고주 [!DNL Comscore] 및 [!DNL Grapeshot] 세그먼트) 의 특정 세그먼트 이름 또는 ID를 [!DNL Comscore] 및 [!DNL Grapeshot] 을 타겟으로 포함시킵니다. 이 기능에 대한 추가 비용이 발생할 수 있습니다. 이 기능을 활성화하고 주제 세그먼트를 설정하려면 [!DNL Adobe] 계정 관리자.
+**[!UICONTROL Topic Targeting]:** (선택 사항) 으로 구성된 광고주 [!DNL Comscore] 및 [!DNL Grapeshot] 세그먼트) 의 특정 세그먼트 이름 또는 ID를 [!DNL Comscore] 및 [!DNL Grapeshot] 을 타겟으로 포함시킵니다. 이 기능에 대한 추가 비용이 발생할 수 있습니다. 이 기능을 활성화하고 주제 세그먼트를 설정하려면 [!DNL Adobe] 계정 팀입니다.
 
 주제 타깃팅을 지정하려면 다음을 수행하십시오.
 

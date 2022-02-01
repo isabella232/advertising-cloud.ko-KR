@@ -1,10 +1,11 @@
 ---
-title: 광고 상태 확인 [!DNL [!DNL FreeWheel]] PG 거래
+title: '[!DNL 광고 상태 확인 [!DNL FreeWheel]] PG 거래'
 description: 광고 상태를 찾는 방법을 알아봅니다. [!DNL Freewheel] 프로그램 방식으로 보장되는 거래.
 feature: DSP Private Inventory, DSP Deal IDs
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 57c365f6-41cf-4ab6-b71d-fe9984eaf115
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 에 광고가 제출되는지 확인합니다. [!DNL Freewheel] 성공했습니다. 필요에 따라 모든 광고를 다시 제출할 수 있습니다.
 
-재제출과 관련된 추가 질문이나 문제는 [!DNL Adobe] 계정 관리자.
+재제출과 관련된 추가 질문이나 문제는 [!DNL Adobe] 계정 팀입니다.
 
 ## 에서 상태 확인 [!UICONTROL Ads] 보기
 

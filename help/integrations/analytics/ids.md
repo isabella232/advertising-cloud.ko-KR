@@ -3,7 +3,7 @@ title: 에서 사용하는 Advertising Cloud ID [!DNL Analytics]
 description: 에서 사용하는 Advertising Cloud ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: 143e8e756d13597bf923d0b6f5b2510f834e6e0f
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 0%
@@ -120,7 +120,7 @@ AMO ID 예: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 * `{ef_userid}` 는 Advertising Cloud이 광고주에 할당하는 고유한 숫자 사용자 ID입니다.
 * `{ef_sid}` Advertising Cloud이 지정된 검색 엔진에 사용하는 숫자 ID입니다(예: ) `3` 대상 [!DNL Google Ads] 또는 `10` 대상 [!DNL Microsoft Advertising].
 
-다음은 두 개의 검색 엔진에 대한 전체 AMO ID 형식입니다. 다른 검색 엔진에 대한 AMO ID 형식은 [!DNL Adobe] 계정 관리자.
+다음은 두 개의 검색 엔진에 대한 전체 AMO ID 형식입니다. 다른 검색 엔진에 대한 AMO ID 형식은 [!DNL Adobe] 계정 팀입니다.
 
 AMO ID 형식 [!DNL Google Ads]:
 

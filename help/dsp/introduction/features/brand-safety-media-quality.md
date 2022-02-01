@@ -3,9 +3,9 @@ title: 브랜드 안전 및 미디어 품질
 description: 브랜드 안전 및 미디어 품질 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: 3bca3d5b4a1ec0bf9bb23946248de350b8bbf2a6
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Advertising Cloud DSP은 광고를 실행하기에 안전하지 않다고 간주
 
 각 광고주에 대한 기본 입찰 전 차단 컨트롤을 설정할 수 있습니다<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, 및 원할 경우 [각 배치에 대한 설정 사용자 정의](/help/dsp/campaign-management/placements/placement-settings.md). 이 기능을 사용하는 경우 추가 비용이 발생할 수 있습니다.
 
-기능에 대한 자세한 내용은 원하는 공급업체에 직접 문의하거나 [!DNL Adobe] 계정 관리자.
+기능에 대한 자세한 내용은 원하는 공급업체에 직접 문의하거나 [!DNL Adobe] 계정 팀입니다.
 
 ![Comscore 로고](/help/dsp/assets/comscore-logo.png) ![DoubleVerify 로고](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science 로고](/help/dsp/assets/ias-logo.png) ![Peer39 로고](/help/dsp/assets/peer39-logo.png)
 
@@ -122,7 +122,7 @@ DSP 주제 타깃팅을 사용하면 업계 선도적인 컨텍스트 파트너�
 
 * 을(를) 만들려면 [!DNL Comscore] 계정을 설정하고 사용자 지정 세그먼트를 만듭니다. [!DNL Activation Segment Manager] at [https://agents.comscore.com](https://agents.comscore.com). 자세한 내용은 [[!DNL Comscore] 도움말 센터](https://comscoreactivation.zendesk.com/hc/) 을 참조하십시오. 사용자 지정 세그먼트에 대한 요금은 [!DNL Segment Manager] 만들 때
 
-* 시작하려면 [!DNL Oracle Data Cloud], 연락처 [!DNL Oracle Data Cloud] 또는 [!DNL Adobe] 계정 관리자.
+* 시작하려면 [!DNL Oracle Data Cloud], 연락처 [!DNL Oracle Data Cloud] 또는 [!DNL Adobe] 계정 팀입니다.
 
 ![Comscore 로고](/help/dsp/assets/comscore-logo.png) ![그래픽 핫 로고](/help/dsp/assets/oracle-grapeshot-logo.png)
 
@@ -134,7 +134,7 @@ DSP은 [!DNL DoubleVerify] 그것을 제공하다 [!DNL Authentic Brand Safety] 
 
 을(를) 지정할 수 있습니다 [!DNL DoubleVerify] 각 광고주의 세그먼트 ID<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, 및 원할 경우 [활성화 또는 비활성화 [!UICONTROL Authentic Brand Safety] 각 배치에 대해](/help/dsp/campaign-management/placements/placement-settings.md). DSP에서는 세그먼트 ID에 대한 사용을 위해 계정에 청구합니다.
 
-기능에 대한 자세한 내용은 [!DNL DoubleVerify] 직접 또는 [!DNL Adobe] 계정 관리자.
+기능에 대한 자세한 내용은 [!DNL DoubleVerify] 직접 또는 [!DNL Adobe] 계정 팀입니다.
 
 ![DoubleVerify 로고](/help/dsp/assets/doubleverify-logo.png)
 

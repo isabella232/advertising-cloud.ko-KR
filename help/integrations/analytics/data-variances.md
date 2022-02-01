@@ -3,7 +3,7 @@ title: 다음 사이 예상되는 데이터 분산 [!DNL Analytics] 및 Advertis
 description: 다음 사이 예상되는 데이터 분산 [!DNL Analytics] 및 Advertising Cloud
 feature: Integration with Adobe Analytics
 exl-id: 34685e04-d4f9-4e27-b83e-b56164244b2b
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '3282'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * **서로 다른 전환 확인 기간으로 인한 불일치 예:**
 
-   Advertising Cloud에 60일 클릭 전환 확인 기간이 있고 [!DNL Analytics] 에는 30일 전환 확인 기간이 있습니다. 사용자가 Advertising Cloud 추적된 광고를 통해 사이트를 방문한 다음 45일에 재방문한 다음 전환한다고 가정합니다. Advertising Cloud은 60일 전환 확인 기간 내에서 전환이 발생했기 때문에 초기 방문으로 전환을 기여하게 됩니다. [!DNL Analytics]그러나 30일 전환 확인 기간이 만료된 후 전환이 발생했으므로 이 전환을 초기 방문으로 간주할 수 없습니다. 이 예에서는 Advertising Cloud이 보다 높은 전환 수를 보고합니다 [!DNL Analytics] 그럴 겁니다
+   Advertising Cloud에 60일 클릭 전환 확인 기간이 있고 [!DNL Analytics] 에는 30일 전환 확인 기간이 있습니다. 사용자가 Advertising Cloud 추적된 광고를 통해 사이트를 방문한 다음 45일에 재방문한 다음 전환한다고 가정합니다. Advertising Cloud은 60일 전환 확인 기간 내에서 전환이 발생했기 때문에 초기 방문으로 전환을 기여하게 됩니다. [!DNL Analytics]그러나 30일 전환 확인 기간이 만료된 후 전환이 발생했으므로 이 전환을 초기 방문으로 간주할 수 없습니다. 이 예에서 Advertising Cloud은 보다 더 많은 전환 수를 보고합니다 [!DNL Analytics] 그럴 겁니다
 
    ![Advertising Cloud에서 귀속되는 전환의 예 [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->가장 좋은 방법은 Advertising Cloud과 속성 모두에서 동일한 전환 확인 기간과 속성 모델을 사용하는 것입니다 [!DNL Analytics]. 작업 [!DNL Adobe] 현재 설정을 식별하고 구성을 동기화하는 데 필요한 계정 관리자
+>가장 좋은 방법은 Advertising Cloud과 속성 모두에서 동일한 전환 확인 기간과 속성 모델을 사용하는 것입니다 [!DNL Analytics]. 작업 [!DNL Adobe] 계정 팀은 현재 설정을 식별하고 구성을 계속 동기화하는 데 필요한 경우
 
 이러한 동일한 개념은 서로 다른 전환 확인 기간 또는 속성 모델을 사용하는 다른 채널과 유사한 모든 채널에 적용됩니다.
 
@@ -161,7 +161,7 @@ Advertising Cloud 보고서에서 &quot;[!UICONTROL ef_id_instances]&quot; 대�
 
 ```Clicks to [!UICONTROL EF ID Instances] = (ef_id_instances / Clicks)```
 
-AMO ID와 EF ID 간의 일치율이 높을 것으로 예상해야 하지만 AMO ID와 EF ID가 기본적으로 다른 데이터를 추적하므로 패리티를 100% 예상하지는 마십시오. 이렇게 차이가 발생할 수 있으므로 합계에 약간의 차이가 있을 수 있습니다 [!UICONTROL AMO ID Instances] 및 [!UICONTROL EF ID Instances]. 합계가 [!UICONTROL AMO ID Instances] in [!DNL Analytics] different [!UICONTROL EF ID Instances] 그러나 Advertising Cloud에서 1% 이상 [!DNL Adobe] 계정 관리자에게 문의하십시오.
+AMO ID와 EF ID 간의 일치율이 높을 것으로 예상해야 하지만 AMO ID와 EF ID가 기본적으로 다른 데이터를 추적하므로 패리티를 100% 예상하지는 마십시오. 이렇게 차이가 발생할 수 있으므로 합계에 약간의 차이가 있을 수 있습니다 [!UICONTROL AMO ID Instances] 및 [!UICONTROL EF ID Instances]. 합계가 [!UICONTROL AMO ID Instances] in [!DNL Analytics] different [!UICONTROL EF ID Instances] 그러나 Advertising Cloud에서 1% 이상 [!DNL Adobe] 계정 팀에 문의하십시오.
 
 AMO ID 및 EF ID에 대한 자세한 내용은 [Analytics에서 사용하는 Advertising Cloud ID](ids.md).
 
@@ -187,7 +187,7 @@ AMO ID 및 EF ID에 대한 자세한 내용은 [Analytics에서 사용하는 Adv
 
 이 예에서 앵커 태그를 추가하면 AMO ID에 예기치 않은 문자가 추가되어 Analytics에서 인식하지 못하는 값이 발생합니다. 이 AMO ID는 분류되지 않으며 연결된 전환은 &quot;&quot;에 속합니다.[!UICONTROL unspecified]&quot; 또는 &quot;[!UICONTROL none]&quot; [!DNL Analytics] 보고서.
 
-다행히도, 이와 같은 문제는 흔한 일이지만, 일반적으로 높은 비율의 불일치를 초래하지는 않습니다. 그러나 의 AMO ID 간에 큰 차이가 발생하는 경우 [!DNL Analytics] 및 Advertising Cloud의 EF ID는 [!DNL Adobe] 계정 관리자에게 문의하십시오.
+다행히도, 이와 같은 문제는 흔한 일이지만, 일반적으로 높은 비율의 불일치를 초래하지는 않습니다. 그러나 의 AMO ID 간에 큰 차이가 발생하는 경우 [!DNL Analytics] 및 Advertising Cloud의 EF ID는 [!DNL Adobe] 계정 팀에 문의하십시오.
 
 ## 기타 지표 고려 사항
 

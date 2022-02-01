@@ -3,7 +3,7 @@ title: DSP이 캠페인을 최적화하는 방법
 description: DSP이 캠페인에서 패키지를 최적화하는 방법을 알아봅니다.
 feature: DSP Optimization
 exl-id: 054582ef-b677-4725-b25c-b82bf3e5b43e
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # DSP이 캠페인을 최적화하는 방법
 
-이 페이지에서는 다음에 의해 구동되는 Advertising Cloud DSP 최적화 엔진을 간략하게 설명합니다 [!DNL Adobe Sensei]은 캠페인에서 패키지를 최적화합니다. 캠페인을 수동으로 최적화하는 방법에 대한 팁과 트릭은 [!DNL Adobe] 계정 관리자. <!-- add link to trading playbook if we add it to help -->
+이 페이지에서는 다음에 의해 구동되는 Advertising Cloud DSP 최적화 엔진을 간략하게 설명합니다 [!DNL Adobe Sensei]은 캠페인에서 패키지를 최적화합니다. 캠페인을 수동으로 최적화하는 방법에 대한 팁과 트릭은 [!DNL Adobe] 계정 팀입니다. <!-- add link to trading playbook if we add it to help -->
 
 패키지 최적화 목표는 두 가지 수준에서 작동합니다.
 

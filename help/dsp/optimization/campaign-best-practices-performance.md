@@ -3,7 +3,7 @@ title: 성능 캠페인 설정에 대한 우수 사례
 description: 최저 CPA 또는 가장 높은 ROAS에 맞게 최적화된 배치를 포함하는 성능 중심 캠페인을 설정하는 우수 사례를 알아봅니다.
 feature: DSP Optimization, DSP Best Practices
 exl-id: fc64680d-9d1c-4f74-a8b9-2e9b670c00eb
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Advertising Cloud은 CPA(Inquisition Per Acquisition) 또는 ROAS(High Return On
 
    예를 들어, 30일 동안 사용할 $100,000가 있는 경우, 1편(1-10일)에 대한 예산을 $25,000(75% x $100,000/30일 = $2,500)로 설정합니다. 2편(11-30일)에 75,000달러의 나머지 예산을 사용하십시오.
 
-* **예산:** DSP은 항상 패키지의 모든 배치 간에 100%의 패키지 예산을 균등하게 할당하려고 합니다. 배치에 비용이 낮거나 지출이 없는 경우, 예산을 더 많이 할당하여 배율이 높은 배치에 할당할 수 있도록 배치를 최대 조정하는 것이 좋습니다. 예산 변경을 보정하려면 24-48시간을 허용합니다.
+* **예산:** DSP은 항상 패키지의 모든 배치 간에 100%의 패키지 예산을 균등하게 할당하려고 합니다. 배치에 비용이 적게 소요되거나 지출이 없는 경우, 예산을 더 많이 할당하여 비율이 조정된 배치에 할당할 수 있도록 배치를 최대 조정하는 것이 좋습니다. 예산 변경을 보정하려면 24-48시간을 허용합니다.
 
 * **최적화 목표:** 두 가지 성능 최적화 목표 중 하나를 사용하십시오. *[!UICONTROL Highest ROAS]* 또는 *[!UICONTROL Lowest CPA]*&#x200B;패키지 목표에 따라 다릅니다. 이 목표는 각각 가장 높은 ROAS 또는 가장 낮은 CPA 배치를 향해 패키지를 자동으로 최적화합니다.
 
@@ -85,7 +85,7 @@ Advertising Cloud은 CPA(Inquisition Per Acquisition) 또는 ROAS(High Return On
 
 * **채우기 전략 간격:** 선택 *[!UICONTROL Even]* 을 추가하여 전체 비행 날짜 동안 균일하게 게재를 함으로써 성능 목표를 극대화할 수 있습니다.
 
-   사용 *[!UICONTROL FrontLoad]* 및 *[!UICONTROL Aggressive Front Load]* 게재 우선 순위 지정과 성능 최적화에 대한 비용을 전적으로 우선시하는 경우에만 간격. 이러한 전략은 원하는 성능 KPI에 부정적인 영향을 줄 수 있습니다.
+   사용 *[!UICONTROL FrontLoad]* 및 *[!UICONTROL Aggressive Front Load]* 게재 우선 순위 지정을 완전히 하고 성능 최적화에 더 많이 투자할 때만 게재 속도를 조절합니다. 이러한 전략은 원하는 성능 KPI에 부정적인 영향을 줄 수 있습니다.
 
 ## 4단계 - 배치 구조 만들기
 
@@ -140,7 +140,7 @@ Advertising Cloud은 CPA(Inquisition Per Acquisition) 또는 ROAS(High Return On
 
 * **[!UICONTROL Device Targeting]**:
    * 포함 [!UICONTROL Computer], [!UICONTROL Mobile], 및 [!UICONTROL Tablet].
-   * 타깃팅하지 않음 [!UICONTROL Firefox] 및 [!UICONTROL Safari] 타깃팅 및 측정 제한 사항으로 인한 예외입니다. 다음 사항에 문의하십시오. [!DNL Adobe] 계정 관리자에 대한 자세한 내용은 [!DNL Adobe] 지원 [!DNL Safari ITP].
+   * 타깃팅하지 않음 [!UICONTROL Firefox] 및 [!UICONTROL Safari] 타깃팅 및 측정 제한 사항으로 인한 예외입니다. 다음 사항에 문의하십시오. [!DNL Adobe] 계정 팀에 대한 자세한 내용은 [!DNL Adobe] 지원 [!DNL Safari ITP].
    * 모바일 웹 트래픽을 타깃팅하는 경우 다음을 제외하고 모든 모바일 브라우저를 비활성화합니다 [!UICONTROL Chrome] 및 [!UICONTROL Edge].
 
 ### 브랜드 안전 및 미디어 품질

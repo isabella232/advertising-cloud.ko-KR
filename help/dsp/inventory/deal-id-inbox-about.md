@@ -1,11 +1,11 @@
 ---
 title: 정보 [!UICONTROL Deal ID Inbox]
-description: 에 대해 알아보기 [!UICONTROL Deal ID inbox] 에서는 이미 게시자 와 협상한 개인 거래를 허용할 수 있는 기능을 제공합니다. [!DNL FreeWheel], [!DNL Google Authorized Buyers] (formerly known as [!DNL AdX]), and [!DNL Magnite DV+] (이전 [!DNL Rubicon]).
+description: 에 대해 알아보기 [!UICONTROL Deal ID inbox] 에서는 이미 게시자 와 협상한 개인 거래를 허용할 수 있는 기능을 제공합니다. [!DNL FreeWheel], [!DNL Google Authorized Buyers] (이전에는 [!DNL AdX]), and [!DNL Magnite DV+] (이전 [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 959ad1d4-4671-4967-9f73-ec5b0464d0cd
-source-git-commit: 2539d9b8ec7de7202dd6c3400dda85aa133853e3
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ DSP은 매일 오전 4시 30분에 모든 거래 세부 사항을 자동으로 �
 
 ## 구현 [!UICONTROL Deal ID Inbox]
 
-에서 거래를 받으려면 다음을 수행하십시오. [!UICONTROL Deal ID inbox], SSP 계정은 조직의 DSP 계정을 SSP 계정에 매핑해야 합니다. DSP은 관련 SSP와 조직의 계정 이름을 공유합니다. 다음 사항에 문의하십시오. [!DNL Adobe] 계정 관리자에게 문의하십시오.
+에서 거래를 받으려면 다음을 수행하십시오. [!UICONTROL Deal ID inbox], SSP 계정은 조직의 DSP 계정을 SSP 계정에 매핑해야 합니다. DSP은 관련 SSP와 조직의 계정 이름을 공유합니다. 다음 사항에 문의하십시오. [!DNL Adobe] 계정 팀에 문의하십시오.
 
 거래 협상 중에, 발행자에게 거래를 상위 DSP 계정 대신 구매자에게 보내라고 말하세요. 거래 식별자는 SSP에 따라 이름 또는 ID일 수 있습니다.
 
