@@ -8,7 +8,7 @@ user-guide-title: Advertising Cloud DSP 안내서
 user-guide-description: Advertising Cloud DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: cf08c97a6a9fecd637f1776b186a18a5c5cc6435
+source-git-commit: c44113736f472c4971729403835a61ed6e07b47f
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 6%
@@ -168,19 +168,19 @@ ht-degree: 6%
             + [프로그래밍 방식의 보장 거래에 대한 광고를 제출합니다. [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
             + [광고 상태 확인 [!DNL FreeWheel] 프로그램 방식의 보장 거래](/help/dsp/inventory/freewheel-check-status.md)
             + [FreeWheel 광고 제출 오류 코드](/help/dsp/inventory/freewheel-error-codes.md)
-      + [거래 ID 설정 편집](/help/dsp/inventory/deal-id-edit.md)
-      + [거래 ID에 대한 배치 및 광고 지정](/help/dsp/inventory/deal-id-attach-placements.md)
-      + [거래 ID에 액세스할 수 있는 계정 편집](/help/dsp/inventory/deal-id-share.md)
-      + [거래 ID에 액세스할 수 있는 광고주 편집](/help/dsp/inventory/deal-id-edit-advertisers.md)
-      + [거래 ID에 대한 속성 태그 편집](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
-      + [비공개 거래의 배치 및 광고 나열](/help/dsp/inventory/private-deal-view-placements.md)
-      + [비공개 거래에 대한 상세 보고서 보기](/help/dsp/inventory/private-deal-view-report.md)
-      + [비공개 거래 보관 또는 보관 해제](/help/dsp/inventory/private-deal-archive-unarchive.md)
+         + [거래 ID 설정 편집](/help/dsp/inventory/deal-id-edit.md)
+         + [거래 ID에 대한 배치 및 광고 지정](/help/dsp/inventory/deal-id-attach-placements.md)
+         + [거래 ID에 액세스할 수 있는 계정 편집](/help/dsp/inventory/deal-id-share.md)
+         + [거래 ID에 액세스할 수 있는 광고주 편집](/help/dsp/inventory/deal-id-edit-advertisers.md)
+         + [거래 ID에 대한 속성 태그 편집](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
       + [!UICONTROL Simple Ad Serving] 딜 {#sas}
          + [정보 [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-about.md)
          + [만들기 [!UICONTROL Simple Ad Serving] 거래](/help/dsp/inventory/simple-deal-create.md)
          + [[!UICONTROL Simple Ad Serving] 거래 설정](/help/dsp/inventory/simple-deal-settings.md)
          + [이벤트 추적 픽셀 보기 [!UICONTROL Simple Ad Serving] 거래](/help/dsp/inventory/simple-deal-show-pixels.md)
+      + [비공개 거래의 배치 및 광고 나열](/help/dsp/inventory/private-deal-view-placements.md)
+      + [비공개 거래에 대한 상세 보고서 보기](/help/dsp/inventory/private-deal-view-report.md)
+      + [비공개 거래 보관 또는 보관 해제](/help/dsp/inventory/private-deal-archive-unarchive.md)
 + 사용자 지정 보고서 {#custom-reports}
    + [사용자 지정 보고서 정보](/help/dsp/reports/report-about.md)
    + [사용자 지정 보고서 만들기](/help/dsp/reports/report-create.md)

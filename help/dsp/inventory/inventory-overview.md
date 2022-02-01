@@ -3,7 +3,7 @@ title: Advertising Cloud DSP의 인벤토리 기능 개요
 description: 사용 가능한 인벤토리 기능에 대해 알아봅니다.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: b3d0b96e-e638-4bd2-ba14-d348a8fc030b
-source-git-commit: 877771cbd3a8e0668add8da15bc2abe02ab4380b
+source-git-commit: 3039557f4929b716d86840cd3cb4a5aa54125145
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -20,7 +20,7 @@ DSP에서 인벤토리 거래에 액세스하거나 식별하면 이를 캠페�
 
 * **[!DNL On Demand]인벤토리:** Adobe이 프리미엄 게시자 파트너와 맺은 사전 협상되고 보장되지 않는 거래를 살펴보십시오.
 
-* **비공개 인벤토리:** 게시자와 직접 1:1에 협상한 PMP(개인 시장 거래)를 설정하고 관리합니다.
+* **비공개 인벤토리 [!DNL Deal IDs]:** 게시자와 직접 1:1에 협상한 PMP(개인 시장 거래)를 설정하고 관리합니다.
 
 * **[!DNL Simple Ad Serving]:** 게시자가 거래 ID를 통해 거래를 실행할 수 없을 때 보장되고 결정되지 않은 광고 전달 및 보고에 간소화된 기술을 사용합니다.
 
