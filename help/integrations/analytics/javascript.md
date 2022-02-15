@@ -3,9 +3,9 @@ title: 용 JavaScript 코드 [!DNL Analytics for Advertising Cloud]
 description: 용 JavaScript 코드 [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 184508ce-df8d-4fa0-b22b-ca0546a61d58
-source-git-commit: 594854f27d6a451167c90116b640781bbea11b63
+source-git-commit: 7bf8f3524954b17d9da336a2210a098bf571399e
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 *Advertising Cloud DSP만 사용하는 광고주*
 
-Advertising Cloud DSP의 경우 [!DNL Analytics for Advertising Cloud] 통합은 뷰스루 및 클릭스루 사이트 상호 작용을 추적합니다. 클릭스루 방문은 웹 페이지의 표준 Adobe Analytics 코드로 추적됩니다. a [!DNL Analytics] 코드는 랜딩 페이지 URL에서 AMO ID 및 EF ID 매개 변수를 캡처하고 각각 예약된 eVar에서 추적합니다. 웹 페이지에서 두 줄의 JavaScript 코드를 배포하여 뷰스루 방문을 추적할 수 있습니다.
+Advertising Cloud DSP의 경우 [!DNL Analytics for Advertising Cloud] 통합은 뷰스루 및 클릭스루 사이트 상호 작용을 추적합니다. 클릭스루 방문은 웹 페이지의 표준 Adobe Analytics 코드로 추적됩니다. a [!DNL Analytics] 코드는 랜딩 페이지 URL에서 AMO ID 및 EF ID 매개 변수를 캡처하고 각각 예약된 eVar에서 추적합니다. 웹 페이지에서 JavaScript 코드 조각을 배포하여 뷰스루 방문을 추적할 수 있습니다.
 
-사이트 방문의 첫 번째 페이지 보기에서 Advertising Cloud JavaScript 코드는 방문자가 이전에 광고를 보거나 클릭했는지 확인합니다. 사용자가 이전에 클릭스루를 통해 사이트에 들어갔거나 광고를 보지 않은 경우 방문자는 무시됩니다. 방문자가 광고를 보고 [전환 확인 기간 을 클릭합니다.](/help/integrations/analytics/prerequisites.md#lookback-a4adc) Advertising Cloud 내에서 설정한 다음 Advertising Cloud JavaScript 코드 또는 a)는 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 추가 ID를 생성하려면`SDID`) 또는 b) Adobe Experience Platform 사용 [!DNL Web SDK] 생성하다 `[!DNL StitchID]`. 두 ID는 Advertising Cloud의 데이터를 방문자의 Adobe Analytics 히트에 연결하는 데 사용됩니다. 그런 다음 Adobe Analytics은 Advertising Cloud에서 광고 노출과 관련된 AMO ID 및 EF ID를 쿼리합니다. 그러면 AMO ID 및 EF ID가 해당 eVar에서 채워집니다. 이 값은 지정된 기간(기본적으로 60일) 동안 지속됩니다.
+사이트 방문의 첫 번째 페이지 보기에서 Advertising Cloud JavaScript 코드는 방문자가 이전에 광고를 보거나 클릭했는지 확인합니다. 사용자가 이전에 클릭스루를 통해 사이트에 들어갔거나 광고를 보지 않은 경우 방문자는 무시됩니다. 방문자가 광고를 보고 [전환 확인 기간 을 클릭합니다.](/help/integrations/analytics/prerequisites.md#lookback-a4adc) Advertising Cloud 내에서 설정한 다음 Advertising Cloud JavaScript 코드 또는 a)는 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 추가 ID를 생성하려면`SDID`) 또는 b) Adobe Experience Platform 사용 [!DNL Web SDK] `generateRandomID` 생성 방법 `[!DNL StitchID]`. 두 ID는 Advertising Cloud의 데이터를 방문자의 Adobe Analytics 히트에 연결하는 데 사용됩니다. 그런 다음 Adobe Analytics은 Advertising Cloud에서 광고 노출과 관련된 AMO ID 및 EF ID를 쿼리합니다. 그러면 AMO ID 및 EF ID가 해당 eVar에서 채워집니다. 이 값은 지정된 기간(기본적으로 60일) 동안 지속됩니다.
 
 [!DNL Analytics] 사이트 트래픽 지표(페이지 보기 수, 방문 및 체류 시간 등)와 [!DNL Analytics] 사용자 지정 또는 표준 이벤트를 Advertising Cloud 시간별로 사용하고 EF ID를 키로 사용합니다. 다음 [!DNL Analytics] 그런 다음 지표를 Advertising Cloud 속성 시스템을 통해 실행하여 전환을 클릭 및 노출 내역에 연결합니다.
 
@@ -32,7 +32,23 @@ Advertising Cloud DSP의 경우 [!DNL Analytics for Advertising Cloud] 통합은
 
 JavaScript 라이브러리는 [!DNL Analytics] 및 Advertising Cloud이 서로 소통할 수 있도록 지원합니다. 만약 [!DNL Analytics for Advertising Cloud] 통합이 Advertising Cloud 구현 중에 완료되었다면, 배포 방법에 대한 지침과 함께 이 코드를 받았어야 합니다.
 
-코드가 없는 경우 Advertising Cloud 지원 팀에 문의하십시오.
+**(Experience Cloud Identity 서비스를 사용하는 구현 `visitorAPI.js` code)**
+
+```
+<script>
+     if("undefined" != typeof AdCloudEvent) 
+          AdCloudEvent('IMS ORG Id');
+</script>
+```
+
+**(Experience Platform을 사용하는 구현 [!DNL Web SDK] `alloy.js`code)**
+
+```
+<script>
+     if("undefined" != typeof AdCloudEvent) 
+          stitchId = AdCloudEvent('IMS ORG Id').generateRandomId();
+</script>
+```
 
 ### 코드를 배치할 위치
 
@@ -47,7 +63,9 @@ JavaScript 라이브러리는 [!DNL Analytics] 및 Advertising Cloud이 서로 �
 #### 로 코드를 확인하는 방법 [!DNL Chrome Developer Tools] {#validate-js-chrome}
 
 1. 열기 [!DNL Chrome Developer Tools] 을 클릭하고 **네트워크** 탭.
+
 1. 가 포함된 웹 사이트 페이지 로드 [!DNL Analytics for Advertising Cloud] JavaScript.
+
 1. 필터 [!UICONTROL Network] 탭별 `last` 및 의 두 행을 검토합니다.
 
    ![마지막 필터링](/help/integrations/assets/a4adc-code-validation-filter-last.png)
@@ -59,18 +77,24 @@ JavaScript 라이브러리는 [!DNL Analytics] 및 Advertising Cloud이 서로 �
 
       1. Application 탭에서 `adcloud` 쿠키를 쿠키 로 설정하고 쿠키에 가 포함되어 있는지 확인합니다. `_les_v` (마지막 방문) 값을 갖는 `y` 30분 후에 만료되는 UTC epoch 타임스탬프입니다.
       1. 삭제 `ad cloud` 쿠키를 사용하여 페이지를 새로 고칩니다.
-1. 필터링 기준 `/b/ss` analytics 히트를 확인합니다.
+
+1. (Experience Cloud Identity 서비스를 사용하는 구현 `visitorAPI.js` 코드) 필터 `/b/ss` analytics 히트를 확인합니다.
 
    ![필터링 `/b/ss`](/help/integrations/assets/a4adc-code-validation-filter-bss.png)
 
+1. (Experience Platform을 사용하는 구현 [!DNL Web SDK] `alloy.js`코드) 필터 `/interact` Edge Network에 대한 요청 페이로드가 포함되어 있는지 확인하려면 `advertisingStitchID`.
+
+   ![필터링 `/interact`](/help/integrations/assets/a4adc-code-validation-filter-interact.png)
+
 1. 두 히트 간의 ID 값을 비교합니다. 모든 값은 바로 다음 URL 경로인 Analytics 히트에서 보고서 세트 ID를 제외하고 쿼리 문자열 매개 변수에 있습니다 `/b/ss/`.
 
-   | ID | Analytics 매개 변수 | Advertising Cloud 매개 변수 |
-   |--- |--- |--- |
-   | Experience Cloud IMS 조직 | `mcorgid` | `_les_imsOrgid` |
-   | 보조 데이터 ID | sdid | `_les_sdid` |
-   | Analytics 보고서 세트 | 다음 값 `/b/ss/` | `_les_rsid` |
-   | Experience Cloud 방문자 ID | mid | `_les_mid` |
+   | ID | Analytics 매개 변수 | 에지 네트워크 | Advertising Cloud 매개 변수 |
+   | --- | --- | --- | --- |
+   | Experience Cloud IMS 조직 | `mcorgid` |  | `_les_imsOrgid` |
+   | 보조 데이터 ID | sdid |  | `_les_sdid` |
+   | 결합 ID | stitchId | `advertisingStitchID` 아래에 `_adcloud` 속성 |  |
+   | Analytics 보고서 세트 | 다음 값 `/b/ss/` |  | `_les_rsid` |
+   | Experience Cloud 방문자 ID | mid |  | `_les_mid` |
 
    ID 값이 일치하면 JavaScript 구현이 확인됩니다. Advertising Cloud이 [!DNL Analytics] 모든 클릭스루 또는 뷰스루 추적 세부 사항이 있는 경우 이를 제공합니다.
 
@@ -81,7 +105,8 @@ JavaScript 라이브러리는 [!DNL Analytics] 및 Advertising Cloud이 서로 �
 1. 에서 [!UICONTROL Solutions Filter] 도구 모음 [!UICONTROL Advertising Cloud] 및 [!UICONTROL Analytics].
 1. 에서 [!UICONTROL Request URL – Hostname] 매개 변수 행, 찾기 `lasteventf-tm.everesttech.net`.
 1. 에서 [!UICONTROL Request – Parameters] 행의 3단계와 유사하게 생성된 신호를 감사하십시오.[로 코드를 확인하는 방법 [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
-   * 다음을 확인합니다. `SDID` 매개 변수와 일치함 `Supplemental Data ID` ( Adobe Analytics 필터) 아래에 그룹화됩니다.
+   * (Experience Cloud Identity 서비스를 사용하는 구현 `visitorAPI.js` 코드) `Sdid` 매개 변수와 일치함 `Supplemental Data ID` ( Adobe Analytics 필터) 아래에 그룹화됩니다.
+   * (Experience Platform을 사용하는 구현 [!DNL Web SDK] `alloy.js`코드)의 값이 `advertisingStitchID` 매개 변수와 일치함 `Sdid` Experience Platform 에지 네트워크로 전송됩니다.
    * 코드가 생성되지 않으면 Advertising Cloud 쿠키가 [!UICONTROL Application] 탭. 페이지가 제거되면 페이지를 새로 고침하고 프로세스를 반복합니다.
 
    ![감사 [!DNL Analytics for Advertising Cloud] 의 JavaScript 코드 [!DNL Experience Cloud Debugger]](/help/integrations/assets/a4adc-js-audit-debugger.png)
