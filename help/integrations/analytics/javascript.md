@@ -3,9 +3,9 @@ title: 용 JavaScript 코드 [!DNL Analytics for Advertising Cloud]
 description: 용 JavaScript 코드 [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 184508ce-df8d-4fa0-b22b-ca0546a61d58
-source-git-commit: 7bf8f3524954b17d9da336a2210a098bf571399e
+source-git-commit: ac7f6110a523d63482f6c2e1a7d0bd5a12a0bab1
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,11 @@ Advertising Cloud DSP의 경우 [!DNL Analytics for Advertising Cloud] 통합은
 
 ## JavaScript 코드 배포
 
-JavaScript 라이브러리는 [!DNL Analytics] 및 Advertising Cloud이 서로 소통할 수 있도록 지원합니다. 만약 [!DNL Analytics for Advertising Cloud] 통합이 Advertising Cloud 구현 중에 완료되었다면, 배포 방법에 대한 지침과 함께 이 코드를 받았어야 합니다.
+JavaScript 라이브러리는 [!DNL Analytics] 및 Advertising Cloud이 서로 소통할 수 있도록 지원합니다. 만약 [!DNL Analytics for Advertising Cloud] 통합이 Advertising Cloud 구현 중에 완료되었다면, 배포 방법에 대한 지침과 함께 이 코드를 이미 받았어야 합니다.
 
-**(Experience Cloud Identity 서비스를 사용하는 구현 `visitorAPI.js` code)**
+### 코드
+
+#### Experience Cloud Identity 서비스를 사용하는 구현 `visitorAPI.js` 코드
 
 ```
 <script>
@@ -41,7 +43,7 @@ JavaScript 라이브러리는 [!DNL Analytics] 및 Advertising Cloud이 서로 �
 </script>
 ```
 
-**(Experience Platform을 사용하는 구현 [!DNL Web SDK] `alloy.js`code)**
+#### Experience Platform을 사용하는 구현 [!DNL Web SDK] `alloy.js`코드
 
 ```
 <script>
