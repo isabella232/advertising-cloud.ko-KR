@@ -3,9 +3,9 @@ title: 배치 만들기
 description: 배치를 만드는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 4e37b571-9af4-4897-bff2-035a5f2600a5
-source-git-commit: 608774723f865c22bfdd5c911ac818600a495114
+source-git-commit: a30f3bffaf63a79bb7aead69e52524419ed54ed0
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '642'
 ht-degree: 1%
 
 ---
@@ -16,25 +16,25 @@ ht-degree: 1%
 >
 >특정 캠페인 목표 또는 보고 요구 사항에 따라 배치를 만들 수 있습니다.
 
-1. 주 메뉴에서 **[!UICONTROL Campaigns]** 을 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
 
 1. 배치가 포함될 캠페인의 이름을 클릭합니다.
 
-1. 데이터 테이블 위에서 **[!UICONTROL Create]** 을 클릭합니다. 메뉴의 [!UICONTROL Placement Types] 섹션에서 배치 유형을 클릭합니다.
+1. 데이터 테이블 위에서 **[!UICONTROL Create]**. 에서 [!UICONTROL Placement Types] 메뉴의 섹션에서 배치 유형을 클릭합니다.
 
    배치 유형은 배치에 포함할 수 있는 광고 유형을 결정합니다.
 
-1. [배치 설정](placement-settings.md)을 입력합니다.
+1. 을(를) 입력합니다. [배치 설정](placement-settings.md):
 
-   1. [!UICONTROL Basics] 설정을 지정합니다.
+   1. 을(를) 지정합니다. [!UICONTROL Basics] 설정.
 
-   1. [!UICONTROL Goals] 섹션에서 [!UICONTROL Gross Budget] 을 지정하고 선택적으로 추가 배치 목표를 지정합니다.
+   1. 에서 [!UICONTROL Goals] 섹션에서 [!UICONTROL Gross Budget] 추가 배치 목표를 지정할 수도 있습니다.
 
       일부 필드에는 재정의할 수 있는 기본값이 있습니다.
 
       배치가 할당된 패키지에 패키지 수준 게시가 있는 경우 목표 및 게재 설정에 패키지 설정이 반영됩니다.
 
-   1. (선택 사항) [!UICONTROL Geo-Targeting] 섹션에서 포함 또는 제외된 위치를 좁힙니다.
+   1. (선택 사항)에서 [!UICONTROL Geo-Targeting] 섹션을 통해 포함 또는 제외된 위치를 좁힙니다.
 
       특정 위치를 식별하지 않으면 모든 위치가 타깃팅됩니다.
 
@@ -42,28 +42,28 @@ ht-degree: 1%
       >
       >도시 및 DMA 위치는 Roku 배치에 사용할 수 없습니다.
 
-   1. [!UICONTROL Inventory Targeting] 섹션에서 포함 또는 제외할 재고 소스의 범위를 좁힙니다.
+   1. 에서 [!UICONTROL Inventory Targeting] 섹션에서 포함 또는 제외할 재고 소스의 범위를 좁힙니다.
 
-      대부분의 배치 유형의 경우, 모든 재고 유형 및 각 유형의 모든 소스가 기본적으로 포함됩니다. [!DNL Roku] 배치의 경우 재고 유형 및 소스를 지정해야 합니다.
+      대부분의 배치 유형의 경우, 모든 재고 유형 및 각 유형의 모든 소스가 기본적으로 포함됩니다. 대상 [!DNL Roku] 배치, 재고 유형 및 소스를 지정해야 합니다.
 
-   1. (선택 사항) [!UICONTROL Site Targeting] 섹션에서 타겟팅할 사이트의 범위를 좁히고 제외할 사이트를 지정합니다.
+   1. (선택 사항)에서 [!UICONTROL Site Targeting] 섹션에서 타겟팅할 사이트 범위를 좁히고 제외할 사이트를 모두 지정합니다.
 
-   1. (선택 사항) [!UICONTROL Audience Targeting] 섹션에서 다음을 수행합니다.
+   1. (선택 사항)에서 [!UICONTROL Audience Targeting] 섹션:
 
       1. 대상자 범위를 좁힙니다. 여기에는 배치 내에서 타겟팅할 대상 세그먼트 선택도 포함됩니다.
 
-         [!DNL] Roku 배치의 경우 [!DNL Roku](옵트인) 결정론적 데이터 세트에 대해 일치시킬 수 있는 하나 이상의 대상 세그먼트를 포함하여 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)과(와) 일치하는 [DSP 고유 대상을 활용할 수 있습니다.
+         대상 [!DNL] Roku 배치를 활용할 수 있습니다 [DSP 고유 대상 일치 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) 에 대해 일치시킬 수 있는 하나 이상의 대상 세그먼트를 포함함으로써 [!DNL Roku] (옵트인) 결정적 데이터 세트.
    1. (사람 수준 교차 장치 타겟팅이 있는 캠페인의 경우) 선택 사항) 배치가 하나 이상의 특정 대상을 타깃팅하는 경우 배치에 대해 사용자 기반 교차 장치 타깃팅을 활성화합니다.
 
-      사용자 기반 교차 장치 타깃팅은 미국 데이터만 사용하여 [!DNL LiveRamp]에서 제공합니다. 이 서비스는 [!DNL LiveRamp] 장치 그래프(즉, 타깃팅된 대상 세그먼트 내에 없는 장치의 경우)를 사용하여 전달되는 노출에 대해 $0.35의 모든 광고주가 사용할 수 있습니다.
+      사용자 기반 교차 장치 타깃팅은 [!DNL LiveRamp] 사용. 이 서비스는 모든 광고주가 CPM $0.35로 를 사용하여 게재되는 노출에 사용할 수 있습니다 [!DNL LiveRamp] 장치 그래프(즉, 타깃팅된 대상 세그먼트 내에 없는 장치의 경우).
 
-   1. (선택 사항) [!DNL Brand Safety and Media Targeting] 섹션에서 배치에 대한 브랜드 안전 제한을 적용합니다.
+   1. (선택 사항)에서 [!DNL Brand Safety and Media Targeting] 섹션에서 배치에 대한 브랜드 안전 제한 사항을 적용합니다.
 
-   1. (선택 사항) [!DNL Tracking] 섹션에서 배치에 타사 이벤트 픽셀 또는 광고의 변환 픽셀을 입력합니다.
+   1. (선택 사항)에서 [!DNL Tracking] 섹션에서 배치에 광고의 타사 이벤트 픽셀 또는 변환 픽셀을 입력합니다.
 
       >[!NOTE]
       >
-      >([!DNL Roku] 배치) [!DNL Roku]에 의해 승인된 타사 픽셀 공급업체는 [!DNL Acxiom], [!DNL comScore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], [!DNL Kantar] 및 [!DNL Research Now]를 포함합니다.
+      >([!DNL Roku] 배치) [!DNL Roku] 포함 [!DNL Acxiom], [!DNL comScore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], 및 [!DNL Research Now].
 
 
 1. 클릭 **[!UICONTROL Create Placement]**.
@@ -77,42 +77,42 @@ ht-degree: 1%
 
       1. 클릭 **[!UICONTROL Create a New Ad].**
 
-      1. [오디오 광고](/help/dsp/campaign-management/ads/ad-settings-audio.md), [연결된 TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [디스플레이 광고](/help/dsp/campaign-management/ads/ad-settings-display.md), [모바일 광고](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [네이티브 광고](/help/dsp/campaign-management/ads/ad-settings-native.md) 또는 [프리롤 광고](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)에 대한 광고 설정을 지정합니다.
+      1. 에 대한 광고 설정을 지정합니다 [오디오 광고](/help/dsp/campaign-management/ads/ad-settings-audio.md), [연결된 TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [디스플레이 광고](/help/dsp/campaign-management/ads/ad-settings-display.md), [모바일 광고](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [기본 광고](/help/dsp/campaign-management/ads/ad-settings-native.md), 또는 [프리롤 광고](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md).
 
       1. 클릭 **[!UICONTROL Save & Submit for Review]**.
 
-      1. (선택 사항) 배치에 대해 만들려는 각 추가 광고에 대해 **[!UICONTROL Attach Another Ad]** 을 클릭한 다음 1-3단계를 반복합니다.
+      1. (선택 사항) 배치에 대해 만들려는 각 추가 광고에 대해 를 클릭합니다 **[!UICONTROL Attach Another Ad]**, 그런 다음 1-3단계를 반복합니다.
 
-      1. 기존 광고를 첨부하지 않으려면 **[!UICONTROL I'm done for now]** 를 클릭합니다.
+      1. 기존 광고를 첨부하지 않으려면 **[!UICONTROL I'm done for now]**.
    * 캠페인에 기존 광고를 첨부하려면
 
       1. 클릭 **[!UICONTROL Select an Ad]**.
       1. 다음 중 하나를 수행합니다.
          * 한 번에 한 개의 광고를 추가하려면:
-            1. 광고 이름 옆에 있는 **[!UICONTROL Select].**
-            1. (선택 사항) 연결할 각 추가 광고에 대해 **[!UICONTROL Attach Another Ad]** 을 클릭한 다음 프로세스를 반복합니다.
+            1. 광고 이름 옆에 있는 를 클릭합니다. **[!UICONTROL Select].**
+            1. (선택 사항) 첨부할 각 추가 광고에 대해 **[!UICONTROL Attach Another Ad]**&#x200B;를 호출한 다음 프로세스를 반복합니다.
          * 한 번에 최대 20개의 광고를 추가하려면:
             1. 광고 목록 위에 있는 확인란을 선택합니다.
             1. 추가할 각 광고 옆에 있는 확인란을 선택합니다.
             1. 클릭 **[!UICONTROL Attach]**.
-            1. 광고 이름 옆에 있는 **[!UICONTROL Select]** 을 클릭합니다.
+            1. 광고 이름 옆에 있는 를 클릭합니다. **[!UICONTROL Select]**.
       1. (선택 사항) 배치에서 특정 광고에 대한 기본 플라이트 기간 및 광고 순환을 무시하려면 다음을 수행합니다.
          1. 클릭 **[!UICONTROL Custom Schedule Ads]**.
 
          1. 다음 중 하나를 수행합니다.
 
-            * 비행을 추가하려면 **[!UICONTROL Add Flight]** 을 클릭한 다음 시작 날짜와 종료 날짜를 지정합니다.
+            * 플라이트 추가 **[!UICONTROL Add Flight]**, 그런 다음 시작 날짜 및 종료 날짜를 지정합니다.
 
-            * 기존 플라이트 를 광고에 추가하려면 플라이트 열에 대한 광고 행에서 **[!UICONTROL +]** 을 클릭합니다.
+            * 기존 플라이트 를 광고에 추가하려면 **[!UICONTROL +]** 를 입력합니다.
 
-            * 광고에서 기존 비행을 제거하려면 플라이트 열에 대한 광고 행에서 **[!UICONTROL x]** 을 클릭합니다.
+            * 광고에서 기존 비행을 제거하려면 **[!UICONTROL x]** 를 입력합니다.
 
-            * (여러 광고에 동일한 플롯이 있는 경우) 광고를 균일하게 회전하려면 플라이트 정보에서 **[!UICONTROL Even Rotation]** 을 클릭한 다음 각 광고를 회전할 상대적 가중치를 백분율로 입력합니다.
+            * (여러 광고에 동일한 플백이 있는 경우) 광고를 균일하지 않게 회전하려면 **[!UICONTROL Even Rotation]** 플라이트 정보에서 각 광고를 회전할 상대적 가중치를 백분율로 입력합니다.
 
                총 가중치는 100이어야 합니다.
-         1. 오른쪽 상단에서 **[!UICONTROL Continue]** 을 클릭합니다.
+         1. 오른쪽 상단에서 **[!UICONTROL Continue]**.
 
-         1. 플라이트 세부 사항을 검토한 다음 **[!UICONTROL Save & Finish]** 을 클릭합니다.
+         1. 플라이트 세부 사항을 검토한 다음 **[!UICONTROL Save & Finish]**.
 
 
 
@@ -127,4 +127,5 @@ ht-degree: 1%
 >* [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 
    >*[성능 문제 해결](/help/dsp/optimization/troubleshooting-performance.md)
+>* [비디오: 표준 디스플레이 배치를 만드는 방법](https://video.tv.adobe.com/v/340454)
 
