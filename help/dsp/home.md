@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: b4d8b30ca4563b3b0d2ea1b03b8ef5f2810964a2
+source-git-commit: 3a4f9bf2d2889acde67a10ab0b5895a2c1024b56
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
-| 2022년 2월 17일 | 비디오 자습서 | 표준 디스플레이 배치를 만드는 방법에 대한 새 비디오를 사용할 수 있습니다. | 자세한 내용은 [Advertising Cloud Tutorials](https://video.tv.adobe.com/v/340454). |
+| 2022년 2월 17일 | 비디오 자습서 | 표준 디스플레이 배치를 만드는 방법에 대한 새 비디오를 사용할 수 있습니다. | 자세한 내용은 [Advertising Cloud Tutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/placement-create.html). |
 | 2022년 1월 31일 | 도움말 | 에 대한 추가 정보 [!DNL Deal IDs] 및 [!DNL Simple Ad Serving] 이제 을 사용할 수 있습니다. | Inventory > Private Inventory에 대한 하위 장을 참조하십시오. |
 | 2021년 12월 10일 | 비디오 자습서 | 새로운 비디오 자습서를 사용할 수 있습니다. &quot;Advertising Cloud DSP 소개,&quot; &quot;계정 구조 및 사용자 인터페이스&quot;, &quot;패키지를 만드는 방법&quot;, &quot;타사 광고 태그를 벌크 업로드하는 방법&quot; 및 &quot;벌크 편집 도구를 사용하여 배치를 편집하는 방법&quot;. | 참조:[Advertising Cloud Tutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html).&quot; |
 | 2021년 11월 12일 | [!UICONTROL Deal IDs] | 에서 [!UICONTROL Deal ID] 설정, &quot;[!DNL Rubicon]&quot;&quot;이(가) &quot;(으)로 변경되었습니다.[!DNL Magnite DV+],&quot; 위치 [!DNL DV+] 디스플레이, 비디오 및 오디오와 같은 기타 형식을 나타냅니다. 이것은 다음에 대한 새로운 브랜딩을 반영합니다 [!DNL Magnite] SSP. **참고:** [!DNL Magnite DV+] 는 여전히 &quot;[!DNL Rubicon]&quot; [!UICONTROL Deal ID Inbox]. | 참조:[SSP 파트너](/help/dsp/inventory/ssp-partners.md).&quot; |
