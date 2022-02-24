@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Analytics] Advertising Cloud의 데이터'
-description: '[!DNL Analytics] Advertising Cloud의 데이터'
+title: '"[!DNL Analytics] Advertising Cloud의 데이터"'
+description: '"[!DNL Analytics] Advertising Cloud의 데이터"'
 feature: Integration with Adobe Analytics
 exl-id: 79fbc809-9965-41c1-971f-3652cc78fee3
-source-git-commit: 185fc7d79798a0a3a9ad5829b701aeb53a4a47c1
+source-git-commit: 2c94b6c02b4e24878639dd9edbc0455e1751f679
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Analytics 세그먼트
 
-[!DNL Analytics]에서 만들어지고 Experience Cloud에 게시된 모든 세그먼트입니다.
+에서 만들어진 모든 세그먼트 [!DNL Analytics] Experience Cloud에 게시되었습니다.
 
 새 세그먼트는 Advertising Cloud에 표시되는 데 24-48시간이 소요됩니다. 기존 세그먼트에 대한 업데이트는 약 8시간 내에 동기화됩니다.
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 * [!UICONTROL Pageviews_total]: 클릭 전환 확인 기간 내의 모든 방문에서 사이트에 대한 총 페이지 보기 수입니다.
 * [[!UICONTROL Bounces] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html)
 * [[!UICONTROL Visits] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)
-* [!UICONTROL ef_id_instances]: 수집된  [!DNL Analytics] 횟수입니다  [!UICONTROL EF ID].
+* [!UICONTROL ef_id_instances]: 해당 횟수 [!DNL Analytics] 수집한 것 [!UICONTROL EF ID].
 
 ## 전환 지표
 

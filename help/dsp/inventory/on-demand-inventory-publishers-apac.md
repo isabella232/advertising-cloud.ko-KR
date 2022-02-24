@@ -1,9 +1,9 @@
 ---
-title: '[!DNL On Demand] Premium 아시아 태평양의 인벤토리 게시자'
-description: 아시아 태평양 지역에서 사용 가능한 [!DNL On Demand] 프리미엄 인벤토리 게시자를 참조하십시오.
+title: '"[!DNL On Demand] Premium 아시아 태평양 재고 게시자"'
+description: 사용 가능한 을 참조하십시오 [!DNL On Demand] 아시아 태평양 지역의 프리미엄 인벤토리 게시자
 feature: DSP On Demand Inventory
 exl-id: dda5f9fb-2efb-475b-9219-dfa6294f3e01
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 2c94b6c02b4e24878639dd9edbc0455e1751f679
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -371,8 +371,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ [!DNL On Demand] Premium Inventory 정보](on-demand-inventory-about.md)
->* [Premium Inventory에 대한  [!DNL On Demand] 가입 및 액세스 요청](on-demand-inventory-subscribe.md)
+>* [정보 [!DNL On Demand] Premium 인벤토리](on-demand-inventory-about.md)
+>* [가입 및 액세스 요청 대상 [!DNL On Demand] Premium 인벤토리](on-demand-inventory-subscribe.md)
 >* [[!DNL On Demand] Premium 호주 및 뉴질랜드의 인벤토리 게시자](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] Premium 유럽, 중동 및 아프리카의 인벤토리 출판사](on-demand-inventory-publishers-emea.md)
 >* [[!DNL On Demand Premium] 북아메리카의 인벤토리 게시자](on-demand-inventory-publishers-na.md)
