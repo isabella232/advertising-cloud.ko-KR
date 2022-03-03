@@ -8,9 +8,9 @@ user-guide-title: Advertising Cloud DSP 안내서
 user-guide-description: Advertising Cloud DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: c44113736f472c4971729403835a61ed6e07b47f
+source-git-commit: 18ae0e34f518e58f045c123cfe75f65b12b46fb7
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '864'
 ht-degree: 6%
 
 ---
@@ -197,8 +197,14 @@ ht-degree: 6%
       + [삭제 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] 설정](/help/dsp/reports/report-destinations/report-destination-settings.md)
 + 관리 {#admin}
-   + [계정 수준 및 광고주 수준의 차단된 사이트 목록 정보](/help/dsp/admin/blocked-sites-list-about.md)
-   + [계정 수준 또는 광고주 수준의 차단된 사이트 목록 편집](/help/dsp/admin/blocked-sites-list-edit.md)
+   + [프로필 편집](/help/dsp/admin/user-own-profile-edit.md)
+   + 사용자 {#users}
+      + [새 사용자 초대](/help/dsp/admin/user-invite.md)
+      + [보류 중인 사용자 초대 다시 보내기](/help/dsp/admin/user-resend-invite.md)
+      + [보류 중인 사용자 초대 취소](/help/dsp/admin/user-uninvite.md)
+   + 차단된 사이트 {#sites}
+      + [계정 수준 및 광고주 수준의 차단된 사이트 목록 정보](/help/dsp/admin/blocked-sites-list-about.md)
+      + [계정 수준 또는 광고주 수준의 차단된 사이트 목록 편집](/help/dsp/admin/blocked-sites-list-edit.md)
 + [Adobe Experience Cloud와 통합](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/home.html)<!-- Dupe link to this file, so need to use an absolute link in one of the listings -->
 + [고객 지원](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)
 + [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
