@@ -1,9 +1,9 @@
 ---
 title: 조직 계정에 대해 새 사용자 초대
 description: 새 사용자를 계정에 가입하도록 초대하는 방법을 알아봅니다.
-source-git-commit: 65d5b9275b24d66972f464a07d6e1a751721ada2
+source-git-commit: cd1ded08b07735cb3e156ec401e3ea1a920183d3
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [조직 계정에 대해 보류 중인 사용자 초대 다시 보내기](user-resend-invite.md)
+>* [보류 중인 사용자 초대 다시 보내기](user-resend-invite.md)
 >* [보류 중인 사용자 초대 취소](user-uninvite.md)
 
 

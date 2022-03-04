@@ -1,9 +1,9 @@
 ---
 title: 보류 중인 사용자 초대 취소
 description: 보류 중인 사용자 초대를 취소하는 방법을 알아봅니다.
-source-git-commit: baa351de79532352f28d2dc5691c2e425a8e3207
+source-git-commit: 315fd6189e1805f9f1f4184cc0aa47d12740616a
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [조직 계정에 대해 새 사용자 초대](user-invite.md)
->* [조직 계정에 대해 보류 중인 사용자 초대 다시 보내기](user-resend-invite.md)
+>* [보류 중인 사용자 초대 다시 보내기](user-resend-invite.md)
 
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->
