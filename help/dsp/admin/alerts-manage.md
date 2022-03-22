@@ -1,9 +1,9 @@
 ---
 title: 경고 구독 관리
 description: 자동 이메일 경고를 관리하는 방법을 알아봅니다.
-source-git-commit: 86987ec2c5d572b5328cb04fc7120609c6c79d26
+source-git-commit: 1cce72f4cd898034c7bf7bfeee8c5b37f43c0a59
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -26,12 +26,9 @@ ht-degree: 0%
 
       설정은 경고 유형에 따라 다릅니다.
 
-   1. (선택 사항) 즉시 경고를 실행하려면 **[!UICONTROL Alert immediately]**. 기본적으로 경고가 실행됩니다 <!-- at what time? -->.
+   1. (선택 사항) 즉시 경고를 실행하려면 **[!UICONTROL Alert immediately]**. 기본적으로 경고는 계정의 시간대에서 08:00에 실행됩니다.
 
    1. (선택 사항) 가입에 추가 경고를 추가하려면 **[!UICONTROL Add Alert]** 경고를 생성합니다.
-
-      <!-- You can add up to NN alerts per subscription. -->
-      <!-- You can add quite a few, many unlimited -->
 
 1. 에서 **[!UICONTROL Add Subscriber Email Addresses]** 필드에서는 경고를 받을 각 이메일 주소를 입력한 다음 키를 누릅니다 **[!UICONTROL Enter]** 키.
 

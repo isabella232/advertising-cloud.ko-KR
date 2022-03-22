@@ -8,9 +8,9 @@ user-guide-title: Advertising Cloud DSP 안내서
 user-guide-description: Advertising Cloud DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 18ae0e34f518e58f045c123cfe75f65b12b46fb7
+source-git-commit: d4537714e884eb1ce1b62d4097b7ad6f30767edf
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '871'
 ht-degree: 6%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 6%
       + [지원되는 광고 유형에 대한 사양](/help/dsp/assets/ad-specs.pdf)
    + 캠페인 보고서 {#campaign-reports}
       + [플랫폼 내 보고서 정보](/help/dsp/campaign-management/reports/campaign-reports-about.md)
-      + [캠페인 관리 보기에서 데이터 내보내기](/help/dsp/campaign-management/reports/campaign-export-data.md)
+      + [Campaign Management 보기에서 데이터 내보내기](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [배치에 대한 사이트, 광고 및 빈도 세부 사항 보기](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [배치 진단 보고서 보기](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + 데이터 보기 관리 {#data-views}
@@ -112,7 +112,7 @@ ht-degree: 6%
       + [다운로드/업로드된 스프레드시트의 열](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [Advertising Cloud DSP 매크로](/help/dsp/campaign-management/macros.md)
    + [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [Campaign 관리에 대한 FAQ](/help/dsp/campaign-management/campaign-management-faq.md)
+   + [Campaign Management에 대한 FAQ](/help/dsp/campaign-management/campaign-management-faq.md)
 + 최적화 {#optimization}
    + [방법 [!DNL DSP] 캠페인 최적화](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md)
@@ -205,6 +205,9 @@ ht-degree: 6%
    + 차단된 사이트 {#sites}
       + [계정 수준 및 광고주 수준의 차단된 사이트 목록 정보](/help/dsp/admin/blocked-sites-list-about.md)
       + [계정 수준 또는 광고주 수준의 차단된 사이트 목록 편집](/help/dsp/admin/blocked-sites-list-edit.md)
+   + 알림 을 참조하십시오 {#notifications}
+      + [경고 구독 기본 정보](/help/dsp/admin/alerts-about.md)
+      + [경고 구독 관리](/help/dsp/admin/alerts-manage.md)
 + [Adobe Experience Cloud와 통합](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/home.html)<!-- Dupe link to this file, so need to use an absolute link in one of the listings -->
 + [고객 지원](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)
 + [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
