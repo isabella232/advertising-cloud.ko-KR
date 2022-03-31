@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: c2fbaf3381ca4380c18d55931e9f4f662da892af
 workflow-type: tm+mt
-source-wordcount: '3280'
+source-wordcount: '3278'
 ht-degree: 0%
 
 ---
