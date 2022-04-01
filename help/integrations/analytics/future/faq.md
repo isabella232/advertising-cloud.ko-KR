@@ -1,13 +1,14 @@
 ---
-source-git-commit: 8094e8ae6cf76594ac705a8a6d76b98620220250
+title: FAQ
+description: xxx
+source-git-commit: 5dfc4e8f2e6d2532e40eb4da8748fec0ed096e71
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-
-FAQ
+# FAQ xxx
 
 ## 제목
 
@@ -17,4 +18,19 @@ https://adobeadcloud.zendesk.com/agent/tickets/14214 기본적으로 Adobe Analy
 
 ## 제목
 
-https://adobeadcloud.zendesk.com/agent/tickets/21757 Ad Cloud 픽셀과 동일한 지점에 Analytics 이벤트 태그를 지정하여 XXX가 일치하는지 확인하십시오.
+https://adobeadcloud.zendesk.com/agent/tickets/24323 Ad Cloud 픽셀과 동일한 지점에 Analytics 이벤트 태그를 지정하여 XXX가 일치하는지 확인하십시오.
+
+## 제목
+
+https://adobeadcloud.zendesk.com/agent/tickets/24323
+
+Q: 내부 보안 감사 중에 특정 기능은 Ad Cloud을 기존 Adobe Analytics 설치에 통합할 때 활성화한 보안 우려로 플래그가 지정되었습니다.
+
+문제의 통합은 AdCloud와 Adobe Audience Manager입니다. 이 기능은 AdCloud와 Adobe Audience Manager 간 방문자 ID에 대한 일치율을 높입니다. 이 작업은 pagead.l.doubleclick.net, star-mini.c10r.facebook.com 및 pug88000nf.pubmatic.com에 네트워크 요청을 전송하여 활용할 수 있는 방문자를 위한 기존 ID가 있는지 확인합니다. 보안 위험으로 플래그가 지정되고 모든 사이트 방문자에 대해 발생하는 네트워크 요청입니다.
+
+Auditor가 이 기능을 비활성화하도록 요청하고 있습니다. 이러한 네트워크 요청을 차단하면 어떻게 됩니까?
+
+A: Adobe는 제품과 함께 확인했으며, 해당 픽셀은 Ad Cloud, 특정 재고/SSP 파트너(DSP 관련) 및 AAM 간의 쿠키 일치율을 높이기 위한 목적이라고 언급했습니다.  해당 항목이 제거되면 고객은 AAC/AAM과 각 픽셀이 사용되는 인벤토리 파트너 간에 감소된 일치율 수준을 볼 수 있지만 큰 차이가 있을 것으로 예상하지는 않습니다.
+
+Ad Cloud Search의 경우 Mattworks에 대해 IMS Org가 설정되어 있지만 제품 팀에 Ad Cloud에서 대상을 활성화하기 위한 Mattworks 설정이 표시되지 않습니다. Ad Cloud Search로 대상을 전송하는 데 Audience Manager Adobe을 사용하고 있습니까? 그렇지 않은 경우 이러한 필드를 제거해도 현재 워크플로우에 영향을 주지 않습니다. AAM 고객 지원 센터에서 이러한 픽셀을 실행하지 않으려면 제거할 수 있습니다.
+
