@@ -1,16 +1,16 @@
 ---
-title: Advertising Cloud DSP의 캠페인 관리 개요
+title: Advertising Cloud DSP의 Campaign Management 개요
 description: Campaign 관리 계층 및 구성 요소에 대해 알아봅니다.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: c94e08d0-0dd5-4cf9-8df2-9eb4c591375c
-source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
+source-git-commit: d180b91f7bf5ae72a51e5335638a98c5fc4b4e86
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
-# Advertising Cloud DSP의 캠페인 관리 개요
+# Advertising Cloud DSP의 Campaign Management 개요
 
 Advertising Cloud DSP 캠페인에는 다음 계층이 있습니다.
 
@@ -18,9 +18,7 @@ Advertising Cloud DSP 캠페인에는 다음 계층이 있습니다.
    * 패키지
       * 배치
          * 광고
-            * 크리에이티브
 
-<!-- Add "Feature: DSP Creatives" once we have other topics on creatives; get Bob to update the feature list. -->
 <!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
 In Advertising Cloud DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package will include placements, which can use different strategies and tactics to deliver the line item requirements.
 -->
@@ -43,18 +41,11 @@ A [배치](/help/dsp/campaign-management/placements/placement-about.md) 동일�
 
 ## [!UICONTROL Ads]
 
-[광고](/help/dsp/campaign-management/ads/ad-about.md) 크리에이티브 자산 및 추적 URL을 포함합니다. 크리에이티브 자산을 업로드할 수 있으며 DSP에서 무료로 사용하는 광고를 제공하거나 타사 광고 서비스 태그를 업로드할 수 있습니다.
+[광고](/help/dsp/campaign-management/ads/ad-about.md) 크리에이티브 자산 및 추적 URL을 포함합니다. 파트너 태그 시트 또는 벌크 태그 템플릿을 사용하여 개별적으로 또는 대량으로 타사 광고 서비스 태그를 업로드할 수 있습니다. 제공할 DSP에 대한 기본 디스플레이 광고를 수동으로 만들 수도 있습니다.
 
 광고가 설정되면 각 광고를 게재해야 합니다. 하나 이상의 배치에 단일 광고를 첨부할 수 있습니다.
 
 활성 캠페인에서 활성 위치에 있는 활성 상태의 승인된 모든 광고는 배치 타깃팅 매개 변수를 기반으로 실행할 수 있습니다.
-
-## [!UICONTROL Creatives]
-
-지정된 캠페인의 광고에 사용할 오디오 및 비디오 파일을 업로드할 수 있습니다.
-<!-- add link to [About Creative Management](/help/dsp/campaign-management/creatives/creative-about.md) when it's available-->
-
-업로드된 크리에이티브를 사용하여 광고를 즉시 만들거나 나중에 크리에이티브 보기 또는 광고 보기에서 광고를 만들 수 있습니다.
 
 >[!MORELIKETHIS]
 >

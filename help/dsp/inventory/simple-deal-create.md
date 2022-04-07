@@ -3,9 +3,9 @@ title: '"만들기 [!UICONTROL Simple Ad Serving] 거래"'
 description: 에 대한 추적 픽셀을 만드는 방법을 알아봅니다. [!UICONTROL Simple Ad Serving] "그래."
 feature: DSP Simple Ad Serving
 exl-id: d8de85ec-616c-44ed-9a1a-cc25713ad4a4
-source-git-commit: 05578e9252f0eec6dd4e003d317742007edb3351
+source-git-commit: 3eb63e9d7161c354736ce53ee21518882c541884
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
          * 기존 광고의 경우 사용할 광고를 선택합니다.
 
-         * 새 광고의 경우 프록시를 만듭니다 [자사 광고](/help/dsp/campaign-management/ads/ad-create.md) 또는 [타사 광고](/help/dsp/campaign-management/ads/ad-create-third-party.md).
+         * 새 광고의 경우 프록시를 만듭니다 [타사 광고](/help/dsp/campaign-management/ads/ad-create-multiple.md).
       >[!NOTE]
       > DSP은 사용자가 지정하는 광고를 실제로 제공하지 않습니다. 게시자가 광고를 제공할 것입니다.
 

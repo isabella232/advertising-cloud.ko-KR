@@ -3,9 +3,9 @@ title: Advertising Cloud DSP의 광고 관리 정보
 description: 광고 관리에 대해 알아봅니다.
 feature: DSP Ads
 exl-id: 72c8bbef-d09c-4cf4-994d-99578d043d39
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: ff0e153344f8245ff217cc8b2b276184dd7422b5
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -14,60 +14,38 @@ ht-degree: 0%
 
 <!-- add "The Ads View (Dashboard?)" section -->
 
-Advertising Cloud DSP은 광고를 제공하는 두 가지 방법을 제공합니다.
+Advertising Cloud DSP은 다양한 광고 유형에 대한 타사 광고 서비스 태그(예: Google, Flashtalk 또는 Sizmek)를 통한 광고 전달을 지원하고 기본 디스플레이 광고에 대한 직접 자산 업로드를 지원합니다. 타사 태그를 개별적으로 또는 대량으로 업로드할 수 있습니다. 벌크 업로드는 파트너 태그 시트 또는 벌크 태그 템플릿을 사용합니다.
 
-* Advertising Cloud DSP은 DSP에 직접 자산(예: 디스플레이 배너, 비디오 자산, 오디오 파일 또는 URL)을 업로드할 때 무료로 광고를 제공합니다. DSP에서 제공하는 자산의 경우 오버레이와 같은 추가 기능에 액세스할 수 있습니다.
-
-* 타사 광고 서버(예: Google, Flashtalk 또는 Sizmek)를 사용하는 경우 타사 광고 서비스 태그를 개별적으로 또는 대량으로 DSP에 업로드할 수 있습니다. 벌크 업로드 기능을 사용하려면 a) DoubleClick 및 Flashtalk 태그 시트를 업로드하거나 또는 b) 템플릿을 다운로드하고, 태그를 템플릿에 입력한 다음 템플릿을 다시 업로드해야 합니다.<!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
+<!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
+<!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
 
 광고가 설정되면, 캠페인의 게재 방법을 제어하는 타깃팅 매개 변수(예: 지역, 대상, 장치 및 인벤토리 타깃팅)가 포함된 각 광고를 게재해야 합니다. 단일 광고를 하나 또는 여러 배치에 첨부할 수 있습니다.
 
-## 사용 가능한 광고 유형
+## 사용 가능한 광고 유형 {#ad-types}
 
-* 오디오
-* 연결된 TV
-* 표시
-* 모바일
-* 기본
-* 프리롤
+다음 모든 광고 유형은 Advertising Cloud DSP에서 사용할 수 있습니다. 각 광고 유형에 대한 전체 사양은 [광고 사양](/help/dsp/assets/ad-specs.pdf).
 
-이러한 광고 유형에 대한 자세한 내용은 [사용 가능한 광고 유형](ad-types.md) 및 전체 [광고 사양](/help/dsp/assets/ad-specs.pdf)을 참조하십시오.
+* **오디오 광고(타사 전용)**: 오디오 광고는 디지털 게시자 사이트에서 컨텐츠 간에 재생되며 오디오 파일로 독립 실행형 또는 컴패니언 배너와 함께 실행할 수 있습니다. 오디오는 브랜드 인식을 유도하고 이동 중에도 사용자의 참여를 유도하는 데 가장 잘 사용됩니다. 오디오의 주요 성능 지표는 다음과 같습니다 [!UICONTROL Completion Rate] 및 [!UICONTROL Cost per Completion].
 
-## 특수 광고 기능
+* **디스플레이 광고(타사 전용)**: 디스플레이 광고는 웹 브라우저나 앱에 표시되는 애니메이션 또는 정적 이미지입니다. 광고 단위를 클릭하면 사용자가 브랜드 된 사이트 또는 마이크로 사이트로 이동합니다. 디스플레이는 효율적인 CPM을 유도하고, 메시지 연결을 늘리고, 추가 브랜드 또는 제품 터치포인트를 추가하고, 사용자를 구매 단계로 유도하는 데 가장 잘 사용됩니다. 표시할 주요 성능 지표는 다음과 같습니다 [!UICONTROL Clicks], [!UICONTROL Cost per Click], [!UICONTROL Conversions], 및 [!UICONTROL Cost per Conversion]. DSP에서는 다양한 디스플레이 배너 광고 크기를 지원합니다.
 
-다음 기능은 DSP에서 제공하는 광고에만 사용할 수 있습니다.
+* **Mobile 광고(타사 전용)**: Mobile 광고는 프리롤 비디오(VAST, MRAID) 또는 표준 디스플레이 포맷일 수 있습니다. Mobile 프리롤 비디오는 자동 재생 또는 클릭하여 재생할 수 있으며, 화면 간 뷰어에 도달하는 데 가장 잘 사용됩니다. Mobile standard 디스플레이는 모바일 웹 브라우저 또는 앱에 표시되는 정적 이미지입니다. 이 디스플레이는 디지털 비디오 구매를 보완하고 메시지 연결을 유도하며 추가 브랜딩 또는 제품 터치포인트를 추가하는 데 가장 잘 사용됩니다. 또한 Mobile 광고는 전체 화면 대상자이며, 모바일 대상에 대한 브랜드 인식을 개발하고 전환을 유도하는 데 가장 잘 사용되는 고성능 모바일 광고인 모바일 인터페이스로서 사용할 수 있습니다.
 
-### 컴패니언 배너
+* **기본 디스플레이 광고(자사 전용)**: 기본 광고는 표준 표시 형식으로 지원됩니다. 기본 광고에는 제목 및/또는 제목, 설명, 로고 및 이미지가 포함됩니다. 광고 요소를 결합하고 렌더링하여 게시자의 페이지 스타일에 맞게 렌더링하므로 광고가 게시자의 유기 콘텐츠와 혼합되어 더 높은 참여를 유도합니다. 기본 광고는 브랜드 인지도 및 시청자 친화적 광고로 고객 보기 및 참여율을 높이는 데 가장 잘 사용됩니다. 주요 성능 지표는 다음과 같습니다 [!UICONTROL Clicks], [!UICONTROL Cost Per Click], [!UICONTROL Conversions], 및 [!UICONTROL Cost Per Conversion].
 
-컴패니언 배너는 [프리롤 광고](ad-settings-pre-roll.md) 또는 (일부 게시자와 함께) [오디오 광고](ad-settings-audio.md)와 함께 제공되며, 브랜드 및 메시지 연결을 강화하는 데 도움이 될 수 있습니다.
+* **프리롤 광고(타사 전용)**: 프리롤 광고(VAST 및 VPAID)는 프리미엄 비디오 컨텐츠 앞에 표시되며, 몰입감 있고 매력적인 뷰어 환경을 제공합니다. 프리롤 비디오는 대화형, 리치 미디어 기능, 오버레이, 롤오버 및 클릭유도자를 포함할 수 있습니다. 프리롤 비디오 광고의 주요 성능 지표는 다음과 같습니다 [!UICONTROL Video Completion Rate] 및 [!UICONTROL Viewability Rate].
 
->[!NOTE]
->
->* 모든 게시자가 컴패니언 배너를 허용하는 것은 아닙니다. 컴패니언 배너를 허용하는 게시자는 컴패니언 배너에 대한 인상을 보장하지 않습니다.
->* 타사 광고 태그의 컴패니언 배너를 미리 보기용으로 항상 사용할 수는 없습니다.
-
-
-자신의 컴패니언 배너 자산을 업로드하거나 인증된 타사 광고 서비스 파트너에서 타사 iFrame 또는 스크립트 배너 태그를 업로드할 수 있습니다.
-
-### 오버레이
-
-오버레이는 비디오 전체에서 지속적인 브랜딩에 도움이 되며 추가 클릭 수를 유도할 수 있습니다. 오버레이 기능은 [대화형 프리롤 광고](ad-settings-pre-roll.md) 및 [대화형 및 탭하여 재생 형식으로 모바일 광고에 사용할 수 있습니다](ad-settings-mobile.md).
-
-[오버레이 디자인을 위한 우수 사례](/help/dsp/campaign-management/ads/ad-best-practices-overlays.md)를 참조하십시오
-
-### 티저
-
-티저는 시청자에게 광고를 하도록 유혹하는 눈길을 끄는 이미지입니다. Teaser는 모바일 탭-재생 광고 형식에만 적용됩니다.
+* **연결된 TV 광고(타사 전용)**: 연결된 TV 광고는 프리미엄 TV 비디오 컨텐츠 전후에 표시됩니다. 연결된 모든 TV 인벤토리는 TV 장치에서 실행됩니다. 즉, 비디오가 건너뛸 수 없는 전체 화면 환경에서 자동으로 재생됩니다. 연결된 TV는 TV 광고에 가장 가까운 디지털 비디오 포맷이다. 연결된 TV의 주요 성능 지표는 다음과 같습니다 [!UICONTROL Completion Rate].
 
 ## Advertising Cloud DSP 광고 승인
 
 광고를 만들 때 Advertising Cloud DSP에서 중요한 카테고리에 대해 검토하고, URL 기능을 클릭하고, 렌더링을 미리 봅니다.
 
-처음에는 [!UICONTROL Status] 열에 빨간색 점이 표시됩니다. 검토 프로세스는 일반적으로 24-48시간이 소요됩니다. 그러나 끊어진 광고에는 48시간 이상 보류 중인 상태가 있을 수 있으므로 광고를 거부하기 전에 오류를 수정할 시간이 있습니다. 거부된 광고에는 거부에 대한 이유가 포함되어 있습니다.
+처음에는 빨간색 점이 [!UICONTROL Status] 열. 검토 프로세스는 일반적으로 24-48시간이 소요됩니다. 그러나 끊어진 광고에는 48시간 이상 보류 중인 상태가 있을 수 있으므로 광고를 거부하기 전에 오류를 수정할 시간이 있습니다. 거부된 광고에는 거부에 대한 이유가 포함되어 있습니다.
 
 DSP이 광고를 승인하면 상태 열에 녹색 점이 표시됩니다.
 
-![열의 승인  [!UICONTROL Status] 표시기](/help/dsp/assets/ad-approval-status.png)
+![승인 지표 [!UICONTROL Status] 열](/help/dsp/assets/ad-approval-status.png)
 
 >[!NOTE]
 >
@@ -75,8 +53,7 @@ DSP이 광고를 승인하면 상태 열에 녹색 점이 표시됩니다.
 
 >[!MORELIKETHIS]
 >
->* [광고 만들기](ad-create.md)
->* [여러 타사 광고 만들기](ad-create-third-party.md)
->* [사용 가능한 광고 유형](ad-types.md)
+>* [단일 광고 만들기](ad-create.md)
+>* [여러 타사 광고 만들기](ad-create-multiple.md)
 >* [광고 사양](/help/dsp/assets/ad-specs.pdf)
 

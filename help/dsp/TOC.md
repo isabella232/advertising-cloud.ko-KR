@@ -8,9 +8,9 @@ user-guide-title: Advertising Cloud DSP 안내서
 user-guide-description: Advertising Cloud DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: d4537714e884eb1ce1b62d4097b7ad6f30767edf
+source-git-commit: e77f70e414a1c8d2fe4937766ecddca9fdb6893e
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '859'
 ht-degree: 6%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 6%
       + [[!DNL DSP] 데이터 사용 지침](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
    + [고급 측정 솔루션](/help/dsp/introduction/advanced-measurement-services.md)
 + 캠페인 관리 {#campaign-management}
-   + [Campaign 관리 구조 개요](/help/dsp/campaign-management/campaign-management-overview.md)
+   + [Campaign Management 구조 개요](/help/dsp/campaign-management/campaign-management-overview.md)
    + 캠페인 {#campaigns}
       + [Campaign Management 기본 정보](/help/dsp/campaign-management/campaigns/campaign-about.md)
       + [캠페인 만들기](/help/dsp/campaign-management/campaigns/campaign-create.md)
@@ -70,27 +70,23 @@ ht-degree: 6%
       + [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
    + 광고 {#ads}
       + [광고 관리](/help/dsp/campaign-management/ads/ad-about.md)
-      + [사용 가능한 광고 유형](/help/dsp/campaign-management/ads/ad-types.md)
-      + Advertising Cloud 서비스 광고 {#advertising-cloud-served}
-         + [광고 만들기](/help/dsp/campaign-management/ads/ad-create.md)
-         + 광고 설정 {#ad-settings}
-            + [오디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-audio.md)
-            + [연결된 TV 설정](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
-            + [광고 설정 표시](/help/dsp/campaign-management/ads/ad-settings-display.md)
-            + [모바일 광고 설정](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
-            + [기본 광고 설정](/help/dsp/campaign-management/ads/ad-settings-native.md)
-            + [프리롤 광고 설정](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
-         + [오버레이 디자인을 위한 우수 사례](/help/dsp/campaign-management/ads/ad-best-practices-overlays.md)
-      + 대량 타사 광고 {#bulk-third-party}
-         + [여러 타사 광고 만들기](/help/dsp/campaign-management/ads/ad-create-third-party.md)
-         + [광고 만들기 [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
-         + [공인 광고 서비스 제공 파트너](/help/dsp/campaign-management/ads/certified-ad-servers.md)
-      + [배치에 광고 첨부](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [공인 광고 서비스 제공 파트너](/help/dsp/campaign-management/ads/certified-ad-servers.md)
+      + [단일 광고 만들기](/help/dsp/campaign-management/ads/ad-create.md)
+      + [여러 타사 광고 만들기](/help/dsp/campaign-management/ads/ad-create-multiple.md)
+      + [광고 만들기 [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [광고 편집](/help/dsp/campaign-management/ads/ad-edit.md)
       + [광고 복제](/help/dsp/campaign-management/ads/ad-duplicate.md)
+      + [배치에 광고 첨부](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [광고와 연결된 배치 나열](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [광고에 대한 세부 보고서 보기](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [광고 보관 또는 보관 해제](/help/dsp/campaign-management/ads/ad-archive-unarchive.md)
+      + 광고 설정 {#ad-settings}
+         + [오디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+         + [연결된 TV 설정](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+         + [광고 설정 표시](/help/dsp/campaign-management/ads/ad-settings-display.md)
+         + [Mobile 광고 설정](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+         + [기본 디스플레이 광고 설정](/help/dsp/campaign-management/ads/ad-settings-native.md)
+         + [프리롤 광고 설정](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
       + [지원되는 광고 유형에 대한 사양](/help/dsp/assets/ad-specs.pdf)
    + 캠페인 보고서 {#campaign-reports}
       + [플랫폼 내 보고서 정보](/help/dsp/campaign-management/reports/campaign-reports-about.md)
