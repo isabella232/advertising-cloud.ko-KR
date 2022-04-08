@@ -3,9 +3,9 @@ title: 구현을 위한 사전 요구 사항 및 주요 정보 [!DNL Analytics f
 description: 구현을 위한 사전 요구 사항 및 주요 정보 [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 11a13816ccd2ef0c47efa615c54c0f7ce2f83734
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Advertising Cloud 구현 팀에 다음을 제공합니다.
 * 다음 [!DNL Analytics] 유료 미디어 활동에 대한 보고 및 Advertising Cloud의 최적화 및 보고를 위한 사이트 활동을 피드하는 데 사용할 보고서 세트 ID입니다
 * 회사의 Experience Cloud 조직 ID(조직 ID)입니다.
 
-두 ID 모두 [Adobe Experience Cloud Debugger 요약 화면](https://experienceleague.adobe.com/docs/debugger/using/run-debugger.html).
+두 ID 모두 [Adobe Experience Cloud Debugger의 요약 탭](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
 
 ![Experience Cloud Debugger 요약 화면](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -111,7 +111,7 @@ Advertising Cloud 구현 팀에 다음을 제공합니다.
 
 정확한 데이터 통합을 위해 [!DNL Analytics for Advertising Cloud] 콘텐츠를 전달하거나 목표 지표를 기록하려면 해당 기능이 있어야 합니다 [!DNL Analytics] 동일한 보충 ID를 공유하는 히트.
 
-에서 문제를 해결하는 경우 [!DNL Analytics]에 대한 보조 ID가 있는지 확인합니다. [!DNL Analytics] 히트 수. 에서 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)의 경우 Advertising Cloud 탭에서 이 ID를 `sdid` 매개 변수.
+에서 문제를 해결하는 경우 [!DNL Analytics]에 대한 보조 ID가 있는지 확인합니다. [!DNL Analytics] 히트 수. 에서 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)의 경우 Advertising Cloud 탭에서 이 ID를 `sdid` 매개 변수.
 
 >[!NOTE]
 >
