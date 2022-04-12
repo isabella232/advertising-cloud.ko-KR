@@ -2,14 +2,14 @@
 title: 광고 사양
 description: 일반 및 게시자별 광고 사양을 참조합니다.
 feature: DSP Ads
-source-git-commit: 212409be98cb6f48d5aaf13e3ba44e37d2c5342b
+source-git-commit: 2110a30cf41a5cc091ec6224a7cbaf9b170ef1db
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
 
-# 광고 사양
+# 지원되는 광고 유형에 대한 사양
 
 ## 비디오 광고(프리롤 및 CTV)
 
@@ -108,7 +108,9 @@ ht-degree: 0%
 
 데스크탑, 모바일, 태블릿, 스마트 스피커 및 연결된 TV
 
-### [지원되는 타사 광고 서버](certified-ad-servers.md)
+### 지원되는 타사 광고 서버
+
+지원되는 공급업체의 전체 목록은 &quot;[공인 광고 서비스 제공 파트너](certified-ad-servers.md).&quot;
 
 ### 오디오 자산에 대한 요구 사항(필수)
 
