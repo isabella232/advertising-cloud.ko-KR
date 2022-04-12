@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 81227f1d016a91b5359acf960db9ece2d732d23e
+source-git-commit: e26d6efff8bae08b89ba4bd72748ddf7ef769a87
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1498'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2022년 4월 12일 | 캠페인 관리 | 현재 지원을 반영하도록 광고 사양이 업데이트되었습니다. | 참조:[지원되는 광고 유형에 대한 사양](/help/dsp/campaign-management/ads/ad-specs.md).&quot; |
 | 2022년 2월 17일 | 비디오 자습서 | 표준 디스플레이 배치를 만드는 방법에 대한 새 비디오를 사용할 수 있습니다. | 자세한 내용은 [Advertising Cloud Tutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/placement-create.html). |
 | 2022년 1월 31일 | 도움말 | 에 대한 추가 정보 [!DNL Deal IDs] 및 [!DNL Simple Ad Serving] 이제 을 사용할 수 있습니다. | Inventory > Private Inventory에 대한 하위 장을 참조하십시오. |
 | 2021년 12월 10일 | 비디오 자습서 | 새로운 비디오 자습서를 사용할 수 있습니다. &quot;Advertising Cloud DSP 소개,&quot; &quot;계정 구조 및 사용자 인터페이스&quot;, &quot;패키지를 만드는 방법&quot;, &quot;타사 광고 태그를 벌크 업로드하는 방법&quot; 및 &quot;벌크 편집 도구를 사용하여 배치를 편집하는 방법&quot;. | 참조:[Advertising Cloud Tutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html).&quot; |
@@ -40,9 +41,9 @@ ht-degree: 0%
 | 2021년 6월 7일 | 도움말 | 지침은 [!DNL FreeWheel]. | 참조:[프로그램 보장 거래 설정 개요 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)," "[Submit an Ad for a Programmatic Guaranteed Deal to [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)," "[Check the Status of Ads for [!DNL Freewheel] 프로그램 방식의 보장 거래](/help/dsp/inventory/freewheel-check-status.md),&quot; 및 &quot;[에 대한 오류 코드 [!DNL FreeWheel] 광고 제출](/help/dsp/inventory/freewheel-error-codes.md).&quot; |
 | 2021년 5월 27일 | 도움말 | 이 지침은 건강 관련 대상 세그먼트를 타깃팅하는 대체 요소로 사용할 수 있는 건강 관련 대상 세그먼트 및 전술에서 사용할 수 있습니다. | 참조:[허용 가능한 상태 세그먼트 지침](/help/policies/health-segment-guidelines.md).&quot; |
 | 2021년 5월 26일 | 도움말 | Adobe Experience Cloud와의 통합 장은 이제 [Advertising Cloud 설명서 홈페이지](https://experienceleague.adobe.com/docs/advertising-cloud.html). 새 안내서에는 &quot;작업 중&quot;에 대한 새 하위 장이 포함되어 있습니다 [!DNL Analytics Marketing Channels].&quot;<br>이 DSP 안내서의 목차 에는 새 안내서에 대한 링크가 포함되어 있습니다. | 참조:[Adobe Experience Cloud과 통합](/help/integrations/home.md).&quot; |
-| 2021년 5월 24일 | 도움말 | &quot;캠페인 관리&quot; 장에서는 Excel QA 스프레드시트를 사용하여 캠페인에 대한 주요 배치 설정을 검토 및 편집하는 방법에 대한 새 주제를 사용할 수 있습니다. | 참조:[스프레드시트를 사용하여 캠페인에 대한 배치 설정 수정 정보](/help/dsp/campaign-management/qa/qa-about.md), &quot;[캠페인에 대한 배치 설정 다운로드](/help/dsp/campaign-management/qa/qa-sheet-download.md),&quot; &quot;[캠페인에 대한 배치 설정 업로드](/help/dsp/campaign-management/qa/qa-sheet-upload.md), 및 &quot;[다운로드/업로드된 스프레드시트의 열](/help/dsp/campaign-management/qa/qa-sheet-columns.md). |
+| 2021년 5월 24일 | 도움말 | &quot;Campaign Management&quot; 장에서는 Excel QA 스프레드시트를 사용하여 캠페인에 대한 주요 배치 설정을 검토하고 편집하는 방법에 대해 새로운 주제를 사용할 수 있습니다. | 참조:[스프레드시트를 사용하여 캠페인에 대한 배치 설정 수정 정보](/help/dsp/campaign-management/qa/qa-about.md), &quot;[캠페인에 대한 배치 설정 다운로드](/help/dsp/campaign-management/qa/qa-sheet-download.md),&quot; &quot;[캠페인에 대한 배치 설정 업로드](/help/dsp/campaign-management/qa/qa-sheet-upload.md), 및 &quot;[다운로드/업로드된 스프레드시트의 열](/help/dsp/campaign-management/qa/qa-sheet-columns.md). |
 | 2021년 5월 5일 | 패키지 설정 | 새로운 간격 채우기 전략 옵션인 &#39;약간 앞으로&#39;가 사용 가능하며, 새 패키지의 기본값입니다. 이 전략은 55-65%가 비행 기간의 절반을 완수하도록 전송을 가속화합니다. | 참조:[패키지 설정](/help/dsp/campaign-management/packages/package-settings.md).&quot; |
-| 2021년 3월 17일 | 도움말 | 더 많은 절차와 참조를 포함하도록 &quot;캠페인 관리&quot; 장을 확장했습니다. | 목차에서 &quot;캠페인 관리&quot; 장 및 하위 섹션을 엽니다. |
+| 2021년 3월 17일 | 도움말 | &quot;Campaign Management&quot; 장은 더 많은 절차와 참조를 포함하도록 확장되었습니다. | 목차에서 &quot;캠페인 관리&quot; 장 및 하위 섹션을 엽니다. |
 | 2021년 3월 10일 | 인벤토리 | 더 이상 만들 수 없습니다 [!UICONTROL Smart Ad Serving] 은 VAST 태그를 사용하는 것을 다룹니다. 대신, 거래 ID를 통해 개인 거래를 실행할 수 있는지 게시자에게 문의하십시오. 를 사용하여 게시자에서 직접 거래 ID를 가져올 수 있습니다. [!UICONTROL Deal ID inbox] 또는 수동으로 거래 세부 사항을 입력합니다.<br><br>기존의 스마트 광고 서비스 제공은 여전히 이용 가능하지만, 올해 말 종료될 예정입니다. | 참조:[정보 [!UICONTROL Deal ID inbox]](/help/dsp/inventory/deal-id-inbox-about.md)&quot; 및 &quot;[수동으로 만들기 [!UICONTROL Deal ID] 세부 사항](/help/dsp/inventory/deal-id-create.md)&quot; |
 | 2021년 2월 25일 | 도움말 | 설명서 [!DNL Analytics for Advertising Cloud]Adobe Analytics과 Adobe Advertising Cloud을 통합하는 를 사용할 수 있습니다. | 통합에 대한 개요는 &quot;[개요 [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/overview.md).&quot; 전체 설명서는 &quot;Adobe Experience Cloud과 통합&quot; > &quot;에 있는 장을 참조하십시오.[!DNL Analytics for Advertising Cloud].&quot; |
 | 2020년 10월 28일 | 새 도움말 | 기존 도움말은 업데이트된 페이지로 대체되었으며, 이 도움말은 의 도움말 링크에서 사용할 수 있습니다. [!DNL DSP] 기본 메뉴 및 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html). | — |
