@@ -8,7 +8,7 @@ user-guide-title: Advertising Cloud DSP 안내서
 user-guide-description: Advertising Cloud DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: e77f70e414a1c8d2fe4937766ecddca9fdb6893e
+source-git-commit: 4dd819cd5feb47bce8ad56e5210c6d3c224389cb
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 6%
@@ -40,7 +40,7 @@ ht-degree: 6%
 + 캠페인 관리 {#campaign-management}
    + [Campaign Management 구조 개요](/help/dsp/campaign-management/campaign-management-overview.md)
    + 캠페인 {#campaigns}
-      + [Campaign Management 기본 정보](/help/dsp/campaign-management/campaigns/campaign-about.md)
+      + [Campaign Management 정보](/help/dsp/campaign-management/campaigns/campaign-about.md)
       + [캠페인 만들기](/help/dsp/campaign-management/campaigns/campaign-create.md)
       + [캠페인 편집](/help/dsp/campaign-management/campaigns/campaign-edit.md)
       + [캠페인 복제](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
@@ -84,10 +84,10 @@ ht-degree: 6%
          + [오디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-audio.md)
          + [연결된 TV 설정](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
          + [광고 설정 표시](/help/dsp/campaign-management/ads/ad-settings-display.md)
-         + [Mobile 광고 설정](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+         + [모바일 광고 설정](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
          + [기본 디스플레이 광고 설정](/help/dsp/campaign-management/ads/ad-settings-native.md)
          + [프리롤 광고 설정](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
-      + [지원되는 광고 유형에 대한 사양](/help/dsp/assets/ad-specs.pdf)
+      + [지원되는 광고 유형에 대한 사양](/help/dsp/campaign-management/ads/ad-specs.md)
    + 캠페인 보고서 {#campaign-reports}
       + [플랫폼 내 보고서 정보](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Campaign Management 보기에서 데이터 내보내기](/help/dsp/campaign-management/reports/campaign-export-data.md)

@@ -3,7 +3,7 @@ title: 여러 타사 광고 만들기
 description: 여러 타사 광고를 한 번에 만드는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: 83d35d27-1ab6-4fcf-877f-650a2dc6975a
-source-git-commit: 68af6b1846a37689dce0ca13a05cc1611b1f35a9
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -60,7 +60,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [광고 관리](ad-about.md)
->* [광고 사양](/help/dsp/assets/ad-specs.pdf)
+>* [광고 사양](ad-specs.md)
 >* [단일 광고 만들기](ad-create.md)
 >* [비디오: 타사 광고 태그를 대량 업로드하는 방법](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
 

@@ -3,7 +3,7 @@ title: 프리롤 광고 설정
 description: 프리롤 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: 638d5a3d-3dff-40b6-a3ba-7ab3f08282b9
-source-git-commit: 68af6b1846a37689dce0ca13a05cc1611b1f35a9
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -87,6 +87,6 @@ ht-degree: 0%
 >* [광고 관리](ad-about.md)
 >* [단일 광고 만들기](ad-create.md)
 >* [광고와 연결된 배치 나열](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [광고 사양](/help/dsp/assets/ad-specs.pdf)
+>* [광고 사양](ad-specs.md)
 >* [Advertising Cloud DSP 매크로](/help/dsp/campaign-management/macros.md)
 

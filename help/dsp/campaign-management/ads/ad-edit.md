@@ -3,7 +3,7 @@ title: 광고 편집
 description: 광고를 편집하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: ef140d61-f04e-4c1c-acdd-9985730dfb07
-source-git-commit: 8d6bb45d90f56331ff52e6514e4732f1ac32d022
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 0%
@@ -37,5 +37,5 @@ ht-degree: 0%
 >* [여러 타사 광고 만들기](ad-create-multiple.md)
 >* [광고 복제](ad-duplicate.md)
 >* [광고와 연결된 배치 나열](ad-list-placements.md)
->* [광고 사양](/help/dsp/assets/ad-specs.pdf)
+>* [광고 사양](ad-specs.md)
 

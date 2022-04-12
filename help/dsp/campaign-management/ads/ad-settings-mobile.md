@@ -3,14 +3,14 @@ title: 모바일 광고 설정
 description: 모바일 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: f67c4ba0-1011-4ad6-bd36-98c312b81b67
-source-git-commit: 68af6b1846a37689dce0ca13a05cc1611b1f35a9
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 0%
 
 ---
 
-# Mobile 광고 설정
+# 모바일 광고 설정
 
 ## [!UICONTROL Insert Ad Tag]
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Ad Options]
 
-### [!UICONTROL Basic]: Mobile 디스플레이 광고
+### [!UICONTROL Basic]: 모바일 디스플레이 광고
 
 **[!UICONTROL Ad Type]:** (읽기 전용) 만들고 있는 광고 유형으로, 광고를 첨부할 수 있는 배치 유형에 해당합니다.
 
@@ -105,6 +105,6 @@ ht-degree: 0%
 >* [광고 관리](ad-about.md)
 >* [단일 광고 만들기](ad-create.md)
 >* [광고와 연결된 배치 나열](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [광고 사양](/help/dsp/assets/ad-specs.pdf)
+>* [광고 사양](ad-specs.md)
 >* [Advertising Cloud DSP 매크로](/help/dsp/campaign-management/macros.md)
 

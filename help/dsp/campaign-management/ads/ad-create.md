@@ -3,7 +3,7 @@ title: 단일 광고 만들기
 description: 단일 타사 광고를 만드는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: d93c6a66-a5cb-4117-97e8-424422200fce
-source-git-commit: 63c8b750c9d5e6816da29fe15416d43d6b3e3726
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -49,5 +49,5 @@ ht-degree: 0%
 >* [광고 관리](ad-about.md)
 >* [여러 타사 광고 만들기](ad-create-multiple.md)
 >* [광고 편집](ad-edit.md)
->* [광고 사양](/help/dsp/assets/ad-specs.pdf)
+>* [광고 사양](ad-specs.md)
 
