@@ -3,9 +3,9 @@ title: 플랫폼 내 보고서 정보
 description: 캠페인 관리 보기에 포함된 보고서 데이터에 대해 알아봅니다.
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 1ca7639fac40eb8d3fbc3b4f7e0f45b29368f49b
+source-git-commit: 0adbb7876e38a8fc7b8c42e9897492bb6255e2c3
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ### 기타 유형의 캠페인 수준 보고
 
-기타 데이터 분류의 경우 [기존 캠페인 수준 보고 페이지](/help/dsp/campaign-management/campaigns/campaign-view-report.md) 변환 전: [!UICONTROL Campaigns Classic]. 기존 보고서에는 [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], 및 [!UICONTROL Audience Performance] 데이터.
+기타 데이터 분류의 경우 [기존 캠페인 수준 보고 페이지](/help/dsp/campaign-management/campaigns/campaign-view-report.md). 기존 보고서에는 [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], 및 [!UICONTROL Audience Performance] 데이터.
 
 >[!MORELIKETHIS]
 >
@@ -96,6 +96,6 @@ ht-degree: 0%
 >* [사용자 지정 열 보기 만들기](column-view-create.md)
 >* [열 보기 변경](column-view-change.md)
 >* [데이터 시각화 관리](campaign-data-visualization-manage.md)
->* [캠페인 관리 보기에서 데이터 내보내기](campaign-export-data.md)
+>* [Campaign Management 보기에서 데이터 내보내기](campaign-export-data.md)
 >* [캠페인에 대한 세부 보고서 보기](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 
