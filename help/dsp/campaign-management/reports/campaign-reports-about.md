@@ -3,9 +3,9 @@ title: 플랫폼 내 보고서 정보
 description: 캠페인 관리 보기에 포함된 보고서 데이터에 대해 알아봅니다.
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 1292f39cb2d7d690a46d4e943ed09d98c349ce41
+source-git-commit: 2f985d9ae8343ea0005f1aa9c33acd603d514f1d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 ### 기타 유형의 캠페인 수준 보고
 
-기타 데이터 분류의 경우 [기존 캠페인 수준 보고 페이지](/help/dsp/campaign-management/campaigns/campaign-view-report.md). 기존 보고서에는 [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], 및 [!UICONTROL Audience Performance] 데이터.
+기타 데이터 분류의 경우 [캠페인 수준 보고 페이지](/help/dsp/campaign-management/campaigns/campaign-view-report.md). 다음 <!--legacy --> 보고서에 섹션 포함 [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], 및 [!UICONTROL Audience Performance] 데이터.
 
 >[!MORELIKETHIS]
 >
