@@ -1,13 +1,13 @@
 ---
 title: 새로운 기능
-description: 이 페이지에는 Advertising Cloud과 Adobe Experience Cloud의 다른 제품 및 서비스 간의 통합에 대한 업데이트가 나열됩니다.
+description: Advertising Cloud과 Adobe Experience Cloud의 다른 제품 및 서비스 간의 통합 업데이트에 대해 알아봅니다.
 cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 0808d101-3c6b-4671-b9e3-6f588427f8b5
-source-git-commit: f464c282817e07a357be1e1b1bf11e9a96f7571c
+source-git-commit: 1a6b9146ac38297eb4b48efeaf478390663e6018
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---

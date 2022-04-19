@@ -3,7 +3,7 @@ user-guide-title: Adobe Experience Cloud와 통합
 user-guide-description: Advertising Cloud DSP 및 Advertising Cloud Search와 다른 Adobe Experience Cloud 제품 및 서비스와의 통합에 대해 알아봅니다.
 breadcrumb-title: Experience Cloud와 통합
 index: true
-source-git-commit: e5f96bc9f34e568ff51b0b884114d3ebadf704d9
+source-git-commit: 0ede15cbc8031b20e82b8dd574469860ebd0aee6
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 20%
@@ -23,7 +23,7 @@ ht-degree: 20%
       + [구현을 위한 사전 요구 사항 및 주요 정보 [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/prerequisites.md)
       + [용 JavaScript 코드 [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/javascript.md)
       + [사용 [!DNL Last Event Service] Adobe Experience Platform을 사용한 JavaScript 라이브러리 [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
-      + [광고 태그용 매크로]{#macros}
+      + 광고 태그용 매크로 {#macros}
          + [추가 [!DNL Analytics for Advertising Cloud] 매크로 [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md)
    + 교환된 데이터 {#data}
       + [Analysis Workspace의 Advertising Cloud 지표](/help/integrations/analytics/advertising-cloud-metrics-in-analytics.md)
