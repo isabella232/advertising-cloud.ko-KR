@@ -3,9 +3,9 @@ title: 플랫폼 내 보고서 정보
 description: 캠페인 관리 보기에 포함된 보고서 데이터에 대해 알아봅니다.
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 2f985d9ae8343ea0005f1aa9c33acd603d514f1d
+source-git-commit: 7d081583ff10675b515aafdd97ccb3053f19c32d
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 모든 캠페인 보기
 
-다음 [!UICONTROL Campaigns] 계정 내의 모든 캠페인 목록에 대한 보기가 열립니다. &lt;!— [!UICONTROL Subtotals] 행은 표시되는 모든 행에 있는 각 지표의 합계 또는 평균 값을 보여줍니다. — 부분합 행이 남아 있습니까? 안 보여 —>
+다음 [!UICONTROL Campaigns] 계정 내의 모든 캠페인 목록과 성능 데이터 차트 세트가 열립니다.
 
 ### 차트 보기 {#chart-view}
 
