@@ -2,16 +2,16 @@
 title: 추가 [!DNL Analytics for Advertising Cloud] 매크로 [!DNL Google Campaign Manager 360] 광고 태그
 description: 추가 이유 및 방법 알아보기 [!DNL Analytics for Advertising Cloud] 매크로 [!DNL Google Campaign Manager 360] 광고 태그
 feature: Integration with Adobe Analytics
-source-git-commit: fe61dcd97d5509784a20bf8f68bea0ab2699dcfd
+source-git-commit: 2ba5656704319584e475f8c6c68943f215196ae2
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
 
 # 추가 [!DNL Analytics for Advertising Cloud] 매크로 [!DNL Google Campaign Manager 360] 광고 태그
 
-*Advertising Cloud-Adobe Analytics 통합만 있는 광고주*
+*Advertisers with an Advertising Cloud-Adobe Analytics Integration Only*
 
 *Advertising Cloud DSP에만 적용 가능*
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 
 * **웹 사이트에서 [!DNL Analytics for Advertising Cloud] JavaScript 코드를 대신 [!DNL Analytics] 클릭스루 데이터만 위한 서버측 전달** (뷰스루 데이터 없음): 다음 매크로는 Advertising Cloud을 통해 구매하는 광고에서 시작되는 온사이트 클릭 활동을 보고하는 데 필요합니다.
 
-## 매크로에 추가 [!DNL Google Campaign Manager 360] 광고
+## Append the Macros to Your [!DNL Google Campaign Manager 360] Ads
 
-내 [!DNL Google Campaign Manager 360]를 추가합니다. 를 랜딩 페이지 URL에 추가합니다. `%pamo=!;`
+Within [!DNL Google Campaign Manager 360], append to the following parameter to the landing page URL for each of your display and video ads: `%pamo=!;`
 
 여러 가지 방법으로 랜딩 페이지 URL을 지정할 수 있습니다. 각 옵션에 대한 지침은 다음 하위 섹션에 포함되어 있습니다.
 
@@ -43,25 +43,25 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 >
 >
 >* 랜딩 페이지 URL에 일반적이지 않은 해시 기호(#)가 포함된 경우 `amo` 매개 변수 앞에 해시 기호를 추가합니다.
->* 다음에 다른 매개 변수가 포함되지 않는 경우 `amo` 매개 변수를 추가한 다음 그 뒤에 매개 변수(예: &amp;a=b)를 추가합니다. 예:`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
+>* If no other parameters are included after the `amo` parameter, then add a parameter (for example, &amp;a=b) after it. 예:`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 
-## 광고주 수준 랜딩 페이지 URL 접미사 구성
+### 광고주 수준 랜딩 페이지 URL 접미사 구성
 
 1. 기본 메뉴에서 [!UICONTROL Advertisers] 탭.
 1. 광고주 이름을 클릭합니다.
 1. 에서 [!UICONTROL Landing page URL suffix] 설정, 포함 `%pamo!;` 에서 [!UICONTROL URL suffix] 필드.
 
-## 캠페인 수준 랜딩 페이지 URL 접미사 구성
+### 캠페인 수준 랜딩 페이지 URL 접미사 구성
 
-1. 기본 메뉴에서 [!UICONTROL Campaigns] 탭.
-1. 캠페인 이름을 클릭합니다.
+1. In the main menu, click the [!UICONTROL Campaigns] tab.
+1. Click the campaign name.
 1. 클릭 [!UICONTROL Properties].
 1. 에서 [!UICONTROL Landing page URL suffix] 설정, 포함 `%pamo!;` 에서 [!UICONTROL URL suffix] 필드.
 
-## 광고 수준 랜딩 페이지 URL 접미사 구성
+### 광고 수준 랜딩 페이지 URL 접미사 구성
 
-1. 기본 메뉴에서 [!UICONTROL Campaigns] 탭.
+1. In the main menu, click the [!UICONTROL Campaigns] tab.
 1. 캠페인 이름을 클릭합니다.
 1. 에서 [!UICONTROL Views] 메뉴, 선택 [!UICONTROL Creatives].
 1. 크리에이티브 이름을 클릭합니다.
@@ -69,7 +69,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 ## 방법 [!DNL Analytics for Advertising Cloud] 매크로가 DSP에서 확장됨
 
-DSP에서 다음을 포함하는 광고를 만들 때 [!DNL Analytics for Advertising Cloud] 매개 변수(`amo`), `ef_id` 및 `s_kwcid` 매크로가 클릭 URL에 자동으로 추가됩니다. 가장 좋은 방법은 DSP에서 태그를 확인하여 `ef_id` 및 `s_kwcid` 매크로가 있습니다.
+DSP에서 다음을 포함하는 광고를 만들 때 [!DNL Analytics for Advertising Cloud] 매개 변수(`amo`), `ef_id` 및 `s_kwcid` 매크로가 클릭 URL에 자동으로 추가됩니다. The best practice is to check the tag in DSP to ensure that the `ef_id` and `s_kwcid` macros are present.
 
 다음은 의 예입니다 [!DNL Google Campaign Manager 360] [ins 태그](https://support.google.com/campaignmanager/answer/6080468) 표시됩니다.
 
@@ -90,7 +90,7 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 
 >[!MORELIKETHIS]
 >
->* [개요 [!DNL Analytics for Advertising Cloud]](overview.md)
+>* [Overview of [!DNL Analytics for Advertising Cloud]](overview.md)
 >* [에서 사용하는 Advertising Cloud ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
 >* [추가 [!DNL Analytics for Advertising Cloud] 매크로 [!DNL Flashtalking] 광고 태그](macros-flashtalking.md)
 
