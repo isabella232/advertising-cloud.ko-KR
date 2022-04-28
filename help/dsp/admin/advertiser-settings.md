@@ -1,9 +1,9 @@
 ---
 title: 광고주 계정 설정
 description: 사용 가능한 광고주 설정에 대한 설명을 참조하십시오.
-source-git-commit: ee5621329aacf54777d28fa1c1f3d50949824cee
+source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,15 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-추가 Adobe Experience Cloud 제품을 사용하는 광고주는 회사의 고유한 이름을 사용하여 일부 제품에서 데이터를 공유할 수 있습니다 [!DNL Organization ID] Experience Cloud. 에서 특정 제품 통합을 구성할 수 있습니다 [!UICONTROL Integrations] 섹션을 참조하십시오.
+추가 Adobe Experience Cloud 제품이 있는 광고주는 Experience Cloud에 대해 조직의 고유 ID를 사용하여 일부 제품에서 데이터를 공유할 수 있습니다. 에서 특정 제품 통합을 구성할 수 있습니다 [!UICONTROL Integrations] 섹션을 참조하십시오.
 
-**[!UICONTROL Account IMS org and ID]:** (여러 광고주가 있는 Experience Cloud 계정을 통해 라이선스가 부여된 추가 Experience Cloud 제품이 있는 광고주) (선택 사항) 계정의 Experience Cloud [!DNL Organization ID].
+**[!UICONTROL Account IMS org and ID]:** (여러 광고주가 있는 Experience Cloud 계정을 통해 라이선스가 부여된 추가 Experience Cloud 제품이 있는 광고주) (선택 사항) 조직의 Experience Cloud ID입니다.
 
-**[!UICONTROL Advertiser IMS org and ID]:** (추가 Experience Cloud 제품에 대한 직접적인 라이선스가 있는 광고주) 선택 사항) 광고주의 Experience Cloud [!DNL Organization ID].
+**[!UICONTROL Advertiser IMS org and ID]:** (추가 Experience Cloud 제품에 대한 직접적인 라이선스가 있는 광고주) (선택 사항) 조직의 Experience Cloud ID입니다.
 
 ### [!UICONTROL Integrations]
 
-(선택 사항) DSP 계정에 연결된 추가 Experience Cloud 제품. 제품은 동일한 Experience Cloud과 연결되어 있어야 합니다 [!DNL Organization ID] 에서 제공 [!UICONTROL Adobe IMS IDs] 섹션을 참조하십시오.
+(선택 사항) DSP 계정에 연결된 추가 Experience Cloud 제품. 제품은 및에 제공된 동일한 Experience Cloud ID와 연결되어 있어야 합니다. [!UICONTROL Adobe IMS IDs] 섹션을 참조하십시오.
 
 **[!UICONTROL Adobe Media Optimizer]:** (Advertising Cloud Search이 있거나 Advertising Cloud 변환 픽셀을 사용하는 광고주) A [!DNL Search] DSP에서 속성 데이터를 교환할 계정.
 

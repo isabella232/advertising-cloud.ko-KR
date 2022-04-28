@@ -1,11 +1,11 @@
 ---
-title: '캘리포니아 소비자 개인 정보 보호법 및 #58;에 대한 Adobe Advertising Cloud 지원 소비자 데이터 액세스 및 삭제 지원'
+title: '캘리포니아 소비자 개인 정보 보호법을 위한 Adobe Advertising Cloud 지원 : 소비자 데이터 액세스 및 삭제 지원'
 description: 지원되는 데이터 요청 유형, 필수 설정 및 필드 값, 레거시 제품 ID를 사용한 API 액세스 요청 및 반환된 데이터 필드의 예에 대해 알아봅니다.
 feature: CCPA
 exl-id: 1330da6c-a944-4bb5-8539-488d97f56175
-source-git-commit: 56ac178bf10d8c934297521ca3075783e1bc2c36
+source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
@@ -24,77 +24,77 @@ CCPA(California Consumer Privacy Act)는 2020년 1월 1일부터 시행된 Calif
 
 Adobe Advertising Cloud은 서비스 제공업체로서, 개인 정보에 대한 액세스 및 삭제 요청 관리 및 개인 정보 판매 거부 요청 관리를 포함하여 Advertising Cloud 제품 및 서비스 사용에 적용되는 CPA에 따른 책임을 이행하도록 비즈니스를 지원합니다.
 
-이 문서에서는 서비스 제공자로서 Advertising Cloud Search, Advertising Cloud Creative, Advertising Cloud DSP(Demand Side Platform) 및 [!DNL Media Optimizer DCO] 이 Adobe [!DNL Experience Platform Privacy Service API] 및 [!DNL Privacy Service UI]을 사용하여 개인 정보에 액세스하고 삭제할 수 있는 소비자의 권한을 지원하는 방법에 대해 설명합니다.
+이 문서에서는 Advertising Cloud Search, Advertising Cloud Creative, Advertising Cloud DSP(Demand Side Platform) 및 [!DNL Media Optimizer DCO] — 서비스 제공자로서 — Adobe을 사용하여 개인 정보에 액세스하고 삭제할 수 있는 소비자의 권한을 지원합니다 [!DNL Experience Platform Privacy Service API] 및 [!DNL Privacy Service UI].
 
-Advertising Cloud DSP이 개인 정보 판매를 옵트아웃할 소비자 권한을 지원하는 방법에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법 Adobe Advertising Cloud 지원 을 참조하십시오. 소비자 옵트아웃 지원](/help/privacy/ad-cloud-ccpa-opt-out-of-sale.md).
+Advertising Cloud DSP이 개인 정보 판매를 옵트아웃할 소비자 권한을 지원하는 방법에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법을 위한 Adobe Advertising Cloud 지원: 소비자 옵트아웃 지원](/help/privacy/ad-cloud-ccpa-opt-out-of-sale.md).
 
-CCPA를 위한 Adobe 개인 정보 서비스에 대한 자세한 내용은 [Adobe 개인 정보 보호 센터](https://www.adobe.com/privacy/ccpa.html)를 참조하십시오.
+CCPA를 위한 Adobe 개인 정보 서비스에 대한 자세한 내용은 [Adobe 개인 정보 보호 센터](https://www.adobe.com/privacy/ccpa.html).
 
 ## Advertising Cloud에 대해 지원되는 데이터 요청 유형
 
 Adobe Experience Platform은 기업이 다음 작업을 완료할 수 있는 기능을 제공합니다.
 
-* [!DNL Search], [!DNL Creative], [!DNL DSP] 또는 [!DNL DCO] 내에서 소비자의 쿠키 수준 데이터 또는 장치 ID 수준 데이터(모바일 앱의 광고의 경우)에 액세스합니다.
-* 브라우저를 사용하는 소비자의 경우 [!DNL Search], [!DNL Creative], [!DNL DSP] 또는 [!DNL DCO] 내에 저장된 쿠키 수준 데이터를 삭제합니다. 또는 모바일 장치에서 앱을 사용하는 소비자를 위해 [!DNL DSP] 내에 저장된 ID 수준 데이터를 삭제합니다.
+* 내에서 소비자의 쿠키 수준 데이터 또는 장치 ID 수준 데이터(모바일 앱의 광고)에 액세스합니다 [!DNL Search], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO].
+* 내에 저장된 쿠키 수준 데이터 삭제 [!DNL Search], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO] 브라우저를 사용하는 소비자의 경우 내에 저장된 ID 수준 데이터를 삭제하거나 [!DNL DSP] 를 사용하도록 선택할 수 있습니다.
 * 하나 또는 모든 기존 요청의 상태를 확인합니다.
 
 ## Advertising Cloud에 대한 요청을 전송하기 위한 필수 설정
 
 Advertising Cloud에서 소비자 개인 정보에 액세스하고 삭제를 요청하려면 다음을 수행해야 합니다.
 
-1. JavaScript 라이브러리를 배포하여 고객의 쿠키를 검색하고 제거합니다. 모든 Adobe Experience Cloud 솔루션에 동일한 라이브러리 `AdobePrivacy.js`가 사용됩니다.
+1. JavaScript 라이브러리를 배포하여 고객의 쿠키를 검색하고 제거합니다. 같은 라이브러리 `AdobePrivacy.js`는 모든 Adobe Experience Cloud 솔루션에 사용됩니다.
 
    >[!IMPORTANT]
    >
-   >일부 Adobe Experience Cloud 솔루션에 대한 요청에는 JavaScript 라이브러리가 필요하지 않지만 Advertising Cloud에 요청하려면 JavaScript 라이브러리가 필요합니다.
+   >일부 Experience Cloud 솔루션에 대한 요청에는 JavaScript 라이브러리가 필요하지 않지만 Advertising Cloud에 요청하려면 JavaScript 라이브러리가 필요합니다.
 
-   고객이 회사의 개인 정보 포털과 같은 액세스 및 삭제 요청을 제출할 수 있는 웹 페이지에 라이브러리를 배포해야 합니다. 라이브러리는 Adobe 쿠키(네임스페이스 ID)를 검색하는 데 도움이 됩니다. `gsurferID`)를 사용하십시오.[!DNL  Adobe Experience Platform Privacy Service API]
+   고객이 회사의 개인 정보 포털과 같은 액세스 및 삭제 요청을 제출할 수 있는 웹 페이지에 라이브러리를 배포해야 합니다. 라이브러리는 Adobe 쿠키(네임스페이스 ID)를 검색하는 데 도움이 됩니다. `gsurferID`)를 사용하여 액세스 및 삭제 요청의 일부로 이러한 ID를 제출할 수 있습니다. [!DNL  Adobe Experience Platform Privacy Service API].
 
    고객이 개인 데이터를 삭제하도록 요청하면 라이브러리가 고객의 브라우저에서 고객의 쿠키도 삭제합니다.
 
    >[!NOTE]
    >
-   >개인 데이터를 삭제하는 것은 옵트아웃과 다르므로, 대상 세그먼트로 최종 사용자의 타깃팅을 중지합니다. 그러나 소비자가 [!DNL Creative], [!DNL DSP] 또는 [!DNL DCO]에서 개인 데이터를 삭제하도록 요청하면, 라이브러리에서도 세그먼트 타깃팅에서 고객을 옵트아웃하도록 Advertising Cloud에 요청을 보냅니다. [!DNL Search] 을 사용하는 광고주의 경우 고객에게 [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse)에 대한 링크를 제공하는 것이 좋습니다. 이 링크를 통해 대상 세그먼트 타깃팅을 옵트아웃하는 방법을 설명합니다.
+   >개인 데이터를 삭제하는 것은 옵트아웃과 다르므로, 대상 세그먼트로 최종 사용자의 타깃팅을 중지합니다. 그러나 소비자가 개인 데이터를 [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO]또한 라이브러리는 세그먼트 타깃팅에서 고객을 옵트아웃하기 위해 Advertising Cloud에 요청을 보냅니다. 광고 문헌 [!DNL Search]에 대한 링크를 제공하는 것이 좋습니다 [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse)에서는 대상 세그먼트 타깃팅을 옵트아웃하는 방법을 설명합니다.
 
-1. IMS 조직 ID를 식별하고 Advertising Cloud 계정에 연결되어 있는지 확인합니다.
+1. 조직의 Experience Cloud ID를 식별하고 Advertising Cloud 계정에 연결되어 있는지 확인합니다.
 
-   IMS 조직 ID는 &quot;@AdobeOrg&quot;이 추가된 24자의 영숫자 문자열입니다. 대부분의 Adobe Experience Cloud 고객에게 IMS 조직 ID가 할당되었습니다. 마케팅 팀이나 내부 Adobe 시스템 관리자가 조직의 IMS 조직 ID를 모르거나 프로비저닝되었는지 확실하지 않은 경우 Adobe 고객 지원 센터(gdprsupport@adobe.com)에 문의하십시오. 개인 정보 API에 요청을 제출하려면 IMS 조직 ID가 필요합니다.
+   Experience Cloud ID는 &quot;@AdobeOrg&quot;이 추가된 24자의 영숫자 문자열입니다. 대부분의 Experience Cloud 고객에게 ID가 할당되었습니다. 마케팅 팀이나 내부 Adobe 시스템 관리자가 조직의 ID를 모르거나 프로비저닝되었는지 확실하지 않은 경우 Adobe 고객 지원 센터(gdprsupport@adobe.com)에 문의하십시오. 를 사용하여 개인 정보 API에 요청을 제출하려면 ID가 필요합니다. `imsOrgID` 네임스페이스.
 
    >[!IMPORTANT]
    >
-   >회사의 Advertising Cloud 담당자에게 문의하여 [!DNL DSP] 계정 또는 광고주, [!DNL Search] 계정 및 [!DNL Creative] 또는 [!DNL DCO] 계정을 포함한 모든 조직의 Advertising Cloud 계정이 IMS 조직 ID에 연결되어 있는지 확인합니다.
+   >조직의 Advertising Cloud 담당자에게 문의하여 다음을 포함한 모든 조직의 Advertising Cloud 계정을 확인합니다 [!DNL DSP] 계정 또는 광고주 [!DNL Search] 계정 및 [!DNL Creative] 또는 [!DNL DCO] 계정 — Experience Cloud ID에 연결되어 있습니다.
 
-1. 고객을 대신하여 Advertising Cloud에 개인 정보에 대한 액세스 및 삭제 요청을 제출하고 기존 요청의 상태를 확인하려면 [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html)(자동화된 요청의 경우) 또는 [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) 를 사용하십시오.
+1. 다음 중 하나를 사용합니다 [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (자동화된 요청의 경우) 또는 [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (임시 요청의 경우) 소비자를 대신하여 Advertising Cloud에 개인 정보에 대한 액세스 및 삭제 요청을 제출하고 기존 요청의 상태를 확인합니다.
 
-   모바일 앱을 가진 광고주가 고객과 상호 작용하고 [!DNL DSP] 을 사용하여 캠페인을 시작하는 경우 Experience Cloud을 위해 개인 정보 보호 Mobile SDK를 다운로드해야 합니다. Mobile SDK를 사용하면 기업이 옵트아웃 상태 플래그를 설정하고 소비자의 장치 ID(네임스페이스 ID)를 검색할 수 있습니다. `deviceID`) 및 요청을 Privacy Service API에 제출합니다. 모바일 앱에는 SDK 버전 4.15.0 이상이 필요합니다.
+   고객과 상호 작용하고 캠페인을 시작할 모바일 앱을 가진 광고주용 [!DNL DSP]를 다운로드하려면 Experience Cloud을 위한 개인 정보 보호 Mobile SDK를 다운로드해야 합니다. Mobile SDK를 사용하면 기업이 옵트아웃 상태 플래그를 설정하고 소비자의 장치 ID(네임스페이스 ID)를 검색할 수 있습니다. `deviceID`). 및 요청을 Privacy Service API에 제출합니다. 모바일 앱에는 SDK 버전 4.15.0 이상이 필요합니다.
 
    소비자 액세스 요청을 제출할 때 Privacy Service API는 지정된 쿠키 또는 장치 ID를 기반으로 소비자의 정보를 반환하며, 이를 소비자에게 반환해야 합니다.
 
    소비자 삭제 요청을 제출하면 쿠키 ID 또는 장치 ID와 쿠키와 연결된 모든 비용, 클릭 및 매출 데이터가 서버에서 삭제됩니다.
 
    >[!NOTE]
-   비즈니스에 IMS 조직 ID(Adobe Experience Cloud Identity Management Service ID)가 여러 개 있는 경우, 각각에 대해 별도의 API 요청을 보내야 합니다. 그러나 여러 Advertising Cloud 하위 솔루션([!DNL Search], [!DNL Creative], [!DNL DSP] 및 [!DNL DCO])에 대해 하나의 API 요청을 하위 솔루션당 하나의 계정을 사용하여 수행할 수 있습니다.
+   비즈니스에 여러 Experience Cloud ID가 있는 경우, 각각에 대해 별도의 API 요청을 전송해야 합니다. 그러나 여러 Advertising Cloud 하위 솔루션([!DNL Search], [!DNL Creative], [!DNL DSP], 및 [!DNL DCO]). 하위 솔루션당 한 개의 계정을 사용하는 경우
 
-이 모든 단계는 Advertising Cloud에서 지원을 받기 위해 필요합니다. Adobe Experience Platform Privacy Service을 사용하여 수행해야 하는 이러한 작업 및 기타 관련 작업과 필요한 항목을 찾을 수 있는 위치에 대한 자세한 내용은 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)을 참조하십시오.
+이 모든 단계는 Advertising Cloud에서 지원을 받기 위해 필요합니다. Adobe Experience Platform Privacy Service을 사용하여 수행해야 하는 이러한 작업 및 기타 관련 작업과 필요한 항목을 찾을 수 있는 위치에 대한 자세한 내용은 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Advertising Cloud JSON 요청의 필수 필드 값
 
 `"company context":`
 
 * `"namespace": **imsOrgID**`
-* `"value":` &lt;>IMS 조직 ID 값&#x200B;*>*
+* `"value":` &lt;*조직의 Experience Cloud ID 값*>
 
 &quot;users&quot;:
 
-* `"key":` &lt;>일반적으로 고객&#x200B;*이름>*
+* `"key":` &lt;*일반적으로 고객의 이름*>
 
-* `"action":` 또는  `**access**` 중 하나  `**delete**`
+* `"action":` 둘 중 하나 `**access**` 또는 `**delete**`
 
 * `"user IDs":`
 
    * `"namespace": **411**` (adcloud 쿠키 공간을 나타냅니다.)
 
-   * `"value":` &lt;> `AdobePrivacy.js`*>에서 검색한 실제 고객의 쿠키 ID 값*
+   * `"value":` &lt;*다음에서 검색한 실제 고객의 쿠키 ID 값`AdobePrivacy.js`*>
 
 * `"include": **adCloud**` (요청에 적용되는 Adobe 제품)
 
