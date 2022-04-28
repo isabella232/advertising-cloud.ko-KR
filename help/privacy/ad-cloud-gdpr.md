@@ -3,9 +3,9 @@ title: 개인 정보 보호 규정을 위한 Adobe Advertising Cloud 지원
 description: 지원되는 데이터 요청 유형, 필수 설정 및 필드 값, 레거시 제품 ID를 사용한 API 액세스 요청 및 반환된 데이터 필드의 예에 대해 알아봅니다
 feature: GDPR
 exl-id: 304d88d0-d63d-4b32-8d4d-c61ba2409adc
-source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
+source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -52,13 +52,13 @@ Advertising Cloud에 대한 데이터에 액세스하고 삭제를 요청하려�
    >
    >개인 데이터를 삭제하는 것은 옵트아웃과 다릅니다. 옵트아웃은 대상 세그먼트로 최종 사용자 타겟팅을 중지합니다. 그러나 데이터 주체에서 개인 데이터를 삭제하도록 요청하는 경우 [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO]또한 라이브러리는 세그먼트 타깃팅에서 데이터 주체를 옵트아웃하도록 Advertising Cloud에 요청을 보냅니다. 광고 문헌 [!DNL Search]를 설정하는 경우 데이터 주체에게 [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html)에서는 대상 세그먼트 타깃팅을 옵트아웃하는 방법을 설명합니다.
 
-1. Experience Cloud ID를 식별하고 Advertising Cloud 계정에 연결되어 있는지 확인합니다.
+1. Experience Cloud 조직 ID를 식별하고 Advertising Cloud 계정에 연결되어 있는지 확인합니다.
 
-   Experience Cloud ID는 &quot;@AdobeOrg&quot;이 추가된 24자의 영숫자 문자열입니다. 대부분의 Experience Cloud 고객에게 ID가 할당되었습니다. 마케팅 팀이나 내부 Adobe 시스템 관리자가 조직의 ID를 모르거나 프로비저닝되었는지 확실하지 않은 경우 Adobe 고객 지원 센터(gdprsupport@adobe.com)에 문의하십시오. 를 사용하여 개인 정보 API에 요청을 제출하려면 ID가 필요합니다. `imsOrgID` 네임스페이스.
+   Experience Cloud 조직 ID는 &quot;@AdobeOrg&quot;이 추가된 24자의 영숫자 문자열입니다. 대부분의 Experience Cloud 고객에게 조직 ID가 할당되었습니다. 마케팅 팀이나 내부 Adobe 시스템 관리자가 조직 ID를 모르거나 프로비저닝되었는지 확실하지 않은 경우 Adobe 고객 지원 센터(gdprsupport@adobe.com)에 문의하십시오. 를 사용하여 개인 정보 API에 요청을 제출하려면 조직 ID가 필요합니다. `imsOrgID` 네임스페이스.
 
    >[!IMPORTANT]
    >
-   >조직의 Advertising Cloud 담당자에게 문의하여 다음을 포함한 모든 조직의 Advertising Cloud 계정을 확인합니다 [!DNL DSP] 계정 또는 광고주 [!DNL Search] 계정 및 [!DNL Creative] 또는 [!DNL DCO] 계정 — Experience Cloud ID에 연결되어 있습니다.
+   >조직의 Advertising Cloud 담당자에게 문의하여 다음을 포함한 모든 조직의 Advertising Cloud 계정을 확인합니다 [!DNL DSP] 계정 또는 광고주 [!DNL Search] 계정 및 [!DNL Creative] 또는 [!DNL DCO] 계정 — Experience Cloud 조직 ID에 연결되어 있습니다.
 
 1. 다음 중 하나를 사용합니다 [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (자동화된 요청의 경우) 또는 [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (임시 요청의 경우) 데이터 주체를 대신하여 Advertising Cloud에 액세스 및 삭제 요청을 제출하고 기존 요청의 상태를 확인할 수 있습니다.
 
@@ -69,7 +69,7 @@ Advertising Cloud에 대한 데이터에 액세스하고 삭제를 요청하려�
    데이터 주체의 삭제 요청을 제출하면 쿠키 ID 또는 장치 ID와 쿠키와 연결된 모든 비용, 클릭 및 매출 데이터가 서버에서 삭제됩니다.
 
    >[!NOTE]
-   회사에 여러 Experience Cloud ID가 있는 경우 각각에 대해 별도의 API 요청을 전송해야 합니다. 그러나 여러 Advertising Cloud 하위 솔루션([!DNL Search], [!DNL Creative], [!DNL DSP], 및 [!DNL DCO]). 하위 솔루션당 한 개의 계정을 사용하는 경우
+   회사에 여러 Experience Cloud 조직 ID가 있는 경우 각각에 대해 별도의 API 요청을 전송해야 합니다. 그러나 여러 Advertising Cloud 하위 솔루션([!DNL Search], [!DNL Creative], [!DNL DSP], 및 [!DNL DCO]). 하위 솔루션당 한 개의 계정을 사용하는 경우
 
 이 모든 단계는 Advertising Cloud에 필요합니다. Adobe Experience Platform Privacy Service을 사용하여 수행해야 하는 이러한 작업 및 기타 관련 작업과 필요한 항목을 찾을 수 있는 위치에 대한 자세한 내용은 [www.adobe.io/apis/cloudplatform/gdpr.html](https://www.adobe.io/apis/experienceplatform/gdpr.html).
 

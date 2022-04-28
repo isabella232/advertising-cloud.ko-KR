@@ -1,9 +1,9 @@
 ---
 title: FAQ
 description: xxx
-source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
+source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -32,5 +32,5 @@ Auditor가 이 기능을 비활성화하도록 요청하고 있습니다. 이러
 
 A: Adobe는 제품과 함께 확인했으며, 해당 픽셀은 Ad Cloud, 특정 재고/SSP 파트너(DSP 관련) 및 AAM 간의 쿠키 일치율을 높이기 위한 목적이라고 언급했습니다.  해당 항목이 제거되면 고객은 AAC/AAM과 각 픽셀이 사용되는 인벤토리 파트너 간에 감소된 일치율 수준을 볼 수 있지만 큰 차이가 있을 것으로 예상하지는 않습니다.
 
-Ad Cloud Search의 경우 조직의 Experience Cloud ID가 Mattworks에 대해 설정되었지만 제품 팀에서는 Ad Cloud에서 대상을 활성화하기 위한 Mattworks 설정이 표시되지 않습니다. Ad Cloud Search로 대상을 전송하는 데 Audience Manager Adobe을 사용하고 있습니까? 그렇지 않은 경우 이러한 필드를 제거해도 현재 워크플로우에 영향을 주지 않습니다. AAM 고객 지원 센터에서 이러한 픽셀을 실행하지 않으려면 제거할 수 있습니다.
+Ad Cloud Search의 경우 광고주의 Experience Cloud 조직 ID가 Mattworks에 대해 설정되었지만 제품 팀에서는 Ad Cloud에서 대상을 활성화하기 위한 Mattworks 설정을 보지 않습니다. Ad Cloud Search로 대상을 전송하는 데 Audience Manager Adobe을 사용하고 있습니까? 그렇지 않은 경우 이러한 필드를 제거해도 현재 워크플로우에 영향을 주지 않습니다. AAM 고객 지원 센터에서 이러한 픽셀을 실행하지 않으려면 제거할 수 있습니다.
 
