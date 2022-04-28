@@ -3,17 +3,16 @@ user-guide-title: Adobe Experience Cloud와 통합
 user-guide-description: Advertising Cloud DSP 및 Advertising Cloud Search와 다른 Adobe Experience Cloud 제품 및 서비스와의 통합에 대해 알아봅니다.
 breadcrumb-title: Experience Cloud와 통합
 index: true
-source-git-commit: 0ede15cbc8031b20e82b8dd574469860ebd0aee6
+source-git-commit: 9964887b777d430c138a08f7ff6cf53ac39defed
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '134'
 ht-degree: 20%
 
 ---
 
 
 # Adobe Experience Cloud과 Advertising Cloud 통합 {#integrations}
-<!--  and Adobe Experience Platform -->
-<!--          + [Append [!DNL Analytics for Advertising Cloud] Macros to [!DNL Google Campaign Manager 360] Ad Tags](/help/integrations/analytics/macros-google-campaign-manager.md) -->
+<!--  ADD LATER: and Adobe Experience Platform -->
 
 + [새로운 기능](/help/integrations/home.md)
 + [!DNL Analytics for Advertising Cloud] {#analytics}
@@ -25,6 +24,7 @@ ht-degree: 20%
       + [사용 [!DNL Last Event Service] Adobe Experience Platform을 사용한 JavaScript 라이브러리 [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
       + 광고 태그용 매크로 {#macros}
          + [추가 [!DNL Analytics for Advertising Cloud] 매크로 [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md)
+         + [추가 [!DNL Analytics for Advertising Cloud] 매크로 [!DNL Google Campaign Manager 360] 광고 태그](/help/integrations/analytics/macros-google-campaign-manager.md)
    + 교환된 데이터 {#data}
       + [Analysis Workspace의 Advertising Cloud 지표](/help/integrations/analytics/advertising-cloud-metrics-in-analytics.md)
       + [[!DNL Analytics] Advertising Cloud의 데이터](/help/integrations/analytics/analytics-data-in-advertising-cloud.md)
