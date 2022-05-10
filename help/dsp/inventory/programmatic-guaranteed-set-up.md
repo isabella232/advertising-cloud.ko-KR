@@ -3,9 +3,9 @@ title: 프로그래밍 방식 보장 거래 설정
 description: 게시자와 협상한 PG(프로그래밍 방식 보증) 거래를 설정하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 9e371606-5428-4635-9653-7dc43449e489
-source-git-commit: 81b1074f86685f863f89a07ecd33e892e4933512
+source-git-commit: 3c9822890e96035fc9e44f8832efcc2889a8cb5f
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,9 @@ ht-degree: 0%
 
    * 여러 PG 거래 ID가 있는 제안을 수락하는 경우 만들어야 하는 각 PG 기본 배치를 식별합니다. 필요한 배치를 모두 생성하면 계속 단추가 활성화됩니다.
 
-1. (선택 사항) 을 클릭하여 추가, PG 또는 비PG 배치에서 PG 거래를 Target 합니다 ![옵션 메뉴](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
+1. (선택 사항) 을 클릭하여 추가 PG 또는 비PG 배치에서 PG 거래를 Target 합니다 ![옵션 메뉴](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
 
->[!NOTE]
->
->서로 다른 유형(CTV, 데스크탑, 오디오 등)을 지원하는 여러 배치를 첨부할 수 있습니다. 같은 거래요
+   거래는 연결된 TV, 데스크탑 및 오디오와 같은 모든 미디어 유형의 조합을 지원하는 여러 배치를 타깃팅할 수 있습니다.
 
 ## 프로그래밍 방식 보장 거래를 수동으로 설정
 
@@ -54,12 +52,9 @@ ht-degree: 0%
 
    거래에 대한 PG 기본 배치를 만드는 것은 구매의 100%를 게재하기 위해 필수입니다. 이 유형의 배치에는 타겟팅이 없으므로 DSP이 게시자의 모든 입찰 요청에 입찰을 반환할 수 있습니다.
 
-1. (선택 사항) 을 클릭하여 추가, PG 또는 비PG 배치에서 PG 거래를 Target 합니다 ![옵션 메뉴](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
+1. (선택 사항) 을 클릭하여 추가 PG 또는 비PG 배치에서 PG 거래를 Target 합니다 ![옵션 메뉴](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
 
->[!NOTE]
->
->서로 다른 유형(CTV, 데스크탑, 오디오 등)을 지원하는 여러 배치를 첨부할 수 있습니다. 같은 거래요
-
+   거래는 연결된 TV, 데스크탑 및 오디오와 같은 모든 미디어 유형의 조합을 지원하는 여러 배치를 타깃팅할 수 있습니다.
 
 >[!MORELIKETHIS]
 >
