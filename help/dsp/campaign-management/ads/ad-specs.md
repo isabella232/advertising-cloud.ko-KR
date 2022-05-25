@@ -3,9 +3,9 @@ title: 광고 사양
 description: 일반 및 게시자별 광고 사양을 참조합니다.
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: f3d4dcfdaaaa4b9546e92ac6d1087e73e5054a26
+source-git-commit: 3c5a114339c2bf41637027c8580316626656fbba
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,22 @@ ht-degree: 0%
 #### 연결된 TV 광고에 대한 추가 게시자 요구 사항
 
 * **훌루:** 줄루네 [광고 사양](https://advertising.hulu.com/ad-products/video-commercial/).
+
+* **파라마운트:** 파라마운트 [광고 사양](https://www.paramount.com/digital-ads).
+
+* **검색:** Discovery를 참조하십시오. [광고 사양](/help/dsp/assets/discovery-networks-ad-specs.pdf).
+
+* **HBO 최대:** HBO Max를 참조하십시오. [광고 사양](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
+
+* **A+E 네트워크:** A+E 네트워크 [광고 사양](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
+
+* **NBCUniversal:**
+
+   * [디지털 비디오](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
+
+   * [실시간 스트리밍](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
+
+   * [피콕](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
 * **디즈니:**
 
