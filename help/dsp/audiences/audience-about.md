@@ -3,9 +3,9 @@ title: Advertising Cloud DSP의 대상 관리 정보
 description: 고객 관리 기능에 대해 알아봅니다.
 feature: DSP Audiences, DSP Segments
 exl-id: 624d2211-59a2-4791-b8f1-a9a5cecd0b8e
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 3b44e8e019bfc4bab2ee65ac028313752cb4a0e0
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,11 @@ Advertising Cloud DSP에서 배치 대상으로 사용할 수 있는 대상 세�
 
 ## 자사 및 타사 데이터 세그먼트 가져오기
 
-Advertising Cloud DSP은 DMP(데이터 관리 플랫폼)에서 자사 데이터 세그먼트를 가져와서 필요에 따라 모든 광고주에게 제공할 수 있습니다.
+DSP에서는 DMP(데이터 관리 플랫폼)에서 자사 데이터 세그먼트를 가져와서 필요에 따라 모든 광고주에게 제공할 수 있습니다.
 
-Advertising Cloud DSP은 타사 세그먼트의 복잡한 조합을 포함하여 사용자 지정 타사 세그먼트를 가져올 수도 있습니다. 필요에 따라 모든 광고주 세트에 세그먼트를 제공할 수 있습니다.
+DSP은 의 통합 대상입니다 [a [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html): 인증된 자사 세그먼트를 승인된 광고주 및 사용자와 캠페인 활성화를 위해 공유할 수 있습니다. Real-Time CDP 통합에 대한 자세한 내용은 [소스 섹션](/help/dsp/audiences/sources/source-about.md).
+
+DSP에서는 타사 세그먼트의 복잡한 조합을 포함하여 사용자 지정 타사 세그먼트를 가져올 수도 있습니다. 필요에 따라 모든 광고주 세트에 세그먼트를 제공할 수 있습니다.
 
 다음 사항에 문의하십시오. [!DNL Adobe] 계정 팀에 문의하십시오.
 
@@ -40,9 +42,9 @@ Advertising Cloud DSP은 타사 세그먼트의 복잡한 조합을 포함하여
 
 배치를 다음 모든 유형의 대상으로 타깃팅할 수 있습니다.
 
-* Advertising Cloud DSP에 저장된 사용자가 만든 모든 대상 세트입니다.
+* DSP에 저장된 사용자가 만든 모든 대상 세트입니다.
 
-* Advertising Cloud DSP에서 만들어진 모든 사용자가 만든 대상 세그먼트:
+* DSP에서 만들어진 모든 사용자가 만든 대상 세그먼트:
 
    * 특정 웹 페이지를 방문한 사용자와 특정 광고의 노출에 노출된 사용자를 위한 사용자 지정 세그먼트입니다.
 
@@ -52,21 +54,21 @@ Advertising Cloud DSP은 타사 세그먼트의 복잡한 조합을 포함하여
 
 * 가져온 모든 사용자 지정 타사 데이터 세그먼트입니다.
 
-* (미국만 대상으로 하는 배치) [30개 이상의 공급자를 통해 Advertising Cloud DSP 고객이 사용할 수 있는 모든 타사 데이터 세그먼트](/help/dsp/audiences/third-party-data-providers.md), 포함 [!DNL Acxiom], [!DNL Datalogix], [!DNL eXelate] ([!DNL Nielsen]), [!DNL Lotame], [!DNL Oracle], [!DNL Quantcast], 및 기타 여러 보고서.
+* (미국만 대상으로 하는 배치) [30개 이상의 DSP 고객이 사용할 수 있는 모든 타사 데이터 세그먼트](/help/dsp/audiences/third-party-data-providers.md), 포함 [!DNL Acxiom], [!DNL Datalogix], [!DNL eXelate] ([!DNL Nielsen]), [!DNL Lotame], [!DNL Oracle], [!DNL Quantcast], 및 기타 여러 보고서.
 
    대상 데이터를 기반으로 사용자를 타깃팅하는 특정 세그먼트를 타깃팅할 수 있습니다(예: 특정 인구 통계, 관심 또는 의도를 갖는 사용자 및/또는 행동 프로필). 데이터 제공업체 및 카테고리별로 찾아보고, 이름 또는 세그먼트 ID별로 세그먼트를 검색하거나, 데이터 제공업체, 총 세그먼트 크기, 웹 브라우저 수 또는 장치 수로 결과를 필터링할 수 있습니다.
 
    타사 세그먼트는 각 세그먼트 이름 옆에 표시되는 추가 비용을 발생시킵니다.
 
-* (Advertising Cloud JavaScript 변환 태그만 사용하는 Adobe Experience Cloud, Adobe Audience Manager 또는 Adobe Analytics이 있는 광고주) Adobe Experience Cloud에서 만들어지거나 Audience Manager에서 만들어지거나 Audience Manager 또는 의 Adobe Experience Cloud에 게시된 사용 가능한 모든 자사, 보조 또는 타사 대상 세그먼트 [!DNL Analytics].
+* (Adobe Experience Platform 및 [!DNL Real-Time CDP]Advertising Cloud JavaScript 변환 태그만 사용하는 , Adobe Audience Manager 또는 Adobe Analytics) [!DNL Real-Time CDP]Audience Manager에서 만들었거나 Audience Manager 또는 [!DNL Analytics].
 
-   세그먼트 사용에 대한 가격은 미리 협상되며 Advertising Cloud에서 볼 수 없습니다.  <!-- Verify -->
+   세그먼트 사용에 대한 가격은 사전 협상되며 DSP에서 표시되지 않습니다.
 
-   Adobe Experience Cloud에서 세그먼트를 만들거나 게시한 후 약 1시간 후에 Adobe Experience Cloud의 세그먼트를 사용할 수 있습니다. Audience Manager에서 직접 오는 세그먼트는 만든 후 약 24시간 후에 사용할 수 있습니다. <!-- Verify all -->
+   세그먼트에서 [!DNL Analytics] Experience Cloud 대상으로 만들거나 게시한 후 약 1시간 후에 사용할 수 있습니다. Audience Manager 또는 [!DNL Real-Time CDP] 공유한 후 24시간 이내에 이용할 수 있습니다.
 
    >[!NOTE]
    >
-   >다음 문서를 참조하십시오. [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html), 및 [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 를 참조하십시오.
+   >다음 문서를 참조하십시오. [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html), 및 [a [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) 를 참조하십시오.
 
 ## 대상 크기 데이터
 

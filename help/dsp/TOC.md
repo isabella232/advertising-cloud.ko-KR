@@ -8,9 +8,9 @@ user-guide-title: Advertising Cloud DSP 안내서
 user-guide-description: Advertising Cloud DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 4dd819cd5feb47bce8ad56e5210c6d3c224389cb
+source-git-commit: b56bda435ef8a34b4dd695a45dea28cef2b51c85
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '886'
 ht-degree: 6%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 6%
       + [허용 가능한 상태 세그먼트 지침](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)
       + [[!DNL DSP] 데이터 사용 지침](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
    + [고급 측정 솔루션](/help/dsp/introduction/advanced-measurement-services.md)
-+ 캠페인 관리 {#campaign-management}
++ Campaign Management {#campaign-management}
    + [Campaign Management 구조 개요](/help/dsp/campaign-management/campaign-management-overview.md)
    + 캠페인 {#campaigns}
       + [Campaign Management 정보](/help/dsp/campaign-management/campaigns/campaign-about.md)
@@ -131,6 +131,11 @@ ht-degree: 6%
       + [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)
       + [대상 설정](/help/dsp/audiences/audience-settings.md)
       + [대상 세그먼트 논리 구문](/help/dsp/audiences/audience-segment-logic-syntax.md)
+   + 소스 관리 {#sources}
+      + [Audience Sources에서 인증된 세그먼트 활성화 정보](/help/dsp/audiences/sources/source-about.md)
+      + [내구성 ID 파트너에서 인증된 세그먼트 활성화](/help/dsp/audiences/sources/source-durable-id.md)
+      + [자사 대상을 활성화할 대상 소스 만들기](/help/dsp/audiences/sources/source-create.md)
+      + [대상 소스 설정](/help/dsp/audiences/sources/source-settings.md)
    + [사용 가능한 타사 데이터 공급자](/help/dsp/audiences/third-party-data-providers.md)
 + 인벤토리 {#inventory}
    + [재고 기능 개요](/help/dsp/inventory/inventory-overview.md)
