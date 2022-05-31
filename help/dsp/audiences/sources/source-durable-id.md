@@ -2,9 +2,9 @@
 title: '내구성 ID 파트너에서 인증된 세그먼트 활성화 '
 description: 내구성 ID 솔루션을 통해 인증된 대상을 활성화하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
-source-git-commit: 8550b539676588c3a6bc07abe088b38bd4251725
+source-git-commit: 155ab740084bebfba5fd992a23706129668fcc90
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ DSP 통합에 대해 자세히 알아보려면 [!DNL LiveRamp], 연락처 `adclo
 
 >[!MORELIKETHIS]
 >
->*[Audience Sources에서 인증된 세그먼트 활성화 정보](source-about.md)
+>* [Audience Sources에서 인증된 세그먼트 활성화 정보](source-about.md)
 >* [자사 대상을 활성화할 대상 소스 만들기](source-create.md)
 >* [대상 소스 설정](source-settings.md)
 >* [Adobe Advertising Cloud DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
