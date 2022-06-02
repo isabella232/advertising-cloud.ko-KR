@@ -2,7 +2,8 @@
 title: 대상 소스 설정
 description: 대상 소스에 대한 설정에 대해 알아봅니다.
 feature: DSP Audiences
-source-git-commit: 285ececc74373be4dee9d0a4bce2c82605082630
+exl-id: 8b17d5cc-488b-4bd2-bada-ef51b35faf92
+source-git-commit: 932b1ff979cb9b617502f9797af29e88ef77adf0
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 **[!UICONTROL Enter IMS Org Id]:** 에 대한 Experience Cloud 조직 ID입니다. [!DNL Adobe Experience Platform] 계정이 필요합니다.
 
-**[!UICONTROL AAC Source Key]:** (읽기 전용) 에 값을 입력할 때 생성됩니다. [!UICONTROL Enter IMS Org Id] 필드) 사용할 수 있는 소스 키 [에서 대상 연결 만들기 [!DNL Adobe Real-Time Customer Data Profile]](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-dsp-destination.html) 대상을 Advertising Cloud DSP에 푸시하려면 다음을 수행하십시오. 값을 클립보드에 복사하여 [!DNL Adobe Real-Time CDP] 대상 연결 설정 또는 을 파일에 추가할 수 있습니다.
+**[!UICONTROL AAC Source Key]:** (읽기 전용) 에 값을 입력할 때 생성됩니다. [!UICONTROL Enter IMS Org Id] 필드) 사용할 수 있는 소스 키 [에서 대상 연결 만들기 [!DNL Adobe Real-Time Customer Data Profile]](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html) 대상을 Advertising Cloud DSP에 푸시하려면 다음을 수행하십시오. 값을 클립보드에 복사하여 [!DNL Adobe Real-Time CDP] 대상 연결 설정 또는 을 파일에 추가할 수 있습니다.
 
 >[!MORELIKETHIS]
 >
