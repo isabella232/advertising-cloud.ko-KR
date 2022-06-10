@@ -3,7 +3,7 @@ title: 공인 광고 서비스 제공 파트너
 description: 모든 인증된 광고 서버 및 광고 단위를 참조하십시오.
 feature: DSP Ads
 exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
-source-git-commit: ed8e81a87a03d604a002937c5071873fc530f100
+source-git-commit: 97085be7b8c1e7ab741c76801fb258295eb4714c
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X |  | X |  |
 | [!DNL InSkin] |  |  | X |  | Inskin 인벤토리 네트워크에서 180x150 디스플레이 거래 ID에서 높은 충격 스킨을 제공해야 합니다. |
 | [!DNL Jivox] |  | X |  |  |  |
-| [!DNL Kargo] |  | X |  |  | 320x50 앵커, BYOC, 마우스로 가리키기, 브레이크아웃 및 사이드 킥입니다. 300x250 아웃스트림; 인증된 표준 데스크탑 디스플레이 광고(특정 광고 플러그인 ID는 필요하지 않습니다 .)</br></br>다음 사항에 문의하십시오. [!DNL Adobe] 광고 단위 설정에 대한 도움이 필요하면 계정 팀에 문의하십시오. |
+| [!DNL Kargo] |  | X |  |  | 320x50 앵커, BYOC, 마우스로 가리키기, 브레이크아웃 및 사이드 킥입니다. 300x250 아웃스트림; 표준 데스크탑 디스플레이(특정 광고 플러그인 ID가 필요하지 않음).</br></br>다음 사항에 문의하십시오. [!DNL Adobe] 광고 단위 설정에 대한 도움이 필요하면 계정 팀에 문의하십시오. |
 | [!DNL Linkstorm] |  |  | X |  |  |
 | [!DNL mCanvas] |  |  | X |  |  |
 | [!DNL Medialets] |  | X |  |  |  |
@@ -50,12 +50,12 @@ ht-degree: 0%
 | [!DNL Pubmatic] |  |  |  | X | VAST 전용 |
 | [!DNL RevJet] |  |  |  | X | VAST 전용 |
 | [!DNL Seedtag] |  | X |  |  |  |
-| [!DNL Sizmek] |  | X |  |  | OLV 및 CTV에 대해 인증됨</br></br>UI에서 태그를 렌더링하려면 태그를 `<a>` 태그(시작 및 끝) 아래의 샘플 태그를 참조하십시오.</br></br>```<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>``` |
+| [!DNL Sizmek] |  | X |  |  | OLV 및 CTV</br></br>UI에서 태그를 렌더링하려면 태그를 `<a>` 태그(시작 및 끝) 아래의 샘플 태그를 참조하십시오.</br></br>```<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>``` |
 | [!DNL Spaceback] |  | X |  |  |  |
 | [!DNL Spirable] |  | X |  |  |  |
 | [!DNL SUBLIME] |  |  | X |  |  |
 | [!DNL SundaySky] |  |  |  | X |  |
-| [!DNL Teads] |  | X |  |  |  | Advertising Cloud DSP은 아웃바운드 스트림 인벤토리에서 VPAID를 지원하지 않습니다. |
+| [!DNL Teads] |  | X |  |  | Advertising Cloud DSP은 아웃바운드 스트림 인벤토리에서 VPAID를 지원하지 않습니다. |
 | [!DNL Trueffect] |  | X |  |  |  |
 | [!DNL Undertone] |  |  | X |  | DSP에서 180x150으로 업로드된 사용자 지정 페이지 그래버 광고 단위</br></br>Index Exchange가 경매에서 180x150 경매와 DSP 입찰을 통과하고 노출을 제공하면 크리에이티브는 전체 페이지 디스플레이 광고로 확장됩니다.</br></br>처음에 Page Grabber, Expandable Switchion 및 Screen Shift 광고 단위에 대해 인증되었습니다. 프로세스에 대해 표시된 단계를 사용하여 이를 수정해야 합니다. |
 | [!DNL Vox] |  |  | X |  | [!DNL Athena] 광고 단위 |
