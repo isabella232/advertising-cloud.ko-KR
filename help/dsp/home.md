@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 611589fd6fa7067a6e5c6ddfb1f8bb5ed700a44b
+source-git-commit: 602d2dd36a83f5f438c444e8ccaaec92054f0186
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 0%
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
 | 2022년 5월 31일 | 대상 소스 | (베타 기능) 이제 Advertising Cloud DSP에서 고객 데이터 플랫폼(CDP) 내에서 구축된 인증된 신호로 구성된 자사 세그먼트를 수집할 수 있습니다. | 참조:[Audience Sources에서 인증된 세그먼트 활성화 정보](/help/dsp/audiences/sources/source-about.md).&quot; |
+| 2022년 5월 25일 | 최적화 목표 | 이제 비디오 및 기본 배치는 사용자 지정 목표 최고 ROAS 및 최저 CPA를 사용하는 패키지에 포함할 수 있습니다. | 참조:[최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md).&quot; |
 | 2022년 4월 12일 | Campaign Management | 현재 지원을 반영하도록 광고 사양이 업데이트되었습니다. | 참조:[지원되는 광고 유형에 대한 사양](/help/dsp/campaign-management/ads/ad-specs.md).&quot; |
 | 2022년 2월 17일 | 비디오 자습서 | 표준 디스플레이 배치를 만드는 방법에 대한 새 비디오를 사용할 수 있습니다. | 자세한 내용은 [Advertising Cloud Tutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/placement-create.html). |
 | 2022년 1월 31일 | 도움말 | 에 대한 추가 정보 [!DNL Deal IDs] 및 [!DNL Simple Ad Serving] 이제 을 사용할 수 있습니다. | Inventory > Private Inventory에 대한 하위 장을 참조하십시오. |
