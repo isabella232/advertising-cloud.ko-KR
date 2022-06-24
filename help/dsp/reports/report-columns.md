@@ -3,9 +3,9 @@ title: 사용 가능한 보고서 열
 description: 사용자 지정 보고서에서 사용 가능한 열에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: c96e46ae-2fb2-4364-9c51-f160c00693ba
-source-git-commit: 3daf6a25f883a7eef42dff1c95a98a4f5e65f67e
+source-git-commit: 966b4b4ca42b66880e1b7cf29005eeb256887149
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1659'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Media CPM] | 노출 1,000건당 평균 순 미디어 비용(다음 기준)입니다. [!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Other eCPM] | 다른 요금에 대한 1,000개의 노출 횟수당 평균 순 비용(다음 기준)입니다. [!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | 최대 CPM에서 입찰된 총 입찰의 백분율입니다. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | 배치가 입찰된 개별 사용자 수입니다. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | 배치에 대한 DSP 입찰이 있는 개별 사용자 수입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | Advertising Cloud을 통해 청구되는 대상 세그먼트 데이터 수수료의 총 순 비용. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Media Net Spend] | Advertising Cloud을 통해 청구되는 기술 비용을 포함하여 청구 가능한 미디어의 총 순 비용입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Other Net Spend] | Advertising Cloud을 통해 청구되는 기타 서비스 비용(타사 확인 파트너, 광고 서비스 제공 등)의 총 비용 |
