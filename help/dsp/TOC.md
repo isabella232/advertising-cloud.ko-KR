@@ -8,7 +8,7 @@ user-guide-title: Advertising Cloud DSP 안내서
 user-guide-description: Advertising Cloud DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: b56bda435ef8a34b4dd695a45dea28cef2b51c85
+source-git-commit: f4719ee56f340c5969795dfc482e2b409244757b
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 6%
@@ -165,10 +165,10 @@ ht-degree: 6%
             + [프로그램 방식의 보장 거래를 협상하기 위한 팁](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [프로그래밍 방식 보장 거래 설정](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
             + [!DNL FreeWheel] 프로그램 방식의 보장 거래 {#freewheel}
-            + [프로그램 보장 거래 설정 개요 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
-            + [프로그래밍 방식의 보장 거래에 대한 광고를 제출합니다. [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
-            + [광고 상태 확인 [!DNL FreeWheel] 프로그램 방식의 보장 거래](/help/dsp/inventory/freewheel-check-status.md)
-            + [FreeWheel 광고 제출 오류 코드](/help/dsp/inventory/freewheel-error-codes.md)
+               + [프로그램 보장 거래 설정 개요 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
+               + [프로그래밍 방식의 보장 거래에 대한 광고를 제출합니다. [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
+               + [광고 상태 확인 [!DNL FreeWheel] 프로그램 방식의 보장 거래](/help/dsp/inventory/freewheel-check-status.md)
+               + [FreeWheel 광고 제출 오류 코드](/help/dsp/inventory/freewheel-error-codes.md)
          + [거래 ID 설정 편집](/help/dsp/inventory/deal-id-edit.md)
          + [거래 ID에 대한 배치 및 광고 지정](/help/dsp/inventory/deal-id-attach-placements.md)
          + [거래 ID에 액세스할 수 있는 계정 편집](/help/dsp/inventory/deal-id-share.md)
