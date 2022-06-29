@@ -3,9 +3,9 @@ title: 비공개 인벤토리 정보
 description: 비공개 인벤토리 정보
 feature: DSP Private Inventory
 exl-id: 6b3923ca-ccd1-450e-bff0-139e3838c999
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: ad4bdfdc637af34b02c42d6547c39301f2a0cf47
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,7 @@ ht-degree: 0%
 
 RTB를 벗어난 광고주는 비공개 인벤토리를 사용하여 독점 미디어 거래를 용이하게 할 수 있습니다. 비공개 교환을 통해 게시자는 독점 인벤토리 풀을 만들 수 있으며, 승인된 광고주는 실시간 플랫폼을 통해 구매할 수 있습니다. 비공개 교환에서는 효율성, 간소화된 워크플로우 및 중앙 집중식 캠페인 분석과 같은 프로그래밍 방식의 이점과 함께 직접 구매에 대한 자신감을 제공합니다.
 
-## 비공개 거래를 설정하는 방법
-
-### 거래 ID
+## 거래 ID
 
 게시자와 직접적인 관계가 있는 경우 Advertising Cloud DSP 배치에서 협상한 인벤토리 및 가격 책정 등을 사용하여 고유한 비공개 거래를 사용하여 미디어 구매 프로세스 및 워크플로우를 간소화할 수 있습니다. DSP은 계정을 설정할 때 모든 게시자와 통합됩니다. 나중에 추가 게시자에 액세스하려면 [!DNL Adobe] 계정 팀이 액세스 권한을 설정합니다. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
 
@@ -34,25 +32,14 @@ RTB를 벗어난 광고주는 비공개 인벤토리를 사용하여 독점 미�
 
 각 비공개 거래를 지정된 광고주 간에 여러 캠페인을 위한 배치 타겟으로 사용할 수 있습니다. 보장된 거래의 경우, 거래를 생성한 후 기본 배치를 생성해야 하지만, 기본 배치를 무시하기 위해 추가 배치에 동일한 거래를 추가할 수 있습니다.
 
-### [!UICONTROL Simple Ad Serving]
-
-[!UICONTROL Simple Ad Serving] Advertising Cloud DSP 외부에서 제공되는 미디어에 대해 결정 및 보장되지 않는 광고 전달 및 보고를 제공합니다.
-
-각 광고는 게시자가 직접 제공하며, DSP에서는 게시자에게 전송할 이벤트 추적 픽셀을 제공하며, 게시자는 픽셀을 구현하고 광고를 트래픽해야 합니다.
-
-자세한 내용은 &quot;[정보 [!UICONTROL Simple Ad Serving]](simple-deal-about.md).&quot;
-
 ## 거래 보기
 
-에서 [!UICONTROL Inventory] > [!UICONTROL Deals] 보기, 개인 거래 설정을 만들 수 있습니다. 또한 모든 비공개 거래에 대한 배치 및 광고를 나열하거나, 비공개 거래에 대한 보고서를 보거나, 비공개 거래를 보관하거나 보관 해제할 수도 있습니다.
-
-거래 ID의 경우, 거래 설정을 편집하고, 게재와 광고를 거래에 첨부하고, 거래에 액세스할 수 있는 광고주와 계정을 편집하고, 거래의 속성 태그를 편집할 수도 있습니다.
-
-간단한 광고 서비스 거래의 경우 거래의 이벤트 추적 픽셀을 볼 수 있습니다.
+에서 [!UICONTROL Inventory] > [!UICONTROL Deals] 보기, 개인 거래 설정을 만들 수 있습니다. 일부 거래 설정을 편집할 수도 있습니다. 배치 및 광고를 나열하고 추가 배치 및 광고를 거래에 첨부합니다. 거래에 액세스할 수 있는 광고주와 계정을 편집합니다. 비공개 거래에 대한 보고서를 봅니다. 거래를 보관하거나 보관하지 않습니다.<!-- ; or edit the attribute tags for a deal -->
 
 >[!MORELIKETHIS]
 >
 >* [재고 기능 개요](/help/dsp/inventory/inventory-overview.md)
 >* [정보 [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
->* [정보 [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
+>* [거래 ID 받은 편지함에서 거래 수락](deal-id-inbox-accept.md)
+>* [수동으로 거래 ID 상세내역 생성](deal-id-create.md)
 
