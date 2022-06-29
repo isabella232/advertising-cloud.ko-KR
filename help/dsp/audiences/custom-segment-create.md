@@ -3,7 +3,7 @@ title: 사용자 지정 세그먼트 만들기 및 구현
 description: 웹 페이지를 방문하는 광고나 사용자에게 노출된 사용자를 추적하기 위해 사용자 지정 세그먼트를 만들고 구현하는 방법을 알아봅니다.
 feature: DSP Segments
 exl-id: 691903e2-773e-4205-837e-822f435f57a7
-source-git-commit: b6e77b91ad5626bb9ece45ec3f01126715dbe37b
+source-git-commit: bc8e476e1218681140a1748998c19f1f6c5c0866
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 
          1. 레이블 &quot; &quot;인 노출 추적 태그를 복사합니다.[!UICONTROL Desktop or mobile ads].&quot;
 
-         1. 태그를 [!UICONTROL Pixel] 탭하기 [!UICONTROL Event Pixels] 섹션 [[!UICONTROL Tracking] 관련 배치마다 설정](/help/dsp/campaign-management/placements/placement-settings.html#placement-tracking).
+         1. 태그를 [!UICONTROL Pixel] 탭하기 [!UICONTROL Event Pixels] 섹션 [[!UICONTROL Tracking] 관련 배치마다 설정](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 
 추적 태그가 구현되면 대상 타겟의 세그먼트를 사용하거나 배치를 위해 제외를 사용할 수 있습니다.
