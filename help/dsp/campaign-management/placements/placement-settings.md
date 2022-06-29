@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: c2fbaf3381ca4380c18d55931e9f4f662da892af
+source-git-commit: 8b1ae7385d7747f7073448aae5ad0a617f323562
 workflow-type: tm+mt
-source-wordcount: '3278'
+source-wordcount: '3277'
 ht-degree: 0%
 
 ---
@@ -397,7 +397,7 @@ ht-degree: 0%
 
 **[!UICONTROL DoubleVerify Authentic Brand Safety]:** (광고주는 [!UICONTROL DoubleVerify Authentic Brand Safety] 옵션) 사용 [!DNL DoubleVerify Authentic Brand Safety]: 지정된 세그먼트 ID에 대해 구성된 사용자 지정 브랜드 안전 규칙을 사용하여 입찰 후 노출 횟수를 차단합니다. DSP에서는 광고주 설정에 지정된 세그먼트 ID에 대한 사용을 위해 계정에 청구합니다.
 
-## [!UICONTROL Tracking]
+## [!UICONTROL Tracking] {#placement-tracking}
 
 >[!NOTE]
 >
@@ -440,7 +440,7 @@ ht-degree: 0%
             광고주의 IT 부서나 다른 그룹은 태그 배포를 예약하거나 알려주어야 할 수 있습니다.
    1. 클릭 **[!UICONTROL Save]**.
 
-**[!UICONTROL 3rd-party Fees]:** (선택 사항) 천 개의 노출당 청구 가능한 비용으로 추적할 정적, 타사 요금. 적용 가능한 경우 패키지 수준 기본값은 다른 값을 입력하지 않는 한 새 배치에 자동으로 적용됩니다.
+**[!UICONTROL 3rd-party Fees]:** (선택 사항) 1000개 노출당 청구 가능한 비용으로 추적할 정적, 타사 요금. 적용 가능한 경우 패키지 수준 기본값은 다른 값을 입력하지 않는 한 새 배치에 자동으로 적용됩니다.
 
 >[!NOTE]
 >
@@ -452,5 +452,5 @@ ht-degree: 0%
 >* [배치 만들기](placement-create.md)
 >* [배치 편집](placement-edit.md)
 >* [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Campaign 관리에 대한 FAQ](/help/dsp/campaign-management/campaign-management-faq.md)
+>* [Campaign Management에 대한 FAQ](/help/dsp/campaign-management/campaign-management-faq.md)
 
