@@ -2,10 +2,11 @@
 title: 편집 [!UICONTROL Simple Ad Serving] 거래 설정
 description: 의 설정을 편집하는 방법 알아보기 [!UICONTROL Simple Ad Serving] 거래
 feature: DSP Simple Ad Serving
-source-git-commit: cc0b5d73712fa1ab8955c444899a3e93ef1393b2
+exl-id: 025b299b-05ba-4e4e-ac92-8a738303bc32
+source-git-commit: f1fce966c8db2f4cde72ecf1cc900f3d5fb1a1a5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '58'
+ht-degree: 1%
 
 ---
 
