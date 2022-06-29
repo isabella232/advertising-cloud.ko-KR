@@ -3,9 +3,9 @@ title: 정보 [!DNL On Demand] Premium 인벤토리
 description: DSP이 프리미엄 게시자 파트너와 사전 협상한 거래에 대해 알아봅니다.
 feature: DSP On Demand Inventory
 exl-id: d23d4e4e-f29f-4dba-afe3-7198ef4ee544
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---

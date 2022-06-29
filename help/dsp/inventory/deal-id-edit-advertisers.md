@@ -1,16 +1,16 @@
 ---
-title: 거래 ID에 액세스할 수 있는 광고주 편집
-description: 거래 ID에 액세스할 수 있는 광고주를 지정하는 방법을 알아봅니다.
+title: 비공개 거래에 액세스할 수 있는 광고주 편집
+description: 비공개 거래에 액세스할 수 있는 광고주를 지정하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 6efbc5dc-90d8-46a5-88fe-218990c6336d
-source-git-commit: 3e47fec28a17cb64de42309c0368293e1ef1cdea
+source-git-commit: a29019ee7af0124ad9182f0578811c4d0e666937
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
 
-# 거래 ID에 액세스할 수 있는 광고주 편집
+# 비공개 거래에 액세스할 수 있는 광고주 편집
 
 >[!NOTE]
 >
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 1. 주 메뉴에서 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
 
-1. 거래 행에서  ![옵션 메뉴](/help/dsp/assets/options-menu.png) **>[!UICONTROL manage advertisers]**.
+1. 거래 행에서  **[!UICONTROL ...]>[!UICONTROL Manage Advertisers]**.
 
-1. 거래에 액세스할 수 있는 각 광고주 옆에 있는 확인란을 선택하고 액세스 권한이 없어야 하는 각 광고주 옆의 확인란을 선택 취소합니다.
+1. 거래 설정에서 거래에 액세스할 수 있는 각 광고주 옆에 있는 확인란을 선택하고 액세스 권한이 없어야 하는 각 광고주 옆에 있는 확인란을 선택 취소합니다.
 
-1. 클릭 **[!UICONTROL Update]**.
+1. 클릭 **[!UICONTROL Save]** 를 입력하여 거래 설정을 저장합니다.
 
 >[!MORELIKETHIS]
 >* [비공개 인벤토리 정보](private-inventory-about.md)

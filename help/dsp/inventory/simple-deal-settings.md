@@ -3,9 +3,9 @@ title: '`[!UICONTROL Simple Ad Serving] 거래 설정'
 description: 에 사용 가능한 설정에 대해 알아보기 [!UICONTROL Simple Ad Serving] 거래.
 feature: DSP Simple Ad Serving
 exl-id: 1a8f215c-c52b-4099-a55f-99c4232b7a22
-source-git-commit: 3eb63e9d7161c354736ce53ee21518882c541884
+source-git-commit: 17a73b5177b3dd79a32cd0b03bfa28d8ac8bf996
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 | **[!UICONTROL Media Quality Assessment?]** | (일부 사용자) 타사 확인을 위해 다른 DSP에서 광고를 실행할 수 있도록 합니다. <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
 | **[!UICONTROL Ad Source]** | 유일한 옵션은 다음과 같습니다 *[!UICONTROL Site Serve (Event Pixels)]*. |
 | **[!UICONTROL Ad Creation]** | (새 거래만 해당) 다음 중 어느 것을 수행할 것인지 여부:<ul><li>*[!UICONTROL Create New]:* 이 거래에 대한 광고를 만들려면</li><li>*[!UICONTROL Select Ads]:* 이 거래에 기존 광고를 사용하려면</li></ul> |
-| **[!UICONTROL Ad Type]** | 이 거래의 광고 유형입니다. 거래에 대한 새 광고를 만들려면 요청된 대로 광고 크기나 기간을 포함하십시오. 사용 가능한 옵션은 미디어 유형에 따라 다릅니다. |
+| **[!UICONTROL Ad Type]** | 이 거래의 광고 유형입니다. 거래에 대한 광고를 만들려는 경우에는 요청에 따라 광고 크기나 기간을 포함하십시오. 사용 가능한 옵션은 미디어 유형에 따라 다릅니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 | 매개 변수 | 설명 |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | 계약에 대한 비율 카드에 반영되는 천 단위 노출 횟수(CPM)의 비용입니다. 다음 사항에 문의하십시오. [!DNL Adobe] 이 값에 대한 계정 팀입니다. <br><br>거래의 통화도 지정합니다. 모든 사용자는 USD를 선택하거나, SSP가 추가 통화를 지원하는 경우 DSP 계정의 통화를 선택할 수 있습니다. |
+| **[!UICONTROL Media CPM]** | 계약에 대한 비율 카드에 반영되는 1000노출 횟수(CPM)당 비용. 다음 사항에 문의하십시오. [!DNL Adobe] 이 값에 대한 계정 팀입니다. <br><br>거래의 통화도 지정합니다. 모든 사용자는 USD를 선택하거나, SSP가 추가 통화를 지원하는 경우 DSP 계정의 통화를 선택할 수 있습니다. |
 | **[!UICONTROL Third Party Billed Fees]** | (선택 사항) 청구 불가능한 원가로 추적되는 정적 타사 수수료 및 거래에 대한 통화입니다.<br><br>모든 사용자는 USD를 선택하거나, SSP가 추가 통화를 지원하는 경우 DSP 계정의 통화를 선택할 수 있습니다. **참고:** 청구 가능한 수수료는 [!UICONTROL Net CPM] 지표. |
 | **[!UICONTROL Third Party Fee Description]** | (선택 사항) 타사 요금에 대한 설명입니다. |
 | **[!UICONTROL Flight Dates]** | 이 거래를 사용하는 트래픽의 시작 및 종료 날짜입니다. 비행 날짜는 캠페인 비행 날짜 내에 포함되어야 합니다. 광고 태그는 지정된 비행 중에만 응답을 반환합니다.<br><br> 가장 좋은 방법은 1년 동안 지속되는 별도의 간단한 광고 서비스 캠페인을 만들고 그 안에서 추적 픽셀을 빌드하는 것입니다. |
@@ -82,5 +82,10 @@ But I see:
 >
 >* [정보 [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
 >* [만들기 [!UICONTROL Simple Ad Serving] 거래](simple-deal-create.md)
->* [이벤트 추적 픽셀 보기 [!UICONTROL Simple Ad Serving] 거래](simple-deal-show-pixels.md)
+>* [편집 [!UICONTROL Simple Ad Serving] 거래 설정](simple-deal-edit.md)
+>* [거래에 대한 세부 보고서 보기](/help/dsp/inventory/deal-view-report.md)
 
+
+<!-- add back when reimplemented:
+>* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)
+-->

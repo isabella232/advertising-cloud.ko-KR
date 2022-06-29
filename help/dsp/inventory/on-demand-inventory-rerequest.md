@@ -3,9 +3,9 @@ title: 재요청 [!DNL On Demand] Premium 인벤토리 거래
 description: 다시 요청하는 방법 알아보기 [!DNL On Demand] 이전에 거부되었던 거래.
 feature: DSP On Demand Inventory
 exl-id: db5a5708-16e3-4304-8bd0-f1aa8ecd0e3c
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    1. 요청한 거래를 포함하도록 사용 가능한 거래를 필터링합니다(**[!UICONTROL Currently subscribed to]****.
 
-   1. (선택 사항) [!UICONTROL Subscriptio] 보기 - 필터에 따라 모든 게시자의 로고를 표시하고 [!UICONTROL Deal] 을 클릭하여 필터를 기반으로 각 게시자의 모든 거래를 나열하는 보기 를 클릭합니다. **[!UICONTROL Subscription view]** 및 **[!UICONTROL Deal view]**&#x200B;필요한 경우 ).
+   1. (선택 사항) [!UICONTROL Subscription] 보기 - 필터에 따라 모든 게시자의 로고를 표시하고 [!UICONTROL Deal] 을 클릭하여 필터를 기반으로 각 게시자의 모든 거래를 나열하는 보기 를 클릭합니다. **[!UICONTROL Subscription view]** 및 **[!UICONTROL Deal view]**&#x200B;필요한 경우 ).
 
    1. 개별 거래를 다시 요청합니다.
    * 에서 [!UICONTROL Deal] 보기, **[!UICONTROL Rerequest]** 에서 [!UICONTROL Action] 관련 행의 열

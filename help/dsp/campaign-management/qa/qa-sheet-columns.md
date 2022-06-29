@@ -3,9 +3,9 @@ title: 다운로드/업로드된 스프레드시트의 열
 description: 다운로드 및 업로드된 Excel QA 스프레드시트의 열을 참조합니다.
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 15f1e22dbc742d372dcabf2c029f2f7d72ff1d2f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
 | [!UICONTROL Brand Safety] | [!UICONTROL Site Safety Block] | 사이트 안전 블록이 활성화되어 있는지 여부: *[!UICONTROL ON]* 또는 *[!UICONTROL OFF]*.<!-- Whether or not the advertiser-level setting Enable Site Safety Block is enabled: *ON* or *OFF*.I don’t see this option at the placement level. Should there be one? --> | — |
 | [!UICONTROL Tracking] | [!UICONTROL Tracking Pixels #] | 배치에 첨부된 타사 이벤트 추적 픽셀 수 또는 *[!UICONTROL None]*. | — |
 | [!UICONTROL Tracking] | [!UICONTROL Conversion Pixels #] | 배치에 첨부된 변환 추적 픽셀 수 또는 *[!UICONTROL None]*. | — |
-| [!UICONTROL Tracking] | [!UICONTROL 3rd-party fees] | 가능한 경우, 천 노출 당 청구 불가능한 비용으로 추적할 정적 타사 요금. | — |
+| [!UICONTROL Tracking] | [!UICONTROL 3rd-party fees] | 가능한 경우 1000개 노출 횟수에 대해 청구 불가능한 비용으로 추적할 정적 타사 요금. | — |
 | [!UICONTROL Ads] | [!UICONTROL # of Ads Attached] | 게재되어 있는 경우, 게재에 첨부된 광고 수입니다. 또는 *[!UICONTROL None]*. | — |
 | [!UICONTROL Ads] | [!UICONTROL Ad Names] | 게재가 있는 경우 게재에 첨부된 광고의 이름 또는 *[!UICONTROL None]*. | — |
 

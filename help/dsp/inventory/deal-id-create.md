@@ -3,9 +3,9 @@ title: 수동으로 거래 ID 상세내역 생성
 description: 거래 ID에 대한 세부 사항을 수동으로 입력하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: cd9763a7-99d4-4881-9df9-b4e24c55be0f
-source-git-commit: 593bfc03d2dd182b817be9eac4792dfd690132a2
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 0%
 
    1. 클릭 **[!UICONTROL Save]**.
 
-1. (보증 계약만) 거래에 사용할 광고를 선택하고 기본 프로그래밍 방식 보장(PG) 배치를 만듭니다.
+1. (보증 계약만 해당) 거래에 사용할 광고를 선택하고 기본 프로그래밍 방식 보장(PG) 배치를 만듭니다.
 
-   기본 PG 배치는 거래가 모든 입찰 요청에 대해 항상 입찰을 반환하도록 합니다. 기본 PG 배치를 만들지 않으면 거래를 타겟팅하는 모든 배치는 올바르게 설정되지 않는 한 입찰을 배치하지 않습니다. 항상 기본 PG 배치를 만들어야 합니다. 에서 [!UICONTROL Placements] 보기, 기본 PG 배치에 [!UICONTROL Sub-type] 열 값: &quot;[!UICONTROL PG Default].&quot;
+   기본 PG 배치는 거래가 항상 각 입찰 요청에 대한 입찰을 반환하도록 합니다. 기본 PG 배치를 만들지 않으면 거래를 타깃팅하는 모든 배치는 올바르게 설정되지 않은 경우 입찰을 배치하지 않습니다. 항상 기본 PG 배치를 만들어야 합니다. 에서 [!UICONTROL Placements] 보기, 기본 PG 배치에 [!UICONTROL Sub-type] 열 값: &quot;[!UICONTROL PG Default].&quot;
 
    원할 경우 추가 배치에서 거래를 재고 타겟으로 사용할 수 있지만, 입찰을 배치하려면 이 거래를 올바로 설정해야 합니다.
 

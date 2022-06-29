@@ -1,10 +1,11 @@
 ---
 title: PG 딜 설정 개요 [!DNL Freewheel]
-description: '의 게시자와 프로그래밍 방식으로 보장되는 거래를 위한 광고를 실행하는 데 필요한 사전 요구 사항과 추가 단계에 대해 알아봅니다 [!DNL Freewheel]. '
+description: 의 게시자와 프로그래밍 방식으로 보장되는 거래를 위한 광고를 실행하는 데 필요한 사전 요구 사항과 추가 단계에 대해 알아봅니다 [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: acf8351b-88fb-4f18-8fca-9a2d6674cdec
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 0%
 
    일부 영국 게시자의 경우 다음을 포함해야 합니다 [!DNL Clearcast] 광고 시 시계 번호입니다.
 
-1. [거래 ID 수락](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox) 당신은 이미 출판사와 협상한 적이 있습니다 [!DNL Freewheel] 거래 ID 받은 편지함 사용.
+1. [거래 ID 수락](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox) 출판사와 이미 협상한 [!DNL Freewheel] 거래 ID 받은 편지함 사용.
 
    거래를 수락한 후 프롬프트에 따라 1) 거래에 사용할 광고를 선택하고 2) 광고를 제공할 프로그래밍 방식으로 보장된 기본 배치를 생성합니다.
 

@@ -3,9 +3,9 @@ title: Advertising Cloud DSP의 인벤토리 기능 개요
 description: 사용 가능한 인벤토리 기능에 대해 알아봅니다.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: b3d0b96e-e638-4bd2-ba14-d348a8fc030b
-source-git-commit: 3039557f4929b716d86840cd3cb4a5aa54125145
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

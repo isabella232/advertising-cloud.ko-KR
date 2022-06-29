@@ -3,7 +3,7 @@ title: 프로그래밍 방식 보장 거래 설정
 description: 게시자와 협상한 PG(프로그래밍 방식 보증) 거래를 설정하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 9e371606-5428-4635-9653-7dc43449e489
-source-git-commit: 3c9822890e96035fc9e44f8832efcc2889a8cb5f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 를 사용하여 프로그래밍 방식으로 보장되는 거래 설정 [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
 
-이 방법에서 사용하는 것이 좋습니다 [!DNL FreeWheel], [!DNL Google Authorized Buyers], 및 [!DNL Magnite DV+].
+다음 방법은 [!DNL FreeWheel], [!DNL Google Authorized Buyers], 및 [!DNL Magnite DV+].
 
 1. [거래 수락](deal-id-inbox-accept.md).
 

@@ -2,9 +2,10 @@
 title: 이벤트 픽셀 보기 [!UICONTROL Simple Ad Serving] 거래
 description: 에 대한 이벤트 추적 픽셀 사본을 가져오는 방법을 알아봅니다 [!UICONTROL Simple Ad Serving] 거래
 feature: DSP Simple Ad Serving
-source-git-commit: 22f5d8279fadfcf79e2cd41566321f423d63eb16
+exl-id: 88d18ddd-98ba-4e36-890c-d6ddfb7d59e5
+source-git-commit: a29019ee7af0124ad9182f0578811c4d0e666937
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,5 +26,7 @@ ht-degree: 0%
 >
 >* [정보 [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
 >* [만들기 [!UICONTROL Simple Ad Serving] 거래](simple-deal-create.md)
+>* [편집 [!UICONTROL Simple Ad Serving] 거래 설정](simple-deal-edit.md)
 >* [[!UICONTROL Simple Ad Serving] 설정](simple-deal-settings.md)
+>* [거래에 대한 세부 보고서 보기](/help/dsp/inventory/deal-view-report.md)
 

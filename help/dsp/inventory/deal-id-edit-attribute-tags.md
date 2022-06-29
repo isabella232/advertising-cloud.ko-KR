@@ -3,9 +3,9 @@ title: 거래 ID에 대한 속성 태그 편집
 description: 거래 ID에 대한 속성 태그를 만들고 편집하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 9a0190e7-26d0-4236-abbb-f1264b5d61e9
-source-git-commit: 3e47fec28a17cb64de42309c0368293e1ef1cdea
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    * 기존 태그를 거래에 지정하려면 [!UICONTROL Custom Tags] 목록.
 
-   * 새 태그를 만들고 거래와 연결하려면 **[!UICONTROL Create new tag(s)]** 필드를 클릭한 다음 **[!UICONTROL Create and Associate Tag]**.
+   * 태그를 만들고 거래와 연결하려면 **[!UICONTROL Create new tag(s)]** 필드를 클릭한 다음 **[!UICONTROL Create and Associate Tag]**.
 
    * 거래에서 기존 태그를 제거하려면 [!UICONTROL Custom Tags] 목록.
 
