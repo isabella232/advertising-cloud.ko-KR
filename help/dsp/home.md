@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 6d9c4db1b16a68217c6bc110cf3e0b9a93c2caa6
+source-git-commit: e29853b728cd3efbb374179ca6af8d095b77df43
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1611'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
-| 2022년 6월 29일 | 인벤토리 | 새로운 [!UICONTROL Inventory] > [!UICONTROL Deals] 보기에는 와 동일한 기능이 포함되어 있습니다. [!UICONTROL Campaigns] 필터링, 표준 및 사용자 지정 보기, 열 정렬, 테이블 및 차트 보기 등 보기 각 행에서 명령 메뉴를 열 수 있습니다 [!UICONTROL ...] 거래 이름 뒤에 | — |
+| 2022년 6월 29일 | 인벤토리 | 새로운 [!UICONTROL Inventory] > [!UICONTROL Deals] 보기에는 와 동일한 데이터 사용자 지정 기능이 포함되어 있습니다. [!UICONTROL Campaigns] 추가 필터, 열 사용자 지정 및 사용자 지정 보기, 열 정렬 및 차트 보기 저장 옵션을 포함한 보기. 각 행에서 명령 메뉴를 열 수 있습니다 [!UICONTROL ...] 거래 이름 뒤에 | 참조:[재고 기능 개요](/help/dsp/inventory/inventory-overview.md).&quot; |
 | 2022년 5월 31일 | 대상 소스 | (베타 기능) 이제 Advertising Cloud DSP에서 고객 데이터 플랫폼(CDP) 내에서 구축된 인증된 신호로 구성된 자사 세그먼트를 수집할 수 있습니다. | 참조:[Audience Sources에서 인증된 세그먼트 활성화 정보](/help/dsp/audiences/sources/source-about.md).&quot; |
 | 2022년 5월 25일 | 최적화 목표 | 이제 비디오 및 기본 배치는 사용자 지정 목표 최고 ROAS 및 최저 CPA를 사용하는 패키지에 포함할 수 있습니다. | 참조:[최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md).&quot; |
 | 2022년 4월 12일 | Campaign Management | 현재 지원을 반영하도록 광고 사양이 업데이트되었습니다. | 참조:[지원되는 광고 유형에 대한 사양](/help/dsp/campaign-management/ads/ad-specs.md).&quot; |
@@ -50,7 +50,7 @@ ht-degree: 0%
 | 2021년 3월 10일 | 인벤토리 | 더 이상 만들 수 없습니다 [!UICONTROL Smart Ad Serving] 은 VAST 태그를 사용하는 것을 다룹니다. 대신, 거래 ID를 통해 개인 거래를 실행할 수 있는지 게시자에게 문의하십시오. 를 사용하여 게시자에서 직접 거래 ID를 가져올 수 있습니다. [!UICONTROL Deal ID inbox] 또는 수동으로 거래 세부 사항을 입력합니다.<br><br>기존의 스마트 광고 서비스 제공은 여전히 이용 가능하지만, 올해 말 종료될 예정입니다. | 참조:[정보 [!UICONTROL Deal ID inbox]](/help/dsp/inventory/deal-id-inbox-about.md)&quot; 및 &quot;[수동으로 만들기 [!UICONTROL Deal ID] 세부 사항](/help/dsp/inventory/deal-id-create.md)&quot; |
 | 2021년 2월 25일 | 도움말 | 설명서 [!DNL Analytics for Advertising Cloud]Adobe Analytics과 Adobe Advertising Cloud을 통합하는 를 사용할 수 있습니다. | 통합에 대한 개요는 &quot;[개요 [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/overview.md).&quot; 전체 설명서는 &quot;Adobe Experience Cloud과 통합&quot; > &quot;에 있는 장을 참조하십시오.[!DNL Analytics for Advertising Cloud].&quot; |
 | 2020년 10월 28일 | 새 도움말 | 기존 도움말은 업데이트된 페이지로 대체되었으며, 이 도움말은 의 도움말 링크에서 사용할 수 있습니다. [!DNL DSP] 기본 메뉴 및 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html). | — |
-|  | 캠페인 | 이전 [!UICONTROL Campaigns Beta] 보기는 이제 기본값입니다 [!UICONTROL Campaigns] 보기 횟수, 더 빠른 통찰력, 간소화된 워크플로우 및 사용자 정의된 보기 수.<br><br>새로운 [!UICONTROL Campaigns] 보기는 다음과 같습니다.<ul><li>새 탐색. 계정 내의 모든 캠페인 목록을 볼 수 있습니다. 캠페인 내에서 캠페인 엔터티를 기반으로 데이터를 필터링할 수 있습니다. [!UICONTROL Packages], [!UICONTROL Placements], 및 [!UICONTROL Ads].<br><br>![캠페인 엔티티 탭](/help/dsp/assets/campaign-subtabs.png)</li><li>최대 3개의 지표를 비교할 수 있는 데이터 시각화.<br><br>![세 개의 지표에 대한 개별 트렌드 차트](/help/dsp/assets/trend-chart-separate.png)</li><li>사전 정의된 사용자 지정 열 보기를 만들고 관리하는 기능 [!UICONTROL Pacing] 및 [!UICONTROL Performance] 보기.<br><br>![열 보기 선택기](/help/dsp/assets/column-view-selector.png)</li><li>검색 및 필터링을 업그레이드했습니다.</li></ul><br>기존 [!UICONTROL Campaigns Classic] 오른쪽 상단의 프로필 메뉴에서 보기를 계속 사용할 수 있습니다. 를 열려면 [!UICONTROL Campaigns Classic] 보기, **[!UICONTROL Switch to Campaigns Classic]**.<br><br>![링크 대상 [!UICONTROL Campaigns Classic]](/help/dsp/assets/switch-campaigns-classic.png)<br><br>로 돌아가려면 [!UICONTROL Campaigns] 홈, **[!UICONTROL Exit Classic]**. | 참조:[플랫폼 내 보고서 정보](/help/dsp/campaign-management/reports/campaign-reports-about.md).&quot;<br><br>참조: &quot;[Campaign 데이터 보기 정보](/help/dsp/campaign-management/reports/campaign-data-views-about.md).&quot; |
+|  | 캠페인 | 이전 [!UICONTROL Campaigns Beta] 보기는 이제 기본값입니다 [!UICONTROL Campaigns] 보기 횟수, 더 빠른 통찰력, 간소화된 워크플로우 및 사용자 정의된 보기 수.<br><br>새로운 [!UICONTROL Campaigns] 보기는 다음과 같습니다.<ul><li>새 탐색. 계정 내의 모든 캠페인 목록을 볼 수 있습니다. 캠페인 내에서 캠페인 엔터티를 기반으로 데이터를 필터링할 수 있습니다. [!UICONTROL Packages], [!UICONTROL Placements], 및 [!UICONTROL Ads].<br><br>![캠페인 엔티티 탭](/help/dsp/assets/campaign-subtabs.png)</li><li>최대 3개의 지표를 비교할 수 있는 데이터 시각화.<br><br>![세 개의 지표에 대한 개별 트렌드 차트](/help/dsp/assets/trend-chart-separate.png)</li><li>사전 정의된 사용자 지정 열 보기를 만들고 관리하는 기능 [!UICONTROL Pacing] 및 [!UICONTROL Performance] 보기.<br><br>![열 보기 선택기](/help/dsp/assets/column-view-selector.png)</li><li>검색 및 필터링을 업그레이드했습니다.</li></ul><br>기존 [!UICONTROL Campaigns Classic] 오른쪽 상단의 프로필 메뉴에서 보기를 계속 사용할 수 있습니다. 를 열려면 [!UICONTROL Campaigns Classic] 보기, **[!UICONTROL Switch to Campaigns Classic]**.<br><br>![링크 대상 [!UICONTROL Campaigns Classic]](/help/dsp/assets/switch-campaigns-classic.png)<br><br>로 돌아가려면 [!UICONTROL Campaigns] 홈에서 **[!UICONTROL Exit Classic]**. | 참조:[플랫폼 내 보고서 정보](/help/dsp/campaign-management/reports/campaign-reports-about.md).&quot;<br><br>참조: &quot;[Campaign 데이터 보기 정보](/help/dsp/campaign-management/reports/campaign-data-views-about.md).&quot; |
 |  | 배치 | 수동 입찰 규칙을 포함하는 옵션이 제거되어 DSP 최적화가 작업을 수행할 수 있습니다. 이제 최신성을 기반으로 한 모든 기존 최대 입찰이 자동으로 최적화됩니다. | — |
 |  |  | 전반적인 성능을 향상시키기 위해 더 이상 뷰어의 시간대를 기준으로 방송 시간 분할을 할 수 없습니다. 대신, 모든 방송 시간 분할은 이제 캠페인의 시간대를 기반으로 &#x200B; 합니다. | 참조:[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2020년 10월 15일 | 비공개 인벤토리 | 이제 모든 사용자는 기존 버전의 간소화된 새로운 거래 ID 양식을 사용하여 거래 ID 세부 사항을 설정하고 편집할 수 있습니다 [!UICONTROL Smart Ad Serving] 양식. 새 거래 ID 세부 사항을 설정하려면 다음 위치로 이동하십시오. [!UICONTROL Inventory] > [!UICONTROL Deals]를 클릭합니다. [!UICONTROL Create]를 클릭한 다음 [!UICONTROL Deal ID Beta]. | 참조:[수동으로 거래 ID 상세내역 생성](/help/dsp/inventory/deal-id-create.md)&quot; 및 &quot;[수동 거래 ID 설정](/help/dsp/inventory/deal-id-settings.md).&quot; |
