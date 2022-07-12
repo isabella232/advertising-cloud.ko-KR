@@ -3,9 +3,9 @@ title: 다운로드/업로드된 스프레드시트의 열
 description: 다운로드 및 업로드된 Excel QA 스프레드시트의 열을 참조합니다.
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: 0c3984d755131ad98b7ddecfd9567ff4be54b64e
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 | [!UICONTROL Sites] | [!UICONTROL Categories - Excluded #] | 지정된 경우 제외된 사이트 카테고리 수 또는 *[!UICONTROL All]*. | — |
 | [!UICONTROL Sites] | [!UICONTROL Excluded Sites] | 지정된 경우 제외된 사이트 또는 *[!UICONTROL None]*. | — |
 | [!UICONTROL Sites] | [!UICONTROL Language] | 타깃팅된 사이트 언어입니다. | — |
-| [!UICONTROL Sites] | [!UICONTROL Allow unscreened sites] | 감사되지 않은 사이트에서 광고 전달을 허용할지 여부: *[!UICONTROL ON]* 또는 *[!UICONTROL OFF]*. | — |
+| [!UICONTROL Sites] | [!UICONTROL Allow unscreened sites] | (표준 디스플레이 배치만) 감사되지 않은 사이트에서 광고 배달을 허용할지 여부: *[!UICONTROL ON]* 또는 *[!UICONTROL OFF]*. 배치가 비공개 인벤토리를 타깃팅하는 경우 이 옵션은 차단된 사이트에 광고를 게재할 수 있습니다. | — |
 | [!UICONTROL Sites] | [!UICONTROL Targeted Sites] | 지정된 경우 타깃팅된 사이트의 수 또는 *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Included] | 지정된 경우 타깃팅된 대상 또는 *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Excluded] | 지정된 경우 제외된 대상 또는 *[!UICONTROL None]*. | — |

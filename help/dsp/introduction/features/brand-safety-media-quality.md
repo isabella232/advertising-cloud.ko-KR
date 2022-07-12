@@ -3,9 +3,9 @@ title: 브랜드 안전 및 미디어 품질
 description: 브랜드 안전 및 미디어 품질 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: b436936e3a0edcb78497fadb6f3c4086412baaa5
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,10 @@ Advertising Cloud DSP은 광고를 실행하기에 안전하지 않다고 간주
 광고주를 사취한 활동을 근절하기 위한 Brand Safety 이니셔티브의 일환으로, 차트로 차단된 사이트 목록에서 모든 사이트들이 그 조치를 사용하여 차단됩니다. 브랜드 안전 검사를 통과하지 않는 모든 사이트는 전역 차단 사이트 목록에 추가됩니다. Advertising Cloud DSP은 이 목록을 동적으로 관리하므로 최신 브랜드 안전 분석을 기반으로 사이트에서 언제든지 목록 위 또는 아래로 이동할 수 있습니다.
 
 전역적으로 차단된 사이트 목록에 사이트를 배치 대상으로 포함시키면 사이트가 빨간색 느낌표(!)로 플래그가 지정됩니다. 플래그가 지정된 사이트에서 광고가 실행되지 않음을 나타냅니다.
+
+>[!NOTE]
+>
+>&quot;를 활성화하여 신뢰할 수 있는 비공개 거래에 첨부된 표준 디스플레이 광고에 대해 글로벌 차단 사이트 목록을 우회할 수도 있습니다.[!UICONTROL Allow unscreened sites]&quot; 옵션을 선택합니다 [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md). 필요한 경우 [!DNL Adobe] 거래팀은 선택적으로 거래에 대한 게시자 설정에서 공개(경매 수준) 거래에 대한 사이트 차단을 비활성화할 수도 있습니다.
 
 #### 계정 수준 및 광고주 수준의 차단된 사이트 목록
 

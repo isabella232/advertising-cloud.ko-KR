@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 8b1ae7385d7747f7073448aae5ad0a617f323562
+source-git-commit: ef8e13dc5f94ead81191862dbb37c17ae762682d
 workflow-type: tm+mt
-source-wordcount: '3277'
+source-wordcount: '3301'
 ht-degree: 0%
 
 ---
@@ -253,7 +253,7 @@ ht-degree: 0%
 
 선택적으로 타깃팅되고 차단된 사이트 목록을 쉼표로 구분된 값(CSV) 파일로 내보낼 수 있습니다. 목록을 내보내려면 **[!UICONTROL Export full site list]**&#x200B;를 입력한 다음 브라우저의 일반 절차에 따라 파일을 열거나 저장합니다.
 
-<!-- **[!UICONTROL Allow unscreened sites]:** (XXX placements only) Allows you to XXXX.   Optional available for https://advertising.adobe.com/configurator/placement/edit/2432022 -->
+**[!UICONTROL Allow unscreened sites]:** (표준 디스플레이 배치만 해당) 감사되지 않은 사이트에서 광고 전달을 활성화합니다. 배치가 비공개 인벤토리를 타깃팅하는 경우 이 옵션은 차단된 사이트에 광고를 게재할 수 있습니다.
 
 **[!UICONTROL Paste list of targeted sites]:** 특정 사이트만 타깃팅할 수 있습니다. 이 옵션을 활성화하면 다른 사이트 타깃팅 옵션이 비활성화됩니다.
 

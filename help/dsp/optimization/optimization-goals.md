@@ -3,7 +3,7 @@ title: 최적화 목표 및 사용 방법
 description: 사용 가능한 최적화 목표를 참조하고 사용 시기를 확인합니다.
 feature: DSP Optimization
 exl-id: 9bca09b5-9aa7-4009-a576-9b30cfddfd55
-source-git-commit: 335add8b85fd13941035cc2fffae4006789bd601
+source-git-commit: 3852df160ec242f4755800ed44a30f42dff749fc
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 0%
