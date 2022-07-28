@@ -3,9 +3,9 @@ title: 비공개 보고서 보기, [!UICONTROL On Demand], 또는 [!UICONTROL Si
 description: 거래 수준 보고서를 여는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals, DSP On Demand Inventory, DSP Simple Ad Serving
 exl-id: cd39582e-0445-48ca-b2f6-90b410ce4a1c
-source-git-commit: f1fce966c8db2f4cde72ecf1cc900f3d5fb1a1a5
+source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
+>* [비공개 거래에 대한 경매 인사이트 보기](/help/dsp/inventory/private-deal-auction-insights.md)
 >* [정보 [!DNL On Demand] Premium 인벤토리](on-demand-inventory-about.md)
 >* [비공개 인벤토리 정보](private-inventory-about.md)
 >* [정보 [!UICONTROL Simple Ad Serving]](simple-deal-about.md)

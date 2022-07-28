@@ -8,9 +8,9 @@ user-guide-title: Advertising Cloud DSP 안내서
 user-guide-description: Advertising Cloud DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: d72707f9628e8e39eae36115b057d1cd332012f5
+source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '881'
 ht-degree: 6%
 
 ---
@@ -181,6 +181,7 @@ ht-degree: 6%
       + [비공개 거래의 배치 및 광고 지정](/help/dsp/inventory/deal-id-attach-placements.md)
       + [비공개 거래에 액세스할 수 있는 계정 편집](/help/dsp/inventory/deal-id-share.md)
       + [비공개 거래에 액세스할 수 있는 광고주 편집](/help/dsp/inventory/deal-id-edit-advertisers.md)
+      + [비공개 거래에 대한 경매 인사이트 보기](/help/dsp/inventory/private-deal-auction-insights.md)
       + [비공개 거래의 배치 및 광고 나열](/help/dsp/inventory/private-deal-view-placements.md)
       + [비공개 거래 보관 또는 보관 해제](/help/dsp/inventory/private-deal-archive-unarchive.md)
    + [!UICONTROL Simple Ad Serving] 딜 {#sas}

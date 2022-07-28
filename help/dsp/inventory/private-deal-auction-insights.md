@@ -1,22 +1,18 @@
 ---
-title: 경매 통찰력
-description: 비공개 거래를 위해 경매 인사이트 페이지를 사용하는 방법을 알아봅니다.
+title: 비공개 거래에 대한 경매 인사이트 보기
+description: 경매 인사이트를 사용하여 비공개 거래의 거래 구성을 분석하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: null
-source-git-commit: bea7de3fd5e6c5048b83e0eec2a88c0c9b422fc2
+source-git-commit: c2fe96c28004dee03ab94b4e5ed43bfbf3ee6e83
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
 
-# 비공개 거래에 대한 경매 인사이트
+# 비공개 거래에 대한 경매 인사이트 보기
 
-경매 인사이트는 비공개 재고에 대한 문제 해결 도구로서, 사용자가 보증 및 비보증 비공개 거래를 위한 거래 구성을 분석할 수 있도록 합니다.
-게시자의 입찰 요청 데이터에 투명성을 제공하여 시간이 많이 소요되는 문제 해결 단계를 피할 수 있습니다.
-이 도구는 데이터 시각화를 사용하여 특정 기간 내에 위의 경매 속성(아래에 설명됨)에 대해 받은 값의 트렌드 및 상대적 비율을 관찰하는 데 도움이 됩니다.
-
-비공개 거래에 대한 경매 인사이트 페이지에 액세스하려면 다음 단계를 따르십시오.
+Auction Insights는 보증 및 비보증 비공개 거래의 거래 구성을 분석할 수 있는 문제 해결 도구입니다. 이 도구는 데이터 시각화를 사용하여 수신한 값의 트렌드 및 상대적 비율을 표시합니다 [주요 경매 속성](#auction-attributes) 특정 기간 내.
 
 1. 주 메뉴에서 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
 
@@ -24,29 +20,31 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->경매 인사이트 페이지는 배치 관리자 도구를 통해서도 사용할 수 있습니다. 액세스하려면 배치 관리자의 인벤토리 탭을 클릭한 다음 **[!UICONTROL ...]>[!UICONTROL Auction Insights]** 거래 행에서
+>또한 배치를 통해 경매 인사이트를 사용할 수 있습니다 [!UICONTROL Inspector] 도구. 열려면 [배치 열기 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) 변환 후 [!UICONTROL Inventory tab]를 클릭한 다음 **[!UICONTROL ...]>[!UICONTROL Auction Insights]** 거래 행에서
 
-경매 통찰력 페이지에서 사용자는 다음 경매 속성에 대한 영역 차트 데이터 시각화를 볼 수 있습니다.
+## 경매 속성 {#auction-attributes}
 
-* **광고 유형:**	경매에서 요청된 광고 유형입니다. 예: 디스플레이, 오디오 등
+영역 차트는 다음 경매 속성에 사용할 수 있습니다.
 
-* **브라우저:**	경매가 시작된 브라우저입니다. 예: Chrome, Firefox 등
+* **광고 유형:** 경매에서 요청된 광고 유형(예: 디스플레이 또는 오디오)입니다.
 
-* **OS:**	경매가 시작된 운영 체제(OS)입니다. 예: Android, iOS
+* **브라우저:** 경매가 시작된 브라우저(예: Chrome 또는 Firefox)입니다.
 
-* **장치:** 유형 경매가 시작된 장치입니다. 예: Mobile Phone, Desktop 등
+* **OS:** 경매가 시작된 운영 체제(예: Android 또는 iOS)입니다.
 
-* **광고 기간:**	경매에 요청된 최대 광고 기간입니다. 예: 15초, 30초 등
+* **장치 유형:** 경매가 시작된 장치(예: 휴대폰 또는 데스크탑)입니다.
 
-* **보안:**	경매에서 보안 HTTPS URL 크리에이티브 자산이 필요한 경우를 나타냅니다. 예: 보안, 비보안
+* **광고 기간:** 경매에서 요청된 최대 광고 기간(예: 15초 또는 30초)입니다.
 
-* **MIME 유형:**	경매에서 요청된 광고 광고 MIME 유형입니다. 예를 들어 mp4, mov 등이 있습니다.
+* **보안:** 경매에서 보안 HTTPS URL 크리에이티브 자산이 필요한 경우를 나타냅니다. 값: <i>보안</i> 또는 <i>비보안</i>.
 
-!![auction insights](/help/dsp/assets/Auction Insights.png)
+* **MIME 유형:** 경매에서 요청된 광고 크리에이티브 MIME 유형(예: mp4 또는 mov)입니다.
+
+![경매 인사이트](/help/dsp/assets/auction-insights.png)
 
 >[!NOTE]
 >
->사용자는 특정 속성 값을 분리하여 경매 인사이트 페이지에 필터를 적용하여 분석 범위를 좁힐 수도 있습니다.
+>특정 속성 값에 필터를 적용하여 결과 범위를 좁힐 수 있습니다.
 
 >[!MORELIKETHIS]
 >

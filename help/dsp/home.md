@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 99c808d63e1d17d91832fdd38a2bce3fdf90aa44
+source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2022년 7월 27일 | 인벤토리 | Auction Insights는 보증 및 비보증 비공개 거래의 거래 구성을 분석할 수 있는 새로운 문제 해결 도구입니다. 데이터 시각화를 사용하여 이 도구는 특정 기간 내에 주요 경매 속성에 대해 수신된 값의 트렌드 및 상대적 비율을 표시합니다.<br><br>게시자의 입찰 요청 데이터에 대한 투명도를 사용하면 시간이 많이 소요되는 문제 해결 단계를 방지할 수 있습니다. | 참조:[비공개 거래에 대한 경매 인사이트 보기](/help/dsp/inventory/private-deal-auction-insights.md).&quot; |
 | 2022년 6월 29일 | 인벤토리 | 새로운 [!UICONTROL Inventory] > [!UICONTROL Deals] 보기에는 와 동일한 데이터 사용자 지정 기능이 포함되어 있습니다. [!UICONTROL Campaigns] 추가 필터, 열 사용자 지정 및 사용자 지정 보기, 열 정렬 및 데이터 시각화(차트) 보기를 저장하는 옵션을 포함한 보기. 각 행에서 명령 메뉴를 열 수 있습니다 [!UICONTROL ...] 거래 이름 뒤에 | 참조:[재고 기능 개요](/help/dsp/inventory/inventory-overview.md).&quot; |
 |  | 인벤토리 [!UICONTROL Inspector] | 다음 [!UICONTROL Inventory] 배치 탭 [!UICONTROL Inspector] 이제 사용자 정의 가능한 데이터 시각화 차트와 다음과 같은 확장된 성능 지표를 포함합니다 [!UICONTROL Viewability Rate], [!UICONTROL Clicks], 및 [!UICONTROL Yesterday's CPM]. | 참조:[배치에 대한 사이트, 광고, 빈도 및 인벤토리 세부 사항을 봅니다](/help/dsp/campaign-management/reports/placement-details-view.md).&quot; |
 | 2022년 5월 31일 | 대상 소스 | (베타 기능) 이제 Advertising Cloud DSP에서 고객 데이터 플랫폼(CDP) 내에서 구축된 인증된 신호로 구성된 자사 세그먼트를 수집할 수 있습니다. | 참조:[Audience Sources에서 인증된 세그먼트 활성화 정보](/help/dsp/audiences/sources/source-about.md).&quot; |

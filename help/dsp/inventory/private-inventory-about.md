@@ -3,9 +3,9 @@ title: 비공개 인벤토리 정보
 description: 비공개 인벤토리 정보
 feature: DSP Private Inventory
 exl-id: 6b3923ca-ccd1-450e-bff0-139e3838c999
-source-git-commit: 0fb8417ed6ed261077affd4db071e207731058f9
+source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ RTB를 벗어난 광고주는 비공개 인벤토리를 사용하여 독점 미�
 
 ## 거래 보기
 
-에서 [!UICONTROL Inventory] > [!UICONTROL Deals] 보기, 개인 거래 설정을 만들 수 있습니다. 일부 거래 설정을 편집할 수도 있습니다. 배치 및 광고를 나열하고 추가 배치 및 광고를 거래에 첨부합니다. 거래에 액세스할 수 있는 광고주와 계정을 편집합니다. 비공개 거래에 대한 보고서를 봅니다. 거래를 보관하거나 보관하지 않습니다.<!-- ; or edit the attribute tags for a deal -->
+에서 [!UICONTROL Inventory] > [!UICONTROL Deals] 보기, 개인 거래 설정을 만들 수 있습니다. 일부 거래 설정을 편집할 수도 있습니다. 배치 및 광고를 나열하고 추가 배치 및 광고를 비공개 거래에 첨부합니다. 비공개 거래에 액세스할 수 있는 광고주와 계정을 편집합니다. 거래의 성과 보고서를 봅니다. 비공개 거래에 대한 경매 인사이트를 보거나 거래를 보관 또는 보관 해제합니다.<!-- ; or edit the attribute tags for a deal -->
 
 필터를 적용하고, 표시된 열을 사용자 지정하고 선택적으로 사용자 정의 보기를 저장하고, 열을 정렬하고, 데이터를 차트로 보고 기존 거래 데이터를 표시하는 방법을 추가로 사용자 정의할 수 있습니다.
 

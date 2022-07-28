@@ -3,9 +3,9 @@ title: 플랫폼 내 보고서 정보
 description: 캠페인 관리 보기에 포함된 보고서 데이터에 대해 알아봅니다.
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 7d081583ff10675b515aafdd97ccb3053f19c32d
+source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Inventory]:** 배치에서 타겟팅한 모든 거래에 대한 정보입니다.
 
-   다음 [!UICONTROL Inventory] 탭에는 검색 및 필터 기능, 기본 페이지에서 사용할 수 있는 것과 동일한 표준 및 사용자 지정 열 보기 옵션, 각 행의 빠른 작업 버튼이 포함되어 있습니다 [!UICONTROL Edit] 및 [!UICONTROL View Report]. 다음 [!UICONTROL Inventory] 탭에서는 성능 통계를 표시하여 신속한 문제 해결을 수행할 수 있습니다. 예를 들면 다음과 같습니다 [!UICONTROL Auctions], [!UICONTROL Bids], 및 [!UICONTROL Win Rate].
+   다음 [!UICONTROL Inventory] 탭에서는 성능 통계를 표시하여 신속한 문제 해결을 수행할 수 있습니다. 예를 들면 다음과 같습니다 [!UICONTROL Auctions], [!UICONTROL Bids], 및 [!UICONTROL Win Rate]. 탭에는 검색 및 필터 기능, 기본 페이지에서 사용할 수 있는 것과 동일한 표준 및 사용자 지정 열 보기 옵션, 그리고 각 행의 빠른 작업 버튼이 포함되어 있습니다 [!UICONTROL Edit], [!UICONTROL View Report], 및 [[!UICONTROL Auction Insights] 추가 문제 해결](/help/dsp/inventory/private-deal-auction-insights.md).
 
 #### 인벤토리 문제 해결
 
