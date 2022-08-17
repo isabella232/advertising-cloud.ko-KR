@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 0808d101-3c6b-4671-b9e3-6f588427f8b5
-source-git-commit: b73abe16578069a0037cfb0a8520485a5d27790f
+source-git-commit: 5180665a7342d7222aa350298298d5bcc9b2e449
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2022년 8월 17일 | 도움말 | 새 장에서는 Advertising Cloud을 Adobe Audience Manager과 통합하는 모든 방법에 대해 설명합니다. | &quot;Adobe Audience Manager과 통합&quot;에 대한 개요를 참조하십시오.[Adobe Audience Manager과 Advertising Cloud 통합](/help/integrations/audience-manager/overview.md).&quot; |
 | 2021년 4월 27일 | [!DNL Analytics for Advertising Cloud] | 추가 이유 및 방법 알아보기 [!DNL Analytics for Advertising Cloud] 매크로 [!DNL Google Campaign Manager 360] 클릭 데이터를 Adobe Analytics에 전송할 태그를 추가합니다. | 참조:[추가 [!DNL Analytics for Advertising Cloud] 매크로 [!DNL Google Campaign Manager 360] 광고 태그](/help/integrations/analytics/macros-google-campaign-manager.md).&quot; |
 | 2021년 4월 19일 | [!DNL Analytics for Advertising Cloud] | 매크로에 매크로를 추가하는 이유 및 방법을 알아봅니다. [!DNL Flashtalking] 클릭 데이터를 Adobe Analytics에 전송할 태그를 추가합니다. | 참조:[추가 [!DNL Analytics for Advertising Cloud] 매크로 [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md).&quot; |
 | 2021년 10월 27일 | [!DNL Analytics for Advertising Cloud] | 조직에서 이전 Adobe Analytics을 사용하지 않으려면 `visitorAPI.js` 라이브러리 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 라이브러리(`alloy.js`)를 데이터 수집하려면 ID 결합을 활성화하려면 몇 가지 사항을 변경해야 합니다. | 참조:[사용 [!DNL Last Event Service] Adobe Experience Platform을 사용한 JavaScript 라이브러리 [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md).&quot; |
