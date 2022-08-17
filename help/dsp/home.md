@@ -1,13 +1,13 @@
 ---
 title: Advertising Cloud DSP의 새로운 기능
-description: 이 페이지에서는 Advertising Cloud DSP의 새로운 기능과 최근에 변경된 기능에 대해 설명합니다.
+description: Adobe Advertising Cloud DSP의 최신 업데이트 및 새로운 기능에 대해 알아보십시오.
 cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
+source-git-commit: 535f7707a0bd187a6dd75cfdf5357313352b5b0b
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
