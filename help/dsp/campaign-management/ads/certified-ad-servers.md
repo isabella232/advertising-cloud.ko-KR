@@ -3,9 +3,9 @@ title: 공인 광고 서비스 제공 파트너
 description: 모든 인증된 광고 서버 및 광고 단위를 참조하십시오.
 feature: DSP Ads
 exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
-source-git-commit: d3b2941af8d27447301fd6a4080ebab6352d503d
+source-git-commit: 2ef6a194f02748de3f8fee072a5c7eb65ecb80f8
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 | [!DNL ADventori] |  | X |  |  |  |
 | [!DNL Artsai] |  | X |  | X |  |
 | [!DNL Atlas] |  |  |  | X |  |
-| [!DNL Big Ads] |  |  | X |  | 큐브(데스크탑), 큐브(모바일), 카드(데스크탑), 큰 표시(데스크탑). DSP에서 이러한 모든 광고 유형을 300x250으로 설정합니다. 를 통해서만 인증 [!DNL Magnite DV+]. |
+| [!DNL Big Ads] |  |  | X |  | 큐브(데스크탑), 큐브(모바일), 카드(데스크탑), 빅 리뷰(데스크탑), 세인큐브(데스크탑), 시네마틱스(데스크톱). DSP에서 이러한 모든 광고 유형을 300x250으로 설정합니다. 를 통해서만 인증 [!DNL Magnite DV+]. |
 | [!DNL Bonzai] |  |  | X |  |  |
 | [!DNL Contobox] |  |  | X |  |  |
 | [!DNL Conversant] |  | X |  |  |  |
@@ -40,7 +40,7 @@ ht-degree: 0%
 | [!DNL IAS] | X | X |  | X |  |
 | [!DNL IBM] |  | X |  | X |  |
 | [!DNL Innovid] | X | X |  | X |  |
-| [!DNL InSkin] |  |  | X |  | Inskin 인벤토리 네트워크에서 180x150 디스플레이 거래 ID에서 높은 충격 스킨을 제공해야 합니다. |
+| [!DNL Inskin] |  |  | X |  | Inskin 인벤토리 네트워크에서 높은 충격 스킨(Cavai 대화형 광고 포함)은 180x150 디스플레이 거래 ID에서 제공되어야 합니다. |
 | [!DNL Jivox] |  | X |  |  |  |
 | [!DNL Kargo] |  | X |  |  | 320x50 앵커, BYOC, 마우스로 가리키기, 브레이크아웃 및 사이드 킥입니다. 300x250 아웃스트림; 표준 데스크탑 디스플레이(특정 광고 플러그인 ID가 필요하지 않음).</br></br>다음 사항에 문의하십시오. [!DNL Adobe] 광고 단위 설정에 대한 도움이 필요하면 계정 팀에 문의하십시오. |
 | [!DNL Linkstorm] |  |  | X |  |  |
