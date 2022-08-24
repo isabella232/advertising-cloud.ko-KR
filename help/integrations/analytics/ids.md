@@ -3,9 +3,9 @@ title: 에서 사용하는 Advertising Cloud ID [!DNL Analytics]
 description: 에서 사용하는 Advertising Cloud ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 8f0765251234b09eddaee721018285aee6b44b6a
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,30 @@ EF ID는 Advertising Cloud에서 활동을 온라인 클릭 또는 광고 노출
 
 ### EF ID 형식
 
+>[!NOTE]
+>
+>EF ID는 대/소문자를 구분합니다. 다음과 같은 경우 [!DNL Analytics] 구현에서는 URL 추적을 소문자로 강제 적용하면 Advertising Cloud에서 EF ID를 인식하지 못합니다. 이 경우 Advertising Cloud 입찰 및 보고에 영향을 주지만 내에서 Advertising Cloud 보고에 영향을 주지 않습니다 [!DNL Analytics].
+
+#### [!DNL Google Ads] 검색 광고
+
+```{gclid}:G:s```
+
+위치:
+
+* `gclid` 은 [!DNL Google Click ID] (GCLID).
+* `s` 은 네트워크 유형(&quot;s&quot; for search)입니다.
+
+#### Microsoft 광고 검색 광고
+
+```{msclkid}:G:s```
+
+위치:
+
+* `msclkid` 은 [!DNL Microsoft Click ID] (MSCLKID).
+* `s` 은 네트워크 유형(&quot;s&quot; for search)입니다.
+
+#### 다른 검색 엔진에 광고 및 검색 광고를 표시합니다
+
 ```<Advertising Cloud visitor ID>:<timestamp>:<channel type>```
 
 <!-- <*Advertising Cloud visitor ID*>:<*timestamp*>:<*channel type*> -->
@@ -60,10 +84,6 @@ EF ID는 Advertising Cloud에서 활동을 온라인 클릭 또는 광고 노출
    * `s` 검색 광고(검색 클릭스루)를 클릭합니다.
 
 예 `EF `ID: WcmibgAAAHJK1RyY:1551968087687:d
-
->[!NOTE]
->
->EF ID는 대/소문자를 구분합니다. 다음과 같은 경우 [!DNL Analytics] 구현에서는 URL 추적을 소문자로 강제 적용하면 Advertising Cloud에서 EF ID를 인식하지 못합니다. 이 경우 Advertising Cloud 입찰 및 보고에 영향을 주지만 내에서 Advertising Cloud 보고에 영향을 주지 않습니다 [!DNL Analytics].
 
 ### 의 EF ID Dimension [!DNL Analytics]
 
