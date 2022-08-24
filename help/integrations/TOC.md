@@ -3,10 +3,10 @@ user-guide-title: Adobe Experience Cloud와 통합
 user-guide-description: Advertising Cloud DSP 및 Advertising Cloud Search와 다른 Adobe Experience Cloud 제품 및 서비스와의 통합에 대해 알아봅니다.
 breadcrumb-title: Experience Cloud와 통합
 index: true
-source-git-commit: 93ecc9f881ce8947235211903d242bd39ed6e5d2
+source-git-commit: 0ca3c49788cc5f688b72051e55d44b5768fead62
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 14%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 14%
       + [Advertising Cloud과 채널 간에 채널 데이터가 다를 수 있는 이유 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
 + Adobe Audience Manager과 통합 {#audience-manager}
    + [Adobe Audience Manager과 Advertising Cloud 통합](/help/integrations/audience-manager/overview.md)
-   + [Advertising Cloud으로 Audience Manager 세그먼트 가져오기](/help/integrations/audience-manager/import-audiences.md)
+   + [Advertising Cloud에 Audience Manager 세그먼트 가져오기](/help/integrations/audience-manager/import-audiences.md)
    + Adobe Audience Manager과 DSP Media 데이터 통합 {#media-data-ingestion}
       + [Adobe Audience Manager에 DSP Media Exposure 데이터 보내기 개요](/help/integrations/audience-manager/media-data-integration/overview.md)
       + [DSP 캠페인에서 노출 수집 및 데이터 클릭](/help/integrations/audience-manager/media-data-integration/collect.md)

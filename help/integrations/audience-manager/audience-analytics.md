@@ -1,17 +1,18 @@
 ---
-title: '"[!DNL Adobe][!DNL Audience Analytics] Advertising Cloud 고객용"'
-description: 사용 방법 알아보기 [!DNL Adobe][!DNL Audience Analytics] 광고 사용 사례
+title: '`[!DNL Adobe] [!DNL Audience Analytics] Advertising Cloud 고객'
+description: 사용 방법 알아보기 [!DNL Adobe] [!DNL Audience Analytics] 광고 사용 사례
 feature: Integration with Adobe Audience Manager
-source-git-commit: d83e36847d0e14bc7e83106c0a221680060c2e58
+exl-id: e05ba560-d3d5-4024-b1ba-956e878a2578
+source-git-commit: 4a7766e92ffaa8f32f0fe8941f6c85405bd2df3e
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe][!DNL Adobe] Advertising Cloud 고객용
+# [!DNL Adobe] [!DNL Audience Analytics] Advertising Cloud 고객용
 
-[[!DNL Adobe][!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) 은 Audience Manager 고객이 세그먼트를 보낼 수 있도록 해주는 Adobe Audience Manager과 Adobe Analytics 간의 통합입니다 [!DNL Analytics] 사이트 활동에 대한 보강된 인사이트를 제공합니다.
+[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) 은 Audience Manager 고객이 세그먼트를 보낼 수 있도록 해주는 Adobe Audience Manager과 Adobe Analytics 간의 통합입니다 [!DNL Analytics] 사이트 활동에 대한 보강된 인사이트를 제공합니다.
 
 Advertising Cloud 고객은 [!DNL Audience Analytics]. 통합을 통해 다음을 수행할 수 있습니다.
 
