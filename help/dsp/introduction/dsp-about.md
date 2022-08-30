@@ -3,7 +3,7 @@ title: Adobe Advertising Cloud DSP 정보
 description: Adobe Advertising Cloud DSP 정보
 feature: DSP Introduction
 exl-id: def006b2-eb51-4942-b277-a2e673bccc7f
-source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
+source-git-commit: d7afcc2200adc41e583d21712226cb25f35aab66
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Adobe Advertising Cloud DSP은 고급 자사 데이터 세그먼테이션 및 �
 
 * [**최적화**](features/optimization.md): 새로운 캠페인 관리 대상, [!DNL Campaign Home]을 사용하면 고급 도구, 정렬 및 인사이트를 통해 캠페인을 보다 신속하게 최적화할 수 있습니다. 또한 예측 및 지출 추천은 성과가 좋은 것으로 예상되는 전략을 예측하여 현재 성과가 가장 좋은 것이 아닐 수도 있으므로 데이터로 최적화할 수 있습니다.
 
-* [**교차 장치 솔루션**](features/cross-device-solutions.md): Advertising Cloud DSP과 통합 [!DNL LiveRamp] 및 [!DNL Adobe Device Co-Op] 대상을 모든 소비자의 알려진 장치로 확장하고 빈도 캡을 적용하고 해당 장치에서 속성을 측정할 수 있습니다.
+* [**교차 장치 솔루션**](features/cross-device-solutions.md): Advertising Cloud DSP 통합 [!DNL LiveRamp] 에서는 대상을 모든 소비자의 알려진 장치로 확장하고 빈도 캡을 적용하고 해당 장치에서 속성을 측정할 수 있도록 합니다.
 
 * [**Media Quality Suite**](features/brand-safety-media-quality.md): Advertising Cloud DSP은 브랜드 및 광고 투자에 영향을 줄 수 있는 문제에 대해 사전 예방적 접근 방식을 취하고 있습니다. DSP 미디어 품질 세트는 100% 투명하며 광고주의 투자를 보호하기 위해 다면적인 접근 방식을 사용합니다. 여기에는 브랜드 안전, 뷰가능, 사기 방지 및 [!DNL Ads.Txt].
 

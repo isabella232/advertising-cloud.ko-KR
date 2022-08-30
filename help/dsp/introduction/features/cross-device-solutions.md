@@ -3,16 +3,16 @@ title: 교차 장치 솔루션
 description: 교차 장치 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: 29f8ec41-35a6-4a29-a638-82a2929a8fe6
-source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
+source-git-commit: d7afcc2200adc41e583d21712226cb25f35aab66
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
 
 # 교차 장치 솔루션
 
-Advertising Cloud DSP과 통합 [!DNL LiveRamp] 및 [!DNL Adobe Device Co-op] 을(를) 사용하면 브랜드가 추적한 장치뿐만 아니라 사용자의 알려진 모든 장치로 대상을 확장할 수 있습니다. 또한 통합은 모든 장치에서 빈도 제한 및 속성 측정을 제공합니다.
+Advertising Cloud DSP 통합 [!DNL LiveRamp] 을(를) 사용하면 브랜드가 추적한 장치뿐만 아니라 사용자의 알려진 모든 장치로 대상을 확장할 수 있습니다. 또한 통합은 모든 장치에서 빈도 제한 및 속성 측정을 제공합니다.
 
 지원되는 사람 기반 장치 그래프를 사용하는 경우 다음을 수행할 수 있습니다.
 
@@ -20,22 +20,19 @@ Advertising Cloud DSP과 통합 [!DNL LiveRamp] 및 [!DNL Adobe Device Co-op] �
 * 개별 사용자 간의 빈도를 파악하고 최대 가용량을 통해 광고 노출을 균형 있게 조정하십시오.
 * 채널 또는 장치에서 대상을 노출하거나 전환하는 전략을 테스트합니다.
 
-## 각 장치 그래프의 이점
+## 의 이점 [!DNL LiveRamp] 장치 그래프
 
-* [!DNL Adobe Device Co-op]:
-   * 참여하는 Adobe 광고주의 결정론적 및 확률론적 데이터의 옵트인 풀을 제공합니다
-   * 데스크탑 및 모바일 웹 방문자가 제공하는 강력한 쿠키 ID 연결을 제공합니다
-   * 미국 및 캐나다에서 주로 가져온 데이터를 포함합니다
-   * 사용 요금이 없습니다
+* 오프라인 고객 데이터를 포함하여 결정론적 데이터 풀을 제공합니다.
 
-* [!DNL LiveRamp] 장치 그래프:
-   * 오프라인 고객 데이터를 포함하여 결정론적 데이터 풀을 제공합니다.
-   * 쿠키 ID와 모바일 장치 ID 간에 범위를 제공합니다
-   * 주로 미국에서 온 데이터를 포함합니다
-   * 빈도 제한 및 속성 측정에 대해 무료입니다
-   * 확장 노출(를 사용해서만 전달되는 노출)에 대해 0.35CPM으로 가격이 책정되었습니다 [!DNL LiveRamp] 타깃팅된 대상 세그먼트 내에 있는 장치가 아닌 장치 그래프)
+* 쿠키 ID와 모바일 장치 ID 간에 범위를 제공합니다
 
-      요금은 당신의 계좌요율에 반영됩니다
+* 주로 미국에서 온 데이터를 포함합니다
+
+* 빈도 제한 및 속성 측정에 대해 무료입니다
+
+* 확장 노출(를 사용해서만 전달되는 노출)에 대해 0.35CPM으로 가격이 책정되었습니다 [!DNL LiveRamp] 타깃팅된 대상 세그먼트 내에 있는 장치가 아닌 장치 그래프)
+
+   요금은 당신의 계좌요율에 반영됩니다
 
 ## 사용자 기반 빈도 관리
 
@@ -85,15 +82,7 @@ Advertising Cloud DSP과 통합 [!DNL LiveRamp] 및 [!DNL Adobe Device Co-op] �
 
 ### 사용자 기반 속성 측정 활성화
 
-교차 장치 속성 측정을 활성화하려면 [!DNL Adobe] 계정 팀입니다. 대상 [!DNL Adobe Device Co-op] 계정, 서명된 [!DNL Adobe Device Co-op] 계약 및 Experience Cloud 조직 ID(이전의 [!DNL IMS org ID]).
-
-광고주 계정이 속성 측정에 장치 그래프를 사용하도록 구성되어 있는지 확인하려면:
-
-1. 주 메뉴에서 **[!UICONTROL Settings]>[!UICONTROL Advertiser]**.
-1. 광고주 행 위에 커서를 놓고 **[!UICONTROL Edit]**.
-1. 에서 [!UICONTROL Integrations] 광고주 설정의 섹션을 보려면 [!UICONTROL Cross-Device Attribution] 설정이 활성 상태입니다.
-
-   활성 통합의 경우 장치 그래프가 표시됩니다.
+교차 장치 속성 측정을 활성화하려면 [!DNL Adobe] 계정 팀입니다.
 
 ### 교차 장치 전환 속성에 대한 전환 보고서 설정
 

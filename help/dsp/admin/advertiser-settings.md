@@ -1,9 +1,9 @@
 ---
 title: 광고주 계정 설정
 description: 사용 가능한 광고주 설정에 대한 설명을 참조하십시오.
-source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
+source-git-commit: d7afcc2200adc41e583d21712226cb25f35aab66
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -38,25 +38,19 @@ ht-degree: 0%
 
 (선택 사항) DSP 계정에 연결된 추가 Experience Cloud 제품. 제품은 및에 제공된 동일한 Experience Cloud 조직 ID와 연결되어 있어야 합니다. [!UICONTROL Adobe IMS IDs] 섹션을 참조하십시오.
 
-**[!UICONTROL Adobe Media Optimizer]:** (Advertising Cloud Search이 있거나 Advertising Cloud 변환 픽셀을 사용하는 광고주) A [!DNL Search] DSP에서 속성 데이터를 교환할 계정.
+**[!UICONTROL Attribution services]> [!UICONTROL Adobe Media Optimizer]:** (Advertising Cloud Search이 있거나 Advertising Cloud 변환 픽셀을 사용하는 광고주) A [!DNL Search] DSP에서 속성 데이터를 교환할 계정.
 
-**[!UICONTROL Adobe Device Co-op or 3rd Party Graph]:** (Advertising Cloud 변환 픽셀을 사용하는 광고주) (선택 사항) Advertising Cloud Search에서 광고주 계정 설정에서 개인 기반 속성 측정에 장치 그래프를 사용할 수 있습니다.
+**[!UICONTROL Report suites]> [!UICONTROL Adobe Analytics]:** (Adobe Analytics을 사용하는 광고주) 선택 사항; 다음을 포함하는 Advertising Cloud 전환 추적 태그를 사용하여 수집된 데이터에만 적용 가능 [!DNL EF Redirect] 및 토큰만) 하나 이상 [!DNL Analytics] DSP이 게시자 및 공급측 파트너에서 수집하는 데이터를 전송할 보고서 세트입니다. 또한 Analytics는 클라이언트의 사이트에서 수집한 데이터를 DSP으로 보냅니다.
 
->[!NOTE]
->
-> * 장치 속성은 Adobe Analytics에서 추적한 전환이 아니라 Advertising Cloud 전환 추적 서비스를 사용하여 추적된 전환에만 사용할 수 있습니다.
-> * 또한 에서 장치 간 타깃팅 및 빈도 관리를 위한 개인 기반 장치 그래프를 선택할 수도 있습니다 [캠페인 수준](/help/dsp/campaign-management/campaigns/campaign-settings.md). 그런 다음 에서 교차 장치 타깃팅을 설정할 수 있습니다 [배치 수준](/help/dsp/campaign-management/placements/placement-settings.md) 그리고 추가 주파수 캡은 [패키지 수준](/help/dsp/campaign-management/packages/package-settings.md) 및 [배치 수준](/help/dsp/campaign-management/placements/placement-settings.md). 교차 장치 타깃팅 및 빈도 관리에는 광고주 수준 기여도 분석이 필요하지 않습니다. 대신 캠페인 설정에 지정된 장치 그래프로 작동합니다.
-
-
-**[!UICONTROL Adobe Analytics]:** (Adobe Analytics을 사용하는 광고주) 선택 사항; 다음을 포함하는 Advertising Cloud 전환 추적 태그를 사용하여 수집된 데이터에만 적용 가능 [!DNL EF Redirect] 및 토큰만) 하나 이상 [!DNL Analytics] DSP이 게시자 및 공급측 파트너에서 수집하는 데이터를 전송할 보고서 세트입니다. 또한 Analytics는 클라이언트의 사이트에서 수집한 데이터를 DSP으로 보냅니다.
-
-데이터가 보고서 세트에 표시되려면 [!DNL Search] advertiser 수준 설정을 &quot;(으)로 설정[!UICONTROL Enable tracking for SAINT feeds]&quot;을(를) 활성화해야 합니다. 또한 광고주는 [!DNL Analytics] Advertising Cloud에서 데이터를 수신하려면 계정을 구성해야 합니다. <!-- from Advertising Cloud or DSP in particular? Add cross-reference to file in Integrations section. -->
+데이터가 보고서 세트에 표시되려면 [!DNL Search] advertiser 수준 설정을 &quot;(으)로 설정[!UICONTROL Enable tracking for SAINT feeds]&quot;을(를) 활성화해야 합니다. 또한 광고주는 [!DNL Analytics] Advertising Cloud에서 데이터를 수신하려면 계정을 구성해야 합니다.
 
 >[!WARNING]
 >
->이전에 연결된 보고서 세트를 제거하면 DSP이 더 이상 해당 세트와 데이터를 교환하지 않습니다. 데이터 변동이 예상됩니다. <!-- Fluctuations where? Clarify -->
+>이전에 연결된 보고서 세트를 제거하면 DSP이 더 이상 해당 세트와 데이터를 교환하지 않습니다. 데이터 변동이 예상됩니다.
 
-**[!UICONTROL Adobe Analytics Cloud]:** (Adobe Audience Manager 또는 Adobe Analytics을 사용하는 광고주) 선택 사항) Audience Manager 또는 [!DNL Analytics] DSP에서 모든 광고주의 Adobe 대상에 대한 세그먼트 메타데이터, 계층 데이터 및 고유한 대상 데이터를 가져오는 계정입니다. 여기에는 다음에 대한 데이터가 포함됩니다.
+통합 방법에 대한 자세한 정보 [!DNL Analytics]를 참조하십시오.[개요 [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/overview.md).&quot;
+
+**[!UICONTROL Audiences]> [!UICONTROL Adobe Analytics Cloud]:** (Adobe Audience Manager 또는 Adobe Analytics을 사용하는 광고주) 선택 사항) Audience Manager 또는 [!DNL Analytics] DSP에서 모든 광고주의 Adobe 대상에 대한 세그먼트 메타데이터, 계층 데이터 및 고유한 대상 데이터를 가져오는 계정입니다. 여기에는 다음에 대한 데이터가 포함됩니다.
 
 * Audience Manager 세그먼트
 * [!DNL Analytics] Adobe Experience Cloud에 게시된 세그먼트
