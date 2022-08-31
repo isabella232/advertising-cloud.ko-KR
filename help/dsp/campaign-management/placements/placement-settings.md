@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: ef8e13dc5f94ead81191862dbb37c17ae762682d
+source-git-commit: 04586c87f134deaa9a28f57d6f7587f023fd217a
 workflow-type: tm+mt
-source-wordcount: '3301'
+source-wordcount: '3304'
 ht-degree: 0%
 
 ---
@@ -288,7 +288,7 @@ ht-degree: 0%
 
 **[!UICONTROL Cross Device Targeting]:** 세그먼트 또는 대상을 한 개 이상 선택하고 [campaign은 사람 기반 교차 장치 타깃팅을 위해 구성됩니다](/help/dsp/campaign-management/campaigns/campaign-settings.md). 지정된 세그먼트에 없는 장치라도 개인의 알려진 모든 장치(캠페인 설정에 지정된 장치 그래프에 따라)에 걸쳐 타깃팅을 확장할 수 있습니다. 요금은 캠페인에 대해 지정된 그래프에 따라 적용될 수 있습니다. 장치 그래프 데이터는 현재 북미에서만 사용할 수 있습니다.
 
-**[!UICONTROL Placement Cap]:** (선택 사항) 고유 장치 또는 사람의 횟수입니다(지정된 [!UICONTROL Cross Device Level])이 배치에서 광고를 제공합니다. 옵션은 다음과 같습니다 *[!UICONTROL Unlimited]* 또는 일, 주 또는 개월당 특정 금액입니다.
+**[!UICONTROL Placement Cap]:** (선택 사항) 고유 장치 또는 사람의 횟수입니다(지정된 [!UICONTROL Cross Device Level] 캠페인의 경우)가 배치에서 광고에 제공됩니다. 옵션은 다음과 같습니다 *[!UICONTROL Unlimited]* 또는 일, 주 또는 개월당 특정 금액입니다.
 
 >[!NOTE]
 >

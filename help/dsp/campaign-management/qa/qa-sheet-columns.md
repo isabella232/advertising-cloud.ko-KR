@@ -3,9 +3,9 @@ title: 다운로드/업로드된 스프레드시트의 열
 description: 다운로드 및 업로드된 Excel QA 스프레드시트의 열을 참조합니다.
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 0c3984d755131ad98b7ddecfd9567ff4be54b64e
+source-git-commit: a3ddbe1aed444636e7bf45e7d52c8d5ee8ec1382
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Included] | 지정된 경우 타깃팅된 대상 또는 *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Excluded] | 지정된 경우 제외된 대상 또는 *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Demographic booster] | 여부 [!DNL Comscore] 인구 통계 세그먼트는 배치(및 캠페인의 다른 배치)에 대해 활성화되어 있습니다. *[!UICONTROL ON]* 또는 *[!UICONTROL OFF]*. 이 기능은 [!DNL Audience Verification] 기능은에 대해 활성화되어 있습니다. [!DNL Nielsen] 및/또는 [!DNL Comscore].  추가요금을 발생시킵니다 | — |
-| [!UICONTROL Audience Targeting] | [!UICONTROL Extend across screens] | 장치 간에 광고 타깃팅을 확장할지 여부를 지정합니다. *[!UICONTROL ON]* 또는 *[!UICONTROL OFF]*.<!-- Whether or not the Cross Device Targeting setting is enabled for the placement : *ON* or *OFF*. Cross-device targeting extends your targeting across all of a person's known device, per the device graph specified in the campaign settings.--> | — |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Extend across screens] | 장치 간에 광고 타깃팅을 확장할지 여부를 지정합니다. *[!UICONTROL ON]* 또는 *[!UICONTROL OFF]*. 교차 장치 타깃팅은 캠페인 설정에 지정된 장치 그래프에 따라 개인의 알려진 모든 장치에서 타깃팅을 확장합니다. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Topic Targeting] - 포함된 # | 지정된 경우 타깃팅된 주제 코드의 수 또는 *[!UICONTROL All]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Topic Targeting - Excluded #] | 지정된 경우 제외된 주제 코드의 수 또는 *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Device Targeting - Included #] | 타깃팅된 장치 대상(지정된 경우) 또는 *[!UICONTROL All]*. | — |

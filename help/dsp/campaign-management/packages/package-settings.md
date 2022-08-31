@@ -3,9 +3,9 @@ title: 패키지 설정
 description: 사용 가능한 패키지 설정에 대한 설명을 참조하십시오.
 feature: DSP Packages
 exl-id: b4d415d1-86a5-40bd-b645-1709b267c174
-source-git-commit: 4a699912468cd89efec0c1da9fdb6302ca93a3b4
+source-git-commit: 7fe6eb31d3330c5470077ca2766c41ae07c6c67f
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 >
 >이 필드는 벤치마크일 뿐이며 의사 결정에 사용되지 않습니다.
 
-**[!UICONTROL Frequency Cap]:** (패키지 수준 게재 전용인 패키지) 고유한 장치 또는 사용자의 횟수입니다(지정된 [!UICONTROL Cross Device Level])은 패키지에서 광고를 제공할 수 있습니다. 옵션은 다음과 같습니다 *[!UICONTROL Unlimited]* 또는 일, 주 또는 개월당 특정 금액입니다.
+**[!UICONTROL Frequency Cap]:** (패키지 수준 게재 전용인 패키지) 고유한 장치 또는 사용자의 횟수입니다(지정된 [!UICONTROL Cross Device Level] 캠페인의 경우)는 패키지에서 광고를 제공할 수 있습니다. 옵션은 다음과 같습니다 *[!UICONTROL Unlimited]* 또는 일, 주 또는 개월당 특정 금액입니다.
 
 >[!NOTE]
 >
@@ -111,5 +111,5 @@ ht-degree: 0%
 >* [패키지 만들기](package-create.md)
 >* [패키지 편집](package-edit.md)
 >* [패키지에 배치 첨부](package-attach-placement.md)
->* [Campaign 관리에 대한 FAQ](/help/dsp/campaign-management/campaign-management-faq.md)
+>* [Campaign Management에 대한 FAQ](/help/dsp/campaign-management/campaign-management-faq.md)
 

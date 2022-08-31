@@ -3,7 +3,7 @@ title: 플랫폼 내 보고서 정보
 description: 캠페인 관리 보기에 포함된 보고서 데이터에 대해 알아봅니다.
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
+source-git-commit: 093902d577cc4af3bb18bbeddc640fe284d3a179
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Frequency]:** 다음을 포함하여 배치에 대한 각 광고 빈도 수준에 대한 데이터:
    * 광고 빈도 수준(사용자가 광고를 한 번 본 모든 인스턴스에 대해 &quot;1&quot; 등)
-   * 장치/브라우저 또는 사람의 예상 고유 수(지정된 [!UICONTROL Cross Device Level] 지정된 빈도 수준에서 노출 횟수를 수신한 배치의 경우)
+   * 장치/브라우저 또는 사람의 예상 고유 수(지정된 [!UICONTROL Cross Device Level] 지정된 빈도 수준에서 노출 횟수를 수신한( 캠페인)
    * 지정된 빈도 수준의 예상 노출 횟수
    * 지정된 빈도 수준에 대한 예상 평균 빈도입니다. 이 값은 (예상 노출 수)/(예상 고유 수)와 같습니다.
 
