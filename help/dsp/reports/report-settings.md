@@ -3,9 +3,9 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 1d37fc96-0f9b-4eb2-ba8d-9534f627adaf
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 4e389d687f8974028181a03534aff1abf6b43831
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -88,18 +88,6 @@ ht-degree: 0%
 * *[!UICONTROL With Clicks (CT)]:* 클릭으로 인한 전환만 포함합니다.
 
 * *[!UICONTROL Impressions Only (VT)]:* 전환 경로에서 클릭 수가 추적되지 않았으므로 노출에 기여한 전환만 포함합니다.
-
-**[!UICONTROL Cross Device Level]:**  (모두 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], 및 [!UICONTROL Site] 보고서 [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열; 교차 장치 속성이 있는 광고주에만 적용 가능) 전환을 추적하는 수준입니다. *[!UICONTROL People]* 또는 *[!UICONTROL Household]*.
-
-추가 정보 [교차 디바이스 솔루션](/help/dsp/introduction/features/cross-device-solutions.md).
-
-**[!UICONTROL Cross-Device Breakout]:** (모두 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], 및 [!UICONTROL Site] 보고서 [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열; 교차 장치 속성이 있는 광고주에만 적용 가능) 보고서에 포함할 교차 장치 전환에 대한 세부 정보 수준입니다. 자세한 브레이크아웃을 원하는 경우 각 레벨을 별도의 열에 포함할 수 있습니다.
-
-* *[!UICONTROL Total People (TP)]:* 동일한 장치 전환과 교차 장치 전환을 모두 포함하는 총 전환을 포함합니다(해당하는 경우). 보고서에서 &quot;[!UICONTROL (tp)]전환 지표 이름 및 규칙 유형에 추가됩니다.
-
-* *[!UICONTROL Same Device (SD)]:* 전환 경로에서 단일 장치만 추적된 전환만 포함합니다. 보고서에서 &quot;[!UICONTROL (sd)]전환 지표 이름 및 규칙 유형에 추가됩니다.
-
-* *[!UICONTROL Cross Device (XD)]:* 전환 경로에서 두 개 이상의 장치가 추적된 전환만 포함합니다. 보고서에서 &quot;[!UICONTROL (xd)]전환 지표 이름 및 규칙 유형에 추가됩니다.
 
 **[!UICONTROL Conversion Reporting Based On]:**  전환 데이터를 보고하는 방법:
 
