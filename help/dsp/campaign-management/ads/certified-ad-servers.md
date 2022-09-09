@@ -3,9 +3,9 @@ title: 공인 광고 서비스 제공 파트너
 description: 모든 인증된 광고 서버 및 광고 단위를 참조하십시오.
 feature: DSP Ads
 exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
-source-git-commit: 2ef6a194f02748de3f8fee072a5c7eb65ecb80f8
+source-git-commit: 730ecb65f61216f140f463bc0d62a1d41e9338a1
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X |  | X |  |
 | [!DNL Inskin] |  |  | X |  | Inskin 인벤토리 네트워크에서 높은 충격 스킨(Cavai 대화형 광고 포함)은 180x150 디스플레이 거래 ID에서 제공되어야 합니다. |
 | [!DNL Jivox] |  | X |  |  |  |
-| [!DNL Kargo] |  | X |  |  | 320x50 앵커, BYOC, 마우스로 가리키기, 브레이크아웃 및 사이드 킥입니다. 300x250 아웃스트림; 표준 데스크탑 디스플레이(특정 광고 플러그인 ID가 필요하지 않음).</br></br>다음 사항에 문의하십시오. [!DNL Adobe] 광고 단위 설정에 대한 도움이 필요하면 계정 팀에 문의하십시오. |
+| [!DNL Kargo] |  | X |  |  | 320x50 앵커, BYOC, 마우스로 가리키기, 브레이크아웃, 분리 및 사이드 킥입니다. 300x250 Outstream, HighRaise; 표준 데스크탑 디스플레이(특정 광고 플러그인 ID가 필요하지 않음).</br></br>다음 사항에 문의하십시오. [!DNL Adobe] 광고 단위 설정에 대한 도움이 필요하면 계정 팀에 문의하십시오. |
 | [!DNL Linkstorm] |  |  | X |  |  |
 | [!DNL mCanvas] |  |  | X |  |  |
 | [!DNL Medialets] |  | X |  |  |  |
