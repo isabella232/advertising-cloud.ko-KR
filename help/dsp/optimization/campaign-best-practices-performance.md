@@ -3,9 +3,9 @@ title: 성능 캠페인 설정에 대한 우수 사례
 description: 최저 CPA 또는 가장 높은 ROAS에 맞게 최적화된 배치를 포함하는 성능 중심 캠페인을 설정하는 우수 사례를 알아봅니다.
 feature: DSP Optimization, DSP Best Practices
 exl-id: fc64680d-9d1c-4f74-a8b9-2e9b670c00eb
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 1fd95b3193fba50ce7cd85b2ad6256a0ba346011
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -83,9 +83,11 @@ Advertising Cloud은 CPA(Inquisition Per Acquisition) 또는 ROAS(High Return On
    * 새 패키지에 기존 패키지와 동일한 목표가 있는 경우, 알고리즘에서 기존 기계 학습 데이터를 사용할 수 있도록 기존 패키지를 선택적으로 연결할 수 있습니다.
    * 적절한 [!UICONTROL Target CPA] 또는 [!UICONTROL Target ROAS].
 
-* **채우기 전략 간격:** 선택 *[!UICONTROL Even]* 을 추가하여 전체 비행 날짜 동안 균일하게 게재를 함으로써 성능 목표를 극대화할 수 있습니다.
+* **비행 간격 및 일일 간격:** 두 가지 간격 유형에 대해 를 선택합니다. *[!UICONTROL Even]* 매일 그리고 전체 비행을 통해 균일하게 게재를 함으로써 성능 목표를 극대화합니다.
 
-   사용 *[!UICONTROL FrontLoad]* 및 *[!UICONTROL Aggressive Front Load]* 게재 우선 순위 지정을 완전히 하고 성능 최적화에 더 많이 투자할 때만 게재 속도를 조절합니다. 이러한 전략은 원하는 성능 KPI에 부정적인 영향을 줄 수 있습니다.
+   >[!CAUTION]
+   >
+   >사용 *[!UICONTROL FrontLoad]* 및 *[!UICONTROL Aggressive Front Load]* 및 *[!UICONTROL ASAP]* 게재 우선 순위 지정과 성능 최적화에 대한 비용을 전적으로 우선시하는 경우에만 이일 간격 게재를 위해 페이싱을 수행합니다. 이러한 전략은 원하는 성능 KPI에 부정적인 영향을 줄 수 있기 때문입니다.
 
 ## 4단계 - 배치 구조 만들기
 

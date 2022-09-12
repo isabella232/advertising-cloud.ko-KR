@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 04586c87f134deaa9a28f57d6f7587f023fd217a
+source-git-commit: 7bbeb3013ad7cd84bf3a25f5ebf8b16a82a6f591
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -96,13 +96,25 @@ ht-degree: 0%
 
 **[!UICONTROL Max Bid]:** 노출 1,000개에 대한 최대 비용.
 
-**[!UICONTROL Pacing Fill Strategy]:** (패키지 수준 게재 전용이 있는 패키지) 광고 게재 속도를 높이는 방법:
+**[!UICONTROL Flight pacing]:** (배치 수준 게재 전용인 배치) 광고 게재 속도를 높이는 방법:
 
 * *[!UICONTROL Even]:* (기본값) 게재를 각 비행 내내 균일하게 지연시키며, 첫 번째 비행 시 게재 목표의 50%가 됩니다.
+
+* *[!UICONTROL Slightly Ahead]:* (기본값) 55-65%가 비행 기간의 절반을 완료하도록 게재를 가속화합니다.
 
 * *[!UICONTROL Frontload]:* 배송을 가속화하여 65-75%가 비행 중간에 완료됩니다.
 
 * *[!UICONTROL Aggressive Frontload]:* 배송을 가속화하여 75-85%가 비행 중간에 완료됩니다.
+
+**[!UICONTROL Intraday pacing]:** (배치 수준 게재 전용인 배치) 플라이트 내에서 각 날에 걸쳐 광고 전달을 페이스로 지정하는 방법:
+
+* *[!UICONTROL Even]:* (기본값) 재고 가용성에 따라 배달을 조정합니다. 일반적으로 경매 부피가 더 높은 낮 시간 동안 더 많은 광고가 게재되고 아침이나 저녁으로 더 적은 광고가 게재됩니다.
+
+* *[!UICONTROL ASAP]:* (기본값) 게재를 속도가 2배 빠릅니다 *짝수*.
+
+   >[!CAUTION]
+   >
+   >이 옵션은 성능에 부정적인 영향을 줄 수 있습니다. 전달 우선 순위 지정과 성능 최적화에 대한 비용 지출을 완전히 결정하는 경우에만 사용하십시오.
 
 **[!UICONTROL Placement Pre-bid Filters]:** (선택 사항) 입찰이 발생하기 위해 충족해야 하는 최대 5개의 필터입니다. 입찰 전 필터를 최적화 전술로 사용할 수 있지만 각 규칙은 이 게재에 입찰할 수 있는 기회를 제한할 수 있습니다. 필터를 추가하거나 편집하려면:
 

@@ -3,9 +3,9 @@ title: 패키지 설정
 description: 사용 가능한 패키지 설정에 대한 설명을 참조하십시오.
 feature: DSP Packages
 exl-id: b4d415d1-86a5-40bd-b645-1709b267c174
-source-git-commit: 7fe6eb31d3330c5470077ca2766c41ae07c6c67f
+source-git-commit: 6331166f563e1404c077eb848eed049b4eb0706d
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -88,16 +88,25 @@ ht-degree: 0%
 
 * *[!UICONTROL Impressions]:* 이 옵션은 지정된 간격에 지정된 수량에 도달할 때까지 노출 횟수를 전달합니다. 이 옵션을 선택하면 노출 횟수 및 간격을 지정합니다. *항상* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* 또는 *[!UICONTROL Weekly]*.
 
-**[!UICONTROL Pacing Fill Strategy]:** (패키지 수준 게재 전용이 있는 패키지) 광고 게재 속도를 높이는 방법:
+**[!UICONTROL Flight pacing]:** (패키지 수준 게재 전용인 패키지) 전체 비행에서 광고 전달을 페이스로 지정하는 방법:
 
 * *[!UICONTROL Even]:* 그 비행기의 전반전에 배달되는 것의 50%를 목표로 하여, 각 비행 내내 균일하게 전달을 지연시킵니다.
 
 * *[!UICONTROL Slightly Ahead]:* (기본값) 55-65%가 비행 기간의 절반을 완료하도록 게재를 가속화합니다.
 
-<!-- replaced with ASAP -->
 * *[!UICONTROL Frontload]:* 65-75%가 비행 도중에 완료되도록 배송을 가속화합니다.
 
 * *[!UICONTROL Aggressive Frontload]:* 75-85%가 비행 도중에 완료되도록 배송을 가속화합니다.
+
+**[!UICONTROL Intraday pacing]:** (패키지 수준 게재 전용인 패키지) 비행 내에서 각 날에 걸쳐 광고 전달을 페이스로 지정하는 방법:
+
+* *[!UICONTROL Even]:* (기본값) 재고 가용성에 따라 배달을 조정합니다. 일반적으로 경매 부피가 더 높은 낮 시간 동안 더 많은 광고가 게재되고 아침이나 저녁으로 더 적은 광고가 게재됩니다.
+
+* *[!UICONTROL ASAP]:* 게재 속도를 *짝수*.
+
+   >[!CAUTION]
+   >
+   >이 옵션은 성능에 부정적인 영향을 줄 수 있습니다. 전달 우선 순위 지정과 성능 최적화에 대한 비용 지출을 완전히 결정하는 경우에만 사용하십시오.
 
 ## [!UICONTROL Flighting]
 
