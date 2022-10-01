@@ -8,9 +8,9 @@ user-guide-title: Advertising Cloud DSP 안내서
 user-guide-description: Advertising Cloud DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
+source-git-commit: ea9c5ba9263be2c1607d682ac035caae70621020
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '936'
 ht-degree: 6%
 
 ---
@@ -135,8 +135,19 @@ ht-degree: 6%
          + [정보 [!UICONTROL CCPA Opt-out-of-Sale] 세그먼트](/help/dsp/audiences/ccpa-opt-out-about.md)
          + [만들기 및 구현 [!UICONTROL CCPA Opt-out-of-Sale] 세그먼트](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
          + [검색 [!UICONTROL Consumer Opt-Out-of-Sale] 보고서](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
+      + [세그먼트 정보 편집](/help/dsp/audiences/segment-edit.md)
+      + [세그먼트 공유 또는 중지](/help/dsp/audiences/segment-share.md)
+      + [세그먼트에 대한 추적 픽셀 보기](/help/dsp/audiences/segment-view-pixels.md)
+      + [세그먼트 삭제](/help/dsp/audiences/segment-delete.md)
    + 대상자 관리 {#reusable-audiences}
       + [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)
+      + [재사용 가능한 대상 복제](/help/dsp/audiences/reusable-audience-duplicate.md)
+      + [재사용 가능한 대상 편집](/help/dsp/audiences/reusable-audience-edit.md)
+      + [재사용 가능한 대상에 대한 세부 정보 보기](/help/dsp/audiences/reusable-audience-view-details.md)
+      + [재사용 가능한 대상 공유](/help/dsp/audiences/reusable-audience-share.md)
+      + [재사용 가능한 대상 내보내기](/help/dsp/audiences/reusable-audience-export.md)
+      + [재사용 가능한 대상에 대한 세그먼트 키를 클립보드에 복사합니다.](/help/dsp/audiences/reusable-audience-clipboard.md)
+      + [재사용 가능한 대상 삭제](/help/dsp/audiences/reusable-audience-delete.md)
       + [대상 설정](/help/dsp/audiences/audience-settings.md)
       + [대상 세그먼트 논리 구문](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + 소스 관리 {#sources}

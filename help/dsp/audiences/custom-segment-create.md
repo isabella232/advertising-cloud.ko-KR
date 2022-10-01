@@ -3,9 +3,9 @@ title: 사용자 지정 세그먼트 만들기 및 구현
 description: 웹 페이지를 방문하는 광고나 사용자에게 노출된 사용자를 추적하기 위해 사용자 지정 세그먼트를 만들고 구현하는 방법을 알아봅니다.
 feature: DSP Segments
 exl-id: 691903e2-773e-4205-837e-822f435f57a7
-source-git-commit: bc8e476e1218681140a1748998c19f1f6c5c0866
+source-git-commit: ea9c5ba9263be2c1607d682ac035caae70621020
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 
    1. 고유 항목 입력 **[!UICONTROL Segment Name]**.
 
-   1. 대상 [!UICONTROL Segment Type], 선택 **[!UICONTROL Custom]**.
+   1. 대상 **[!UICONTROL Segment Type]**, 선택 *[!UICONTROL Custom]*.
 
-   1. 세그먼트 창을 입력합니다. 세그먼트 창은 사용자의 쿠키가 세그먼트에 남아 있는 일수입니다.
+   1. 을(를) 입력합니다. **[!UICONTROL Segment Window]**: 사용자의 쿠키가 세그먼트에 남아 있는 일수입니다.
 
       기본 창은 45일입니다. 1부터 365까지의 값을 입력합니다.
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    1. 로 돌아가기 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
 
-   2. 세그먼트 행 위에 커서를 놓고 **[!UICONTROL Get pixel]**.
+   2. 세그먼트 행 위에 커서를 놓고 **[!UICONTROL Get Pixel]**.
 
       * 데스크탑 및 모바일 웹 페이지 방문자를 추적하려면
 
@@ -51,8 +51,8 @@ ht-degree: 0%
 
          1. 레이블 &quot; &quot;인 노출 추적 태그를 복사합니다.[!UICONTROL Desktop or mobile ads].&quot;
 
-         1. 태그를 [!UICONTROL Pixel] 탭하기 [!UICONTROL Event Pixels] 섹션 [[!UICONTROL Tracking] 관련 배치마다 설정](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
+1. 태그를 [!UICONTROL Pixel] 탭하기 [!UICONTROL Event Pixels] 섹션 [[!UICONTROL Tracking] 관련 배치마다 설정](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 추적 태그가 구현되면 대상 타겟의 세그먼트를 사용하거나 배치를 위해 제외를 사용할 수 있습니다.
 
@@ -63,10 +63,12 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [대상자 관리 기본 정보](audience-about.md)
+>* [세그먼트 정보 편집](segment-edit.md)
+>* [세그먼트 삭제](segment-delete.md)
+>* [세그먼트에 대한 추적 픽셀 보기](segment-view-pixels.md)
+>* [세그먼트 공유 또는 중지](segment-share.md)
 >* [만들기 및 구현 [!UICONTROL CCPA Opt-Out-of-Sale] 세그먼트](ccpa-opt-out-segment-create.md)
 >* [재사용 가능한 대상 만들기](reusable-audience-create.md)
->* [대상 설정](audience-settings.md)
 >* [사용 가능한 타사 데이터 공급자](third-party-data-providers.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
 
-<!-- I'll add x-ref to ad settings later.-->
