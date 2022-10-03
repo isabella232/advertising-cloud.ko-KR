@@ -3,9 +3,9 @@ title: 광고 사양
 description: 일반 및 게시자별 광고 사양을 참조합니다.
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: 3c5a114339c2bf41637027c8580316626656fbba
+source-git-commit: 40228a7de376cd4884d4cf7141c75516bc1a97ec
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -54,15 +54,13 @@ ht-degree: 0%
 
 #### 연결된 TV 광고에 대한 추가 게시자 요구 사항
 
-* **훌루:** 줄루네 [광고 사양](https://advertising.hulu.com/ad-products/video-commercial/).
-
-* **파라마운트:** 파라마운트 [광고 사양](https://www.paramount.com/digital-ads).
+* **A+E 네트워크:** A+E 네트워크 [광고 사양](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
 
 * **검색:** Discovery를 참조하십시오. [광고 사양](/help/dsp/assets/discovery-networks-ad-specs.pdf).
 
-* **HBO 최대:** HBO Max를 참조하십시오. [광고 사양](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
+* **디즈니(incr) 후루):** 디즈니 [광고 사양](https://hulu.disneyadsales.com/ad-products/video-commercial/).
 
-* **A+E 네트워크:** A+E 네트워크 [광고 사양](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
+* **HBO 최대:** HBO Max를 참조하십시오. [광고 사양](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
 
 * **NBCUniversal:**
 
@@ -72,32 +70,7 @@ ht-degree: 0%
 
    * [피콕](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
-* **디즈니:**
-
-   * ESPN Livestreaming:
-
-      **비트율:** > 14000kbps
-      **형식:** .mp4
-      **태그 유형:** VAST 2.0
-      **광고 크기:** 1280x720 또는 1920x1080
-
-   * 전체 에피소드 프로그래밍(FEP): ESPN, ABC, 자유 형식, Nat Geo 및 FX
-
-      * **비트율:** > 14000 kbps:
-
-         **형식:** .mp4
-
-         **태그 유형:** VAST 2.0
-
-         **광고 크기:** 1280x720 또는 1920x1080
-
-      * **비트율:** > 1000kbps(저해상도) 또는 15000 kbps(고해상도):
-
-         **형식:** .mp4
-
-         **태그 유형:** VAST 2.0(데스크탑의 VPAID 1.0)
-
-         **광고 크기:** 1280x720 또는 1920x1080
+* **파라마운트:** 파라마운트 [광고 사양](https://www.paramount.com/digital-ads).
 
 ## 디스플레이 광고
 
