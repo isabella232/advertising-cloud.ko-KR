@@ -3,7 +3,7 @@ title: 광고 사양
 description: 일반 및 게시자별 광고 사양을 참조합니다.
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: 40228a7de376cd4884d4cf7141c75516bc1a97ec
+source-git-commit: 8bc43253f15859c3b7dd7441fcbb4f34ecc98566
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 0%
@@ -116,36 +116,36 @@ ht-degree: 0%
 
 #### 추가 게시자 요구 사항
 
-* **[!DNL Spotify]**
-   * 길이: 최대 30초
-   * 파일 형식: OGG
-   * 최대 파일 크기: 500MB
-   * 볼륨: RMS가 -14로 표준화됨; dBFS 피크가 -0.2dBFS로 표준화됨
-
-* **[!DNL SoundCloud]**
-   * 길이: 6, 15 또는 30초
-   * 파일 형식: MP3
-   * 최대 파일 크기: 5MB
-
-* **[!DNL Pandora]**
-   * 길이: 15초 또는 30초
-   * 파일 형식: MP4(인앱), MP3(데스크탑)
-   * 최대 파일 크기: 2.2MB
-
-* **[!DNL TuneIn]**
-   * 길이: 10, 15 또는 30초
-   * 파일 형식: MP3, OGG
-   * 볼륨: 44.1킬로헤르츠
-
 * **[!DNL iHeartRadio]**
    * 길이: 5, 15, 30 또는 60초
    * 파일 형식: MP3
    * 최대 파일 크기: 320kbps
    * 볼륨: 44.1킬로헤르츠
 
+* **[!DNL Pandora]**
+   * 길이: 15초 또는 30초
+   * 파일 형식: MP4(인앱), MP3(데스크탑)
+   * 최대 파일 크기: 2.2MB
+
+* **[!DNL SoundCloud]**
+   * 길이: 6, 15 또는 30초
+   * 파일 형식: MP3
+   * 최대 파일 크기: 5MB
+
+* **[!DNL Spotify]**
+   * 길이: 최대 30초
+   * 파일 형식: OGG
+   * 최대 파일 크기: 500MB
+   * 볼륨: RMS가 -14로 표준화됨; dBFS 피크가 -0.2dBFS로 표준화됨
+
 * **[!DNL TargetSpot]**
    * 길이: 15, 30 또는 60초
    * 파일 형식: MP3
+
+* **[!DNL TuneIn]**
+   * 길이: 10, 15 또는 30초
+   * 파일 형식: MP3, OGG
+   * 볼륨: 44.1킬로헤르츠
 
 ### 컴패니언 배너 광고에 대한 요구 사항(선택 사항)
 
@@ -153,29 +153,29 @@ ht-degree: 0%
 
 #### 추가 게시자 요구 사항
 
-* **[!DNL Spotify]:**
-   * 파일 형식: 정적 JPG, PNG
-   * 최대 파일 크기: 200KB
+* **[!DNL iHeartRadio]:**
+   * 파일 형식: JPEG, JPG, PNG, GIF, SWF, HTML
+   * 최대 파일 크기: 2.2MB
    * Dimension: 300x250
-
-* **[!DNL SoundCloud]:**
-   * 파일 형식: 정적 JPG, PNG
-   * 최대 파일 크기: 400KB 미만
-   * Dimension: 1024x1024
 
 * **[!DNL Pandora]:**
    * 파일 형식: JPEG, GIF
    * 최대 파일 크기: 크기: 100KB
    * Dimension: 300x250(모바일 또는 데스크탑) 또는 500x500(데스크탑)
 
+* **[!DNL SoundCloud]:**
+   * 파일 형식: 정적 JPG, PNG
+   * 최대 파일 크기: 400KB 미만
+   * Dimension: 1024x1024
+
+* **[!DNL Spotify]:**
+   * 파일 형식: 정적 JPG, PNG
+   * 최대 파일 크기: 200KB
+   * Dimension: 300x250
+
 * **[!DNL TuneIn]:**
    * 파일 형식: JPEG, JPG, PNG, GIF, HTML
    * 최대 파일 크기: 2MB
-   * Dimension: 300x250
-
-* **[!DNL iHeartRadio]:**
-   * 파일 형식: JPEG, JPG, PNG, GIF, SWF, HTML
-   * 최대 파일 크기: 2.2MB
    * Dimension: 300x250
  
 
