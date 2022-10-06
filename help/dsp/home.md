@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: a3f676bd085571392a4add32f69fe0da4d4ae912
+source-git-commit: 3c951d738d5ef571b8f762df1f89ebd0360cd0f6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2022년 10월 6일 | 캠페인 | 캠페인 보기에 새 간격 관련 지표 열을 사용할 수 있습니다. &quot;어제의 OTS&quot;(타겟 지출), &quot;어제의 게재&quot;, &quot;어제의 목표&quot;, &quot;오늘의 OTS&quot;(타겟 지출), &quot;오늘의 게재&quot; 및 &quot;오늘의 목표&quot;. | 참조:[사용자 지정 열 보기 만들기](/help/dsp/campaign-management/reports/column-view-create.md)&quot; 및 &quot;[사용자 지정 열 보기 편집](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 2022년 9월 12일 | 패키지 및 배치 간격 | 이제 비행 게재 간격 및 지연 시간 게재 시 별도의 간격 제어를 사용할 수 있습니다. 이전에는 단일 전략이 두 가지 모두 제어되었습니다. 기존 패키지 및 배치에 대한 설정은 다음과 같이 매핑되었습니다.<ul><li>기존 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Even]* — 이제 로 구성됨 **[!UICONTROL Flight pacing]**=*[!UICONTROL Even]* 및 **[!UICONTROL Intraday pacing]**=*[!UICONTROL Even]*</li><li>기존 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Slightly Ahead]* — 이제 로 구성됨 **[!UICONTROL Flight pacing]**=*[!UICONTROL Slightly Ahead]* 및 **[!UICONTROL Intraday pacing]**=*[!UICONTROL Even]*</li><li>기존 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Frontload]* — 이제 로 구성됨 **[!UICONTROL Flight pacing]**=*[!UICONTROL Frontload]* 및 **[!UICONTROL Intraday pacing]**=*[!UICONTROL ASAP]*</li><li>기존 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Aggressive Frontload]* — 이제 로 구성됨 **[!UICONTROL Flight pacing]**=*[!UICONTROL Aggressive Frontload]* 및 **[!UICONTROL Intraday pacing]**=*[!UICONTROL ASAP]*</li></ul> | 참조:[패키지 설정](/help/dsp/campaign-management/packages/package-settings.md)&quot; 및 &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2022년 7월 27일 | 인벤토리 | Auction Insights는 보증 및 비보증 비공개 거래의 거래 구성을 분석할 수 있는 새로운 문제 해결 도구입니다. 데이터 시각화를 사용하여 이 도구는 특정 기간 내에 주요 경매 속성에 대해 수신된 값의 트렌드 및 상대적 비율을 표시합니다.<br><br>게시자의 입찰 요청 데이터에 대한 투명도를 사용하면 시간이 많이 소요되는 문제 해결 단계를 방지할 수 있습니다. | 참조:[비공개 거래에 대한 경매 인사이트 보기](/help/dsp/inventory/private-deal-auction-insights.md).&quot; |
 | 2022년 6월 29일 | 인벤토리 | 새로운 [!UICONTROL Inventory] > [!UICONTROL Deals] 보기에는 와 동일한 데이터 사용자 지정 기능이 포함되어 있습니다. [!UICONTROL Campaigns] 추가 필터, 열 사용자 지정 및 사용자 지정 보기, 열 정렬 및 데이터 시각화(차트) 보기를 저장하는 옵션을 포함한 보기. 각 행에서 명령 메뉴를 열 수 있습니다 [!UICONTROL ...] 거래 이름 뒤에 | 참조:[재고 기능 개요](/help/dsp/inventory/inventory-overview.md).&quot; |
