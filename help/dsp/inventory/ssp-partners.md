@@ -3,7 +3,7 @@ title: SSP 파트너
 description: 사용 가능한 SSP(공급측 플랫폼) 및 오픈 교환 파트너 목록을 참조하십시오.
 feature: DSP Private Inventory
 exl-id: 8487f4ce-0232-4145-ad8b-b0631fd0ab7f
-source-git-commit: 7674ed62cf0e3f44dabbf153bbb3fadd38495b2e
+source-git-commit: f6319fdee2e8509e0d0a960b6855a2c28d05d50a
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -50,7 +50,7 @@ SSP(공급측 플랫폼)는 디지털 미디어 소유자 및 게시자가 디�
 | [!DNL Teads] |  | [!DNL TubeMogul] 또는 Adobe Advertising Cloud | 아니요 | 아웃바운드 스트림 비디오 = 글로벌<br>표시 = NA + EMEA | USD | x | x |  | x | x |  |  |
 | [!DNL TripleLift] |  | [!DNL TubeMogul] 또는 Adobe Advertising Cloud | 아니요 | 글로벌 | USD |  |  |  |  |  | x |  |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] 또는 Adobe Advertising Cloud | 아니요 | 글로벌 | USD | x | x |  | x | x |  |  |
-| [!DNL Triton] |  | Adobe Advertising Cloud | 아니요 | 글로벌 | USD |  |  |  |  |  |  | x |
+| [!DNL Triton] |  | Adobe Advertising Cloud | 예 | 글로벌 | USD |  |  |  |  |  |  | x |
 | [!DNL Unruly] | [!DNL Tremor] | Adobe Advertising Cloud | 아니요 | 미국 + EMEA | USD | x | x |  |  |  |  |  |
 | [!DNL Yahoo] | [!DNL Verizon Media Group] | [!DNL TubeMogul] 또는 Adobe Advertising Cloud | 아니요 | 글로벌 | USD |  |  |  | x | x |  |  |
 
