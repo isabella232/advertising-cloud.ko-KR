@@ -3,9 +3,9 @@ title: SSP 파트너
 description: 사용 가능한 SSP(공급측 플랫폼) 및 오픈 교환 파트너 목록을 참조하십시오.
 feature: DSP Private Inventory
 exl-id: 8487f4ce-0232-4145-ad8b-b0631fd0ab7f
-source-git-commit: f6319fdee2e8509e0d0a960b6855a2c28d05d50a
+source-git-commit: 2c539b39962e1c8c54d6b2e8f48c010c814ce531
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,7 @@ SSP(공급측 플랫폼)는 디지털 미디어 소유자 및 게시자가 디�
 | [!DNL DailyMotion] | n/a | [!DNL TubeMogul] 또는 Adobe Advertising Cloud | 아니요 | 미국 + EMEA | USD, EUR | x | x | x |  |  |  |  |
 | [!DNL DistrictM] |  | Adobe | 아니요 | 미국/CA | USD |  |  |  | x | x |  |  |
 | [!DNL EMX Digital] |  | Adobe Advertising Cloud | 아니요 | 미국/CA | USD | x | x | x |  |  |  |  |
+| [!DNL Equativ] (이전 [!DNL SmartAdServer]) |  | [!DNL TubeMogul] 또는 Adobe Advertising Cloud | 아니요 | 글로벌 | USD, EUR | x | x |  | x | x |  |  |
 | [!DNL FreeWheel] (이전 [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] 또는 Adobe Advertising Cloud | 예 | 글로벌 | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
 | [!DNL Fyber]/[!DNL Inneractive] |  | [!DNL TubeMogul] | 아니요 | 글로벌 | USD | x | x |  |  |  |  |  |
 | [!DNL Google AdX] (지금) [!DNL Google Authorized Buyers]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe EU - 94893418<br>Adobe APAC - 89185975 | 예 | 글로벌 | USD, BRL | x | x | x | x | x |  | x |
@@ -39,7 +40,6 @@ SSP(공급측 플랫폼)는 디지털 미디어 소유자 및 게시자가 디�
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] 또는 Adobe Advertising Cloud | 예 | 글로벌 | USD | x |  |  | x | x |  |  |
 | [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] 또는 Adobe Advertising Cloud | 아니요 | 글로벌 | USD | x | x | x | x | x |  |  |
 | [!DNL ShareThrough] |  | [!DNL TubeMogul] 또는 Adobe Advertising Cloud | 아니요 | 글로벌 | USD | x | x |  | x | x | x |  |
-| [!DNL Smart Ad Server] |  | [!DNL TubeMogul] 또는 Adobe Advertising Cloud | 아니요 | 글로벌 | USD, EUR | x | x |  | x | x |  |  |
 | [!DNL SmartClip] |  | Adobe Advertising Cloud | 아니요 | EMEA | 모든 통화 | x | x | x | x | x |  |  |
 | [!DNL SmartStream] |  | Adobe Advertising Cloud | 아니요 | EMEA | EUR, USD | x | x |  |  |  |  |  |
 | [!DNL Sortable] |  | Adobe Advertising Cloud | 아니요 | CA | USD |  |  |  | x | x |  |  |

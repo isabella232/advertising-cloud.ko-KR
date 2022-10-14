@@ -3,9 +3,9 @@ title: 성능 캠페인 설정에 대한 우수 사례
 description: 최저 CPA 또는 가장 높은 ROAS에 맞게 최적화된 배치를 포함하는 성능 중심 캠페인을 설정하는 우수 사례를 알아봅니다.
 feature: DSP Optimization, DSP Best Practices
 exl-id: fc64680d-9d1c-4f74-a8b9-2e9b670c00eb
-source-git-commit: 1fd95b3193fba50ce7cd85b2ad6256a0ba346011
+source-git-commit: 22821c0fe8c2864ab36d7aa1141a7527cc08a35b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,8 @@ Advertising Cloud은 CPA(Inquisition Per Acquisition) 또는 ROAS(High Return On
 * **[!UICONTROL Site Tier]**: [!UICONTROL All sites]
 
 ### 대상 타깃팅
+
+<!-- Say something about limiting unnecessary constraints/limitations, including dayparting, which limit your chances for ad exposure. Use only when it's required for your audience. -->
 
 * **[!UICONTROL Included Audiences]:**
    * 잠재 고객 배치의 경우, 유사한 대상 카테고리와 유사한 대상 크기를 하나의 배치로 그룹화합니다. 그런 다음 성능을 기준으로 다음 중 하나를 수행합니다.
