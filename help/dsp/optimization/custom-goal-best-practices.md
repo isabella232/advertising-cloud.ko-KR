@@ -3,7 +3,7 @@ title: 사용자 지정 목표 구축에 대한 우수 사례
 description: 성공 이벤트를 정의하기 위한 사용자 지정 목표를 작성하는 모범 사례를 알아봅니다.
 feature: DSP Optimization, DSP Best Practices
 exl-id: 54b16325-4b72-48a3-a2e0-4e342229211c
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 7cb39998041d151ece7809adc8a2e872b922e5fc
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 다음 예는 단일 속성(지표)을 타깃팅하는 목표를 구성하는 방법을 보여줍니다.
 
-### 최적화 목표가 &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;인 캠페인의 예
+### &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; 최적화 목표
 
-캠페인 목표가 매출([!UICONTROL Highest ROAS - Custom Goal])인 경우 사용자 지정 목표(목표)에는 가중치가 1인 &quot;[!UICONTROL Revenue]&quot; 속성이 포함됩니다.
+캠페인 목표가 수익인 경우([!UICONTROL Highest ROAS - Custom Goal])이면 사용자 지정 목표(목표)에 &quot;[!UICONTROL Revenue]가중치가 1인 &quot; 속성입니다.
 
 ![단일 속성을 사용하는 ROAS 사용자 지정 목표의 예](/help/dsp/assets/custom-goal-roas.png)
 
 >[!NOTE]
 >
-> 1의 [!UICONTROL Property Weight]은(는) 추적되는 수입의 각 $1에 대해 1의 값과 같습니다.
+> A [!UICONTROL Property Weight] 그중 하나는 추적된 각 $1 매출에 대해 1의 값과 같습니다.
 >
-> 예를 들어 가중치가 1인 $250 전환은 $250로 보고됩니다. 전환 지표에 0.5의 가중치가 지정된 경우, $250 전환이 Advertising Cloud에서 $125로 보고됩니다($250 전환 * 0.5 [!UICONTROL Property Weight] = $125).
+> 예를 들어 가중치가 1인 $250 전환은 $250로 보고됩니다. 전환 지표에 0.5의 가중치가 지정된 경우 $250 전환이 Advertising Cloud에서 $125로 보고됩니다($250 전환 * 0.5 [!UICONTROL Property Weight] = $125).
 
-### 최적화 목표가 &quot;[!UICONTROL Lowest CPA - Custom Goal]&quot;인 캠페인의 예
+### &quot;[!UICONTROL Lowest CPA - Custom Goal]&quot; 최적화 목표
 
 캠페인 목표가 획득당 최소 비용(CPA)이고 하나의 성공 이벤트만 필요한 경우 해당 지표(다음 예에서 &quot;애플리케이션 제출&quot;)를 포함하게 됩니다. 가장 좋은 방법은 가중치를 1로 설정하는 것입니다.
 
@@ -36,15 +36,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 하나의 [!UICONTROL Property Weight] 은 추적된 각 변환에 대해 1의 값과 같습니다.
+> A [!UICONTROL Property Weight] 그중 하나는 추적된 각 변환에 대해 1의 값과 같습니다.
 >
-> 예를 들어 10개의 애플리케이션 제출 전환이 추적되면 10개의 애플리케이션 제출 전환이 보고됩니다.  전환 지표에 0.5의 가중치가 지정된 경우 10개의 전환은 Advertising Cloud에서 5개로 보고됩니다(10개의 전환 * 0.5 [!UICONTROL Property Weight] = 5).
+> 예를 들어 10개의 애플리케이션 제출 전환이 추적되면 10개의 애플리케이션 제출 전환이 보고됩니다.  전환 지표에 가중치가 0.5인 경우 10개의 전환이 Advertising Cloud에서 5개(5)로 보고됩니다(10 전환 * 0.5 [!UICONTROL Property Weight] = 5).
 
 ## 여러 속성을 사용한 사용자 지정 목표
 
 사용자 지정 목표에 여러 속성을 사용하는 두 가지 시나리오가 있습니다.
 
-* 캠페인 목표에는 여러 개의 성공 이벤트가 있습니다. 예를 들어 두 개 이상의 온사이트 작업을 위해 광고를 하고 있는 경우 모든 것이 CPA 목표에 귀속됩니다. 다음 예제 목표에는 세 개의 개별 속성(PDF 다운로드, 연락처 및 이메일 등록)이 포함되어 있으며 각 속성은 각 속성의 중요도가 같음을 [!DNL Adobe Sensei] 알고리즘에 알려줍니다. 비용이나 중요도가 다른 속성을 포함하는 경우 그에 따라 상대적 가중치를 조정할 수 있습니다.
+* 캠페인 목표에는 여러 개의 성공 이벤트가 있습니다. 예를 들어 두 개 이상의 온사이트 작업을 위해 광고를 하고 있으며 모든 것이 CPA 목표에 기여하고 있을 수 있습니다. 다음 예제 목표에는 세 개의 개별 속성(PDF 다운로드, 연락처 및 이메일 등록)이 포함되어 있으며 각 속성에는 가중치가 하나씩 있으며, 각 속성에는 [!DNL Adobe Sensei] 각 속성에 동일한 중요성이 지정되는 알고리즘. 비용이나 중요도가 다른 속성을 포함하는 경우 그에 따라 상대적 가중치를 조정할 수 있습니다.
 
    ![여러 속성이 있는 사용자 지정 목표 예](/help/dsp/assets/custom-goal-multiple-properties.png)
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
    ![여러 속성이 있는 사용자 지정 목표 예](/help/dsp/assets/custom-goal-multiple-properties2.png)
 
-   대신, 응용 프로그램 제출과 동일하게 랜딩 페이지 방문 횟수를 가중처리하면 자연스럽게 더 높은 랜딩 페이지 방문 수가 목표를 압도하고 랜딩 페이지 방문 횟수로 왜곡할 수 있습니다.<!--reword-->
+   대신, 애플리케이션 제출에 대해 동일한 랜딩 페이지 방문 횟수를 가중처리하면 자연스럽게 더 많은 랜딩 페이지 방문 수가 목표를 압도하고 랜딩 페이지 방문 횟수로 왜곡할 수 있습니다.<!--reword-->
 
 >[!MORELIKETHIS]
 >

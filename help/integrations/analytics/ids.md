@@ -3,9 +3,9 @@ title: 에서 사용하는 Advertising Cloud ID [!DNL Analytics]
 description: 에서 사용하는 Advertising Cloud ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: 8f0765251234b09eddaee721018285aee6b44b6a
+source-git-commit: 7cb39998041d151ece7809adc8a2e872b922e5fc
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Advertising Cloud DSP 및 Advertising Cloud Search에 적용 가능*
 
-Advertising Cloud에서는 온사이트 성능 추적에 두 개의 ID를 사용합니다. a *EF ID* 그리고 *AMO ID*.
+Advertising Cloud은 온사이트 성능 추적에 두 개의 ID를 사용합니다. a *EF ID* 그리고 *AMO ID*.
 
 광고 노출이 발생하면 Advertising Cloud에서 AMO ID 및 EF ID 값을 만들어 저장합니다. 광고를 본 방문자가 광고를 클릭하지 않고 사이트에 들어오면, [!DNL Analytics] 는 Advertising Cloud에서 을 통해 이러한 값을 호출합니다 [!DNL Analytics for Advertising Cloud] JavaScript 코드. 뷰스루 트래픽의 경우, [!DNL Analytics] 는 보충 ID(`SDID`)을 클릭하여 EF ID와 AMO ID를 [!DNL Analytics]. 클릭스루 트래픽의 경우 이러한 ID는 `s_kwcid` 및 `ef_id` 쿼리 문자열 매개 변수.
 
@@ -171,7 +171,7 @@ Analytics 보고서에서 [!UICONTROL AMO ID] 차원 및 사용 [!UICONTROL AMO 
 
 ## Analytics 분류 정보
 
-in [!DNL Analytics], [분류](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) 는 계정, 캠페인 또는 광고와 같은 주어진 추적 코드에 대한 메타데이터의 일부입니다. Advertising Cloud은 보고서를 생성할 때 데이터를 다양한 방법(예: 광고 유형 또는 캠페인)으로 표시할 수 있도록 분류를 사용하여 원시 Advertising Cloud 데이터를 분류합니다. 분류는 의 Advertising Cloud 보고 기준을 형성합니다 [!DNL Analytics] 와 같은 AMO 지표와 함께 사용할 수 있습니다. [!UICONTROL AMO Cost], [!UICONTROL AMO Impressions], 및 [!UICONTROL AMO Clicks]및 과 같은 사용자 지정 및 표준 온사이트 이벤트도 포함되어 있습니다. [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders], 및 [!UICONTROL Revenue].
+in [!DNL Analytics], [분류](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) 는 계정, 캠페인 또는 광고와 같은 주어진 추적 코드에 대한 메타데이터의 일부입니다. Advertising Cloud은 보고서를 생성할 때 데이터를 다양한 방법(예: 광고 유형 또는 캠페인)으로 표시할 수 있도록 분류를 사용하여 원시 Advertising Cloud 데이터를 분류합니다. 분류는 의 Advertising Cloud 보고 기준을 형성합니다 [!DNL Analytics] 와 같은 AMO 지표와 함께 사용할 수 있습니다. [!UICONTROL AMO Cost], [!UICONTROL AMO Impressions], 및 [!UICONTROL AMO Clicks]와 같은 사용자 지정 및 표준 온사이트 이벤트 포함 [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders], 및 [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >

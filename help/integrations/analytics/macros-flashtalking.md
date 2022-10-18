@@ -2,7 +2,8 @@
 title: 추가 [!DNL Analytics for Advertising Cloud] 매크로 [!DNL Flashtalking] 광고 태그
 description: 추가 이유 및 방법 알아보기 [!DNL Analytics for Advertising Cloud] 매크로 [!DNL Flashtalking] 광고 태그
 feature: Integration with Adobe Analytics
-source-git-commit: c95dc72fa42b47ecea0c27bd59a2df4cd9c20233
+exl-id: 4b060668-723c-4cd2-b70e-409501ec67de
+source-git-commit: 7cb39998041d151ece7809adc8a2e872b922e5fc
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -25,7 +26,7 @@ ht-degree: 0%
 >
 >JavaScript 코드는 쿠키를 계속 사용할 수 있는 동안에만 클릭 추적을 위한 솔루션입니다. 쿠키가 중단되면 다음 매크로를 구현해야 합니다.
 
-* **웹 사이트에서 [!DNL Analytics for Advertising Cloud] JavaScript 코드를 대신 [!DNL Analytics] 클릭스루 데이터만 위한 서버측 전달** (뷰스루 데이터 없음): 다음 매크로는 Advertising Cloud을 통해 구매하는 광고에서 시작되는 온사이트 클릭 활동을 보고하는 데 필요합니다.
+* **웹 사이트에서 [!DNL Analytics for Advertising Cloud] JavaScript 코드를 대신 [!DNL Analytics] 클릭스루 데이터만 위한 서버측 전달** (뷰스루 데이터 없음): 다음 매크로는 Advertising Cloud을 통해 구매하는 광고에서 시작된 온사이트 클릭 활동을 보고하는 데 필요합니다.
 
 ## 광고 태그 표시
 
