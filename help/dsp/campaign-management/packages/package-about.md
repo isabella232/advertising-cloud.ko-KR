@@ -3,9 +3,9 @@ title: Advertising Cloud DSP의 패키지 관리 정보
 description: 패키지 관리에 대해 알아봅니다.
 feature: DSP Packages
 exl-id: 06d77698-62ae-466b-8cf7-c9148907ba6d
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 수동으로 또는 기존 패키지를 복제하여 패키지를 만들 수 있습니다. 배치를 편집하고 모든 패키지에 첨부할 수도 있습니다.
 
-## [!UICONTROL Packages] 대시보드
+## 다음 [!UICONTROL Packages] 대시보드
 
-[!UICONTROL Packages] 대시보드는 모든 패키지 전략에 대한 성능 및 경제적 보고를 중앙 집중화하여 지정된 날짜 범위 동안 패키지가 수행된 방식에 대한 빠른 스냅샷을 제공합니다.
+다음 [!UICONTROL Packages] 대시보드는 모든 패키지 전략에 대한 성능 및 경제적 보고를 중앙 집중화하여 지정된 날짜 범위 동안 패키지가 수행된 방식에 대한 빠른 스냅샷을 제공합니다.
 
 ![패키지 대시보드](/help/dsp/assets/package-dashboard.png)
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[사용자 지정 보고서](/help/dsp/reports/report-about.md)를 통해 패키지 보고의 컨텐츠 및 전달을 추가로 사용자 지정할 수 있습니다.
+>를 통해 패키지 보고의 컨텐츠 및 전달을 추가로 사용자 지정할 수 있습니다 [사용자 지정 보고서](/help/dsp/reports/report-about.md).
 
 패키지 내의 모든 배치를 보려면 패키지 이름을 클릭합니다.
 
@@ -37,5 +37,6 @@ ht-degree: 0%
 >* [패키지 만들기](package-create.md)
 >* [패키지 편집](package-edit.md)
 >* [패키지에 배치 첨부](package-attach-placement.md)
+>* [패키지에 대한 변경 로그 보기](package-change-log.md)
 >* [패키지 설정](package-settings.md)
 

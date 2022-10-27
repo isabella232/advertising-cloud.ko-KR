@@ -3,9 +3,9 @@ title: 배치 만들기
 description: 배치를 만드는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 4e37b571-9af4-4897-bff2-035a5f2600a5
-source-git-commit: a30f3bffaf63a79bb7aead69e52524419ed54ed0
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '649'
 ht-degree: 1%
 
 ---
@@ -123,6 +123,7 @@ ht-degree: 1%
 >* [배치 편집](placement-edit.md)
 >* [배치에 대한 광고 일정 편집](placement-edit-ad-schedule.md)
 >* [배치 일시 중지 또는 활성화](placement-pause-activate.md)
+>* [배치에 대한 변경 로그 보기](placement-change-log.md)
 >* [배치 설정](placement-settings.md)
 >* [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 

@@ -3,9 +3,9 @@ title: 배치 보관 또는 보관 해제
 description: 배치를 보관 또는 보관 해제하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 3d342f83-1bcb-4f80-b31a-2009bcdde565
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -20,26 +20,27 @@ ht-degree: 0%
 
 ## 배치 보관
 
-1. 주 메뉴에서 **[!UICONTROL Campaigns]** 을 클릭합니다.
-1. 캠페인 이름을 클릭합니다.
-1. 하위 메뉴에서 **[!UICONTROL Placements]** 을 클릭합니다.
-1. 배치 이름 옆에 있는 **[!UICONTROL ...]>[!UICONTROL Archive]** 를 클릭합니다.
-1. 확인 메시지에서 **[!UICONTROL Archive]** 을 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 캠페인의 이름을 클릭합니다.
+1. 하위 메뉴에서 **[!UICONTROL Placements]**.
+1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. 확인 메시지에서 **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->보관된 배치를 보려면 [!UICONTROL Placements] 보기를 필터링합니다. ![필터 단추](/help/dsp/assets/filter.png)를 클릭하고 **[!UICONTROL Placement status]**&#x200B;를 클릭한 다음 **[!UICONTROL Archived]**&#x200B;를 선택한 다음 **[!UICONTROL Apply]를 클릭합니다.**
+>보관된 배치를 보려면 를 필터링합니다. [!UICONTROL Placements] 보기: click ![필터 단추](/help/dsp/assets/filter.png)를 클릭합니다. **[!UICONTROL Placement status]** 을(를) 선택합니다. **[!UICONTROL Archived]**&#x200B;를 클릭한 다음 **[!UICONTROL Apply].**
 
 ## 배치 보관 해제
 
-1. 주 메뉴에서 **[!UICONTROL Campaigns]** 을 클릭합니다.
-1. 캠페인 이름을 클릭합니다.
-1. 하위 메뉴에서 **[!UICONTROL Placements]** 을 클릭합니다.
-1. 배치 이름 옆에 있는 **[!UICONTROL ...]>[!UICONTROL Unarchive]** 를 클릭합니다.
-1. 확인 메시지에서 **[!UICONTROL Unarchive]** 을 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 캠페인의 이름을 클릭합니다.
+1. 하위 메뉴에서 **[!UICONTROL Placements]**.
+1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. 확인 메시지에서 **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
 >* [배치 일시 중지 또는 활성화](placement-pause-activate.md)
 >* [배치 편집](placement-edit.md)
+>* [배치에 대한 변경 로그 보기](placement-change-log.md)
 

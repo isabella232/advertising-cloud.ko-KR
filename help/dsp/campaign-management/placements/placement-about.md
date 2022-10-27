@@ -3,9 +3,9 @@ title: Advertising Cloud DSP의 배치 관리 정보
 description: 배치 관리에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: 1d1382d9-b6c8-44bf-a708-8458769a39c6
-source-git-commit: 0d6d5e807053f042e0da1da65fed5e33a34dd4a9
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [배치 만들기](/help/dsp/campaign-management/placements/placement-create.md)
->* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [배치 만들기](placement-create.md)
+>* [배치에 대한 변경 로그 보기](placement-change-log.md)
+>* [배치 설정](placement-settings.md)
 
    >*[성능 문제 해결](/help/dsp/optimization/troubleshooting-performance.md)
 

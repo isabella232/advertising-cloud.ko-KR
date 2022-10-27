@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 3c951d738d5ef571b8f762df1f89ebd0360cd0f6
+source-git-commit: 9e1def0c5998ac35dbb2b466ed6ebc31f83fd026
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2022년 10월 27일 | 캠페인 | 이제 각 패키지 및 배치에 대해 선택한 날짜 범위 동안의 변경 사항을 보여주는 변경 로그를 사용할 수 있습니다. | 참조:[패키지에 대한 변경 로그 보기](/help/dsp/campaign-management/packages/package-change-log.md)&quot; 및 &quot;[배치에 대한 변경 로그 보기](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
+|  |  | 이제 을(를) 변경할 수 있습니다 [!UICONTROL Intraday Pacing] 여러 배치에 대해 동시에 설정하는 중입니다. | 참조:[배치 편집](/help/dsp/campaign-management/placements/placement-edit.md#edit-multiple-placements)&quot; 및 &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
+|  |  | &quot;[!UICONTROL Intraday Pacing]&quot; 열은 Excel QA 스프레드시트에서 사용할 수 있습니다. | 참조:[다운로드/업로드된 스프레드시트의 열](/help/dsp/campaign-management/qa/qa-sheet-columns.md).&quot; |
+|  |  | &quot;[!UICONTROL Intraday Pacing]&quot;열은 캠페인 보기에서 사용할 수 있습니다. | 참조:[사용자 지정 열 보기 만들기](/help/dsp/campaign-management/reports/column-view-create.md)&quot; 및 &quot;[사용자 지정 열 보기 편집](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
+|  |  | 을 통해 패키지 및 배치 보기를 필터링할 수 있습니다 [!UICONTROL Intraday Pacing] 설정 | 참조:[캠페인 데이터 필터링](/help/dsp/campaign-management/reports/campaign-data-filter.md).&quot; |
 | 2022년 10월 6일 | 캠페인 | 캠페인 보기에 새 간격 관련 지표 열을 사용할 수 있습니다. &quot;어제의 OTS&quot;(타겟 지출), &quot;어제의 게재&quot;, &quot;어제의 목표&quot;, &quot;오늘의 OTS&quot;(타겟 지출), &quot;오늘의 게재&quot; 및 &quot;오늘의 목표&quot;. | 참조:[사용자 지정 열 보기 만들기](/help/dsp/campaign-management/reports/column-view-create.md)&quot; 및 &quot;[사용자 지정 열 보기 편집](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 2022년 9월 12일 | 패키지 및 배치 간격 | 이제 비행 게재 간격 및 지연 시간 게재 시 별도의 간격 제어를 사용할 수 있습니다. 이전에는 단일 전략이 두 가지 모두 제어되었습니다. 기존 패키지 및 배치에 대한 설정은 다음과 같이 매핑되었습니다.<ul><li>기존 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Even]* — 이제 로 구성됨 **[!UICONTROL Flight pacing]**=*[!UICONTROL Even]* 및 **[!UICONTROL Intraday pacing]**=*[!UICONTROL Even]*</li><li>기존 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Slightly Ahead]* — 이제 로 구성됨 **[!UICONTROL Flight pacing]**=*[!UICONTROL Slightly Ahead]* 및 **[!UICONTROL Intraday pacing]**=*[!UICONTROL Even]*</li><li>기존 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Frontload]* — 이제 로 구성됨 **[!UICONTROL Flight pacing]**=*[!UICONTROL Frontload]* 및 **[!UICONTROL Intraday pacing]**=*[!UICONTROL ASAP]*</li><li>기존 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Aggressive Frontload]* — 이제 로 구성됨 **[!UICONTROL Flight pacing]**=*[!UICONTROL Aggressive Frontload]* 및 **[!UICONTROL Intraday pacing]**=*[!UICONTROL ASAP]*</li></ul> | 참조:[패키지 설정](/help/dsp/campaign-management/packages/package-settings.md)&quot; 및 &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2022년 7월 27일 | 인벤토리 | Auction Insights는 보증 및 비보증 비공개 거래의 거래 구성을 분석할 수 있는 새로운 문제 해결 도구입니다. 데이터 시각화를 사용하여 이 도구는 특정 기간 내에 주요 경매 속성에 대해 수신된 값의 트렌드 및 상대적 비율을 표시합니다.<br><br>게시자의 입찰 요청 데이터에 대한 투명도를 사용하면 시간이 많이 소요되는 문제 해결 단계를 방지할 수 있습니다. | 참조:[비공개 거래에 대한 경매 인사이트 보기](/help/dsp/inventory/private-deal-auction-insights.md).&quot; |

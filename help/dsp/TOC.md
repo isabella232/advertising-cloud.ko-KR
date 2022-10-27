@@ -8,9 +8,9 @@ user-guide-title: Advertising Cloud DSP 안내서
 user-guide-description: Advertising Cloud DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: ea9c5ba9263be2c1607d682ac035caae70621020
+source-git-commit: 8db395fce0006ce300b3e588c205ca9c87e30fb2
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '950'
 ht-degree: 6%
 
 ---
@@ -63,6 +63,7 @@ ht-degree: 6%
       + [패키지 복제](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [패키지에 배치 첨부](/help/dsp/campaign-management/packages/package-attach-placement.md)
       + [패키지 보관 또는 보관 해제](/help/dsp/campaign-management/packages/package-archive-unarchive.md)
+      + [패키지에 대한 변경 로그 보기](/help/dsp/campaign-management/packages/package-change-log.md)
       + [패키지 설정](/help/dsp/campaign-management/packages/package-settings.md)
    + 배치 {#placements}
       + [배치 관리 정보](/help/dsp/campaign-management/placements/placement-about.md)
@@ -73,6 +74,7 @@ ht-degree: 6%
       + [배치에 광고 첨부](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
       + [배치에 대한 광고 일정 편집](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [배치에 대한 세부 보고서 보기](/help/dsp/campaign-management/placements/placement-view-report.md)
+      + [배치에 대한 변경 로그 보기](/help/dsp/campaign-management/placements/placement-change-log.md)
       + [배치 일시 중지 또는 활성화](/help/dsp/campaign-management/placements/placement-pause-activate.md)
       + [배치 보관 또는 보관 해제](/help/dsp/campaign-management/placements/placement-archive-unarchive.md)
       + [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)

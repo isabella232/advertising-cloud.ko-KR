@@ -3,9 +3,9 @@ title: 다운로드/업로드된 스프레드시트의 열
 description: 다운로드 및 업로드된 Excel QA 스프레드시트의 열을 참조합니다.
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 1f7b76cec0c9d9af0fcfbad1bafb30505ffb2036
+source-git-commit: 12056598ae436123a867e6eaefde47657242dc73
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,8 @@ ht-degree: 0%
 | [!UICONTROL Goals] | [!UICONTROL Optimization Target] | 목표의 타겟 값입니다. | — |
 | [!UICONTROL Goals] | [!UICONTROL Pace on] | 배치가 을 향하는 길이인지 여부 *[!UICONTROL Budget]* 또는 *[!UICONTROL Impressions]*. | — |
 | [!UICONTROL Goals] | [!UICONTROL Max Bid] | 배치에 대한 최대 입찰입니다. | 예 |
-| [!UICONTROL Goals] | [!UICONTROL Flight Pacing] | 배치를 위한 비행 간격 전략: *[!UICONTROL evenly]*, *[!UICONTROL slightly ahead]*, *[!UICONTROL frontload]*, 또는 *[!UICONTROL aggressive frontload]*. | 예 |
+| [!UICONTROL Goals] | [!UICONTROL Flight Pacing] | 배치를 위한 비행 간격 전략: *[!UICONTROL Even]*, *[!UICONTROL slightly ahead]*, *[!UICONTROL frontload]*, 또는 *[!UICONTROL aggressive frontload]*. | 예 |
+| [!UICONTROL Goals] | [!UICONTROL Intraday Pacing] | 배치에 대한 일일 간격 전략: *[!UICONTROL Even]* 또는 *[!UICONTROL ASAP]*. | 예 |
 | [!UICONTROL Goals] | [!UICONTROL  Pre-Bid Filters] | 적용할 모든 사전 입찰 필터 기준입니다. | — |
 | [!UICONTROL Goals] | [!UICONTROL Bidding Rules] | 입찰 규칙(더 이상 사용되지 않음)이 *[!UICONTROL ON]* 또는 *[!UICONTROL OFF]*. | — |
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap] | 지정한 시간 동안 배치에 대한 기본 빈도 상한 [!UICONTROL Frequency Cap Interval]. | 예 |

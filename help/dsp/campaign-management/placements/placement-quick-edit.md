@@ -3,9 +3,9 @@ title: 키 배치 설정을 빠르게 편집
 description: 키 배치 설정을 빠르게 변경하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 107ec263-a0f2-491b-8380-2cceaf51cae9
-source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 0%
 >* [배치 복제](placement-duplicate.md)
 >* [배치에 대한 광고 일정 편집](placement-edit-ad-schedule.md)
 >* [배치 일시 중지 또는 활성화](placement-pause-activate.md)
+>* [배치에 대한 변경 로그 보기](placement-change-log.md)
 >* [배치 설정](placement-settings.md)
 >* [비디오: 벌크 편집 도구를 사용하여 배치를 편집하는 방법](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 
