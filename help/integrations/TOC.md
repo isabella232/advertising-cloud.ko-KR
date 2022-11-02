@@ -3,10 +3,10 @@ user-guide-title: Adobe Experience Cloud와 통합
 user-guide-description: Advertising Cloud DSP 및 Advertising Cloud Search와 다른 Adobe Experience Cloud 제품 및 서비스와의 통합에 대해 알아봅니다.
 breadcrumb-title: Experience Cloud와 통합
 index: true
-source-git-commit: 27534edcbd2bd2f27db5dee0ce3e240e97449d92
+source-git-commit: cc6042df60950ae09dccce262d6c32deed6bc313
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 13%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,5 +43,5 @@ ht-degree: 13%
       + [DSP 캠페인에서 노출 수집 및 데이터 클릭](/help/integrations/audience-manager/media-data-integration/collect.md)
       + [사용 사례](/help/integrations/audience-manager/media-data-integration/use-cases.md)
    + [Advertising Cloud 고객을 위한 Adobe Audience Analytics](/help/integrations/audience-manager/audience-analytics.md)
-+ [Adobe Target에서 Advertising Cloud DSP 광고에 대한 A/B 테스트 구성](/help/integrations/target/overview-ab-tests.md)
++ [Advertising Cloud DSP 광고용 Adobe Target의 A/B 테스트 구성](/help/integrations/target/overview-ab-tests.md)
 + [Advertising Cloud 통합에 대한 비디오 Tutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->

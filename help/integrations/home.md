@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 0808d101-3c6b-4671-b9e3-6f588427f8b5
-source-git-commit: 9d6177c90fb5507b4e1d281847e7ce3fe89ab9d3
+source-git-commit: 136933f5304edd8f16b8dcb649860f0fb07cf3fb
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2022년 11월 1일 | 도움말 | 새 문서에서는 Advertising Cloud DSP과 Adobe Target 간의 클릭스루 및 뷰스루 신호 공유를 구현하고, A/B 테스트 활동을 설정하는 방법을 설명합니다. [!DNL Target] DSP 광고에 대해 및 테스트 데이터를 보기 위해 Adobe Analytics Analysis Workspace을 설정하는 방법을 알아봅니다. | 참조:[Advertising Cloud DSP 광고용 Adobe Target의 A/B 테스트 구성](/help/integrations/target/overview-ab-tests.md).&quot; |
 | 2022년 8월 17일 | 도움말 | 새 장에서는 Advertising Cloud을 Adobe Audience Manager과 통합하는 모든 방법에 대해 설명합니다. | &quot;Adobe Audience Manager과 통합&quot;에 대한 개요를 참조하십시오.[Adobe Audience Manager과 Advertising Cloud 통합](/help/integrations/audience-manager/overview.md).&quot; |
 | 2021년 4월 27일 | [!DNL Analytics for Advertising Cloud] | 추가 이유 및 방법 알아보기 [!DNL Analytics for Advertising Cloud] 매크로 [!DNL Google Campaign Manager 360] 클릭 데이터를 Adobe Analytics에 전송할 태그를 추가합니다. | 참조:[추가 [!DNL Analytics for Advertising Cloud] 매크로 [!DNL Google Campaign Manager 360] 광고 태그](/help/integrations/analytics/macros-google-campaign-manager.md).&quot; |
 | 2021년 4월 19일 | [!DNL Analytics for Advertising Cloud] | 매크로에 매크로를 추가하는 이유 및 방법을 알아봅니다. [!DNL Flashtalking] 클릭 데이터를 Adobe Analytics에 전송할 태그를 추가합니다. | 참조:[추가 [!DNL Analytics for Advertising Cloud] 매크로 [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md).&quot; |

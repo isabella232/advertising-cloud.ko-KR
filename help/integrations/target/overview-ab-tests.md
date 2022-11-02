@@ -1,14 +1,14 @@
 ---
 title: Adobe Target에서 Advertising Cloud DSP 광고에 대한 A/B 테스트 구성
 description: 에서 A/B 테스트를 설정하는 방법을 알아봅니다 [!DNL Target] DSP 광고에 사용할 수 있습니다.
-source-git-commit: e4d0ae194da063f04fc153f0b55488bdd60f30db
+source-git-commit: 465f3c18a7d85d54bca5ff2f565694a9b211a7ed
 workflow-type: tm+mt
 source-wordcount: '1660'
 ht-degree: 0%
 
 ---
 
-# Adobe Target에서 Advertising Cloud DSP 광고에 대한 A/B 테스트 구성
+# Advertising Cloud DSP 광고용 Adobe Target의 A/B 테스트 구성
 
 <!-- Add [!UICONTROL and [!DNL tags throughout as needed. -->
 
