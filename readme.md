@@ -1,34 +1,34 @@
 ---
-source-git-commit: d3e36cef27fce533e9435717d428d54b982fd427
+source-git-commit: 0654347afd1caf5e9bd8ccabf41a8a591e604df5
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
 # Advertising Cloud을 위한 공동 작업 설명서
 
-제품 간, DSP 및 TV 문서를 포함하여 Adobe Advertising Cloud에 대한 설명서 저장소입니다. (나중에 크리에이티브 및 검색용 문서가 포함됩니다.)
+제품 간 및 DSP 문서를 포함하여 Adobe Advertising Cloud에 대한 설명서 저장소입니다. (나중에 검색에 대한 문서가 포함되며(?) (광고 문구)
 
 **참고: 이 페이지는 고객 관련 설명서에 게시되지 않습니다.**
 
 ## TOC
 
 + `TOC.md` 사용 안내서의 루트에 있는 는 안내서에 포함된 주제 구성을 제공합니다.
-+ 각 사용 안내서에는 고유한 `TOC.md`이 있으며, 필요한 경우 모든 페이지/주제를 정렬할 수 있습니다.
++ 각 사용 안내서에는 고유한 가 있습니다 `TOC.md`필요한 경우 모든 페이지/주제를 정렬할 수 있습니다.
 
 
 ## 사용 안내서
 
-+ 사용 안내서 소개는 `overview.md` 입니다.
++ 사용 안내서 소개는 라고 합니다. `overview.md`
 + 사용 안내서의 각 주제에는 고유한 디렉토리가 있습니다.
-   + 안내서에 *구현*&#x200B;이라는 주제가 있으면 해당 디렉토리가 `/implementation`입니다.
-+ 모든 이미지 자산은 사용 안내서의 루트에 있는 `/assets`에 저장됩니다.
-   + `/assets` 디렉토리의 모든 이미지는 현지화됩니다.
-   + `/no-localize` 디렉토리에 있는 모든 이미지는 현지화되지 않습니다. loc 버전에서 특정 자산이 불필요하게 재생되지 않는지 확인하는 데 사용할 수 있습니다.
+   + 안내서에 라는 주제가 있으면 *구현*&#x200B;를 지정하는 경우 해당 디렉토리가 입니다. `/implementation`
++ 모든 이미지 자산은에 저장됩니다. `/assets` 를 클릭합니다.
+   + 의 모든 이미지 `/assets` 디렉터리가 현지화됩니다.
+   + 의 모든 이미지 `/no-localize` 디렉토리가 현지화되지 않습니다. loc 버전에서 특정 자산이 불필요하게 재생되지 않는지 확인하는 데 사용할 수 있습니다.
 
 ## 사용 안내서 수준 메타데이터
 
-+ 사용 안내서를 설명하는 메타데이터는 `TOC.md`에 저장됩니다. 여기에는 다음이 포함됩니다.
++ 사용 안내서를 설명하는 메타데이터는 `TOC.md`. 여기에는 다음이 포함됩니다.
    + product - 제품/기능의 이름.
    + cloud - 이 제품이 속한 클라우드.
    + audience - 안내서가 타깃팅된 대상 또는 원형.
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 자세한 게시 지침, 스타일 안내서, 샘플 및 기타 리소스는 다음을 참조하십시오.
 
-+ [Advertising Cloud **에 대한 기여 작성자 지침**](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=EfficientFrontier&amp;title=Contributing+Author+Guidelines+for+Advertising+Cloud+Help)
++ [기여 작성자 지침 **특히 Advertising Cloud**](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=EfficientFrontier&amp;title=Contributing+Author+Guidelines+for+Advertising+Cloud+Help)
 + [모든 Adobe 작성자를 위한 공동 작성](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html)
 
 다음을 참조하십시오.

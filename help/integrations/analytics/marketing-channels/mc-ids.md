@@ -2,9 +2,10 @@
 title: Advertising Cloud ID를 사용하여 만들기 [!DNL Marketing Channels] 규칙
 description: Advertising Cloud ID를 사용하여 처리 규칙을 만드는 방법을 알아봅니다. [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 4fcdd586-e9c5-4405-a6dc-7799d2bac93e
+source-git-commit: d136b1fe6f6fd3861d0850e07efe7c320da4a7cc
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -83,7 +84,7 @@ EF ID 차원은 [!DNL Analytics] 보고 EF ID는 마케팅 채널을 만드는 �
 
 #### 뷰스루 규칙 표시
 
-디스플레이 뷰스루 채널을 만들려면 EF ID가 &quot;:i&quot;로 끝나는 규칙을 만듭니다. 방문자가 광고를 클릭하지 않았으므로 뷰스루 추적에 `ef_id` 또는 `s_kwcid` 를 입력합니다. 따라서 한 가지 조건만 필요합니다.
+디스플레이 뷰스루 채널을 만들려면 EF ID가 &quot;:i&quot;로 끝나는 규칙을 만듭니다. 방문자가 광고를 클릭하지 않았으므로 뷰스루 추적에 `ef_id` 또는 `s_kwcid` 를 사용하여 규칙을 만들 수 있습니다.
 
 ![표시 뷰스루 규칙의 예](/help/integrations/assets/a4adc-mc-rule-display-vt.png)
 

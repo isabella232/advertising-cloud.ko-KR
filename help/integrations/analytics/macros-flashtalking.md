@@ -3,9 +3,9 @@ title: 추가 [!DNL Analytics for Advertising Cloud] 매크로 [!DNL Flashtalkin
 description: 추가 이유 및 방법 알아보기 [!DNL Analytics for Advertising Cloud] 매크로 [!DNL Flashtalking] 광고 태그
 feature: Integration with Adobe Analytics
 exl-id: 4b060668-723c-4cd2-b70e-409501ec67de
-source-git-commit: 7cb39998041d151ece7809adc8a2e872b922e5fc
+source-git-commit: ae516c1947d2b163ebd97dd05fb4e2870a1450d2
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,5 @@ ht-degree: 0%
 >
 >* [개요 [!DNL Analytics for Advertising Cloud]](overview.md)
 >* [에서 사용하는 Advertising Cloud ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [추가 [!DNL Analytics for Advertising Cloud] 매크로 [!DNL Google Campaign Manager 360] 광고 태그](/help/integrations/analytics/macros-google-campaign-manager.md)
 
-
-<!-- >* [Append [!DNL Analytics for Advertising Cloud] Macros to [!DNL Google Campaign Manager 360] Ad Tags](macros-google-campaign-manager.md) -->
