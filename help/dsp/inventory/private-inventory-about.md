@@ -3,9 +3,9 @@ title: 비공개 인벤토리 정보
 description: 비공개 인벤토리 정보
 feature: DSP Private Inventory
 exl-id: 6b3923ca-ccd1-450e-bff0-139e3838c999
-source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
+source-git-commit: 7feb0e398c416805b376062d9f3dfec819fac2ee
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ RTB를 벗어난 광고주는 비공개 인벤토리를 사용하여 독점 미�
 
 다음 방법 중 하나로 거래 ID를 사용할 수 있습니다.
 
-* (활성화가 필요한 선택적 기능) [!UICONTROL Deal ID Inbox]를 설정하고, 다음 공급측 플랫폼(SSP)에 있는 게시자의 동의, 보증 및 비보증 비공개 비공개 인벤토리 거래를 검토하고 신속하게 수락할 수 있습니다. [!DNL FreeWheel], [!DNL Google Authorized Buyers] (이전에는 [!DNL AdX]) 및 [!DNL Magnite DV+] (이전 [!DNL Rubicon]) 내의 [!UICONTROL Deal ID inbox].
+* (활성화가 필요한 선택적 기능) [!UICONTROL Deal ID Inbox]를 설정하고, 다음 공급측 플랫폼(SSP)에 있는 게시자로부터 계약된 보증 및 비보증 비공개 인벤토리 거래를 검토하고 신속하게 수락할 수 있습니다. [!DNL FreeWheel], [!DNL Google Authorized Buyers] (이전에는 [!DNL AdX]) 및 [!DNL Magnite DV+] (이전 [!DNL Rubicon]) 내의 [!UICONTROL Deal ID inbox].
 
    자세한 내용은 &quot;[정보 [!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md).&quot;
 
@@ -36,7 +36,9 @@ RTB를 벗어난 광고주는 비공개 인벤토리를 사용하여 독점 미�
 
 에서 [!UICONTROL Inventory] > [!UICONTROL Deals] 보기, 개인 거래 설정을 만들 수 있습니다. 일부 거래 설정을 편집할 수도 있습니다. 배치 및 광고를 나열하고 추가 배치 및 광고를 비공개 거래에 첨부합니다. 비공개 거래에 액세스할 수 있는 광고주와 계정을 편집합니다. 거래의 성과 보고서를 봅니다. 비공개 거래에 대한 경매 인사이트를 보거나 거래를 보관 또는 보관 해제합니다.<!-- ; or edit the attribute tags for a deal -->
 
-필터를 적용하고, 표시된 열을 사용자 지정하고 선택적으로 사용자 정의 보기를 저장하고, 열을 정렬하고, 데이터를 차트로 보고 기존 거래 데이터를 표시하는 방법을 추가로 사용자 정의할 수 있습니다.
+&quot;거래 상태&quot; 열은 각 비공개 거래의 상태 상태를 나타냅니다. &quot;성공,&quot; &quot;경고, &quot;위험&quot; 또는 &quot;사용할 수 없음&quot; 거래를 예상대로 수행하지 않거나 지출하지 않는 이유 및 잠재적인 문제를 해결하는 단계를 포함하여 상태를 클릭하여 자세한 내용을 볼 수 있습니다.
+
+필터를 적용하고, 표시된 열을 사용자 지정하고 선택적으로 사용자 정의 보기를 저장하고, 열을 정렬하고, 데이터를 차트로 보고 기존 거래 데이터를 표시하는 방법을 사용자 정의할 수 있습니다.
 
 >[!MORELIKETHIS]
 >
