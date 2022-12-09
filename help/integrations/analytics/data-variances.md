@@ -3,9 +3,9 @@ title: 다음 사이 예상되는 데이터 분산 [!DNL Analytics] 및 Advertis
 description: 다음 사이 예상되는 데이터 분산 [!DNL Analytics] 및 Advertising Cloud
 feature: Integration with Adobe Analytics
 exl-id: 34685e04-d4f9-4e27-b83e-b56164244b2b
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 76d6e94d69f4bd47d982c36e6c24a0e7031a823c
 workflow-type: tm+mt
-source-wordcount: '3282'
+source-wordcount: '3285'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Advertising Cloud에서는 연결된 클릭 날짜/이벤트 날짜(클릭 또�
 
 ## 의 속성 [!DNL Analytics Marketing Channels]
 
-[[!DNL Analytics Marketing Channels] 보고](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/marketing-channels-admin.html) 히트 정보의 고유한 측면을 기반으로 다양한 마케팅 채널을 식별하도록 규칙을 구성할 수 있습니다. Advertising Cloud이 추적한 채널([!UICONTROL Display Click Through], [!UICONTROL Display View Through], 및 [!UICONTROL Paid Search]) [!DNL Marketing Channels] 사용 `ef_id` 채널을 식별하는 쿼리 문자열 매개 변수입니다. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> 하지만, [!DNL Marketing Channels] 보고서는 Advertising Cloud 채널을 추적할 수 있으며, 여러 가지 이유로 데이터가 Advertising Cloud 보고서와 일치하지 않을 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
+[[!DNL Analytics Marketing Channels] 보고](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html) 히트 정보의 고유한 측면을 기반으로 다양한 마케팅 채널을 식별하도록 규칙을 구성할 수 있습니다. Advertising Cloud이 추적한 채널([!UICONTROL Display Click Through], [!UICONTROL Display View Through], 및 [!UICONTROL Paid Search]) [!DNL Marketing Channels] 사용 `ef_id` 채널을 식별하는 쿼리 문자열 매개 변수입니다. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> 하지만, [!DNL Marketing Channels] 보고서는 Advertising Cloud 채널을 추적할 수 있으며, 여러 가지 이유로 데이터가 Advertising Cloud 보고서와 일치하지 않을 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Advertising Cloud 보고서는 Advertising Cloud(Advertising Cloud Search 광고
 
 ## Adobe Analytics의 데이터 차이점 [!DNL Paid Search Detection]
 
-다음 [이전 [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) 기능 [!DNL Analytics] 회사가 [유료 및 유기 검색 트래픽을 추적하는 규칙 정의](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html) 지정된 검색 엔진에 대해 사용할 수 있습니다. 다음 [!DNL Paid Search Detection] 규칙은 쿼리 문자열 및 참조 도메인을 모두 사용하여 유료 검색 트래픽과 자연어 검색 트래픽을 식별합니다. 다음 [!DNL Paid Search Detection] 보고서는 더 큰 그룹 [검색 방법](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html) 지정된 이벤트(예: 장바구니 체크아웃)가 발생하거나 방문이 종료될 때 만료되는 보고서입니다.
+다음 [이전 [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html) 기능 [!DNL Analytics] 회사가 [유료 및 유기 검색 트래픽을 추적하는 규칙 정의](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html) 지정된 검색 엔진에 대해 사용할 수 있습니다. 다음 [!DNL Paid Search Detection] 규칙은 쿼리 문자열 및 참조 도메인을 모두 사용하여 유료 검색 트래픽과 자연어 검색 트래픽을 식별합니다. 다음 [!DNL Paid Search Detection] 보고서는 더 큰 그룹 [검색 방법](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html) 지정된 이벤트(예: 장바구니 체크아웃)가 발생하거나 방문이 종료될 때 만료되는 보고서입니다.
 
 다음은 인터페이스를 만들고 [!DNL Paid Search Detection] 규칙 세트:
 
@@ -145,7 +145,7 @@ Advertising Cloud 보고서는 Advertising Cloud(Advertising Cloud Search 광고
 
 ### 구성 이유 [!DNL Paid Search Detection]?
 
-다음 [!DNL Paid Search Detection] 보고서를 사용하면 [[!DNL Analytics Marketing Channels] 보고서](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/marketing-channels-admin.html). 유료 검색 트래픽과 자연어 검색 트래픽을 분리하는 것은 자연어 검색이 전체 마케팅 에코시스템에 가져오는 값을 이해하는 좋은 방법입니다.
+다음 [!DNL Paid Search Detection] 보고서를 사용하면 [[!DNL Analytics Marketing Channels] 보고서](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html). 유료 검색 트래픽과 자연어 검색 트래픽을 분리하는 것은 자연어 검색이 전체 마케팅 에코시스템에 가져오는 값을 이해하는 좋은 방법입니다.
 
 ## 클릭스루 데이터 유효성 검사 대상 [!DNL Analytics for Advertising Cloud] {#data-validation}
 
