@@ -3,9 +3,9 @@ title: Advertising Cloud DSP의 광고 관리 정보
 description: 광고 관리에 대해 알아봅니다.
 feature: DSP Ads
 exl-id: 72c8bbef-d09c-4cf4-994d-99578d043d39
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: 1499d9d86d8c2bafb03b41687c50dbf708c715da
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Advertising Cloud DSP은 다양한 광고 유형에 대한 타사 광고 서비�
 * **프리롤 광고(타사 전용)**: 프리롤 광고(VAST 및 VPAID)는 프리미엄 비디오 컨텐츠 앞에 표시되며, 몰입감 있고 매력적인 뷰어 환경을 제공합니다. 프리롤 비디오는 대화형, 리치 미디어 기능, 오버레이, 롤오버 및 클릭유도자를 포함할 수 있습니다. 프리롤 비디오 광고의 주요 성능 지표는 다음과 같습니다 [!UICONTROL Video Completion Rate] 및 [!UICONTROL Viewability Rate].
 
 * **연결된 TV 광고(타사 전용)**: 연결된 TV 광고는 프리미엄 TV 비디오 컨텐츠 전후에 표시됩니다. 연결된 모든 TV 인벤토리는 TV 장치에서 실행됩니다. 즉, 비디오가 건너뛸 수 없는 전체 화면 환경에서 자동으로 재생됩니다. 연결된 TV는 TV 광고에 가장 가까운 디지털 비디오 포맷이다. 연결된 TV의 주요 성능 지표는 다음과 같습니다 [!UICONTROL Completion Rate].
+
+* **범용 비디오 광고(타사 전용)**: 범용 비디오 광고는 연결된 TV, 프리롤 및 모바일 프리롤 광고(VAST 및 VPAID)의 모든 기능을 하나로 결합하고 비디오 컨텐츠 전후에 표시됩니다. 범용 비디오 광고는 데스크탑, 모바일 및 연결된 TV 환경에서 비디오 인벤토리를 타깃팅할 때 사용할 수 있으므로 여러 비디오 광고를 만들 필요가 없습니다. 범용 비디오에 대한 주요 성능 지표는 다음과 같습니다 [!UICONTROL Completion Rate] 및 [!UICONTROL Viewability Rate].
 
 ## Advertising Cloud DSP 광고 승인
 
