@@ -8,7 +8,7 @@ user-guide-title: Advertising Cloud DSP 안내서
 user-guide-description: Advertising Cloud DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 6996de4d7b3ee06bceb99292c4fe03878e7b61c9
+source-git-commit: 67c150ac363e4f3178c6eabda1321f7db97be4fb
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 6%
