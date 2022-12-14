@@ -3,7 +3,7 @@ title: 배치 만들기
 description: 배치를 만드는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 4e37b571-9af4-4897-bff2-035a5f2600a5
-source-git-commit: cb77fd450db1798f190f3b6eb51054553440bac9
+source-git-commit: 86f8df0c438a68dabba8f5b2abeb106d3320d7ef
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -77,7 +77,7 @@ ht-degree: 1%
 
       1. 클릭 **[!UICONTROL Create a New Ad].**
 
-      1. 에 대한 광고 설정을 지정합니다 [오디오 광고](/help/dsp/campaign-management/ads/ad-settings-audio.md), [연결된 TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [디스플레이 광고](/help/dsp/campaign-management/ads/ad-settings-display.md), [모바일 광고](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [기본 광고](/help/dsp/campaign-management/ads/ad-settings-native.md), [프리롤 광고](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md), 또는 [범용 비디오 광고](ad-settings-universal-video.md).
+      1. 에 대한 광고 설정을 지정합니다 [오디오 광고](/help/dsp/campaign-management/ads/ad-settings-audio.md), [연결된 TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [디스플레이 광고](/help/dsp/campaign-management/ads/ad-settings-display.md), [모바일 광고](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [기본 광고](/help/dsp/campaign-management/ads/ad-settings-native.md), [프리롤 광고](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md), 또는 [범용 비디오 광고](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
 
       1. 클릭 **[!UICONTROL Save & Submit for Review]**.
 
