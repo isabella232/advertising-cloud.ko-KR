@@ -3,9 +3,9 @@ title: 배치 만들기
 description: 배치를 만드는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 4e37b571-9af4-4897-bff2-035a5f2600a5
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: cb77fd450db1798f190f3b6eb51054553440bac9
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 1%
 
       1. 클릭 **[!UICONTROL Create a New Ad].**
 
-      1. 에 대한 광고 설정을 지정합니다 [오디오 광고](/help/dsp/campaign-management/ads/ad-settings-audio.md), [연결된 TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [디스플레이 광고](/help/dsp/campaign-management/ads/ad-settings-display.md), [모바일 광고](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [기본 광고](/help/dsp/campaign-management/ads/ad-settings-native.md), 또는 [프리롤 광고](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md).
+      1. 에 대한 광고 설정을 지정합니다 [오디오 광고](/help/dsp/campaign-management/ads/ad-settings-audio.md), [연결된 TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [디스플레이 광고](/help/dsp/campaign-management/ads/ad-settings-display.md), [모바일 광고](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [기본 광고](/help/dsp/campaign-management/ads/ad-settings-native.md), [프리롤 광고](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md), 또는 [범용 비디오 광고](ad-settings-universal-video.md).
 
       1. 클릭 **[!UICONTROL Save & Submit for Review]**.
 
@@ -87,16 +87,25 @@ ht-degree: 1%
    * 캠페인에 기존 광고를 첨부하려면
 
       1. 클릭 **[!UICONTROL Select an Ad]**.
+
       1. 다음 중 하나를 수행합니다.
+
          * 한 번에 한 개의 광고를 추가하려면:
+
             1. 광고 이름 옆에 있는 를 클릭합니다. **[!UICONTROL Select].**
+
             1. (선택 사항) 첨부할 각 추가 광고에 대해 **[!UICONTROL Attach Another Ad]**&#x200B;를 호출한 다음 프로세스를 반복합니다.
          * 한 번에 최대 20개의 광고를 추가하려면:
+
             1. 광고 목록 위에 있는 확인란을 선택합니다.
+
             1. 추가할 각 광고 옆에 있는 확인란을 선택합니다.
+
             1. 클릭 **[!UICONTROL Attach]**.
+
             1. 광고 이름 옆에 있는 를 클릭합니다. **[!UICONTROL Select]**.
       1. (선택 사항) 배치에서 특정 광고에 대한 기본 플라이트 기간 및 광고 순환을 무시하려면 다음을 수행합니다.
+
          1. 클릭 **[!UICONTROL Custom Schedule Ads]**.
 
          1. 다음 중 하나를 수행합니다.
@@ -113,6 +122,8 @@ ht-degree: 1%
          1. 오른쪽 상단에서 **[!UICONTROL Continue]**.
 
          1. 플라이트 세부 사항을 검토한 다음 **[!UICONTROL Save & Finish]**.
+
+
 
 
 

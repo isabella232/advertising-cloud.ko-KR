@@ -3,9 +3,9 @@ title: Advertising Cloud DSP 매크로
 description: 일반 추적에 사용할 수 있는 매크로를 참조하고 타사 디스플레이 광고의 클릭 수를 추적하십시오.
 feature: DSP Ads
 exl-id: e31cc2e5-ad1f-4555-a87b-0e4c3731fe5f
-source-git-commit: fbadd81a34c375f00fa3e420ea3c46fc9143daf8
+source-git-commit: b3fc18cf84713adcff5a4208db537b03904cfa08
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
@@ -102,4 +102,5 @@ DSP에서는 다음과 같은 경우 서드파티 디스플레이 태그에 표�
 >* [모바일 광고 설정](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
 >* [기본 광고 설정](/help/dsp/campaign-management/ads/ad-settings-native.md)
 >* [프리롤 광고 설정](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [범용 비디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
 
