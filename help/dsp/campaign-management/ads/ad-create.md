@@ -3,9 +3,9 @@ title: 단일 광고 만들기
 description: 단일 타사 광고를 만드는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: d93c6a66-a5cb-4117-97e8-424422200fce
-source-git-commit: 65ae74c2b17f21f143fd7d5e43aff2ec8b05bb85
+source-git-commit: ebb649c0ad3bf104900e03bec82f2a81c1572801
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 데이터 테이블 위에서 **[!UICONTROL Create]**. 에서 [!UICONTROL Ad Types] 메뉴의 섹션에서 [광고 유형](ad-about.md#ad-types).
 
-1. 에 대한 광고 설정을 지정합니다 [오디오 광고](ad-settings-audio.md), [연결된 TV](ad-settings-connected-tv.md), [디스플레이 광고](ad-settings-display.md), [모바일 광고](ad-settings-mobile.md), [기본 광고](ad-settings-native.md), [프리롤 광고](ad-settings-pre-roll.md):
+1. 에 대한 광고 설정을 지정합니다 [오디오 광고](ad-settings-audio.md), [연결된 TV](ad-settings-connected-tv.md), [디스플레이 광고](ad-settings-display.md), [모바일 광고](ad-settings-mobile.md), [기본 광고](ad-settings-native.md), [프리롤 광고](ad-settings-pre-roll.md), 또는 [범용 비디오 광고](ad-settings-universal-video.md):
 
    1. 설정 [!UICONTROL Insert Ad Tag] 화면에서 인증된 타사 광고 서비스 파트너의 광고에 대한 정보를 입력한 다음 를 클릭합니다 **[!UICONTROL Go]**.
 

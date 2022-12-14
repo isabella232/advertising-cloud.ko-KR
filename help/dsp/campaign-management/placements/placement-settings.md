@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 0a191d8d058fdf04ced0bb4ae3dc793a31af77af
+source-git-commit: 0f5bdf041c0de60730efe5190d438a6d29752034
 workflow-type: tm+mt
-source-wordcount: '3403'
+source-wordcount: '3422'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 0%
 1. 클릭 **[!UICONTROL Apply]**.
 
 **[!UICONTROL Ad specs for forecast]:** (비디오 광고 형식만 해당) 오른쪽에 있는 예측 투영을 계산하는 데 사용되는 광고 기간 및/또는 광고 사양입니다. 필드는 광고 유형에 따라 다릅니다.
+
+**[!UICONTROL Environment]:** (범용 비디오 광고 형식만 해당) 배치에 대상으로 포함할 장치 환경(데스크탑, 모바일, 연결된 TV)입니다.
 
 **[!UICONTROL Placement tags]:** (선택 사항) 이 배치를 찾는 데 도움이 되는 키워드 또는 별명입니다.
 

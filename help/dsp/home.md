@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: eb33bbadcae751e6bfc492b5ecddcd7569c7a336
+source-git-commit: 678125f88712043fc589aac752e1686be41f2f55
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2022년 12월 14일 | 배치, 광고 | 새로 만들기 &quot;[!UICONTROL Universal Video]&quot; 배치 및 광고를 사용하면 단일 비디오 배치를 사용하여 VPAID 및 VAST 인벤토리에 대한 여러 장치 환경을 타깃팅할 수 있습니다.<br><br>범용 비디오 배치에는 &quot;장치 환경&quot; 설정이 포함됩니다([!UICONTROL Desktop], [!UICONTROL Mobile], 및 [!UICONTROL Connected TV]). 범용 비디오 광고는 범용 비디오 배치에만 연결할 수 있습니다.<br><br>사용자 지정 보고서에는 새로운 배치 수준 차원 &quot;장치 환경&quot;이 포함됩니다. | 참조:[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)&quot; 및 &quot;[사용 가능한 보고서 열](/help/dsp/reports/report-columns.md).&quot;<br><br>참조: &quot;[범용 비디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot; 및 &quot;[광고 만들기](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
 | 2022년 11월 23일 | 딜 | 다음 [!UICONTROL Inventory] > [!UICONTROL Deals] 이제 보기에 &quot;[!UICONTROL Deal Health]&quot; 열은 각 비공개 거래의 상태 를 나타냅니다. &quot;[!UICONTROL Success],&quot; &quot;[!UICONTROL Warning],&quot; &quot;[!UICONTROL Critical],&quot; 또는 &quot;[!UICONTROL Unavailable].&quot; 거래가 예상대로 수행되지 않거나 지출되지 않는 이유 및 잠재적 문제를 해결하는 단계를 포함하여 상태를 클릭하여 자세한 내용을 볼 수 있습니다. | — |
 | 2022년 10월 27일 | [!UICONTROL Campaigns] | 이제 각 패키지 및 배치에 대해 선택한 날짜 범위 동안의 변경 사항을 보여주는 변경 로그를 사용할 수 있습니다. | 참조:[패키지에 대한 변경 로그 보기](/help/dsp/campaign-management/packages/package-change-log.md)&quot; 및 &quot;[배치에 대한 변경 로그 보기](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 |  |  | 이제 을(를) 변경할 수 있습니다 [!UICONTROL Intraday Pacing] 여러 배치에 대해 동시에 설정하는 중입니다. | 참조:[배치 편집](/help/dsp/campaign-management/placements/placement-edit.md#edit-multiple-placements)&quot; 및 &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
