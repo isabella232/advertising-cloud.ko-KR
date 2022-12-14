@@ -2,14 +2,16 @@
 title: 범용 비디오 광고 설정
 description: 범용 비디오 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
-source-git-commit: fa91f2c30841bde2b943dee31d373fec343bdc75
+source-git-commit: 2d344d2ae0438433eb679a5f31f471c2eac4fe26
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 범용 비디오 광고 설정
+
+*베타 기능 열기*
 
 ## [!UICONTROL Insert Ad Tag]
 

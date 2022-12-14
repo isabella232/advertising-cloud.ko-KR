@@ -3,16 +3,16 @@ title: 광고 사양
 description: 일반 및 게시자별 광고 사양을 참조합니다.
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: b867ace878a0c1e6391476e267c9161e5ecea921
+source-git-commit: b25521d35134ca453c889fc1a71e4c81f982a77b
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 지원되는 광고 유형에 대한 사양
 
-## 비디오 광고(프리롤 및 CTV)
+## 비디오 광고(프리롤, CTV 및 범용 비디오)
 
 ### 지원되는 화면
 
