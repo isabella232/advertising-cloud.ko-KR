@@ -2,13 +2,13 @@
 title: 보고서 대상 설정
 description: 대상 유형별로 보고서 대상에 필요한 세부 사항을 참조하십시오.
 feature: DSP Custom Reports
-source-git-commit: ff14691fd2b6fa56c303dca3ac0e4c897c322f72
+exl-id: 584c9c69-7b94-4e5c-bcc1-277ac2689d8e
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
 
 ---
-
 
 # 보고서 대상 설정
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]:** 대상을 식별하는 데 도움이 되는 이름입니다.
 
-**[!UICONTROL S3 Bucket URL]:** 폴더의 전체 경로 [!DNL Amazon Simple Storage Service] (S3) 보고서를 업로드할 버킷입니다. 예: `s3://adcloud_account/reports`
+**[!UICONTROL S3 Bucket URL]:** 폴더의 전체 경로 [!DNL Amazon Simple Storage Service] (S3) 보고서를 업로드할 버킷입니다. 예: `s3://dsp_account/reports`
 
 **[!UICONTROL Access Key ID]:** ()에 대한 액세스 키 ID입니다.[!DNL Amazon S3]) 버킷( 제공) [!DNL Amazon]).
 

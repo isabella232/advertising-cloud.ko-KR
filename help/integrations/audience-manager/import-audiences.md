@@ -3,9 +3,9 @@ title: 광고 타깃팅용 Adobe Audience Manager 세그먼트 가져오기
 description: 을(를) 가져오는 방법을 알아봅니다 [!DNL Adobe] Adobe Audience Manager을 사용하여 Advertising DSP 및 Search에 대상을 타깃팅합니다.
 feature: Integration with Adobe Audience Manager
 exl-id: 08a40148-b7d2-442b-81e8-f3aec4fca7df
-source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ Segment membership data is sent only after one of the following events occurs:
 
 DSP에서 세그먼트 이름은 Audience Manager 분류법에 의해 구성되며 다음의 해당 세그먼트 멤버십 수로 사용할 수 있습니다.
 
-* [배치 설정](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/campaign-management/placements/placement-settings.html?#audience-targeting): 설정 [!UICONTROL Adobe Segments] 의 탭 [!UICONTROL Audience Targeting] 섹션을 참조하십시오.
+* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md#audience-targeting): 설정 [!UICONTROL Adobe Segments] 의 탭 [!UICONTROL Audience Targeting] 섹션을 참조하십시오.
 
 * in [대상 설정](/help/dsp/audiences/audience-settings.md): 설정 [!UICONTROL Adobe Segments] 탭.
 

@@ -2,9 +2,9 @@
 title: Adobe Target에서 Adobe 광고 광고에 대한 A/B 테스트 구성
 description: 에서 A/B 테스트를 설정하는 방법을 알아봅니다 [!DNL Target] DSP 및 [!DNL Search] 광고.
 exl-id: 97055645-4b2f-4795-830d-9ce89ae2ad15
-source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -220,7 +220,7 @@ Analysis Workspace 내에서 활동 및 경험 데이터가 최소한으로 채�
 * [A/B 테스트 개요](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - DSP 광고에 사용할 수 있는 A/B 테스트 활동에 대해 설명합니다.
 * [경험 및 오퍼](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html) - 설명 [!DNL Target] DSP 테스트 사용자가 노출되는 온사이트 콘텐츠를 결정하는 도구입니다.
 * [신호, 트레이트 및 세그먼트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html) - DSP 뷰스루 테스트에 도움이 되는 Audience Manager 도구 중 일부를 정의합니다.
-* [Analytics for Advertising 개요](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html) - Analytics for Advertising을 도입하여 Analytics 인스턴스에서 클릭스루 및 뷰스루 사이트 상호 작용을 추적할 수 있습니다.
+* [Analytics for Advertising 개요](/help/integrations/analytics/overview.md) - Analytics for Advertising을 도입하여 Analytics 인스턴스에서 클릭스루 및 뷰스루 사이트 상호 작용을 추적할 수 있습니다.
 
 <!-- 
 >[!MORELIKETHIS]

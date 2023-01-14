@@ -3,7 +3,7 @@ title: 개요 [!DNL Analytics for Advertising]
 description: 개요 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 31367c8b-3410-4110-9ae6-11defe625355
-source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 [내의 광고 ID Adobe [!DNL Analytics]](ids.md) 는 다른 eVar와 마찬가지로 사용자 지정 및 영구 만료와 함께 작동합니다. 기본적으로 Adobe 광고 구현 중에 속성 전환 확인 기간은 60일로 설정됩니다. 이 설정을 변경하려면 [!DNL Adobe] 계정 팀입니다.
 
-Adobe 광고 차원은 &quot;(AMO ID)&quot; 접미사(예: &quot;광고 유형(AMO ID)&quot;)에 추가됩니다. 참조:[Analysis Workspace의 광고 지표 Adobe](advertising-cloud-metrics-in-analytics.md)사용 가능한 차원 목록에 대해 &quot;을 참조하십시오.
+Adobe 광고 차원은 &quot;(AMO ID)&quot; 접미사(예: &quot;광고 유형(AMO ID)&quot;)에 추가됩니다. 참조:[Analysis Workspace의 광고 지표 Adobe](advertising-metrics-in-analytics.md)사용 가능한 차원 목록에 대해 &quot;을 참조하십시오.
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Adobe 광고 차원은 &quot;(AMO ID)&quot; 접미사(예: &quot;광고 유형(A
 
 Adobe 광고 팀은 유료 미디어 성능에 적용할 수 있는 이벤트를 식별하고 Adobe 광고에 매핑하는 데 도움이 되며, 여기서 이 이벤트가 표시됩니다. [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
 
-참조:[Adobe 광고의 분석 지표](analytics-data-in-advertising-cloud.md)사용 가능한 지표 목록에 대해 &quot;을 참조하십시오.
+참조:[Adobe 광고의 분석 지표](analytics-data-in-advertising.md)사용 가능한 지표 목록에 대해 &quot;을 참조하십시오.
 
 ### 사이트 재타깃팅을 위한 Analytics 세그먼트
 
@@ -111,6 +111,6 @@ Adobe 광고 사이트 시작 보고서를 만들어 주별, 시간별, 브라�
 >* [Analytics에서 사용하는 Adobe 광고 ID](ids.md)
 >* [Analytics for Advertising에 대한 JavaScript 코드](/help/integrations/analytics/javascript.md)
 >* [다음 사이 예상되는 데이터 분산 [!DNL Analytics] 및 Adobe 광고](data-variances.md)
->* [Analysis Workspace의 광고 지표 Adobe](/help/integrations/analytics/advertising-cloud-metrics-in-analytics.md)
->* [[!DNL Analytics] Adobe 광고의 데이터](/help/integrations/analytics/analytics-data-in-advertising-cloud.md)
+>* [Analysis Workspace의 광고 지표 Adobe](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [[!DNL Analytics] Adobe 광고의 데이터](/help/integrations/analytics/analytics-data-in-advertising.md)
 
