@@ -3,9 +3,9 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 1d37fc96-0f9b-4eb2-ba8d-9534f627adaf
-source-git-commit: 4e389d687f8974028181a03534aff1abf6b43831
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 **[!UICONTROL Report Headers]:** 선택 여부 *[!UICONTROL Include]* 또는 *[!UICONTROL Do Not Include]* 열 머리글입니다.
 
-**[!UICONTROL Attribution Rule Settings]:** (모두 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], 및 [!UICONTROL Site] 보고서 [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열; Advertising Cloud 전환 추적만 있는 광고주) 보고서 내에서 전환을 초래하는 일련의 이벤트에 전환 데이터를 속성 지정하는 방법입니다. 규칙 간의 차이점을 비교하려면 두 개 이상의 규칙을 선택할 수 있습니다.
+**[!UICONTROL Attribution Rule Settings]:** (모두 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], 및 [!UICONTROL Site] 보고서 [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열; Adobe 광고 전환 추적만 있는 광고주) 보고서 내에서 전환으로 이어지는 일련의 이벤트에서 전환 데이터를 속성을 지정하는 방법입니다. 규칙 간의 차이점을 비교하려면 두 개 이상의 규칙을 선택할 수 있습니다.
 
 >[!NOTE]
 >
->전환 경로에는 광고주 노출 내에 있는 모든 노출 및 클릭 수를 포함하거나 Advertising Cloud Search에 구성된 클릭 전환 확인 기간이 포함됩니다. 전환 기여도 분석 중 노출 횟수에 대한 클릭 수가 기본 설정으로 지정됩니다. 전환 경로를 클릭하면 속성 규칙을 기반으로 전체 크레딧을 받습니다. 노출 횟수는 전환 경로에서 클릭 수가 추적되지 않은 경우에만 크레딧을 받습니다.
+>전환 경로에는 광고주의 노출 내에 있는 모든 노출 횟수 및 클릭 수가 포함되며, [!DNL Adobe Advertising Search]. 전환 기여도 분석 중 노출 횟수에 대한 클릭 수가 기본 설정으로 지정됩니다. 전환 경로를 클릭하면 속성 규칙을 기반으로 전체 크레딧을 받습니다. 노출 횟수는 전환 경로에서 클릭 수가 추적되지 않은 경우에만 크레딧을 받습니다.
 
 * *[!UICONTROL Last Event]:* 전환 경로의 마지막 클릭 또는 노출에 대한 속성 전환.
 
@@ -75,11 +75,11 @@ ht-degree: 0%
 
 * *[!UICONTROL U-shaped]:* 전환 경로의 모든 이벤트에 대한 전환 특성을 지정하지만 첫 번째 이벤트와 마지막 이벤트에 가장 큰 가중치를 주므로 전환 경로 중간에 있는 이벤트에 대한 가중치가 점진적으로 줄어듭니다.
 
-* *[!UICONTROL Display Only]:*  전환 경로의 마지막 DSP 클릭 또는 노출에 대한 속성 전환. 여기에는 비디오 및 연결된 TV 광고가 포함되며 Advertising Cloud Search 광고의 클릭 수는 제외됩니다.
+* *[!UICONTROL Display Only]:*  전환 경로의 마지막 DSP 클릭 또는 노출에 대한 속성 전환. 여기에는 비디오 및 연결된 TV 광고가 포함되며 클릭 횟수를 제외합니다 [!DNL Adobe Advertising Search] 광고.
 
 * *[!UICONTROL Social Only]:* 사용되지 않음
 
-<!-- See also [How Attribution Rules Are Calculated for Adobe Advertising Cloud](). -->
+<!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
 **[!UICONTROL Paths as Columns]:**  (모두 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], 및 [!UICONTROL Site] 보고서 [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열) 동일한 장치에서 이전 이벤트가 발생한 경우 보고할 전환 유형입니다. 최대 3가지 유형을 포함할 수 있습니다. 선택한 각 유형에 대해 각 변환 지표에 대해 별도의 열이 포함되며, 지정된 접미사( )가 추가됩니다.[!UICONTROL (tl)], [!UICONTROL (ct)], 또는 [!UICONTROL (vt)]):
 

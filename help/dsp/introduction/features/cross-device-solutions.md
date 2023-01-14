@@ -3,16 +3,16 @@ title: 교차 장치 솔루션
 description: 교차 장치 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: 29f8ec41-35a6-4a29-a638-82a2929a8fe6
-source-git-commit: d7afcc2200adc41e583d21712226cb25f35aab66
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
 
 # 교차 장치 솔루션
 
-Advertising Cloud DSP 통합 [!DNL LiveRamp] 을(를) 사용하면 브랜드가 추적한 장치뿐만 아니라 사용자의 알려진 모든 장치로 대상을 확장할 수 있습니다. 또한 통합은 모든 장치에서 빈도 제한 및 속성 측정을 제공합니다.
+Advertising DSP 통합 [!DNL LiveRamp] 을(를) 사용하면 브랜드가 추적한 장치뿐만 아니라 사용자의 알려진 모든 장치로 대상을 확장할 수 있습니다. 또한 통합은 모든 장치에서 빈도 제한 및 속성 측정을 제공합니다.
 
 지원되는 사람 기반 장치 그래프를 사용하는 경우 다음을 수행할 수 있습니다.
 
@@ -76,9 +76,9 @@ Advertising Cloud DSP 통합 [!DNL LiveRamp] 을(를) 사용하면 브랜드가 
 
 ## 사용자 기반 속성 측정
 
-*Advertising Cloud 전환 추적만 있는 광고주*
+*Adobe 광고 전환 추적만 있는 광고주*
 
-사용자 기반 속성을 사용하면 미디어 노출이 발생한 장치와 다른 장치에서 발생한 전환을 지정할 수 있습니다. 사이트에서 Advertising Cloud 변환 픽셀을 구현한 광고주를 위해 DSP, Advertising Cloud Search 및 Advertising Cloud Creative에서 사람 기반 속성 측정을 사용할 수 있습니다.
+사용자 기반 속성을 사용하면 미디어 노출이 발생한 장치와 다른 장치에서 발생한 전환을 지정할 수 있습니다. 사용자 기반 속성 측정은 DSP에서 사용할 수 있습니다. [!DNL Adobe Advertising Creative], 및 [!DNL Adobe Advertising Search] 사이트에서 Adobe 광고 변환 픽셀을 구현한 광고주용.
 
 ### 사용자 기반 속성 측정 활성화
 

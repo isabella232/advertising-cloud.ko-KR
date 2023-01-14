@@ -3,7 +3,7 @@ title: 여러 타사 광고 만들기
 description: 여러 타사 광고를 한 번에 만드는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: 83d35d27-1ab6-4fcf-877f-650a2dc6975a
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -41,9 +41,13 @@ ht-degree: 0%
 1. 각 광고의 세부 정보와 상태를 검토합니다.
 
    1. 업로드된 태그의 유효성 검사를 기반으로 하는 각 광고의 상태를 검토합니다.
+
    1. (선택 사항) 각 광고에 대해 다음 중 하나를 수행합니다.
+
       * 광고를 미리 보려면 ![play](/help/dsp/assets/play.png) 광고 행에 아래에 그룹화됩니다.
+
       * 광고 세부 사항을 편집하려면 ![편집](/help/dsp/assets/edit.png)를 클릭하고, 세부 사항을 편집한 다음 를 클릭합니다. **저장**.
+
       * 광고를 제거하려면 **[!UICONTROL X]** 광고 행에 아래에 그룹화됩니다.
 
 1. 클릭 **[!UICONTROL Create *N *광고]**.
@@ -53,8 +57,11 @@ ht-degree: 0%
    * 클릭 **[!UICONTROL Done]**.
 
    * (광고가 거부된 경우) (선택 사항) 광고 레코드를 편집하고 검토를 위해 광고를 재실행하려면
+
       1. 광고 이름을 클릭합니다.
+
       1. 광고 설정을 편집합니다.
+
       1. 클릭 **[!UICONTROL Save & submit for review]**.
 
 >[!MORELIKETHIS]

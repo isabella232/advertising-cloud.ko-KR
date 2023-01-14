@@ -1,21 +1,22 @@
 ---
 title: Adobe Audience Manager에 DSP Media Exposure 데이터 보내기 개요
-description: Advertising Cloud DSP 캠페인에서 Audience Manager 이벤트 픽셀을 사용하여 노출 수준 및 클릭 수준 데이터를 캡처하는 방법을 알아봅니다
+description: Advertising DSP 캠페인에서 Audience Manager 이벤트 픽셀을 사용하여 노출 수준 및 클릭 수준 데이터를 캡처하는 방법을 알아봅니다
 feature: Integration with Adobe Audience Manager
-source-git-commit: e861fc53ba14d783c763b291cdc618e5f1d4124f
+exl-id: 916b7deb-511e-4fbf-96d9-b274a48dc748
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
 # Adobe Audience Manager에 DSP Media Exposure 데이터 보내기 개요
 
-*Advertising Cloud DSP만 사용하는 광고주*
+*Advertising DSP만 사용하는 광고주*
 
-*Advertising Cloud-Adobe Audience Manager 통합만 있는 광고주*
+*Adobe Advertising-Adobe Audience Manager 통합 전용 광고주*
 
-Adobe Audience Manager을 사용하는 Advertising Cloud DSP 고객은 Audience Manager 이벤트 픽셀을 사용하여 DSP 캠페인의 노출 수준 데이터와 클릭 수준 데이터를 캡처할 수 있습니다. 이벤트 픽셀은 Audience Manager에 실행 가능한 신호로 데이터를 보냅니다. 이러한 신호를 통해 고급 세그멘테이션, 빈도 관리, 마케팅 분석 및 보고 통찰력과 같은 다양한 DSP 사용 사례를 사용할 수 있습니다.
+Adobe Audience Manager을 사용하는 Advertising DSP 고객은 Audience Manager 이벤트 픽셀을 사용하여 DSP 캠페인의 노출 수준 데이터와 클릭 수준 데이터를 캡처할 수 있습니다. 이벤트 픽셀은 Audience Manager에 실행 가능한 신호로 데이터를 보냅니다. 이러한 신호를 통해 고급 세그멘테이션, 빈도 관리, 마케팅 분석 및 보고 통찰력과 같은 다양한 DSP 사용 사례를 사용할 수 있습니다.
 
 DSP에서는 이러한 신호를 Audience Manager에게 전송하라는 요금을 부과하지 않습니다. 그러나 Audience Manager 계약에 따라 서버 호출을 기반으로 표준 Audience Manager 수집 비용을 지불합니다. Audience Manager은 두 가지 다른 방법으로 추적되는 중복 이벤트를 제거하므로 각 이벤트가 한 번만 청구됩니다.
 
@@ -51,6 +52,6 @@ Audience Manager은 광고가 제공될 때마다 투명한 이벤트 픽셀을 
 
 >[!MORELIKETHIS]
 >
->* [Advertising Cloud DSP 캠페인에서 클릭 및 노출 데이터 수집](collect.md)
+>* [Advertising DSP 캠페인에서 클릭 및 노출 데이터 수집](collect.md)
 >* [사용 사례](use-cases.md)
 

@@ -3,16 +3,16 @@ title: 성능 캠페인 설정에 대한 우수 사례
 description: 최저 CPA 또는 가장 높은 ROAS에 맞게 최적화된 배치를 포함하는 성능 중심 캠페인을 설정하는 우수 사례를 알아봅니다.
 feature: DSP Optimization, DSP Best Practices
 exl-id: fc64680d-9d1c-4f74-a8b9-2e9b670c00eb
-source-git-commit: 22821c0fe8c2864ab36d7aa1141a7527cc08a35b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
 
 # 성능 캠페인 설정에 대한 우수 사례
 
-Advertising Cloud은 CPA(Inquisition Per Acquisition) 또는 ROAS(High Return On Ad Spend)를 사용하여 배치에 대해 성능 중심의 캠페인을 최적화할 수 있습니다.
+DSP은 CPA(Inquisition Per Acquisition) 또는 광고 투자 수익률(ROAS)이 가장 낮은 배치로 성능 중심의 캠페인을 최적화합니다.
 
 성능 캠페인에 대한 다음 우수 사례를 참조하십시오.
 
@@ -55,7 +55,7 @@ Advertising Cloud은 CPA(Inquisition Per Acquisition) 또는 ROAS(High Return On
 
 #### 재타겟팅을 위한 권장 배치 전략
 
-* 광고주가 Adobe Analytics 또는 Adobe Audience Manager 고객인 경우 자사 세그먼트(예: 홈페이지 방문자, 제품 페이지 또는 장바구니 포기)를 작성하고 Advertising Cloud에서 이를 배치 대상으로 사용할 수 있습니다.
+* 광고주가 Adobe Analytics 또는 Adobe Audience Manager 고객인 경우 자사 세그먼트(예: 홈 페이지 방문자, 제품 페이지 또는 장바구니 포기)를 작성하고 DSP에서 배치 대상으로 사용할 수 있습니다.
 
 * 너무 많은 예산을 대상 타겟팅된 배치에 할당하지 마십시오. 일반적으로, 월별 1,000명의 사용자당 30달러의 예산을 책정합니다.
 

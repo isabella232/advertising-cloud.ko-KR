@@ -3,9 +3,9 @@ title: 브랜드 안전 및 미디어 품질
 description: 브랜드 안전 및 미디어 품질 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: b436936e3a0edcb78497fadb6f3c4086412baaa5
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1350'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 <!-- Check on logo sizes in staging environment -- I made them all 100 pixels high except for DoubleVerify, which is 150 (harder to see at 100), but some instances look larger in VS Code. -->
 
-Advertising Cloud DSP은 각 캠페인이 브랜드에 안전한 환경에서 실제 사용자에게 도달하도록 하는 브랜드 보호 기능 세트를 제공합니다.
+Advertising DSP은 각 캠페인이 브랜드에 안전한 환경에서 실제 사용자에게 도달하도록 하는 브랜드 보호 기능 세트를 제공합니다.
 
 Adobe의 사기 감시 팀은 [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)], 및 [!DNL WhiteOps]을 입력하여 플랫폼에서 인벤토리를 신중하게 조정할 수 있습니다. DSP은 Adobe의 서비스 사전 관리를 통해 플랫폼의 모든 광고주가 인간이 아닌 트래픽(보트, 크롤러, 데이터 센터 트래픽 및 사기)으로부터 보호되고 안전한 컨텍스트에서만 게재되도록 합니다.
 
-중앙 품질 관리를 제공하는 것 외에도 광고주가 자신의 브랜드에 맞는 컨트롤을 디자인할 수 있도록 권한을 부여하는 것이 좋습니다. Adobe Advertising Cloud은 과의 통합을 제공합니다 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], [!DNL Oracle Data Cloud], 및 [!DNL Peer39]를 사용하여 각 광고주가 원하는 수준의 사기 방지, 상황별 필터링 및 키워드 타깃팅을 선택할 수 있도록 합니다.
+중앙 품질 관리를 제공하는 것 외에도 광고주가 자신의 브랜드에 맞는 컨트롤을 디자인할 수 있도록 권한을 부여하는 것이 좋습니다. DSP에서는 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], [!DNL Oracle Data Cloud], 및 [!DNL Peer39]를 사용하여 각 광고주가 원하는 수준의 사기 방지, 상황별 필터링 및 키워드 타깃팅을 선택할 수 있도록 합니다.
 
-## Advertising Cloud DSP 품질 이니셔티브
+## 품질 이니셔티브
 
 ### 재고 확인 [!DNL Ads.txt] 지원
 
@@ -66,17 +66,17 @@ DSP은 플랫폼 전반에서 사기를 관리하기 위한 강력한 내부 도
 
    * **[!UICONTROL T3]** - 사용자가 생성한 콘텐츠와 니치 컨텐츠
 
-* **사이트 분류:** 쉽게 컨텐츠를 타깃팅하고 차단할 수 있도록 Adobe에서는 각 속성에 속성 컨텐츠를 기반으로 Advertising Cloud 정의 사이트 카테고리에 태그를 지정합니다. 다음을 수행할 수 있습니다 [각 배치에 대해 이러한 사이트 카테고리를 타깃팅하거나 제외합니다](/help/dsp/campaign-management/placements/placement-settings.md) 배치 목표를 기반으로 합니다.
+* **사이트 분류:** 쉽게 컨텐츠를 타깃팅하고 차단할 수 있도록 Adobe에서는 각 속성에 속성 컨텐츠를 기반으로 DSP 정의 사이트 카테고리에 태그를 지정합니다. 다음을 수행할 수 있습니다 [각 배치에 대해 이러한 사이트 카테고리를 타깃팅하거나 제외합니다](/help/dsp/campaign-management/placements/placement-settings.md) 배치 목표를 기반으로 합니다.
 
 ### 사이트 차단에 대한 종합적인 지원
 
-Advertising Cloud DSP은 전역적으로 차단된 사이트 목록과 광고주 및 계정에 대해 사용자 지정 차단 사이트 목록을 만드는 옵션을 제공합니다.
+DSP은 전역적으로 차단된 사이트 목록과 광고주와 계정에 대해 사용자 지정 차단 사이트 목록을 만드는 옵션을 모두 제공합니다.
 
-#### Advertising Cloud DSP 전역 차단 사이트 목록 {#global-blocked-sites}
+#### DSP 전역 차단 사이트 목록 {#global-blocked-sites}
 
-Advertising Cloud DSP은 광고를 실행하기에 안전하지 않다고 간주되는 사이트의 전역적으로 차단된 사이트 목록을 유지 관리합니다. 이 목록에는 불쾌한 콘텐츠(예: 증오 또는 테러)와 보트, 유사 프리롤, 일치하지 않는 도메인 및 기타 부정 행위가 감염된 사이트가 있는 사이트가 포함되어 있습니다.
+DSP은 광고를 실행하기에 안전하지 않다고 간주되는 사이트의 전역적으로 차단된 사이트 목록을 유지합니다. 이 목록에는 불쾌한 콘텐츠(예: 증오 또는 테러)와 보트, 유사 프리롤, 일치하지 않는 도메인 및 기타 부정 행위가 감염된 사이트가 있는 사이트가 포함되어 있습니다.
 
-광고주를 사취한 활동을 근절하기 위한 Brand Safety 이니셔티브의 일환으로, 차트로 차단된 사이트 목록에서 모든 사이트들이 그 조치를 사용하여 차단됩니다. 브랜드 안전 검사를 통과하지 않는 모든 사이트는 전역 차단 사이트 목록에 추가됩니다. Advertising Cloud DSP은 이 목록을 동적으로 관리하므로 최신 브랜드 안전 분석을 기반으로 사이트에서 언제든지 목록 위 또는 아래로 이동할 수 있습니다.
+광고주를 사취한 활동을 근절하기 위한 Brand Safety 이니셔티브의 일환으로, 차트로 차단된 사이트 목록에서 모든 사이트들이 그 조치를 사용하여 차단됩니다. 브랜드 안전 검사를 통과하지 않는 모든 사이트는 전역 차단 사이트 목록에 추가됩니다. DSP은 이 목록을 동적으로 관리하므로 최신 브랜드 안전 분석을 기반으로 사이트를 언제든지 목록에서 이동하거나 제거할 수 있습니다.
 
 전역적으로 차단된 사이트 목록에 사이트를 배치 대상으로 포함시키면 사이트가 빨간색 느낌표(!)로 플래그가 지정됩니다. 플래그가 지정된 사이트에서 광고가 실행되지 않음을 나타냅니다.
 

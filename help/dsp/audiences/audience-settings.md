@@ -3,7 +3,7 @@ title: 대상 설정
 description: 사용 가능한 대상 설정에 대한 설명을 참조하십시오.
 feature: DSP Audiences
 exl-id: 959c1e04-cb09-42f0-a261-580ff98b86be
-source-git-commit: 505944d534e04da8f903c24e7899e7a80cb836e4
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## 타사 세그먼트
 
-(선택 사항) 대상 구성에 포함할 Advertising Cloud의 타사 데이터 분류법을 통해 사용할 수 있는 모든 표준 세그먼트입니다.
+(선택 사항) 대상 구성에 포함할 Adobe 광고 타사 데이터 분류법을 통해 사용할 수 있는 모든 표준 세그먼트입니다.
 
 ## 자사 세그먼트
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 사용자 지정 세그먼트
 
-(선택 사항) 사용자 지정 Advertising Cloud 세그먼트 픽셀을 사용하여 캡처된 사용자가 만든 모든 세그먼트는 대상 구성에 포함할 것입니다. 여기에는 표준 사용자 지정 세그먼트 및 CCPA 판매 중지 세그먼트가 포함될 수 있습니다.
+(선택 사항) 사용자 지정 DSP 세그먼트 픽셀을 사용하여 캡처된 사용자가 만든 모든 세그먼트는 대상 구성에 포함할 것입니다. 여기에는 표준 사용자 지정 세그먼트 및 CCPA 판매 중지 세그먼트가 포함될 수 있습니다.
 
 ## 저장된 대상
 

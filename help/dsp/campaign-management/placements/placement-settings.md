@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 0f5bdf041c0de60730efe5190d438a6d29752034
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '3422'
+source-wordcount: '3418'
 ht-degree: 0%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 0%
 
 **[!UICONTROL Inventory Sources]:** 대상으로 포함하거나 제외할 재고 출처. 대부분의 배치 유형의 경우, 모든 재고 유형 및 각 유형의 모든 소스가 기본적으로 포함됩니다. 대상 [!DNL Roku] 배치, 재고 유형 및 소스를 지정해야 합니다. 다음 유형의 인벤토리 중에서 선택할 수 있습니다.
 
-* [!UICONTROL Public]: (Roku를 제외한 모든 배치 유형) Advertising Cloud이 액세스할 수 있는 모든 열린 Exchange 인벤토리입니다. 공개 인벤토리를 포함 및 제외할 수 있습니다.
+* [!UICONTROL Public]: (Roku를 제외한 모든 배치 유형) DSP이 액세스할 수 있는 모든 열린 Exchange 인벤토리입니다. 공개 인벤토리를 포함 및 제외할 수 있습니다.
 
    소스 또는 피드별로 목록을 볼 수 있습니다. 피드별로 목록을 볼 때 피드 이름, 피드 키 또는 선택한 특성 태그로 검색할 수 있습니다.
 
@@ -226,7 +226,7 @@ ht-degree: 0%
 >
 >성능 캠페인의 경우, 가장 좋은 방법은 *[!UICONTROL All Sites]*.
 
-**[!UICONTROL Site Categories]:** (선택 사항) 사용 가능한 경우 **[!UICONTROL Paste list of targeted sites]** is *[!UICONTROL Off]*) 타깃으로 포함 또는 제외(둘 다 제외)할 선택한 사이트 계층 내의 사이트 카테고리입니다. Advertising Cloud이 사이트 제목을 기반으로 매핑한 세로 사이트 목록 중에서 선택합니다.
+**[!UICONTROL Site Categories]:** (선택 사항) 사용 가능한 경우 **[!UICONTROL Paste list of targeted sites]** is *[!UICONTROL Off]*) 타깃으로 포함 또는 제외(둘 다 제외)할 선택한 사이트 계층 내의 사이트 카테고리입니다. DSP이 사이트 제목을 기반으로 매핑한 세로 사이트 목록 중에서 선택합니다.
 
 1. 클릭 ![편집](/help/dsp/assets/edit.png).
 1. 포함 또는 제외할 사이트 카테고리를 지정합니다.
@@ -257,7 +257,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 계정 수준 및 광고주 수준의 차단된 사이트 목록도 Advertising Cloud DSP 외에도 적용됩니다 [전역 차단 사이트 목록](/help/dsp/introduction/features/brand-safety-media-quality.md): 광고에는 안전하지 않다고 간주되는 사이트가 포함됩니다.
+>* 계정 수준 및 광고주 수준의 차단된 사이트 목록도 DSP 외에 적용됩니다 [전역 차단 사이트 목록](/help/dsp/introduction/features/brand-safety-media-quality.md): 광고에는 안전하지 않다고 간주되는 사이트가 포함됩니다.
 >* 차단된 사이트 목록은 항상 타깃팅된 사이트 목록을 무시합니다. 배치가 둘 다 제외되고 광고에 대해 동일한 타겟을 포함하는 경우 대상이 제외됩니다.
 
 

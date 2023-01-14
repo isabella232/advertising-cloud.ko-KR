@@ -3,7 +3,7 @@ title: 사용자 지정 보고서 정보
 description: 사용자 지정 보고서를 수동으로 만들거나 사전 구성된 보고서 템플릿을 사용하는 옵션에 대해 알아봅니다.
 feature: DSP Custom Reports
 exl-id: 59fc1894-1c9d-451d-b644-5640dd311547
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
       >
       >이 보고서에는 청구 세그먼트에 대한 데이터가 포함됩니다. 사용자 또는 장치가 여러 세그먼트에 속하는 노출에 제공되면 청구 가능한 세그먼트 하나가 노출에 반영됩니다.
 
-   * **[!UICONTROL Conversion]:** 이 보고서를 사용하여 Advertising Cloud 전환 추적을 사용하여 캡처한 전환 지표를 기반으로 캠페인이 어떻게 수행되는지 알아보십시오. 이 보고서에는 다중 터치 속성이 포함됩니다.
+   * **[!UICONTROL Conversion]:** 이 보고서를 사용하여 Adobe 광고 전환 추적을 사용하여 캡처한 전환 지표를 기반으로 캠페인이 어떻게 수행되는지 알아보십시오. 이 보고서에는 다중 터치 속성이 포함됩니다.
 
    * **[!UICONTROL Device]:** 이 미리 채워진 템플릿을 사용하여 장치 관련 차원별로 주요 지표를 볼 수 있습니다.
 

@@ -1,11 +1,11 @@
 ---
-title: '"만들기 [!UICONTROL Simple Ad Serving] 거래"'
+title: "만들기 [!UICONTROL Simple Ad Serving] 거래"
 description: 에 대한 추적 픽셀을 만드는 방법을 알아봅니다. [!UICONTROL Simple Ad Serving] "그래."
 feature: DSP Simple Ad Serving
 exl-id: d8de85ec-616c-44ed-9a1a-cc25713ad4a4
-source-git-commit: 089d91f7d1b06e29d27ac95a46834127d19c141d
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
       1. 클릭 **[!UICONTROL Next]**.
    1. 피드 세부 정보에서 피드 세부 사항을 편집한 다음 를 클릭합니다 **[!UICONTROL Next]**.
 
-      Advertising Cloud DSP은 자동으로 &quot;SAS Placement - &lt;*거래 이름*>,&quot;로 표시되어야 합니다. 배치에서 거래는 자동으로 [!UICONTROL Inventory Targets] 섹션을 참조하십시오. 다른 모든 타깃팅 선택 사항은 적용할 수 없습니다.
+      DSP은 &quot;SAS Placement - &lt;*거래 이름*>,&quot;로 표시되어야 합니다. 배치에서 거래는 자동으로 [!UICONTROL Inventory Targets] 섹션을 참조하십시오. 다른 모든 타깃팅 선택 사항은 적용할 수 없습니다.
 
 
 

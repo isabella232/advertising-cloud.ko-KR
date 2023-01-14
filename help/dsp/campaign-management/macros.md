@@ -1,18 +1,18 @@
 ---
-title: Advertising Cloud DSP 매크로
+title: Advertising DSP 매크로
 description: 일반 추적에 사용할 수 있는 매크로를 참조하고 타사 디스플레이 광고의 클릭 수를 추적하십시오.
 feature: DSP Ads
 exl-id: e31cc2e5-ad1f-4555-a87b-0e4c3731fe5f
-source-git-commit: b3fc18cf84713adcff5a4208db537b03904cfa08
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 
-# Advertising Cloud DSP 매크로
+# Advertising DSP 매크로
 
-매크로는 간단한 명령 또는 명령 축약이며 일반적으로 형식을 따릅니다 `${MACRO_NAME}`. 크리에이티브 코드 또는 클릭스루 URL에 포함된 매크로는 광고 서버가 이해할 수 있는 더 긴 코드 문자열로 확장됩니다. Advertising Cloud DSP 광고 서버는 광고가 제공되거나 클릭될 때 매크로를 실행합니다.
+매크로는 간단한 명령 또는 명령 축약이며 일반적으로 형식을 따릅니다 `${MACRO_NAME}`. 크리에이티브 코드 또는 클릭스루 URL에 포함된 매크로는 광고 서버가 이해할 수 있는 더 긴 코드 문자열로 확장됩니다. DSP 광고 서버는 광고가 제공되거나 클릭될 때 매크로를 실행합니다.
 
 광고 서버 매크로는 DSP 또는 타사 광고 서버에 중요한 정보를 전달하는 데 유용합니다. 매크로는 타사 및 사용자 지정 크리에이티브 코드 또는 메타데이터(예: 타사 픽셀)를 매매하는 동안 가장 일반적으로 사용됩니다.
 
@@ -80,7 +80,7 @@ VAST 태그, URL 또는 DSP 또는 타사 이벤트 픽셀과 같이 어디서�
 
 DSP에서는 다음과 같은 경우 서드파티 디스플레이 태그에 표시 클릭 매크로를 자동으로 삽입합니다.
 
-* Advertising Cloud 광고 서버 파트너에서 광고 태그 내보내기 <!-- [Needs PM confirmation.] -->
+* 광고 서버 파트너에서 광고 태그 내보내기 <!-- [Needs PM confirmation.] -->
 * 일괄 업로드 [!DNL Flashtalking] 또는 [!DNL Google DoubleClick for Advertisers] DSP에서 바로 태그 추가
 
 디스플레이 광고를 작성할 때 클릭 매크로가 누락된 경우 태그의 올바른 영역에 해당 표시 클릭 매크로를 수동으로 삽입하라는 경고 메시지가 DSP에 표시됩니다.

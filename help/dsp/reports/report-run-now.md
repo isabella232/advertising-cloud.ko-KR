@@ -2,13 +2,13 @@
 title: 사용자 지정 보고서 실행
 description: 사용자 지정 보고서를 즉시 실행하는 방법을 알아봅니다.
 feature: DSP Custom Reports
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: d983d34d-5853-4b9c-a8a9-889a9dd1a872
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 0%
 
 ---
-
 
 # 사용자 지정 보고서 실행
 
@@ -17,7 +17,9 @@ ht-degree: 0%
 >사용자 지정 보고서를 실행할 수도 있습니다 [만들기](report-create.md) 또는 [편집](report-edit.md) 그래
 
 1. 주 메뉴에서 **[!UICONTROL Reports]**.
+
 1. 에서 [!UICONTROL Options] 보고서 행의 열에서 **[!UICONTROL options]>[!UICONTROL Run Now]**.
+
 1. 확인 메시지에서 **[!UICONTROL OK]**.
 
    보고서가 완료되면 보고서 설정에 지정된 모든 이메일 주소로 전송됩니다.

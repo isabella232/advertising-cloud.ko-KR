@@ -3,9 +3,9 @@ title: 소비자 판매 중지 보고서 검색
 description: 판매 중지 요청에 대해 제출된 ID의 보고서를 검색하는 방법을 알아봅니다.
 feature: CCPA, DSP Segments
 exl-id: 8ada787a-6dcf-455b-88f4-701743e68292
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Advertising Cloud을 사용하여 소비자 옵트아웃 보고서를 선택적으로 검색할 수 있습니다 [!DNL Trafficking API]. 지침은 [!DNL Trafficking API]. 조직에서 [!DNL Trafficking API] 하지만 더 많은 정보에 관심이 있다면 [!DNL Adobe] 계정 팀입니다.
+>DSP을 사용하여 소비자 옵트아웃 보고서를 선택적으로 검색할 수 있습니다 [!DNL Trafficking API]. 지침은 [!DNL Trafficking API]. 조직에서 [!DNL Trafficking API] 하지만 더 많은 정보에 관심이 있다면 [!DNL Adobe] 계정 팀입니다.
 
 1. 주 메뉴에서 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
 1. 세그먼트 목록 위에서 을 클릭합니다. **[!UICONTROL Access CCPA Reports]**.
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [캘리포니아 소비자 개인 정보 보호법을 위한 Adobe Advertising Cloud 지원: 소비자 옵트아웃 지원](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-ccpa-opt-out-of-sale.html)
+>* [캘리포니아 소비자 개인 정보 보호법을 위한 Adobe 광고 지원: 소비자 옵트아웃 지원](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-ccpa-opt-out-of-sale.html)
 >* [정보 [!UICONTROL CCPA Opt-out-of-Sale] 세그먼트 및 보고서](ccpa-opt-out-about.md)
 >* [만들기 및 구현 [!UICONTROL CCPA Opt-Out-of-Sale] 세그먼트](ccpa-opt-out-segment-create.md)
 >* [대상자 관리 기본 정보](audience-about.md)

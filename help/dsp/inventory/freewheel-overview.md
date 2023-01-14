@@ -3,9 +3,9 @@ title: PG 딜 설정 개요 [!DNL Freewheel]
 description: 의 게시자와 프로그래밍 방식으로 보장되는 거래를 위한 광고를 실행하는 데 필요한 사전 요구 사항과 추가 단계에 대해 알아봅니다 [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: acf8351b-88fb-4f18-8fca-9a2d6674cdec
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 >
 >작업 [!DNL Adobe] 계정 팀: [!DNL DSP] 계정에는 다음 권한이 있습니다.
 >
->1. 사용 권한 [!DNL FreeWheel] 프로그램 형식 보장 거래에 대한 광고를 제출해야 하는 프로그래밍 방식 보장 워크플로우입니다. [!DNL FreeWheel].
+>* 사용 권한 [!DNL FreeWheel] 프로그램 형식 보장 거래에 대한 광고를 제출해야 하는 프로그래밍 방식 보장 워크플로우입니다. [!DNL FreeWheel].
 >
->1. (다음을 필요로 하는 영국 게시자와 작업하는 경우 [!DNL Clearcast] 각 광고가 있는 시계 번호) 광고에 시계 번호를 포함할 수 있습니다.
+>* (다음을 필요로 하는 영국 게시자와 작업하는 경우 [!DNL Clearcast] 각 광고가 있는 시계 번호) 광고에 시계 번호를 포함할 수 있습니다.
 
 
 ## 워크플로우

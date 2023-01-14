@@ -1,18 +1,18 @@
 ---
-title: Advertising Cloud DSP의 대상 관리 정보
+title: Advertising DSP의 대상 관리 정보
 description: 고객 관리 기능에 대해 알아봅니다.
 feature: DSP Audiences, DSP Segments
 exl-id: 624d2211-59a2-4791-b8f1-a9a5cecd0b8e
-source-git-commit: 3b44e8e019bfc4bab2ee65ac028313752cb4a0e0
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
 
-# Advertising Cloud DSP의 대상 관리 정보
+# Advertising DSP의 대상 관리 정보
 
-Advertising Cloud DSP에서 배치 대상으로 사용할 수 있는 대상 세그먼트 및 대상 세트를 만들고 관리할 수 있습니다.
+DSP에서 배치 대상으로 사용할 수 있는 대상 세그먼트 및 대상 세트를 만들고 관리할 수 있습니다.
 
 * 세그먼트를 만들고 구현하여 자신의 자사 대상 데이터를 수집할 수 있습니다. 나중에 광고를 사용하여 세그먼트의 사용자를 다시 타겟팅하거나 세그먼트의 사용자가 광고를 받지 못하도록 할 수 있습니다. 다음 유형의 세그먼트를 만들 수 있습니다.
 
@@ -20,7 +20,7 @@ Advertising Cloud DSP에서 배치 대상으로 사용할 수 있는 대상 세�
 
    * [CCPA 판매 중지 세그먼트](/help/dsp/audiences/ccpa-opt-out-segment-create.md) CCPA(California Consumer Privacy Act)에 따라 웹 사이트의 소비자 옵트아웃 요청에서 사용자 ID를 추적하기 위해 판매 중지 요청에서 사용자 ID의 월별 보고서를 검색할 수 있습니다.
 
-      CCPA 판매 중지 요청에 대한 Advertising Cloud 지원에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법을 위한 Adobe Advertising Cloud 지원: 소비자 옵트아웃 지원](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-ccpa-opt-out-of-sale.html).
+      CCPA 판매 중지 요청에 대한 Adobe 광고 지원에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법을 위한 Adobe 광고 지원: 소비자 옵트아웃 지원](/help/privacy/ad-cloud-ccpa-opt-out-of-sale.md).
 
 * 의 대상 라이브러리를 만들 수 있습니다 [재사용 가능한 대상](/help/dsp/audiences/reusable-audience-create.md). 저장된 대상은 사용 가능한 대상 세그먼트와 다른 저장된 대상으로 구성됩니다. 저장된 대상에 대한 모든 변경 사항은 대상을 타깃팅하거나 제외하는 모든 배치와 저장된 대상을 포함하는 다른 모든 대상에 자동으로 적용됩니다.
 
@@ -60,7 +60,7 @@ DSP에서는 타사 세그먼트의 복잡한 조합을 포함하여 사용자 �
 
    타사 세그먼트는 각 세그먼트 이름 옆에 표시되는 추가 비용을 발생시킵니다.
 
-* (Adobe Experience Platform 및 [!DNL Real-Time CDP]Advertising Cloud JavaScript 변환 태그만 사용하는 , Adobe Audience Manager 또는 Adobe Analytics) [!DNL Real-Time CDP]Audience Manager에서 만들었거나 Audience Manager 또는 [!DNL Analytics].
+* (Adobe Experience Platform 및 [!DNL Real-Time CDP], Adobe Audience Manager 또는 Adobe Analytics(Adobe Advertising JavaScript 변환 태그만 사용) [!DNL Real-Time CDP]Audience Manager에서 만들었거나 Audience Manager 또는 [!DNL Analytics].
 
    세그먼트 사용에 대한 가격은 사전 협상되며 DSP에서 표시되지 않습니다.
 

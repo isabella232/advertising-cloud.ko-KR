@@ -4,19 +4,19 @@ role: User, Admin
 cloud: Experience Cloud
 solution: Advertising Cloud
 product: advertising cloud
-user-guide-title: Advertising Cloud DSP 안내서
-user-guide-description: Advertising Cloud DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
+user-guide-title: Advertising DSP 안내서
+user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: e902deb79c42e8fb13697439198259004a957525
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 6%
+source-wordcount: '948'
+ht-degree: 5%
 
 ---
 
 
-# Advertising Cloud DSP 안내서 {#dsp}
+# Advertising DSP 안내서 {#dsp}
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
       + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
@@ -28,7 +28,7 @@ ht-degree: 6%
 
 + [새로운 기능](/help/dsp/home.md)
 + 소개 {#introduction}
-   + [Adobe Advertising Cloud DSP 소개](/help/dsp/introduction/dsp-about.md)
+   + [Advertising DSP Adobe 소개](/help/dsp/introduction/dsp-about.md)
    + 주요 기능 {#features}
       + [최적화](/help/dsp/introduction/features/optimization.md)
       + [브랜드 안전 및 미디어 품질](/help/dsp/introduction/features/brand-safety-media-quality.md)
@@ -117,7 +117,7 @@ ht-degree: 6%
       + [캠페인에 대한 배치 설정 다운로드](/help/dsp/campaign-management/qa/qa-sheet-download.md)
       + [캠페인에 대한 배치 설정 업로드](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [다운로드/업로드된 스프레드시트의 열](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
-   + [Advertising Cloud DSP 매크로](/help/dsp/campaign-management/macros.md)
+   + [DSP 매크로](/help/dsp/campaign-management/macros.md)
    + [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
    + [Campaign Management에 대한 FAQ](/help/dsp/campaign-management/campaign-management-faq.md)
 + 최적화 {#optimization}

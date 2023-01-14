@@ -3,9 +3,9 @@ title: 프리롤 광고 설정
 description: 프리롤 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: 638d5a3d-3dff-40b6-a3ba-7ab3f08282b9
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL VAST Tag]:** (VAST 태그만 사용하는 광고) 읽기 전용) 광고 소스로 입력한 타사 VAST 태그입니다.
 
-**[!UICONTROL Final VAST Tag]:** (VAST 태그만 사용하는 광고) 읽기 전용) 필요한 를 사용하여 광고 소스로 입력한 타사 VAST 태그입니다 [Advertising Cloud DSP 추적 매크로](/help/dsp/campaign-management/macros.md) 삽입됨, 해당하는 경우
+**[!UICONTROL Final VAST Tag]:** (VAST 태그만 사용하는 광고) 읽기 전용) 필요한 를 사용하여 광고 소스로 입력한 타사 VAST 태그입니다 [Advertising DSP 추적 매크로](/help/dsp/campaign-management/macros.md) 삽입됨, 해당하는 경우
 
 **[!UICONTROL Wmode]:** (대화형 프리롤 전용) 창 모드: *[!UICONTROL window]*, *[!UICONTROL transparent]*, 또는 *[!UICONTROL opaque]*.
 
@@ -88,5 +88,5 @@ ht-degree: 0%
 >* [단일 광고 만들기](ad-create.md)
 >* [광고와 연결된 배치 나열](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [광고 사양](ad-specs.md)
->* [Advertising Cloud DSP 매크로](/help/dsp/campaign-management/macros.md)
+>* [DSP 매크로](/help/dsp/campaign-management/macros.md)
 

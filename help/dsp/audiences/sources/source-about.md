@@ -2,9 +2,10 @@
 title: Audience Sources에서 인증된 세그먼트 활성화 정보
 description: 고객 데이터 플랫폼에서 자사 세그먼트를 수집하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
-source-git-commit: aac60e8fddce1db3d0101a617fca3af970043648
+exl-id: 3e6ede23-2b27-4b1d-bfa2-e823824633c4
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 <!-- Doesn't specifically explain what you can do in our UI -->
 *베타 기능*
 
-Advertising Cloud DSP은 CDP(고객 데이터 플랫폼) 내에서 구축된 인증된 신호로 구성된 자사 세그먼트를 수집할 수 있습니다. 수집된 세그먼트를 배치 대상으로 사용할 수 있습니다.
+DSP은 고객 데이터 플랫폼(CDP) 내에서 구축된 인증된 신호로 구성된 자사 세그먼트를 수집할 수 있습니다. 수집된 세그먼트를 배치 대상으로 사용할 수 있습니다.
 
 ## [!DNL Adobe Real-Time Customer Data Profile]
 
@@ -32,7 +33,7 @@ in [!DNL Real-time CDP], *대상* 는 완벽한 데이터 활성화를 허용하
 
 1. [대상 소스 만들기](source-create.md) 대상을 DSP 계정 또는 광고주 계정으로 가져오기.
 
-1. [구성 [!DNL Real-Time CDP] Experience Platform의 대상 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).<!-- Verify URL once it's published. -->
+1. [구성 [!DNL Real-Time CDP] Experience Platform의 대상 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).
 
 추가 지원이 필요한 경우 [!DNL Adobe] 계정 팀 또는 `adcloud-support@adobe.com`.
 
@@ -41,7 +42,7 @@ in [!DNL Real-time CDP], *대상* 는 완벽한 데이터 활성화를 허용하
 >* [내구성 ID 파트너에서 인증된 세그먼트 활성화](source-durable-id.md)
 >* [자사 대상을 활성화할 대상 소스 만들기](source-create.md)
 >* [대상 소스 설정](source-settings.md)
->* [Adobe Advertising Cloud DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* Adobe Experience Platform [대상 카탈로그 개요](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
 

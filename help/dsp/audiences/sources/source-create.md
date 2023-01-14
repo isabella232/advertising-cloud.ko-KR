@@ -2,9 +2,10 @@
 title: 자사 대상을 활성화할 대상 소스 만들기
 description: 계정 또는 광고주 계정에 대상자를 가져오는 소스를 만드는 방법을 알아봅니다.
 feature: DSP Audiences
-source-git-commit: d1ebbd79b6ccf0249829feef134122f083060563
+exl-id: 16eb7cdb-4364-4e94-ba73-0f2d4d200cb9
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ DSP 계정 또는 광고주 계정으로 대상을 가져올 소스를 만듭니
 
 >[!NOTE]
 >
->에 대한 소스를 만든 후 [!DNL Real-Time CDP]를 활성화하려면 [!DNL Real-Time CDP] 내에서 Adobe Advertising Cloud DSP 대상을 통한 대상 [!DNL Real-Time CDP] 가져오기 시작합니다. 자세한 내용은 [활성화 워크플로우의 절차](source-about.md#workflow-sources).
+>에 대한 소스를 만든 후 [!DNL Real-Time CDP]를 활성화하려면 [!DNL Real-Time CDP] 내에서 Advertising DSP Adobe 대상을 통한 대상 [!DNL Real-Time CDP] 가져오기 시작합니다. 자세한 내용은 [활성화 워크플로우의 절차](source-about.md#workflow-sources).
 
 1. 주 메뉴에서 **[!UICONTROL Audiences] > [!UICONTROL Sources (BETA)].
 
@@ -39,7 +40,7 @@ DSP 계정 또는 광고주 계정으로 대상을 가져올 소스를 만듭니
 
 1. Experience Platform에서 [!UICONTROL Source Key] DSP 소스 설정에서 생성되었습니다.
 
-Advertising Cloud 대상 연결을 활성화하고 세그먼트를 선택하고 제어 권한에 액세스하는 방법에 대한 지침은 &quot;[Adobe Advertising Cloud DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+DSP 대상 연결을 활성화하고 세그먼트를 선택하고 제어 권한에 액세스하는 방법에 대한 지침은 &quot;[Adobe Advertising Cloud DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >

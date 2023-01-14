@@ -3,9 +3,9 @@ title: 기본 디스플레이 광고 설정
 description: 기본 디스플레이 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: 3ae59e63-ae64-41b2-8734-3df2da020c7c
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 **[!UICONTROL Landing Page]:** 뷰어가 광고를 클릭할 때 들어오는 URL입니다.
 
-**[!UICONTROL Final Landing Page]:** 다음 [!UICONTROL Landing Page] 필요한 URL [Advertising Cloud DSP 추적 매크로](/help/dsp/campaign-management/macros.md) 삽입됨, 해당하는 경우
+**[!UICONTROL Final Landing Page]:** 다음 [!UICONTROL Landing Page] 필요한 URL [Advertising DSP 추적 매크로](/help/dsp/campaign-management/macros.md) 삽입됨, 해당하는 경우
 
 **[!UICONTROL Sponsored By (Advertiser Name)]:** 광고에 대한 광고주입니다.
 
@@ -62,5 +62,5 @@ ht-degree: 0%
 >* [단일 광고 만들기](ad-create.md)
 >* [광고와 연결된 배치 나열](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [광고 사양](ad-specs.md)
->* [Advertising Cloud DSP 매크로](/help/dsp/campaign-management/macros.md)
+>* [DSP 매크로](/help/dsp/campaign-management/macros.md)
 

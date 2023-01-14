@@ -3,24 +3,24 @@ title: 사용자 지정 목표
 description: 최저 CPA 또는 가장 높은 ROAS에 맞게 최적화된 패키지에서 성공 이벤트를 정의하는 사용자 지정 목표에 대해 알아봅니다.
 feature: DSP Optimization
 exl-id: 623cb1ef-85ab-4535-aa3a-8e6ec8ae15ee
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # 사용자 지정 목표
 
-사용자 지정 목표는 광고주가 비즈니스 목표를 충족하는 데 필요한 성공 이벤트를 정의합니다. 최적화 목표를 사용하는 각 패키지 &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; 또는 &quot;[!UICONTROL Lowest CPA - Custom Goal]&quot;에는 전체 최적화 목표를 달성하는 데 도움이 되는 사용자 지정 목표가 포함되어야 합니다. 사용자 지정 목표를 *목표* Advertising Cloud Search.
+사용자 지정 목표는 광고주가 비즈니스 목표를 충족하는 데 필요한 성공 이벤트를 정의합니다. 최적화 목표를 사용하는 각 패키지 &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; 또는 &quot;[!UICONTROL Lowest CPA - Custom Goal]&quot;에는 전체 최적화 목표를 달성하는 데 도움이 되는 사용자 지정 목표가 포함되어야 합니다. 사용자 지정 목표를 *목표* in [!DNL Adobe Advertising Search].
 
 ![사용자 지정 목표](/help/dsp/assets/objective-goals.png)
 
-각 사용자 지정 목표는 하나 이상의 지표로 구성됩니다. 또는 *트랜잭션 속성*&#x200B;및 해당 거래 속성의 상대 가중치입니다. 사용 가능한 트랜잭션 속성에는 Advertising Cloud 변환 픽셀을 사용하여 Adobe Analytics을 통해 추적된 모든 지표가 포함됩니다.
+각 사용자 지정 목표는 하나 이상의 지표로 구성됩니다. 또는 *트랜잭션 속성*&#x200B;및 해당 거래 속성의 상대 가중치입니다. 사용 가능한 트랜잭션 속성에는 Adobe 광고 변환 픽셀을 사용하여 Adobe Analytics을 통해 추적된 모든 지표가 포함됩니다.
 
 >[!NOTE]
 >
->* [!DNL Analytics] Advertising Cloud 최적화에 차원 및 세그먼트를 사용할 수 없습니다.
+>* [!DNL Analytics] 차원 및 세그먼트를 Adobe 광고 최적화에 사용할 수 없습니다.
 >* DSP에서 Analytics 이벤트를 사용하려면 [!DNL Adobe] 계정 팀이 광고주 수준 통합을 구성합니다.
 >* [!DNL Analytics] 사용자 지정 이벤트는 다음 이름 지정 규칙을 따릅니다. `custom_event_[*event #*]_[*Analytics report suite ID*]`. 예: `custom_event_16_examplersid`
 

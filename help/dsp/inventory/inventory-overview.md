@@ -1,18 +1,18 @@
 ---
-title: Advertising Cloud DSP의 인벤토리 기능 개요
+title: Advertising DSP의 인벤토리 기능 개요
 description: 사용 가능한 인벤토리 기능에 대해 알아봅니다.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: b3d0b96e-e638-4bd2-ba14-d348a8fc030b
-source-git-commit: e80eccbf2f87c1ad86a2cb689b44ca67e08248be
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
 
-# Advertising Cloud DSP의 인벤토리 기능 개요
+# Advertising DSP의 인벤토리 기능 개요
 
-Advertising Cloud DSP은 재고 요구 사항을 지원할 수 있으며, 공개 인벤토리로 규모를 찾고 싶든 관계없이 프리미엄 게시자에서 규모를 찾을 수 있습니다. [!DNL On Demand]또는 특정 대상 또는 사이트에서 활성화할 게시자와 1:1 비공개 마켓플레이스(PMP) 거래를 설정합니다. 캠페인 목표는 캠페인의 성과 요구 사항에 가장 적합한 인벤토리 유형을 결정하는 데 도움이 됩니다. SSP(최상위 공급측 플랫폼)와의 통합을 통해 PMP를 원활하게 설정하고 활성화할 수 있습니다.
+DSP은 재고 요구 사항을 지원할 수 있으며, 공개 인벤토리로 규모를 찾고 싶든, 이 솔루션을 사용하여 프리미엄 게시자에서 규모를 찾을 수 있습니다. [!DNL On Demand]또는 특정 대상 또는 사이트에서 활성화할 게시자와 1:1 비공개 마켓플레이스(PMP) 거래를 설정합니다. 캠페인 목표는 캠페인의 성과 요구 사항에 가장 적합한 인벤토리 유형을 결정하는 데 도움이 됩니다. SSP(최상위 공급측 플랫폼)와의 통합을 통해 PMP를 원활하게 설정하고 활성화할 수 있습니다.
 
 DSP에서 인벤토리 거래에 액세스하거나 식별하면 이를 캠페인의 배치 타겟으로 사용할 수 있습니다.
 

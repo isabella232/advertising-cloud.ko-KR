@@ -3,9 +3,9 @@ title: 모바일 광고 설정
 description: 모바일 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: f67c4ba0-1011-4ad6-bd36-98c312b81b67
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **[!UICONTROL Display Code]:** 타사 크리에이티브 자산의 URL입니다. 임의 [timestamp] 및 [[timestamp]] 매개 변수는 실제 값으로 대체됩니다.
 
-**[!UICONTROL Final Display Code]:** 필요한 경우 타사 크리에이티브 자산의 URL입니다 [Advertising Cloud DSP 추적 매크로](/help/dsp/campaign-management/macros.md) 삽입됨, 해당하는 경우
+**[!UICONTROL Final Display Code]:** 필요한 경우 타사 크리에이티브 자산의 URL입니다 [Advertising DSP 추적 매크로](/help/dsp/campaign-management/macros.md) 삽입됨, 해당하는 경우
 
 ### [!UICONTROL Basic]: 비디오 광고
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 **[!UICONTROL VAST Tag]:** (VAST 태그만 사용하는 광고) 읽기 전용) 광고 자산으로 입력한 타사 VAST 태그입니다.
 
-**[!UICONTROL Final VAST Tag]:** (VAST 태그만 사용하는 광고) 읽기 전용) 필요한 경우 크리에이티브 자산으로 입력한 타사 VAST 태그 [Advertising Cloud DSP 추적 매크로](/help/dsp/campaign-management/macros.md) 삽입됨, 해당하는 경우
+**[!UICONTROL Final VAST Tag]:** (VAST 태그만 사용하는 광고) 읽기 전용) 필요한 경우 크리에이티브 자산으로 입력한 타사 VAST 태그 [Advertising DSP 추적 매크로](/help/dsp/campaign-management/macros.md) 삽입됨, 해당하는 경우
 
 **[!UICONTROL Wmode]:** (일부 광고 유형) 창 모드: *[!UICONTROL window]*, *[!UICONTROL transparent]*, 또는 *[!UICONTROL opaque]*.
 
@@ -106,5 +106,5 @@ ht-degree: 0%
 >* [단일 광고 만들기](ad-create.md)
 >* [광고와 연결된 배치 나열](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [광고 사양](ad-specs.md)
->* [Advertising Cloud DSP 매크로](/help/dsp/campaign-management/macros.md)
+>* [DSP 매크로](/help/dsp/campaign-management/macros.md)
 

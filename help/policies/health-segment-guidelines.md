@@ -1,29 +1,30 @@
 ---
-title: Adobe Advertising Cloud 허용 가능한 상태 세그먼트
+title: Adobe 광고 허용 상태 세그먼트
 description: 상태 관련 대상 세그먼트를 타깃팅하기 위해 대체 요소로 사용할 수 있는 허용 가능한 상태 관련 대상 세그먼트 및 전술에 대한 지침을 참조하십시오.
 feature: Policies
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: fd4fdf5e-9159-4a89-8447-12051deae61b
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising Cloud 허용 상태 세그먼트 지침
+# Adobe 광고 허용 상태 세그먼트 지침
 
-*Adobe Advertising Cloud DSP 및 Adobe Advertising Cloud Search용*
+*Adobe Advertising DSP 및[!DNL Adobe Advertising Search]*
 
 다음 지침은 허용되지 않는 및 허용가능한 건강 관련 대상 세그먼트에 대해 설명합니다. 또한 건강 관련 대상 세그먼트를 타깃팅하기 위해 대체 방법으로 사용할 전술을 추천합니다.
 
 이 지침은 [!DNL Network Advertising Alliance (NAI)].
 
-참조 - [Advertising Cloud 광고 요구 사항 정책](/help/policies/ad-requirements-policy.md) 상태 관련 대상 세그먼트를 Adobe Advertising Cloud의 타깃팅 정책에 따라 사용할 수 있는지 여부를 판별하려면
+참조 - [Adobe 광고 광고 요구 사항 정책](/help/policies/ad-requirements-policy.md) 를 사용하여 Adobe 광고 타깃팅 정책에 따라 상태 관련 대상 세그먼트를 사용할 수 있는지 여부를 결정합니다.
 
 ## 사용하지 않아야 하는 상태 세그먼트
 
 * 보호된 건강 정보(PHI)\*, 사용자 수준 의료 기록, 약학 처방전 또는 유사한 건강 또는 의료 소스를 사용하는 세그먼트는 해당 사용자의 상태 또는 치료에 대한 실제 지식을 제공합니다.
 
-   \* Adobe Advertising Cloud은 [!DNL HIPAA]준비 솔루션
+   \* Adobe 광고가 아닙니다. [!DNL HIPAA]준비 솔루션
 
 * 암, 정신 건강, 약물 중독, 성병, 주로 영향을 받는 질환 또는 처방전 필요 이상의 약물 치료(예: 당뇨병, 건선, 류마티스 관절염 또는 섬유알지아)로 치료할 수 없는 다른 민감한 건강 조건과 같은 건강 상태(또는 관련 치료)를 타깃팅하는 세그먼트입니다.
 

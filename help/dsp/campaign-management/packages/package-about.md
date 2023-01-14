@@ -1,16 +1,16 @@
 ---
-title: Advertising Cloud DSP의 패키지 관리 정보
+title: Advertising DSP의 패키지 관리 정보
 description: 패키지 관리에 대해 알아봅니다.
 feature: DSP Packages
 exl-id: 06d77698-62ae-466b-8cf7-c9148907ba6d
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
-# Advertising Cloud DSP의 패키지 관리 정보
+# Advertising DSP의 패키지 관리 정보
 
 패키지를 사용하여 배달을 위한 배치를 설정된 예산, 성능 목표 및 사용자 지정 간격 전략에 그룹화합니다. DSP은 예산을 패키지에서 가장 성과가 좋은 배치로 전환하여 패키지를 최적화합니다. 배치 형식, 재고 유형, 데이터 공급자, 성향 또는 기타 구별할 수 있는 특성별로 패키지를 구성할 수 있습니다. 패키지는 선택 사항입니다.
 

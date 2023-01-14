@@ -3,7 +3,7 @@ title: 광고 편집
 description: 광고를 편집하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: ef140d61-f04e-4c1c-acdd-9985730dfb07
-source-git-commit: 348b3ae49fdd2e408c4585c6dc6a7e3ba03b2d84
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -13,9 +13,13 @@ ht-degree: 0%
 # 광고 편집
 
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
+
 1. 캠페인의 이름을 클릭합니다.
+
 1. 하위 메뉴에서 **[!UICONTROL Ads]**.
+
 1. 광고 이름 옆에 있는 를 클릭합니다.  **... >[!UICONTROL Edit]**.
+
 1. 에 대한 광고 설정을 편집합니다 [오디오 광고](ad-settings-audio.md), [연결된 TV](ad-settings-connected-tv.md), [디스플레이 광고](ad-settings-display.md), [모바일 광고](ad-settings-mobile.md), [기본 광고](ad-settings-native.md), [프리롤 광고](ad-settings-pre-roll.md), 또는 [범용 비디오 광고](ad-settings-universal-video.md).
 
    >[!NOTE]

@@ -3,7 +3,7 @@ title: 사용자 지정 목표 구축에 대한 우수 사례
 description: 성공 이벤트를 정의하기 위한 사용자 지정 목표를 작성하는 모범 사례를 알아봅니다.
 feature: DSP Optimization, DSP Best Practices
 exl-id: 54b16325-4b72-48a3-a2e0-4e342229211c
-source-git-commit: 7cb39998041d151ece7809adc8a2e872b922e5fc
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 > A [!UICONTROL Property Weight] 그중 하나는 추적된 각 $1 매출에 대해 1의 값과 같습니다.
 >
-> 예를 들어 가중치가 1인 $250 전환은 $250로 보고됩니다. 전환 지표에 0.5의 가중치가 지정된 경우 $250 전환이 Advertising Cloud에서 $125로 보고됩니다($250 전환 * 0.5 [!UICONTROL Property Weight] = $125).
+> 예를 들어 가중치가 1인 $250 전환은 $250로 보고됩니다. 전환 지표에 가중치가 0.5인 경우, $250 전환이 Adobe 광고에서 $125로 보고됩니다($250 전환 * 0.5 [!UICONTROL Property Weight] = $125).
 
 ### &quot;[!UICONTROL Lowest CPA - Custom Goal]&quot; 최적화 목표
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 >
 > A [!UICONTROL Property Weight] 그중 하나는 추적된 각 변환에 대해 1의 값과 같습니다.
 >
-> 예를 들어 10개의 애플리케이션 제출 전환이 추적되면 10개의 애플리케이션 제출 전환이 보고됩니다.  전환 지표에 가중치가 0.5인 경우 10개의 전환이 Advertising Cloud에서 5개(5)로 보고됩니다(10 전환 * 0.5 [!UICONTROL Property Weight] = 5).
+> 예를 들어 10개의 애플리케이션 제출 전환이 추적되면 10개의 애플리케이션 제출 전환이 보고됩니다.  전환 지표에 가중치가 0.5인 경우, 10개의 전환은 Adobe 광고(10 전환 * 0.5에서 5개로 보고됩니다 [!UICONTROL Property Weight] = 5).
 
 ## 여러 속성을 사용한 사용자 지정 목표
 

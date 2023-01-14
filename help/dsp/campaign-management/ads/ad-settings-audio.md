@@ -3,9 +3,9 @@ title: 오디오 광고 설정
 description: 오디오 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: 746b6f40-ff59-4bbe-bfc0-3579d4461e4a
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 **[!UICONTROL VAST Tag]:** (VAST 태그만 사용하는 광고) 타사 광고 소스용 URL입니다. VAST 태그에 오디오 미디어 파일만 포함되어 있는지 확인합니다.
 
-**[!UICONTROL Final VAST Tag]:** (VAST 태그만 사용하는 광고) 필요한 타사 광고 소스의 URL입니다 [Advertising Cloud DSP 추적 매크로](/help/dsp/campaign-management/macros.md) 삽입됨, 해당하는 경우
+**[!UICONTROL Final VAST Tag]:** (VAST 태그만 사용하는 광고) 필요한 타사 광고 소스의 URL입니다 [Advertising DSP 추적 매크로](/help/dsp/campaign-management/macros.md) 삽입됨, 해당하는 경우
 
 **[!UICONTROL Select Rate]:** (권한이 있는 사용자만 해당) Adobe을 통해 청구되는 사전 협상된 비율 또는 협상한 비율 중 하나이며 공급업체를 통해 청구됩니다. 비율을 추가하려면 [!DNL Adobe] 계정 팀입니다.
 
@@ -68,5 +68,5 @@ ht-degree: 0%
 >* [단일 광고 만들기](ad-create.md)
 >* [광고와 연결된 배치 나열](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [광고 사양](ad-specs.md)
->* [Advertising Cloud DSP 매크로](/help/dsp/campaign-management/macros.md)
+>* [DSP 매크로](/help/dsp/campaign-management/macros.md)
 

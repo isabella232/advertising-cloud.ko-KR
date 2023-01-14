@@ -3,24 +3,24 @@ title: 사용자 지정 목표 만들기
 description: 사용자 지정 목표 만들기
 feature: DSP Optimization
 exl-id: 440ded21-92d3-41ad-839f-ebc8376aa932
-source-git-commit: 8aea9eb1358e23a5b25e0353ced80c1550fa0057
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
 
 # 사용자 지정 목표 만들기
 
-사용자 지정 목표를 *목표* Advertising Cloud Search 내에서 사용할 수 있습니다.
+사용자 지정 목표를 *목표* within [!DNL Adobe Advertising Search].
 
-사용자 지정 목표를 만들려면 Advertising Cloud DSP 계정이 [!DNL Search] 내에서 동일한 Adobe Experience Cloud 조직 ID를 사용하는 계정 [!DNL Search] 클라이언트 설정. DSP 계정이 [!DNL Search] 계정, [!DNL Adobe] 계정 팀입니다.
+사용자 지정 목표를 만들려면 DSP 계정을 [!DNL Search] 내에서 동일한 Adobe Experience Cloud 조직 ID를 사용하는 계정 [!DNL Search] 클라이언트 설정. DSP 계정이 [!DNL Search] 계정, [!DNL Adobe] 계정 팀입니다.
 
 >[!TIP]
 >
 >자세한 내용은 [사용자 지정 목표 생성에 대한 우수 사례](custom-goal-best-practices.md) 를 참조하십시오.
 
-1. Advertising Cloud Search에 로그인(미국 회사) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 또는 (기타 모든 국가의 회사) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. 에 로그인합니다. [!DNL Adobe Advertising Search] ( 미국 회사 ) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 또는 (기타 모든 국가의 회사) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. 목표에 포함할 지표가 추적되고, 제품에서 사용할 수 있으며, 표시 이름을 포함하는지 확인합니다.
    1. 주 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
    1. 지표를 찾아 확인합니다 **[!UICONTROL Show in UI and Reports]** 이 지표에 대해 활성화되어 있습니다.
@@ -31,7 +31,7 @@ ht-degree: 0%
    1. 목표 설정을 입력합니다.
       1. 에서 **[!UICONTROL Change Objective Name]** 필드에서 목표 이름을 입력합니다.
 
-         목표 이름은 [!UICONTROL Custom Goals] Advertising Cloud DSP 패키지 설정의 목록 .
+         목표 이름은 [!UICONTROL Custom Goals] 목록 을 참조하십시오.
 
       1. 속성과 목표 연결:
 
@@ -65,7 +65,7 @@ ht-degree: 0%
       1. 설정 아래쪽에서 **[!UICONTROL Save]**.
 
 
-일단 목표를 만들면, 최적화 목표가 &quot; &quot;일 때 Advertising Cloud DSP 패키지에 사용자 지정 목표로 할당할 수 있습니다.[!UICONTROL Highest ROAS - Custom Goal]&quot; 또는 &quot;[!UICONTROL Lowest CPA - Custom Goal].&quot;
+목표를 만들면 최적화 목표가 &quot; &quot;일 때 목표를 DSP 패키지에 사용자 지정 목표로 할당할 수 있습니다.[!UICONTROL Highest ROAS - Custom Goal]&quot; 또는 &quot;[!UICONTROL Lowest CPA - Custom Goal].&quot;
 
 >[!TIP]
 >

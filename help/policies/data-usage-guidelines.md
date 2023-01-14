@@ -1,21 +1,22 @@
 ---
-title: Adobe Advertising Cloud DSP 데이터 사용 지침
+title: Adobe Advertising DSP 데이터 사용 지침
 description: 데이터 사용에 대한 지침을 참조하십시오.
 feature: Policies
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 6b646988-4a53-4092-8bc6-bcd350ee4096
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising Cloud DSP 데이터 사용 지침
+# Adobe Advertising DSP 데이터 사용 지침
 
 *마지막 업데이트 날짜: 2019년 9월 5일*
 
-*Adobe Advertising Cloud DSP용*
+*Adobe Advertising DSP용*
 
-이러한 데이터 사용 지침(&quot;데이터 지침&quot;)은 Adobe의 Advertising Cloud용 온디맨드 서비스(&quot;서비스&quot;)를 통해 액세스되는 특정 데이터를 사용하기 위한 요구 사항을 설명합니다. 이 지침은 온디맨드 서비스를 사용하는 Adobe과 고객 간의 계약에 참조 사항으로 포함되어 있습니다. 본 지침에 사용되지만 여기에서 정의되지 않은 자본화된 용어는 해당 계약에 명시된 의미를 가집니다.
+이러한 데이터 사용 지침(&quot;데이터 지침&quot;)은 Adobe의 On-demand Services for Advertising DSP(&quot;서비스&quot;)을 통해 액세스되는 특정 데이터를 사용하기 위한 요구 사항을 설명합니다. 이 지침은 온디맨드 서비스를 사용하는 Adobe과 고객 간의 계약에 참조 사항으로 포함되어 있습니다. 본 지침에 사용되지만 여기에서 정의되지 않은 자본화된 용어는 해당 계약에 명시된 의미를 가집니다.
 
 Adobe은 고객의 데이터 사용이 이 지침을 위반하는지 여부를 단독 판단에 따라 결정할 권한을 부여합니다.
 

@@ -1,18 +1,18 @@
 ---
-title: Advertising Cloud DSP의 Campaign Management 개요
+title: Advertising DSP의 Campaign Management 개요
 description: Campaign 관리 계층 및 구성 요소에 대해 알아봅니다.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: c94e08d0-0dd5-4cf9-8df2-9eb4c591375c
-source-git-commit: d180b91f7bf5ae72a51e5335638a98c5fc4b4e86
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
-# Advertising Cloud DSP의 Campaign Management 개요
+# Advertising DSP의 Campaign Management 개요
 
-Advertising Cloud DSP 캠페인에는 다음 계층이 있습니다.
+DSP 캠페인에는 다음 계층이 있습니다.
 
 * 캠페인
    * 패키지
@@ -20,7 +20,7 @@ Advertising Cloud DSP 캠페인에는 다음 계층이 있습니다.
          * 광고
 
 <!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
-In Advertising Cloud DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package will include placements, which can use different strategies and tactics to deliver the line item requirements.
+In Advertising DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package will include placements, which can use different strategies and tactics to deliver the line item requirements.
 -->
 
 ## [!UICONTROL Campaigns]
@@ -49,7 +49,7 @@ A [배치](/help/dsp/campaign-management/placements/placement-about.md) 동일�
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management 기본 정보](/help/dsp/campaign-management/campaigns/campaign-about.md)
+>* [Campaign Management 정보](/help/dsp/campaign-management/campaigns/campaign-about.md)
 >* [패키지 관리 정보](/help/dsp/campaign-management/packages/package-about.md)
 >* [배치 관리 정보](/help/dsp/campaign-management/placements/placement-about.md)
 >* [광고 관리](/help/dsp/campaign-management/ads/ad-about.md)

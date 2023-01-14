@@ -1,13 +1,13 @@
 ---
-source-git-commit: 0654347afd1caf5e9bd8ccabf41a8a591e604df5
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
-# Advertising Cloud을 위한 공동 작업 설명서
+# Adobe 광고를 위한 공동 작업 설명서
 
-제품 간 및 DSP 문서를 포함하여 Adobe Advertising Cloud에 대한 설명서 저장소입니다. (나중에 검색에 대한 문서가 포함되며(?) (광고 문구)
+제품 간 및 DSP 문서를 포함하여 Adobe 광고를 위한 설명서 저장소입니다. (나중에 검색에 대한 문서가 포함되며(?) (광고 문구)
 
 **참고: 이 페이지는 고객 관련 설명서에 게시되지 않습니다.**
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 자세한 게시 지침, 스타일 안내서, 샘플 및 기타 리소스는 다음을 참조하십시오.
 
-+ [기여 작성자 지침 **특히 Advertising Cloud**](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=EfficientFrontier&amp;title=Contributing+Author+Guidelines+for+Advertising+Cloud+Help)
++ [기여 작성자 지침 **Adobe 광고용**](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=EfficientFrontier&amp;title=Contributing+Author+Guidelines+for+Advertising+Cloud+Help)
 + [모든 Adobe 작성자를 위한 공동 작성](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html)
 
 다음을 참조하십시오.

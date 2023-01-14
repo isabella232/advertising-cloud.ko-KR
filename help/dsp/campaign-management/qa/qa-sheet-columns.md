@@ -3,9 +3,9 @@ title: 다운로드/업로드된 스프레드시트의 열
 description: 다운로드 및 업로드된 Excel QA 스프레드시트의 열을 참조합니다.
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 12056598ae436123a867e6eaefde47657242dc73
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Basic] | [!UICONTROL Package Name] | 해당되는 경우 상위 패키지의 이름입니다. | — |
 | [!UICONTROL Goals] | [!UICONTROL Start Date] | 배치 시작 날짜입니다. | — |
 | [!UICONTROL Goals] | [!UICONTROL End Date] | 배치 종료 날짜입니다. | — |
-| [!UICONTROL Goals] | [!UICONTROL Day parting] | 방송 시간 분할 여부 *[!UICONTROL ON]* 또는 *[!UICONTROL OFF]*.<br><b>참고:</b> 실제 방송 시간 분할 일정을 확인하려면 위치 설정을 [!DNL DSP]. | — |
+| [!UICONTROL Goals] | [!UICONTROL Day parting] | 방송 시간 분할 여부 *[!UICONTROL ON]* 또는 *[!UICONTROL OFF]*.<br><b>참고:</b> 실제 방송 시간 분할 일정을 확인하려면 DSP에서 배치 설정을 엽니다. | — |
 | [!UICONTROL Goals] | [!UICONTROL Budget] | 배치 예산입니다. | 예 |
 | [!UICONTROL Goals] | [!UICONTROL Budget Interval] | 예산 간격: &lt;i span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*, 또는 *[!UICONTROL All Time]*.[!UICONTROL >Daily] | 예 |
 | [!UICONTROL Goals] | [!UICONTROL Optimization Goal] | 패키지의 목적입니다. | — |

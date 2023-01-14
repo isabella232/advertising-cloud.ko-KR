@@ -3,7 +3,7 @@ title: 패키지 복제
 description: 패키지를 복제하는 방법을 알아봅니다.
 feature: DSP Packages
 exl-id: 4c37883f-5feb-4513-9573-ed4e32606132
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -22,18 +22,27 @@ ht-degree: 0%
 참조:[복제되지 않은 사항](#package-not-duplicated)중복되지 않은 배치 설정 목록입니다.
 
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
+
 1. 캠페인 이름을 클릭하여 캠페인 [!UICONTROL Packages] 보기.
+
 1. 패키지 이름 옆의  **[!UICONTROL ...]>[!UICONTROL Duplicate]**.
+
 1. 새 패키지 설정을 지정합니다.
+
    1. 새 패키지 이름을 입력합니다.
+
    1. (선택 사항) 기본 설정을 변경합니다.
 
       기본적으로
 
       * 새 패키지는 원래 광고주 및 캠페인에 할당됩니다.
+
       * 새 패키지가 현재 날짜에 활성화됩니다.<!-- and the flight continues for NN  days. -->
+
       * 원래 패키지 내의 배치는 새 패키지에 복사됩니다.
+
       * 광고 및 배치 수준 이벤트 픽셀이 새 패키지에 복사되지 않습니다.
+
 1. 클릭 **[!UICONTROL Submit]**.
 
 ## 복제되지 않은 사항 {#package-not-duplicated}

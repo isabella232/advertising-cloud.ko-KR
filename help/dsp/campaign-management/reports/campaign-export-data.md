@@ -1,16 +1,16 @@
 ---
-title: 캠페인 관리 보기에서 데이터 내보내기
+title: Campaign Management 보기에서 데이터 내보내기
 description: 모든 유형의 캠페인 관리 보기에서 스프레드시트 파일로 데이터를 내보내는 방법을 알아봅니다.
 feature: DSP Campaign Data Views
 exl-id: 393b0726-d26c-4d0b-8926-98fc27259286
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
 
 ---
 
-# 캠페인 관리 보기에서 데이터 내보내기
+# Campaign Management 보기에서 데이터 내보내기
 
 필터링된 현재 캠페인 관리 보기의 스냅숏을 Microsoft Excel 스프레드시트(XLSX) 형식의 파일로 내보낼 수 있습니다. 다음에 대한 데이터를 내보낼 수 있습니다.
 
@@ -22,9 +22,11 @@ ht-degree: 0%
 * 모든 배치
 * 모든 광고
 
-1. 기본 메뉴에서 **[!UICONTROL Campaigns]** 을 클릭하고 내보낼 보기를 엽니다.
-1. 오른쪽 위 도구 모음에서 **[!UICONTROL ...]>[!UICONTROL Export]** 를 클릭합니다.
-이 파일은 브라우저의 기본 다운로드 폴더에 저장됩니다.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]** 내보낼 보기를 엽니다.
+
+1. 오른쪽 상단 도구 모음에서  **[!UICONTROL ...]>[!UICONTROL Export]**.
+
+   이 파일은 브라우저의 기본 다운로드 폴더에 저장됩니다.
 
 >[!MORELIKETHIS]
 >

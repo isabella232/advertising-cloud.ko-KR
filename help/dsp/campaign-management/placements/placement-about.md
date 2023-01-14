@@ -1,16 +1,16 @@
 ---
-title: Advertising Cloud DSP의 배치 관리 정보
+title: Advertising DSP의 배치 관리 정보
 description: 배치 관리에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: 1d1382d9-b6c8-44bf-a708-8458769a39c6
-source-git-commit: c6a3d9703d06a44e38aae3bc6ec3f5f77e93082d
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
 
-# Advertising Cloud DSP의 배치 관리 정보
+# Advertising DSP의 배치 관리 정보
 
 배치에는 동일한 광고 유형의 하나 이상의 광고에 대한 타깃팅 매개 변수가 포함됩니다. 단일 캠페인이나 패키지에 대한 배치를 만든 다음 해당 캠페인에 광고를 할당할 수 있습니다. 각 캠페인 또는 배치에는 지정된 광고 순환이 있는 여러 배치가 포함될 수 있습니다. 기본적으로 광고는 고르게 회전합니다.
 

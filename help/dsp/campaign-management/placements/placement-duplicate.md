@@ -3,7 +3,7 @@ title: 중복 배치
 description: 하나 이상의 배치를 복제하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: d22a61a8-4f1b-41ee-b4fb-3124bec81a2f
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -24,16 +24,27 @@ ht-degree: 0%
 참조:[복제되지 않은 사항](#placement-not-duplicated)중복되지 않은 배치 설정 목록입니다.
 
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
+
 1. 캠페인의 이름을 클릭합니다.
+
 1. 하위 메뉴에서 **[!UICONTROL Placements]**.
+
 1. 다음 중 하나를 수행합니다.
+
    * 한 배치를 복제하려면 를 클릭합니다  **[!UICONTROL ...]>[!UICONTROL Duplicate]** 패키지 이름 옆에 있는 를 클릭합니다.
+
    * 여러 배치를 복제하려면
+
       1. 복제할 각 배치 옆에 있는 확인란을 선택합니다.
+
       1. 벌크 작업 도구 모음에서 **[!UICONTROL Duplicate]**.
+
 1. 새 배치 설정을 지정합니다.
+
    1. (단일 배치) 새 배치 이름을 입력합니다.
+
    1. 에서 **[!UICONTROL Choose Package (Required)]** 메뉴에서 상위 패키지 또는 ** 중 하나를 선택합니다[!UICONTROL No package]*.
+
    1. (선택 사항) 기본 설정을 변경합니다.
 
    이 설정은 선택한 모든 배치에 적용됩니다.

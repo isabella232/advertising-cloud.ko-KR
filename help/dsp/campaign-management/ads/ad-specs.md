@@ -3,9 +3,9 @@ title: 광고 사양
 description: 일반 및 게시자별 광고 사양을 참조합니다.
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: b25521d35134ca453c889fc1a71e4c81f982a77b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->오버레이될 이미지에 따라 밝은 로고 또는 어두운 로고 자산 중에서 선택합니다.
+>오버레이할 이미지에 따라 밝은 로고 또는 어두운 로고 자산 중에서 선택합니다.
 
 #### 텍스트/복사
 

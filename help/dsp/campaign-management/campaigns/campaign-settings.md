@@ -3,9 +3,9 @@ title: 캠페인 설정
 description: 사용 가능한 캠페인 설정에 대한 설명을 참조하십시오.
 feature: DSP Campaigns
 exl-id: ff2e22ff-8073-4532-884b-36e0c1f22641
-source-git-commit: d7afcc2200adc41e583d21712226cb25f35aab66
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Margin Type]:** 여백의 유형입니다. 여백 관리를 활성화하고 캠페인을 저장한 후에는 여백 유형을 변경할 수 없습니다.
 
-   * *[!UICONTROL Fixed]:* (기본값) Advertising Cloud DSP에서 [!UICONTROL Gross Budget].
+   * *[!UICONTROL Fixed]:* (기본값) DSP에서 [!UICONTROL Gross Budget].
 
-   * *[!UICONTROL Dynamic]:* 여백을 별도의 [!UICONTROL Budget Reserve %] 및 [!UICONTROL Gross Budget] 의 각 패키지 및 캠페인에 배치되는 각각의 경우를 설명합니다. Advertising Cloud DSP은 특정 여백을 보장하지 않고 각 배치의 재무 효율성을 기반으로 최적화합니다. 고정 비율로 고정 수량 또는 단위 유형을 제공하기로 동의한 여러 라인 항목으로 구성된 삽입 주문에 사용합니다.
+   * *[!UICONTROL Dynamic]:* 여백을 별도의 [!UICONTROL Budget Reserve %] 및 [!UICONTROL Gross Budget] 의 각 패키지 및 캠페인에 배치되는 각각의 경우를 설명합니다. DSP은 특정 여백을 보장하지 않고 각 배치의 재무 효율성을 기반으로 최적화합니다. 고정 비율로 고정 수량 또는 단위 유형을 제공하기로 동의한 여러 라인 항목으로 구성된 삽입 주문에 사용합니다.
 
 * **[!UICONTROL Fixed Margin %]:** (여백이 고정된 캠페인 전용) 각 삽입 순서에 대한 기본 마크업 <!-- impression? -->를 백분율로 제한할 수 있습니다. 이 금액은 [!UICONTROL Gross Budget] 순 캠페인 예산을 정의하기 위해.
 
@@ -64,11 +64,11 @@ ht-degree: 0%
 
 1. 세금을 보류할 각 요금 유형 옆의 확인란을 선택합니다. 요금 유형은 다음과 같습니다.
 
-   * *[!UICONTROL Include estimated tax - ads fee]:* 캠페인 관리 요금에 대한 세금을 포함한 모든 Advertising Cloud DSP 미디어 지출에 적용됩니다.
+   * *[!UICONTROL Include estimated tax - ads fee]:* 캠페인 관리 요금에 대한 세금을 포함한 모든 Advertising DSP 미디어 지출에 적용됩니다.
 
-   * *[!UICONTROL Include estimated tax - ad serving fee]:* 미디어 및 데이터를 제외하고 Advertising Cloud DSP에서 지출하는 모든 비용에 적용됩니다. 이는 캠페인 관리 비용에 대한 세금을 제외합니다
+   * *[!UICONTROL Include estimated tax - ad serving fee]:* 미디어 및 데이터를 제외한 Advertising DSP에 지출하는 모든 비용에 적용됩니다. 이는 캠페인 관리 비용에 대한 세금을 제외합니다
 
-   * *[!UICONTROL Include estimated tax - data fee]:* Advertising Cloud DSP에 대한 모든 데이터 지출에 적용됩니다.
+   * *[!UICONTROL Include estimated tax - data fee]:* Advertising DSP에 대한 모든 데이터 지출에 적용됩니다.
 
 1. 클릭 **[!UICONTROL Submit]**.
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 >* 계정의 요금 설정에서 이러한 값을 구성할 수도 있습니다.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
 
-**[!UICONTROL Cross Device Level]:** (2020년 6월 22일 이후 생성된 기존 캠페인에 대한 읽기 전용. 2020년 6월 22일 이전에 생성된 캠페인에 사용할 수 없음) Advertising Cloud이 광고를 타겟팅하고 빈도 제한을 적용할 레벨입니다. *동일한 장치* 장치 또는 *사람* 의 모든 알려진 장치에서 사용자를 타겟팅합니다.
+**[!UICONTROL Cross Device Level]:** (2020년 6월 22일 이후 생성된 기존 캠페인에 대한 읽기 전용. DSP에서 광고를 타깃팅하고 빈도 제한 적용 수준: *동일한 장치* 장치 또는 *사람* 의 모든 알려진 장치에서 사용자를 타겟팅합니다.
 
 **[!UICONTROL Device Graph]:** (기존 캠페인에 대한 읽기 전용) 사람 기반의 교차 장치 타깃팅만 있는 캠페인) 교차 장치 타깃팅 및 빈도 관리에 사용할 장치 그래프입니다.
 

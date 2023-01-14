@@ -3,16 +3,16 @@ title: 프로그램 보장 거래 기본 정보
 description: 프로그래밍 방식의 보장(PG) 거래 및 이러한 거래를 제공하도록 인증된 SSP에 대해 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8cf85ae3-027d-4d9d-95a0-ac39d651627a
-source-git-commit: 96f756b0f5239e2378d0a4da18335d909f96ab94
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
 
 # 프로그램 보장 거래 기본 정보
 
-PG(프로그래밍 방식 보증) 거래는 광고 서버 태그가 아닌 거래 ID를 통해 게시자와 직접 구매를 보장합니다. PG는 사용자와 게시자가 관리할 수 있는 보다 유연하며 일반 태그 구매보다 더 투명합니다. 청구 및 보고는 Advertising Cloud DSP을 통해 통합되므로 시간을 절약할 수 있습니다.
+PG(프로그래밍 방식 보증) 거래는 광고 서버 태그가 아닌 거래 ID를 통해 게시자와 직접 구매를 보장합니다. PG는 사용자와 게시자가 관리할 수 있는 보다 유연하며 일반 태그 구매보다 더 투명합니다. 청구 및 보고는 DSP을 통해 통합되므로 시간을 절약할 수 있습니다.
 
 ## PG 거래의 기능
 

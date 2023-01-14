@@ -3,7 +3,7 @@ title: 공인 광고 서비스 제공 파트너
 description: 모든 인증된 광고 서버 및 광고 단위를 참조하십시오.
 feature: DSP Ads
 exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
-source-git-commit: ffd88b7f3274740db2d91697b0e208f61b2260d5
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 | [!DNL Spirable] |  | X |  |  |  |
 | [!DNL SUBLIME] |  |  | X |  |  |
 | [!DNL SundaySky] |  |  |  | X |  |
-| [!DNL Teads] |  | X |  |  | Advertising Cloud DSP은 아웃바운드 스트림 인벤토리에서 VPAID를 지원하지 않습니다. |
+| [!DNL Teads] |  | X |  |  | 아웃바운드 스트림 인벤토리에서 VPAID에 대한 지원을 사용할 수 없습니다. |
 | [!DNL Trueffect] |  | X |  |  |  |
 | [!DNL Undertone] |  |  | X |  | DSP에서 180x150으로 업로드된 사용자 지정 페이지 그래버 광고 단위</br></br>Index Exchange가 경매에서 180x150 경매와 DSP 입찰을 통과하고 노출을 제공하면 크리에이티브는 전체 페이지 디스플레이 광고로 확장됩니다.</br></br>처음에 Page Grabber, Expandable Switchion 및 Screen Shift 광고 단위에 대해 인증되었습니다. 프로세스에 대해 표시된 단계를 사용하여 이를 수정해야 합니다. |
 | [!DNL Vox] |  |  | X |  | [!DNL Athena] 광고 단위 |

@@ -1,10 +1,11 @@
 ---
-title: '내구성 ID 파트너에서 인증된 세그먼트 활성화 '
+title: 내구성 ID 파트너에서 인증된 세그먼트 활성화
 description: 내구성 ID 솔루션을 통해 인증된 대상을 활성화하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
-source-git-commit: 155ab740084bebfba5fd992a23706129668fcc90
+exl-id: 44635b74-1874-4781-bd1a-a4dadae049e0
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *베타 기능*
 
-Advertising Cloud DSP 내의 내구성 ID 솔루션을 통해 인증된 대상을 활성화하려면 세그먼트를 [!DNL RampIDs]: 입찰 가능한 환경에서 인식할 수 있습니다. 다음 방법 중 하나를 사용하여 이 작업을 수행할 수 있습니다.
+Advertising DSP 내에서 내구성 ID 솔루션을 통해 인증된 대상을 활성화하려면 세그먼트를 [!DNL RampIDs]: 입찰 가능한 환경에서 인식할 수 있습니다. 다음 방법 중 하나를 사용하여 이 작업을 수행할 수 있습니다.
 
 * DSP과 [!DNL Adobe Real-Time Customer Data Profile (CDP)] 그리고 [!DNL Adobe-LiveRamp Retrieval API].
 
@@ -49,7 +50,7 @@ Advertising Cloud DSP 내의 내구성 ID 솔루션을 통해 인증된 대상�
 
    * 공유된 세그먼트를 Target [!DNL LiveRamp] 표준 세그먼트 활성화 프로세스 사용.
 
-   * Advertising Cloud 지원 팀과 협력하여 적절한 데이터 배포의 유효성을 검사합니다.
+   * Adobe 광고 지원 팀과 협력하여 적절한 데이터 분포를 확인합니다.
 
 DSP 통합에 대해 자세히 알아보려면 [!DNL LiveRamp], 연락처 `adcloud-support@adobe.com`.
 
@@ -58,6 +59,6 @@ DSP 통합에 대해 자세히 알아보려면 [!DNL LiveRamp], 연락처 `adclo
 >* [Audience Sources에서 인증된 세그먼트 활성화 정보](source-about.md)
 >* [자사 대상을 활성화할 대상 소스 만들기](source-create.md)
 >* [대상 소스 설정](source-settings.md)
->* [Adobe Advertising Cloud DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
 

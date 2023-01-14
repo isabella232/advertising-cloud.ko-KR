@@ -1,20 +1,20 @@
 ---
-title: Advertising Cloud DSP에서 사용 가능한 타사 데이터 공급자
+title: Advertising DSP에서 사용 가능한 타사 데이터 공급자
 description: 사용 가능한 모든 타사 데이터 공급자 목록을 참조하십시오.
 feature: DSP Audiences
 exl-id: f67d81a0-bd31-48d8-9bcf-1888afd43894
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
 <!-- feature: audiences -->
 
-# Advertising Cloud DSP에서 사용 가능한 타사 데이터 공급자
+# Advertising DSP에서 사용 가능한 타사 데이터 공급자
 
-다음 타사 데이터 공급자에 대한 데이터 카테고리 및 세그먼트를 의 배치 대상으로 사용할 수 있습니다. [!DNL DSP]. 이러한 세그먼트는 주로 미국 대상에 사용할 수 있습니다.
+다음 타사 데이터 공급자에 대한 데이터 카테고리 및 세그먼트는 DSP에서 배치 대상으로 사용할 수 있습니다. 이러한 세그먼트는 주로 미국 대상에 사용할 수 있습니다.
 
 배치 설정 및 저장된 대상 설정의 세그먼트 이름 옆에 각 세그먼트 사용 요금이 표시됩니다.
 

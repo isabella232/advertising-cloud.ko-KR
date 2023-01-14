@@ -1,20 +1,20 @@
 ---
-title: Advertising Cloud DSP의 광고 관리 정보
+title: Advertising DSP의 광고 관리 정보
 description: 광고 관리에 대해 알아봅니다.
 feature: DSP Ads
 exl-id: 72c8bbef-d09c-4cf4-994d-99578d043d39
-source-git-commit: 1499d9d86d8c2bafb03b41687c50dbf708c715da
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
 
-# Advertising Cloud DSP의 광고 관리 정보
+# Advertising DSP의 광고 관리 정보
 
 <!-- add "The Ads View (Dashboard?)" section -->
 
-Advertising Cloud DSP은 다양한 광고 유형에 대한 타사 광고 서비스 태그(예: Google, Flashtalk 또는 Sizmek)를 통한 광고 전달을 지원하고 기본 디스플레이 광고에 대한 직접 자산 업로드를 지원합니다. 타사 태그를 개별적으로 또는 대량으로 업로드할 수 있습니다. 벌크 업로드는 파트너 태그 시트 또는 벌크 태그 템플릿을 사용합니다.
+DSP은 다양한 광고 유형에 대한 타사 광고 서비스 태그(예: Google, Flashtalk 또는 Sizmek)를 통한 광고 전달을 지원하고 기본 디스플레이 광고에 대한 직접 자산 업로드를 지원합니다. 타사 태그를 개별적으로 또는 대량으로 업로드할 수 있습니다. 벌크 업로드는 파트너 태그 시트 또는 벌크 태그 템플릿을 사용합니다.
 
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
@@ -23,7 +23,7 @@ Advertising Cloud DSP은 다양한 광고 유형에 대한 타사 광고 서비�
 
 ## 사용 가능한 광고 유형 {#ad-types}
 
-다음 모든 광고 유형은 Advertising Cloud DSP에서 사용할 수 있습니다. 각 광고 유형에 대한 전체 사양은 [광고 사양](ad-specs.md).
+다음 모든 광고 유형을 DSP에서 사용할 수 있습니다. 각 광고 유형에 대한 전체 사양은 [광고 사양](ad-specs.md).
 
 * **오디오 광고(타사 전용)**: 오디오 광고는 디지털 게시자 사이트에서 컨텐츠 간에 재생되며 오디오 파일로 독립 실행형 또는 컴패니언 배너와 함께 실행할 수 있습니다. 오디오는 브랜드 인식을 유도하고 이동 중에도 사용자의 참여를 유도하는 데 가장 잘 사용됩니다. 오디오의 주요 성능 지표는 다음과 같습니다 [!UICONTROL Completion Rate] 및 [!UICONTROL Cost per Completion].
 
@@ -39,9 +39,9 @@ Advertising Cloud DSP은 다양한 광고 유형에 대한 타사 광고 서비�
 
 * **범용 비디오 광고(타사 전용)**: 범용 비디오 광고는 연결된 TV, 프리롤 및 모바일 프리롤 광고(VAST 및 VPAID)의 모든 기능을 하나로 결합하고 비디오 컨텐츠 전후에 표시됩니다. 범용 비디오 광고는 데스크탑, 모바일 및 연결된 TV 환경에서 비디오 인벤토리를 타깃팅할 때 사용할 수 있으므로 여러 비디오 광고를 만들 필요가 없습니다. 범용 비디오에 대한 주요 성능 지표는 다음과 같습니다 [!UICONTROL Completion Rate] 및 [!UICONTROL Viewability Rate].
 
-## Advertising Cloud DSP 광고 승인
+## DSP Ad Approvals
 
-광고를 만들 때 Advertising Cloud DSP에서 중요한 카테고리에 대해 검토하고, URL 기능을 클릭하고, 렌더링을 미리 봅니다.
+광고를 만들 때 DSP에서 중요한 카테고리에 대해 검토하고, URL 기능을 클릭하고, 렌더링을 미리 봅니다.
 
 처음에는 빨간색 점이 [!UICONTROL Status] 열. 검토 프로세스는 일반적으로 24-48시간이 소요됩니다. 그러나 끊어진 광고에는 48시간 이상 보류 중인 상태가 있을 수 있으므로 광고를 거부하기 전에 오류를 수정할 시간이 있습니다. 거부된 광고에는 거부에 대한 이유가 포함되어 있습니다.
 

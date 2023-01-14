@@ -1,24 +1,24 @@
 ---
 title: 사용 [!DNL Roku] 인벤토리
-description: 'Adobe와의 DSP 파트너십에 대해 알아보기 [!DNL Roku], 인벤토리 옵션, 승인된 타사 추적 공급업체 및 [!DNL Roku]- 특정 배치. '
+description: Adobe와의 DSP 파트너십에 대해 알아보기 [!DNL Roku], 인벤토리 옵션, 승인된 타사 추적 공급업체 및 [!DNL Roku]- 특정 배치.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: 0cd42782-f006-4aa8-b879-322f86cfac4b
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
 
 # 사용 [!DNL Roku] 인벤토리
 
-Advertising Cloud DSP은 [!DNL Roku].
+Advertising DSP에서는 광고를 위한 고유한 기능을 제공합니다 [!DNL Roku].
 
-## Advertising Cloud DSP 및 [!DNL Roku] 파트너십
+## DSP 및 [!DNL Roku] 파트너십
 
-Roku와 Advertising Cloud DSP은 귀하의 [!DNL DSP] 대상 [!DNL Roku] 1:1 결정론적 대상 타깃팅에 대한 ID [!DNL Roku] 인벤토리
+Roku와 DSP은 고객의 [!DNL DSP] 대상 [!DNL Roku] 1:1 결정론적 대상 타깃팅에 대한 ID [!DNL Roku] 인벤토리
 
-Roku의 자체 DSP(OneView) 외부에서 Advertising Cloud DSP은 이러한 타깃팅 기능에 대한 유일한 액세스 권한을 갖습니다. 또한 측정 권한이 있는 유일한 DSP인 Advertising Cloud DSP [!DNL Roku] 기타 모든 연결된 TV(CTV) 인벤토리 옆에 제공됩니다. 왜냐면 [!DNL Roku] 는 표준 RTB와 노출 픽셀 신호를 모두 공유하지 않으며 다른 DSP도 Roku에서 판매하는 CTV 공급에서 타깃팅하거나 측정할 수 없습니다.
+Roku의 자체 DSP(OneView) 외부에서 Advertising DSP은 이러한 타깃팅 기능에 대한 유일한 액세스 권한을 갖습니다. 또한 측정 권한이 있는 유일한 DSP은 Advertising DSP입니다 [!DNL Roku] 기타 모든 연결된 TV(CTV) 인벤토리 옆에 제공됩니다. 왜냐면 [!DNL Roku] 는 표준 RTB와 노출 픽셀 신호를 모두 공유하지 않으며 다른 DSP도 Roku에서 판매하는 CTV 공급에서 타깃팅하거나 측정할 수 없습니다.
 
 ## [!DNL Roku] 재고 옵션
 
