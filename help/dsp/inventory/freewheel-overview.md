@@ -2,8 +2,7 @@
 title: PG 딜 설정 개요 [!DNL Freewheel]
 description: 의 게시자와 프로그래밍 방식으로 보장되는 거래를 위한 광고를 실행하는 데 필요한 사전 요구 사항과 추가 단계에 대해 알아봅니다 [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: acf8351b-88fb-4f18-8fca-9a2d6674cdec
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%

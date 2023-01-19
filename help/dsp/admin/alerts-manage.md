@@ -1,7 +1,7 @@
 ---
 title: 경고 구독 관리
 description: 자동 이메일 경고를 관리하는 방법을 알아봅니다.
-source-git-commit: 1cce72f4cd898034c7bf7bfeee8c5b37f43c0a59
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%

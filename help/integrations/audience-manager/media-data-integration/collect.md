@@ -2,8 +2,7 @@
 title: Advertising DSP 캠페인에서 클릭 및 노출 데이터 수집
 description: Audience Manager 픽셀을 사용하여 Advertising DSP 광고에서 쿠키 기반 노출 및 클릭 이벤트를 캡처하는 방법을 알아봅니다
 feature: Integration with Adobe Audience Manager
-exl-id: eb717148-00ab-428a-97b9-e8396a5c47b0
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%

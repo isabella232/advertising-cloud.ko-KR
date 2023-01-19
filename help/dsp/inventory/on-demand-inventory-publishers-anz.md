@@ -1,9 +1,8 @@
 ---
-title: '"[!DNL On Demand] Premium 호주 및 뉴질랜드의 인벤토리 게시자"'
+title: "[!DNL On Demand] Premium 호주 및 뉴질랜드의 인벤토리 게시자"
 description: 사용 가능한 을 참조하십시오 [!DNL On Demand] 호주 및 뉴질랜드의 프리미엄 인벤토리 게시자
 feature: DSP On Demand Inventory
-exl-id: e46ec570-38a7-4ea6-8c4c-d173971c48b7
-source-git-commit: 2c94b6c02b4e24878639dd9edbc0455e1751f679
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%

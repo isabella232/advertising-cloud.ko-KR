@@ -2,7 +2,7 @@
 title: 재사용 가능한 대상에 대한 세부 정보 내보내기
 description: 재사용 가능한 대상을 위한 구성, 대상 크기 및 타깃팅된 배치를 보는 방법을 알아봅니다.
 feature: DSP Audiences
-source-git-commit: 0a437213957f914643b4eff63aba65cf582824c6
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%

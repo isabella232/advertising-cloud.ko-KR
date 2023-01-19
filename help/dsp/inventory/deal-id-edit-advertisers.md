@@ -2,8 +2,7 @@
 title: 비공개 거래에 액세스할 수 있는 광고주 편집
 description: 비공개 거래에 액세스할 수 있는 광고주를 지정하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 6efbc5dc-90d8-46a5-88fe-218990c6336d
-source-git-commit: a29019ee7af0124ad9182f0578811c4d0e666937
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%

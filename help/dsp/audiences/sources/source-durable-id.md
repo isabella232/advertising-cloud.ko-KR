@@ -2,8 +2,7 @@
 title: 내구성 ID 파트너에서 인증된 세그먼트 활성화
 description: 내구성 ID 솔루션을 통해 인증된 대상을 활성화하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
-exl-id: 44635b74-1874-4781-bd1a-a4dadae049e0
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%

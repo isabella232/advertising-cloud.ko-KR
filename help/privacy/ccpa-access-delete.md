@@ -2,8 +2,7 @@
 title: '캘리포니아 소비자 개인 정보 보호법을 위한 Adobe 광고 지원 : 소비자 데이터 액세스 및 삭제 지원'
 description: 지원되는 데이터 요청 유형, 필수 설정 및 필드 값, 레거시 제품 ID를 사용한 API 액세스 요청 및 반환된 데이터 필드의 예에 대해 알아봅니다.
 feature: CCPA
-exl-id: 1330da6c-a944-4bb5-8539-488d97f56175
-source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 0%

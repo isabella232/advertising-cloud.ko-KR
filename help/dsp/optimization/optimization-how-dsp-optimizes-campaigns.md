@@ -2,8 +2,7 @@
 title: DSP이 캠페인을 최적화하는 방법
 description: DSP이 캠페인에서 패키지를 최적화하는 방법을 알아봅니다.
 feature: DSP Optimization
-exl-id: 054582ef-b677-4725-b25c-b82bf3e5b43e
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%

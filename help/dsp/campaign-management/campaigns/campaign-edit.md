@@ -2,8 +2,7 @@
 title: 캠페인 편집
 description: 캠페인을 편집하는 방법을 알아봅니다.
 feature: DSP Campaigns
-exl-id: 5647029b-f861-4396-8501-2a06a7f4d910
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 2%
@@ -12,15 +11,15 @@ ht-degree: 2%
 
 # 캠페인 편집
 
-1. 주 메뉴에서 **[!UICONTROL Campaigns]** 을 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
 1. 
-   1. 캠페인 이름 옆에 있는 **.. >[!UICONTROL Edit]** 를 클릭합니다.
-1. [캠페인 설정](campaign-settings.md)을 편집합니다.
+   1. 캠페인 이름 옆의  **... >[!UICONTROL Edit]**.
+1. 편집 [캠페인 설정](campaign-settings.md).
 1. 클릭 **[!UICONTROL Save Campaign]**.
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management 기본 정보](campaign-about.md)
+>* [Campaign Management 정보](campaign-about.md)
 >* [캠페인 만들기](campaign-create.md)
 >* [캠페인 설정](campaign-settings.md)
 

@@ -2,8 +2,7 @@
 title: 사용자 지정 열 보기 만들기
 description: 사용자 지정 열 보기를 만드는 방법을 알아봅니다.
 feature: DSP Campaign Data Views
-exl-id: f39e6ce9-aa4e-4049-af16-eddb0ba30087
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%

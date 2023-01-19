@@ -1,7 +1,7 @@
 ---
 title: 조직 계정에 대해 새 사용자 초대
 description: 새 사용자를 계정에 가입하도록 초대하는 방법을 알아봅니다.
-source-git-commit: cd1ded08b07735cb3e156ec401e3ea1a920183d3
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%

@@ -2,8 +2,7 @@
 title: '캘리포니아 소비자 개인 정보 보호법을 위한 Adobe 광고 지원 : 소비자 판매 중지 지원'
 description: 소비자 판매 중지 요청 캡처에 대한 지원에 대해 알아봅니다.
 feature: CCPA
-exl-id: 2c0cd4f5-798f-479a-99cd-f555cd676766
-source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 0%

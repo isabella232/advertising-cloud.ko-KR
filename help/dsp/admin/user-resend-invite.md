@@ -1,7 +1,7 @@
 ---
 title: 보류 중인 사용자 초대 다시 보내기
 description: 보류 중인 사용자 초대를 다시 보내는 방법을 알아봅니다.
-source-git-commit: e3d4c2010255ccf821f3a1ae5278bb3414b8783e
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%

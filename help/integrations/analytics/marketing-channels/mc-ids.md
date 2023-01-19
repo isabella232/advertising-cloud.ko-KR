@@ -2,8 +2,7 @@
 title: Adobe 광고 ID를 사용하여 만들기 [!DNL Marketing Channels] 규칙
 description: Adobe 광고 ID를 사용하여 처리 규칙을 만드는 방법을 알아봅니다. [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
-exl-id: 4fcdd586-e9c5-4405-a6dc-7799d2bac93e
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 0%

@@ -2,8 +2,7 @@
 title: 에 대한 오류 코드 [!DNL FreeWheel] 광고 제출
 description: 광고 제출을 위해 반환되는 오류 코드를 참조합니다. [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 2eb93971-ba82-4de8-96c5-48524d628b70
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 2%

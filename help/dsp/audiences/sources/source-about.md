@@ -2,8 +2,7 @@
 title: Audience Sources에서 인증된 세그먼트 활성화 정보
 description: 고객 데이터 플랫폼에서 자사 세그먼트를 수집하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
-exl-id: 3e6ede23-2b27-4b1d-bfa2-e823824633c4
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%

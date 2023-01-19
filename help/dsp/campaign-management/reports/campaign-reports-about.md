@@ -2,8 +2,7 @@
 title: 플랫폼 내 보고서 정보
 description: 캠페인 관리 보기에 포함된 보고서 데이터에 대해 알아봅니다.
 feature: DSP Campaign Data Views
-exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 093902d577cc4af3bb18bbeddc640fe284d3a179
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%

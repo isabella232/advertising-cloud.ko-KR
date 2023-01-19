@@ -2,7 +2,7 @@
 title: 배치 변경 로그 보기
 description: 배치에 대한 변경 사항을 보는 방법을 알아봅니다.
 feature: DSP Placements
-source-git-commit: ea77f93b72ffa9ffd755879a21b16cc28fac625e
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%

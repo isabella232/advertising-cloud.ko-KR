@@ -1,16 +1,15 @@
 ---
-title: Campaign 관리에 대한 FAQ
+title: Campaign Management에 대한 FAQ
 description: 변경 지연 기간 및 비행 중 예산 변경 시 발생하는 사항 등 캠페인 관리에 대해 자세히 알아보십시오.
 feature: DSP Packages, DSP Placements
-exl-id: 9034ab2c-b8b0-4759-bc87-5f73857bb062
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
-# Campaign 관리에 대한 FAQ
+# Campaign Management에 대한 FAQ
 
 <!-- Most of this information should be moved into the relevant topics (especially editing topics). -->
 
@@ -20,7 +19,7 @@ ht-degree: 0%
 
    설정 변경 사항은 일반적으로 즉시 적용되지만 최대 12시간이 걸릴 수 있습니다.
 
-   배달이 마지막 날이라면, DSP이 그 변경을 기반으로 패키지를 재구성할 시간이 충분하도록 일찍 변경하세요. 예를 들어, 게재 간격 게재 간격 게재 시간에서까지 변경하는 경우, DSP은 나머지 비행 동안 비용을 분배하는 방법을 재평가해야 합니다. 마지막 날 배달할 시간이 1시간 밖에 남지 않았다면 그런 종류의 변경을 하지 마세요.
+   배달이 마지막 날이라면, DSP이 그 변경을 기반으로 패키지를 재구성할 시간이 충분하도록 일찍 변경하세요. 예를 들어, 게재 간격 게재 간격 게재 시간에서까지 변경할 경우, DSP은 나머지 비행 동안 지출을 분배하는 방법을 재평가해야 합니다. 마지막 날 배달할 시간이 1시간 밖에 남지 않았다면 그런 종류의 변경을 하지 마세요.
 
 ## 중간 비행 예산 갱신
 
@@ -40,7 +39,7 @@ ht-degree: 0%
 
 * 비행기 마지막 날 소포가 어떻게 달라지나요?
 
-   비행기 마지막 날에, 패키지 예산이 초과되지 않도록 24시간에서 23시간으로 단축됩니다. 또한 패키지의 간격 채우기 전략은 &quot;[!UICONTROL Frontload]&quot;로 설정되어 있어도 자동으로 &quot;[!UICONTROL even]&quot;로 변경됩니다. 하루 평균 65%의 예산이 오전 11시 30분까지 배달된다는 뜻이다.
+   비행기 마지막 날에, 패키지 예산이 초과되지 않도록 24시간에서 23시간으로 단축됩니다. 또한 패키지의 간격 채우기 전략은 자동으로 &quot;[!UICONTROL Frontload],&quot;로 설정되어 있어도[!UICONTROL even].&quot; 하루 평균 65%의 예산이 오전 11시 30분까지 배달된다는 뜻이다.
 
 >[!MORELIKETHIS]
 >

@@ -2,7 +2,7 @@
 title: 세그먼트 정보 편집
 description: 사용자 지정 또는 CCPA 판매 중지 세그먼트에 대한 정보를 편집하는 방법을 알아봅니다.
 feature: DSP Segments
-source-git-commit: d7dbc81caecf515ed719da5cb5893e015213a1b1
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%

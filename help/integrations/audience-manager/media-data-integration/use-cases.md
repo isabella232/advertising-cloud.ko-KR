@@ -2,8 +2,7 @@
 title: 사용 사례
 description: Advertising DSP 미디어 데이터를 Audience Manager과 공유하는 사용 사례에 대해 알아봅니다
 feature: Integration with Adobe Audience Manager
-exl-id: 21d80cf6-f817-495a-bae4-fc9e44f1eda4
-source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%

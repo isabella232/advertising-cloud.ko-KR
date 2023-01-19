@@ -2,8 +2,7 @@
 title: 광고와 연결된 배치 나열
 description: 광고와 연관된 배치를 보는 방법을 알아봅니다.
 feature: DSP Ads
-exl-id: 82c4f1b4-56fd-411f-a027-3f93ffb3867b
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
@@ -14,10 +13,10 @@ ht-degree: 0%
 
 광고와 연결된 배치 목록을 보고 배치별로 성능 데이터를 확인하고 필요한 경우 배치 설정을 편집합니다.
 
-1. 주 메뉴에서 **[!UICONTROL Campaigns]** 을 클릭합니다.
-1. 캠페인 이름을 클릭합니다.
-1. 하위 메뉴에서 **[!UICONTROL Ads]** 을 클릭합니다.
-1. 광고 이름 옆에 있는 **.. >[!UICONTROL See placements]** 을 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 캠페인의 이름을 클릭합니다.
+1. 하위 메뉴에서 **[!UICONTROL Ads]**.
+1. 광고 이름 옆에 있는 를 클릭합니다.  **... >[!UICONTROL See placements]**.
 
 >[!MORELIKETHIS]
 >

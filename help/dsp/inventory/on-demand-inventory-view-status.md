@@ -2,10 +2,9 @@
 title: 사용자의 상태 보기 [!DNL On Demand] 거래 요청 및 구독
 description: 사용자의 상태를 확인하는 방법을 알아봅니다 [!DNL On Demand] 거래 요청 및 구독.
 feature: DSP On Demand Inventory
-exl-id: 8dd6d922-c4a3-4ddb-bca9-f6f782da1320
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---

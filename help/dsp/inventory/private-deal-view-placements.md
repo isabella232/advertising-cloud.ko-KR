@@ -2,8 +2,7 @@
 title: 비공개 거래의 배치 및 광고 나열
 description: 비공개 거래와 연결된 배치 및 광고 목록을 여는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: b7962e2f-933e-4563-b42c-27f5ef3c77e0
-source-git-commit: a29019ee7af0124ad9182f0578811c4d0e666937
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%

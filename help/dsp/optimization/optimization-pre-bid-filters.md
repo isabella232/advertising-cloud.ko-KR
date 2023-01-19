@@ -2,8 +2,7 @@
 title: 배치 수준 사전 입찰 필터 및 사용 방법
 description: 사용 가능한 배치 수준 사전 입찰 필터를 참조하여 사용 방법을 확인합니다.
 feature: DSP Optimization
-exl-id: c699e970-84ca-429b-8062-81804e6c9f21
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%

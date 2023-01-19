@@ -2,13 +2,12 @@
 title: 정보 [!UICONTROL Report Destinations]
 description: 사용자 지정 보고서의 게재 위치 관리에 대해 알아봅니다.
 feature: DSP Custom Reports
-source-git-commit: ff14691fd2b6fa56c303dca3ac0e4c897c322f72
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
 
 ---
-
 
 # 정보 [!UICONTROL Report Destinations]
 
@@ -43,3 +42,4 @@ ht-degree: 0%
 >* [[!UICONTROL Report Destination] 설정](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [편집 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [삭제 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+

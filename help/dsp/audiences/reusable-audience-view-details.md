@@ -2,7 +2,7 @@
 title: 재사용 가능한 대상에 대한 세부 정보 보기
 description: 재사용 가능한 대상의 구성 및 대상 크기를 보는 방법을 알아봅니다.
 feature: DSP Audiences
-source-git-commit: b835b9d8549faff6d4dbf9f03d14205028828880
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%

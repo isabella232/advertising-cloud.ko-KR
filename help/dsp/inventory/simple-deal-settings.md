@@ -2,10 +2,9 @@
 title: '`[!UICONTROL Simple Ad Serving] 거래 설정'
 description: 에 사용 가능한 설정에 대해 알아보기 [!UICONTROL Simple Ad Serving] 거래.
 feature: DSP Simple Ad Serving
-exl-id: 1a8f215c-c52b-4099-a55f-99c4232b7a22
-source-git-commit: 17a73b5177b3dd79a32cd0b03bfa28d8ac8bf996
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---

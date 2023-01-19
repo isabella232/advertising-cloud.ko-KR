@@ -2,8 +2,7 @@
 title: 다운로드/업로드된 스프레드시트의 열
 description: 다운로드 및 업로드된 Excel QA 스프레드시트의 열을 참조합니다.
 feature: DSP Placements
-exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%

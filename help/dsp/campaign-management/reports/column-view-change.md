@@ -2,8 +2,7 @@
 title: 열 보기 변경
 description: 데이터 보기를 변경하는 방법을 알아봅니다.
 feature: DSP Campaign Data Views
-exl-id: e7a95ed3-82f5-4c5c-937b-3cc48f9a3470
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 0%

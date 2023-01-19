@@ -2,8 +2,7 @@
 title: 오디오 광고 설정
 description: 오디오 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
-exl-id: 746b6f40-ff59-4bbe-bfc0-3579d4461e4a
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%

@@ -2,8 +2,7 @@
 title: 배치 보관 또는 보관 해제
 description: 배치를 보관 또는 보관 해제하는 방법을 알아봅니다.
 feature: DSP Placements
-exl-id: 3d342f83-1bcb-4f80-b31a-2009bcdde565
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%

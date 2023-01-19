@@ -1,8 +1,7 @@
 ---
 title: 고급 측정 솔루션
 description: 고급 측정에 사용할 수 있는 솔루션 목록을 참조하십시오.
-exl-id: 1a8b76ee-d38d-4ee4-981b-e29497fa4095
-source-git-commit: 927fd18c39ff93fae6222c0376cbe41810c06ca2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -47,7 +46,7 @@ ht-degree: 0%
 
 * **거래 통찰력**
 
-   세그먼트, 경쟁업체 시장 및 구매자 분석을 통해 결정론적 신용 및 차변 판매 데이터를 사용하여 캠페인 전략을 보강합니다.
+   세그먼트, 경쟁 시장 및 구매자 분석을 통해 결정론적 신용 및 차변 판매 데이터를 사용하여 캠페인 전략을 보강합니다.
 
 * **거래 측정**
 

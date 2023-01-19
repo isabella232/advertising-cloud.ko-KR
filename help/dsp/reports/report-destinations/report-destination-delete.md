@@ -2,13 +2,12 @@
 title: 보고서 대상 삭제
 description: 보고서 대상을 삭제하는 방법을 알아봅니다.
 feature: DSP Custom Reports
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 0%
 
 ---
-
 
 # 보고서 대상 삭제
 

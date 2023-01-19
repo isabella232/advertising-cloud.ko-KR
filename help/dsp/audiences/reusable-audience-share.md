@@ -2,7 +2,7 @@
 title: 재사용 가능한 대상 공유
 description: 계정에서 사용할 수 있는 다른 광고주와 재사용 가능한 대상을 공유하는 방법을 알아봅니다.
 feature: DSP Audiences
-source-git-commit: b0166338edca9f8928aa72241c815f0149e78689
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%

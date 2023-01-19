@@ -2,8 +2,7 @@
 title: 보고서 대상 만들기
 description: 사용자 지정 보고서 배달을 위한 대상을 만드는 방법을 알아봅니다.
 feature: DSP Custom Reports
-exl-id: 33c58a98-a7d3-4d05-99e7-5e55ba3e625a
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 2%

@@ -2,8 +2,7 @@
 title: Adobe 광고 허용 상태 세그먼트
 description: 상태 관련 대상 세그먼트를 타깃팅하기 위해 대체 요소로 사용할 수 있는 허용 가능한 상태 관련 대상 세그먼트 및 전술에 대한 지침을 참조하십시오.
 feature: Policies
-exl-id: fd4fdf5e-9159-4a89-8447-12051deae61b
-source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%

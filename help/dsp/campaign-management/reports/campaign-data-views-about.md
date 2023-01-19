@@ -2,8 +2,7 @@
 title: Campaign 데이터 보기 정보
 description: 캠페인, 패키지, 배치 및 광고에 대한 데이터 보기를 사용자 지정하는 방법을 알아봅니다.
 feature: DSP Campaign Data Views
-exl-id: acc312b9-2de4-4e2f-9b59-b91f23d82357
-source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
@@ -45,6 +44,6 @@ ht-degree: 0%
 >* [데이터 시각화 관리](campaign-data-visualization-manage.md)
 >* [배치에 대한 사이트, 광고 및 빈도 세부 사항 보기](placement-details-view.md)
 >* [배치 진단 보고서 보기](placement-diagnostics.md)
->* [캠페인 관리 보기에서 데이터 내보내기](campaign-export-data.md)
+>* [Campaign Management 보기에서 데이터 내보내기](campaign-export-data.md)
 >* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/ui.html)
 

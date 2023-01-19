@@ -2,8 +2,7 @@
 title: 다음 사이 예상되는 데이터 분산 [!DNL Analytics] 및 Adobe 광고
 description: 다음 사이 예상되는 데이터 분산 [!DNL Analytics] 및 Adobe 광고
 feature: Integration with Adobe Analytics
-exl-id: 34685e04-d4f9-4e27-b83e-b56164244b2b
-source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '3278'
 ht-degree: 0%
@@ -107,7 +106,7 @@ Adobe 광고에서 연결된 클릭 날짜/이벤트 날짜(클릭 또는 노출
 
 ### 에서 잠재적으로 다른 속성 모델 [!DNL Marketing Channels]
 
-가장 많이 [!DNL Marketing Channels] 보고서는 [!UICONTROL Last Touch] 마지막 마케팅 채널이 감지된 속성은 전환 값의 100%가 할당됩니다. 에 대해 다른 속성 모델 사용 [!DNL Marketing Channels] 보고서 및 Adobe 광고 보고서는 전환으로 인한 불일치를 초래할 수 있습니다.
+가장 많이 [!DNL Marketing Channels] 보고서는 [!UICONTROL Last Touch] 마지막 마케팅 채널이 감지된 속성은 전환 값의 100%를 지정합니다. 에 대해 다른 속성 모델 사용 [!DNL Marketing Channels] 보고서 및 Adobe 광고 보고서는 전환으로 인한 불일치를 초래할 수 있습니다.
 
 ### 의 잠재적으로 다른 전환 확인 기간 [!DNL Marketing Channels]
 

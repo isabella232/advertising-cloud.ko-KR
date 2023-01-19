@@ -2,7 +2,7 @@
 title: 재사용 가능한 대상 편집
 description: 재사용 가능한 대상을 편집하는 방법을 알아봅니다.
 feature: DSP Audiences
-source-git-commit: 4310a5cb01fc1969ff28143c3a7cb652118b410e
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%

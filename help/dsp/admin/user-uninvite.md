@@ -1,7 +1,7 @@
 ---
 title: 보류 중인 사용자 초대 취소
 description: 보류 중인 사용자 초대를 취소하는 방법을 알아봅니다.
-source-git-commit: 315fd6189e1805f9f1f4184cc0aa47d12740616a
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
