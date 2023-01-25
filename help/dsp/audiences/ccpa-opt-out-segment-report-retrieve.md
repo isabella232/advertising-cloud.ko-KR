@@ -2,7 +2,8 @@
 title: 소비자 판매 중지 보고서 검색
 description: 판매 중지 요청에 대해 제출된 ID의 보고서를 검색하는 방법을 알아봅니다.
 feature: CCPA, DSP Segments
-source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
+exl-id: 94133ce3-4e2c-4a24-90c9-61bf10731668
+source-git-commit: e9d9d51302d32b06af805917db2f46e5f6daee62
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [캘리포니아 소비자 개인 정보 보호법을 위한 Adobe 광고 지원: 소비자 옵트아웃 지원](/help/privacy/ccpa-opt-out-of-sale.md)
+>* [캘리포니아 소비자 개인 정보 보호법을 위한 Adobe 광고 지원: 소비자 옵트아웃 지원](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
 >* [정보 [!UICONTROL CCPA Opt-out-of-Sale] 세그먼트 및 보고서](ccpa-opt-out-about.md)
 >* [만들기 및 구현 [!UICONTROL CCPA Opt-Out-of-Sale] 세그먼트](ccpa-opt-out-segment-create.md)
 >* [대상자 관리 기본 정보](audience-about.md)

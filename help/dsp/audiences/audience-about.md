@@ -2,7 +2,8 @@
 title: Advertising DSP의 대상 관리 정보
 description: 고객 관리 기능에 대해 알아봅니다.
 feature: DSP Audiences, DSP Segments
-source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
+exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
+source-git-commit: e9d9d51302d32b06af805917db2f46e5f6daee62
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 0%
@@ -19,7 +20,7 @@ DSP에서 배치 대상으로 사용할 수 있는 대상 세그먼트 및 대�
 
    * [CCPA 판매 중지 세그먼트](/help/dsp/audiences/ccpa-opt-out-segment-create.md) CCPA(California Consumer Privacy Act)에 따라 웹 사이트의 소비자 옵트아웃 요청에서 사용자 ID를 추적하기 위해 판매 중지 요청에서 사용자 ID의 월별 보고서를 검색할 수 있습니다.
 
-      CCPA 판매 중지 요청에 대한 Adobe 광고 지원에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법을 위한 Adobe 광고 지원: 소비자 옵트아웃 지원](/help/privacy/ccpa-opt-out-of-sale.md).
+      CCPA 판매 중지 요청에 대한 Adobe 광고 지원에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법을 위한 Adobe 광고 지원: 소비자 옵트아웃 지원](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 * 의 대상 라이브러리를 만들 수 있습니다 [재사용 가능한 대상](/help/dsp/audiences/reusable-audience-create.md). 저장된 대상은 사용 가능한 대상 세그먼트와 다른 저장된 대상으로 구성됩니다. 저장된 대상에 대한 모든 변경 사항은 대상을 타깃팅하거나 제외하는 모든 배치와 저장된 대상을 포함하는 다른 모든 대상에 자동으로 적용됩니다.
 

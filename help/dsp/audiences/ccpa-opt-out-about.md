@@ -2,7 +2,8 @@
 title: 정보 [!UICONTROL CCPA Opt-out-of-Sale] 세그먼트 및 보고서
 description: CCPA 판매 중지 요청에서 ID를 추적하기 위해 세그먼트를 만들고 ID의 보고서를 검색하는 방법에 대해 알아봅니다.
 feature: CCPA, DSP Segments
-source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
+exl-id: 28b5e00b-a695-46f1-abbf-7bbd78f05411
+source-git-commit: e9d9d51302d32b06af805917db2f46e5f6daee62
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -25,7 +26,7 @@ Adobe 광고는 고객이 계정에 대해 판매 중지 요청을 제출한 월
 
 >[!MORELIKETHIS]
 >
->* [캘리포니아 소비자 개인 정보 보호법을 위한 Adobe 광고 지원: 소비자 옵트아웃 지원](/help/privacy/ccpa-opt-out-of-sale.md)
+>* [캘리포니아 소비자 개인 정보 보호법을 위한 Adobe 광고 지원: 소비자 옵트아웃 지원](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
 >* [만들기 및 구현 [!UICONTROL CCPA Opt-Out-of-Sale] 세그먼트](ccpa-opt-out-segment-create.md)
 >* [소비자 판매 중지 보고서 검색](ccpa-opt-out-segment-report-retrieve.md)
 >* [대상자 관리 기본 정보](audience-about.md)
