@@ -8,10 +8,10 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: e9d9d51302d32b06af805917db2f46e5f6daee62
+source-git-commit: d928b19b868ffc87d5962391f06d765f9da7c13a
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 6%
+source-wordcount: '930'
+ht-degree: 5%
 
 ---
 
@@ -36,10 +36,10 @@ ht-degree: 6%
    + [계정 자금조달](/help/dsp/introduction/billing/account-funding.md)
    + [지원되는 통화](/help/dsp/currency.md)
    + 소비자 개인정보 보호 지원 {#privacy}
-      + [개인 정보 보호 규정 지원](/help/privacy/gdpr.md)
+      + [개인 정보 보호 규정 지원](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/gdpr.html)
       + CCPA 지원 {#ccpa}
-         + [캘리포니아 소비자 개인 정보 보호법 지원: 소비자 데이터 액세스 및 삭제](/help/privacy/ccpa/ccpa-access-delete.md)
-         + [캘리포니아 소비자 개인 정보 보호법 지원: 소비자 판매 중지](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+         + [캘리포니아 소비자 개인 정보 보호법 지원: 소비자 데이터 액세스 및 삭제](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-access-delete.html)
+         + [캘리포니아 소비자 개인 정보 보호법 지원: 소비자 판매 중지](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html)
    + 정책 및 지침 {#policies}
       + [광고 요구 사항 정책](/help/policies/ad-requirements-policy.md)
       + [허용 가능한 상태 세그먼트 지침](/help/policies/health-segment-guidelines.md)
