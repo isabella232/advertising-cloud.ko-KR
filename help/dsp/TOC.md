@@ -8,10 +8,10 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
+source-git-commit: f04fdb7f4f9787804e526b49da2aad0f4e15679a
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 5%
+source-wordcount: '910'
+ht-degree: 6%
 
 ---
 
@@ -36,14 +36,14 @@ ht-degree: 5%
    + [계정 자금조달](/help/dsp/introduction/billing/account-funding.md)
    + [지원되는 통화](/help/dsp/currency.md)
    + 소비자 개인정보 보호 지원 {#privacy}
-      + [개인 정보 보호 규정 지원](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/gdpr.html)
+      + [개인 정보 보호 규정 지원](/help/privacy/advertising-gdpr.md)
       + CCPA 지원 {#ccpa}
-         + [캘리포니아 소비자 개인 정보 보호법 지원: 소비자 데이터 액세스 및 삭제](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-access-delete.html)
-         + [캘리포니아 소비자 개인 정보 보호법 지원: 소비자 판매 중지](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html)
+         + [캘리포니아 소비자 개인 정보 보호법 지원: 소비자 데이터 액세스 및 삭제](/help/privacy/ccpa-access-delete.md)
+         + [캘리포니아 소비자 개인 정보 보호법 지원: 소비자 판매 중지](/help/privacy/ccpa-opt-out-of-sale.md)
    + 정책 및 지침 {#policies}
-      + [광고 요구 사항 정책](https://experienceleague.adobe.com/docs/advertising-cloud/policies/ad-requirements-policy.html)
-      + [허용 가능한 상태 세그먼트 지침](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)
-      + [[!DNL DSP] 데이터 사용 지침](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
+      + [광고 요구 사항 정책](/help/policies/ad-requirements-policy.md)
+      + [허용 가능한 상태 세그먼트 지침](/help/policies/health-segment-guidelines.md)
+      + [[!DNL DSP] 데이터 사용 지침](/help/policies/data-usage-guidelines.md)
    + [고급 측정 솔루션](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
    + [Campaign Management 구조 개요](/help/dsp/campaign-management/campaign-management-overview.md)
