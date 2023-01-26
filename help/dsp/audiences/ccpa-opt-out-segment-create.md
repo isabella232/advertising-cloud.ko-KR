@@ -3,9 +3,9 @@ title: CCPA 판매 중지 세그먼트 만들기 및 구현
 description: 소비자 옵트아웃 요청에서 사용자 ID를 추적하는 세그먼트를 만들고 구현하는 방법을 알아봅니다.
 feature: CCPA, DSP Segments
 exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
-source-git-commit: e9d9d51302d32b06af805917db2f46e5f6daee62
+source-git-commit: 1b5f5a56045616a2d67d9bfc5840bb1f06436fbb
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ CCPA(California Consumer Privacy Act)에 따라 웹 사이트의 소비자 판�
 
 >[!NOTE]
 >
->* Adobe Experience Platform Privacy Service API를 사용하여 CCPA 판매 중지 요청을 Adobe 광고에 전달하는 방법에 대한 자세한 내용은 [https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+>* Adobe Experience Platform Privacy Service API를 사용하여 CCPA 판매 중지 요청을 Adobe 광고에 전달하는 방법에 대한 자세한 내용은 [https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html).
 >* CCPA 판매 중지 이벤트 추적과 관련이 없는 목적으로 웹 페이지를 방문하는 사용자와 데스크탑, 모바일 및 CTV 장치의 광고에 노출된 사용자를 추적하려면 다음을 만듭니다. [사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md).
 
 
